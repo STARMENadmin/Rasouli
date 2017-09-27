@@ -1,0 +1,84 @@
+
+/* Font Variables */
+$austinRoman:Conv_Austin-Roman;
+$brandonLight: Conv_brandon-grotesque-light-58a8a4b38001d;
+
+/* Colors */
+$grey: #7e7e7e;
+
+
+/* Mixins */
+/* mixin opacity:  @include opacity(0.8) */
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+
+/* Fonts Size font-size: em(24); */
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+
+
+%text-hover{	
+-moz-transition: all 0.1s linear;
+-webkit-transition: all 0.1s linear;
+-o-transition: all 0.1s linear;
+transition: all 0.1s linear;
+}
+
+%cursor{
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+
+/* Centering */
+
+%ach{
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+%rcv{
+	position: relative;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+%acm{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+
+}
+
+%acv{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}

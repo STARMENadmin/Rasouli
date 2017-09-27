@@ -1,0 +1,66 @@
+footer{
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+	position: relative;
+	
+	.footer-inner{
+		padding: 0 5%;
+	}
+	
+	.form-wrapper{
+		
+		form{
+			input[type=text] {
+				float: left;
+				width: 19%;
+				border: 1px solid $grey;;
+				background-color: #000;
+				color: #fff;
+				padding: 0 0 0 20px;
+				margin: 0;
+				height: 70px;
+				margin-right: 1.2%;
+				text-transform: uppercase;
+				
+			}
+			
+			input[type=submit] {
+				float: left;
+				width: 13.2%;
+				border: 1px solid $grey;;
+				background-color: #000;
+				color: #fff;
+				padding: 0;
+				margin: 0;
+				height: 70px;
+		
+			}
+			
+			::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			  color: $grey;
+			}
+			::-moz-placeholder { /* Firefox 19+ */
+			  color: $grey;
+			}
+			:-ms-input-placeholder { /* IE 10+ */
+			  color: $grey;
+			}
+			:-moz-placeholder { /* Firefox 18- */
+			  color: $grey;
+			}
+		}
+		
+	}
+
+	.footer-nav{
+		
+		ul{
+			
+			li{
+				display: inline-block;
+			}
+		}
+	}
+
+}
