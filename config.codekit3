@@ -1092,6 +1092,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/outpatient-1.jpg": {
+		"ft": 16384,
+		"iS": 89740,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/outpatient-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/outpatient-2.jpg": {
+		"ft": 16384,
+		"iS": 60186,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/outpatient-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/Rasouli_AboutUs_Hero.jpg": {
 		"ft": 16384,
 		"iS": 9029928,

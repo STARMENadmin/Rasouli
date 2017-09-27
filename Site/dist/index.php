@@ -57,11 +57,36 @@
 			</div>
 			<div class="right">
 				<p class="smallTitle">The Surgen</p>
-				<p class="largeTitle">Dr. Alexandre Rasouli</p>
+				<p class="largeTitle">Dr. Alexandre <span class="block">Rasouli</span></p>
 				<p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+				
+				<a class="textCTA black" href="#">Learn More<span class="linkArrow"></span></a>
 				
 			</div>
 			<div class="clear"></div>
 		</section>
+		
+			
+		<!-- Outpatient Section -->
+		<section id="home-outpatient" class="home-section-5 group twoColumn greyBG">
+			<div class="left">
+											<p class="smallTitle">Paving the way</p>
+				<p class="largeTitle">The Outpatient <span class="block">Revolution</span></p>
+				<p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+				
+				<a class="textCTA black" href="#">Learn More<span class="linkArrow"></span></a>
+				
+			</div>
+			<div class="right">
+				
+				<div class="parallaxwrapper">
+					<img src="img/outpatient-1.jpg"/>
+					<img src="img/outpatient-2.jpg"/>
+				</div>
+				
+			</div>
+			<div class="clear"></div>
+		</section>
+		
       
          <?php include("partials/footer.php"); ?>
