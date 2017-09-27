@@ -30,7 +30,6 @@
 					
 				</div>    
 			</div>
-		  
 	      
 	     <img class="hero-background" src="img/home-hero.jpg"> 
       </section>
@@ -51,4 +50,3 @@
 		</section>
       
          <?php include("partials/footer.php"); ?>
-       
