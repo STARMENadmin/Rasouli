@@ -321,23 +321,33 @@ textarea {
 			font-family: $austinRoman;
 			margin: 0;
 			font-size: 6vw;
+			font-weight: normal;
+			letter-spacing: 7px;
+			margin-bottom: 40px;
+			line-height: 115px;
 			
 			span{
 				display:block;
+				padding-left: 14%;
 				
 			}
 		}
 		
 		h2{
 			color: #fff;
-			font-family: $brandonLight;
+			font-family: $brandonRef;
 			margin: 0;
-			font-size: 1.5vw;
+			font-size: 1vw;
 			margin-top: 20px;
 			text-transform: uppercase;
+			font-weight: normal;
+			letter-spacing: 5px;
+			padding-left: 10%;
 			
 			span{
-				padding-left: 5%;
+				
+				font-family: $brandonBlack;
+				font-weight: normal;
 			}
 			
 		}
@@ -356,13 +366,14 @@ textarea {
 			float: left;
 			
 			p{
-				font-family: $brandonLight;
+				font-family: $brandonBold;
 				font-size: em(18);
 				text-transform: uppercase;
-				margin: 0;
+				
+				letter-spacing: 3px;
 				
 				&:first-of-type{
-					margin-bottom: 20px;
+					
 					
 				}
 				
@@ -370,6 +381,9 @@ textarea {
 					font-family: $austinRoman;
 					text-transform: none;
 					font-size: em(70);
+					letter-spacing: 3px;
+					font-weight: normal;
+					margin: 0;
 					
 					span{
 						display: block;
@@ -382,14 +396,17 @@ textarea {
 		.right{
 			width:60%;
 			float: left;
-			font-family: $brandonLight;
+			font-family: $brandonMed;
 			margin-top: 58px;
 			
 			p{
 				font-size: em(18);
 				line-height: 1.5vw;
 				margin: 0 0 20px 0;
+				letter-spacing: 2px;
 			}
+			
+			
 		}
 	}
 }
@@ -400,6 +417,73 @@ textarea {
 	position: relative;
 }
 
+.textCTA{
+	
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: em(14);
+	letter-spacing: 2px;
+	font-family: $brandonBold;
+}
+
+.white{
+	color: #fff;
+}
+
+.black{
+	color: #000;
+}
+
+.group{
+	padding: 100px 10% 100px 10%;
+}
+
+.smallTitle{
+	font-family: $brandonBold;
+	font-size: em(18);
+	text-transform: uppercase;
+	margin: 0 0 30px 0;
+	letter-spacing: 3px;
+}
+
+.largeTitle{
+	font-family: $austinRoman;
+	text-transform: none;
+	font-size: em(70);
+	letter-spacing: 3px;
+	font-weight: normal;
+	margin: 0 0 25px 0;
+	
+}
+
+.centered{
+	max-width: 50%;
+ 
+}
+
+.copy{
+	font-family: $brandonMed;
+	font-size: em(18);
+	line-height: 1.5vw;
+	margin: 0 auto 30px auto;
+	letter-spacing: 2px;
+}
+
+.twoColumn{
+	
+	.left{
+		float: left;
+		width: 50%;
+	}
+	
+	.right{
+		float: right;
+		width: 50%;
+	}
+}
+
+
+
 
 /* ==========================================================================
   Home section 2
@@ -408,6 +492,10 @@ textarea {
 	
 	.top{
 		text-align: center;
+		
+		h2{
+			
+		}
 	}
 }
 

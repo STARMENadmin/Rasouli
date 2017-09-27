@@ -913,6 +913,142 @@
 		"oAP": "\/Site\/dist\/fonts\/brandon\/brandon-grotesque-light-58a8a4b38001d\/brandon-grotesque-light-58a8a4b38001d.woff",
 		"oF": 0
 		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.eot",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.otf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.ttf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Black\/BrandonGrotesque-Black.woff",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.eot",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.otf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.ttf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Bold\/BrandonGrotesque-Bold.woff",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.eot",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.otf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.ttf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Medium\/BrandonGrotesque-Medium.woff",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.eot",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.otf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.ttf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.woff",
+		"oF": 0
+		},
 	"\/Site\/dist\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -1071,6 +1207,16 @@
 		"iS": 4017130,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/Rasouli_Procedures_Hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/theSurgen.jpg": {
+		"ft": 16384,
+		"iS": 68717,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/theSurgen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1285,7 +1431,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
