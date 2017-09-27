@@ -12,5 +12,6 @@
         <!-- Place favicon.ico in the root directory -->
 
        
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="js/vendor/slick/slick.css">
+         <link rel="stylesheet" href="css/main.css">
     </head>

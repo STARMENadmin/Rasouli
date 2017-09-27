@@ -4,7 +4,20 @@
 /* Mixins */
 /* mixin opacity:  @include opacity(0.8) */
 /* Fonts Size font-size: em(24); */
+#homeBlogNext, #homeBlogPrevious {
+  cursor: pointer;
+  cursor: hand; }
+
 /* Centering */
+#homeBlogNext, #homeBlogPrevious {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%); }
+
 .header-nav {
   width: 100%;
   position: absolute;
@@ -420,6 +433,23 @@ textarea {
    ========================================================================== */
 #home-procedures .top {
   text-align: center; }
+
+/* ==========================================================================
+  Home blog
+   ========================================================================== */
+.home-blog {
+  position: relative; }
+
+#homeBlogNext, #homeBlogPrevious {
+  width: 15px;
+  height: 29px;
+  position: absolute; }
+
+#homeBlogNext {
+  right: 2%; }
+
+#homeBlogPrevious {
+  left: 2%; }
 
 /* ==========================================================================
   Footer

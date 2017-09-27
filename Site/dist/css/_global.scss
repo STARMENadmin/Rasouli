@@ -532,6 +532,30 @@ textarea {
 	}
 }
 
+/* ==========================================================================
+  Home blog
+   ========================================================================== */
+  .home-blog{
+	  position: relative;
+  } 
+   
+#homeBlogNext, #homeBlogPrevious{
+	width: 15px;
+	height: 29px;
+	position: absolute;
+	@extend %cursor;
+}
+
+#homeBlogNext{
+	right: 2%;
+	@extend %acv;
+}
+
+#homeBlogPrevious{
+	left: 2%;
+	@extend %acv;
+	
+}
 
 
 /* ==========================================================================
