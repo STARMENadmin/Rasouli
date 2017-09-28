@@ -1,6 +1,6 @@
 <footer>
 	<div class="footer-inner">
-		<p>Request consultation by appointment only</p>
+		<p id="footerTitle">Request consultation by appointment only</p>
 		
 		<div class="form-wrapper">
 			<form action="mail.php" method="POST">
@@ -26,6 +26,7 @@
 			    <li><a href="#">Patient Resources</a></li>
 			    <li><a href="#">Contact</a></li>
 			 </ul>
+			 <div class="clear"></div>
 	  	</nav>
 	</div>
 	 

@@ -3,18 +3,29 @@ footer{
 	color: #fff;
 	width: 100%;
 	position: relative;
+	padding: 20px 0 30px;
 	
 	.footer-inner{
 		padding: 0 5%;
+		
+		#footerTitle{
+			font-family: $brandonBold;
+			font-size: em(18);
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			
+		}
 	}
 	
 	.form-wrapper{
+		
+		padding: 20px 0 40px;
 		
 		form{
 			input[type=text] {
 				float: left;
 				width: 19%;
-				border: 1px solid $grey;;
+				border: 1px solid $grey;
 				background-color: #000;
 				color: #fff;
 				padding: 0 0 0 20px;
@@ -22,6 +33,7 @@ footer{
 				height: 70px;
 				margin-right: 1.2%;
 				text-transform: uppercase;
+				font-family: $brandonBold;
 				
 			}
 			
@@ -34,6 +46,8 @@ footer{
 				padding: 0;
 				margin: 0;
 				height: 70px;
+				text-transform: uppercase;
+				font-family: $brandonBold;
 		
 			}
 			
@@ -56,9 +70,30 @@ footer{
 	.footer-nav{
 		
 		ul{
-			
+			width: 100%;
+			position: relative;
+			margin: 0;
+			display: block;
+			float: right;
+			z-index: 2;
+			text-align: center;
 			li{
 				display: inline-block;
+				font-size: em(18);
+				text-transform: uppercase;
+				font-family: $brandonMed;
+				margin-right: 2%;
+				font-weight: normal;
+				text-align: center;
+				
+				last-of-type{
+					margin-right: 0;
+				}
+				
+				a{
+					color: #fff;
+					text-decoration:none;
+				}
 			}
 		}
 	}
