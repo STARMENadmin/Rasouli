@@ -1,6 +1,6 @@
 			<img id="homeBlogNext" src="/img/global/arrowNext.png"/>
 			<img  id="homeBlogPrevious" src="/img/global/arrowPrevious.png"/>
-			
+			<p class="boxTitleSmall">The Blog</p>
 			
 			
 			<!-- Start Carousel Wrapper Copy and paste -->

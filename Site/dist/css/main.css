@@ -9,7 +9,7 @@
   cursor: hand; }
 
 /* Centering */
-#homeBlogNext, #homeBlogPrevious {
+.testimonialHoverText, #homeBlogNext, #homeBlogPrevious {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -20,11 +20,12 @@
 
 .header-nav {
   width: 100%;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: -100%;
   padding: 30px 0px;
   z-index: 9999;
-  left: 0; }
+  left: 0;
+  transition: 0.4s top cubic-bezier(0.3, 0.73, 0.3, 0.74); }
   .header-nav #navBackground {
     opacity: 0.5;
     filter: alpha(opacity=50);
@@ -34,7 +35,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: 1; }
+    z-index: 1;
+    border-bottom: 1px solid #494949; }
   .header-nav ul {
     width: 100%;
     position: relative;
@@ -55,6 +57,9 @@
       .header-nav ul li a {
         color: #fff;
         text-decoration: none; }
+
+.slideDown {
+  top: 0; }
 
 html {
   color: #222;
@@ -297,11 +302,11 @@ textarea {
       color: #fff;
       font-family: Conv_Austin-Roman;
       margin: 0;
-      font-size: 6vw;
+      font-size: 5vw;
       font-weight: normal;
       letter-spacing: 7px;
       margin-bottom: 40px;
-      line-height: 115px; }
+      line-height: 6vw; }
       #hero-home #home-hero-copy-1 h1 span {
         display: block;
         padding-left: 14%; }
@@ -435,8 +440,72 @@ textarea {
   text-align: center; }
 
 /* ==========================================================================
+  Home Tesimonial
+   ========================================================================== */
+#home-testimonials {
+  padding: 0 0 0 8%; }
+  #home-testimonials .left {
+    padding-top: 100px; }
+  #home-testimonials .left {
+    width: 40%; }
+  #home-testimonials .right {
+    float: left;
+    width: 55%;
+    margin-left: 0; }
+
+.column {
+  float: left;
+  position: relative; }
+
+.column-1 {
+  width: 60%; }
+
+.column-2 {
+  width: 39%; }
+
+.hoverWrapper {
+  position: relative; }
+
+.testimonialHoverText {
+  position: absolute;
+  z-index: 9;
+  font-family: BrandonGrotesque-Regular;
+  font-size: 1.5vw;
+  padding: 0 10%;
+  margin: 0;
+  line-height: 3vw;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+  .testimonialHoverText span {
+    font-family: BrandonGrotesque-Bold; }
+
+.testimonialOpacity {
+  background-color: #fff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 8; }
+
+/* ==========================================================================
   Home blog
    ========================================================================== */
+.boxTitleSmall {
+  border: 1px solid #000;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 270px;
+  height: 52px;
+  font-family: BrandonGrotesque-Bold;
+  font-size: 1.4375em;
+  text-transform: uppercase;
+  line-height: 56px;
+  margin-bottom: 100px; }
+
 .home-blog {
   position: relative; }
 

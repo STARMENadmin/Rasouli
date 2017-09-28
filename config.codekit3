@@ -1264,6 +1264,36 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/testimonial-1.jpg": {
+		"ft": 16384,
+		"iS": 117620,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/testimonial-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/testimonial-2.jpg": {
+		"ft": 16384,
+		"iS": 47114,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/testimonial-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/testimonial-3.jpg": {
+		"ft": 16384,
+		"iS": 39927,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/testimonial-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/theSurgen.jpg": {
 		"ft": 16384,
 		"iS": 68717,
@@ -1642,6 +1672,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/Homepage-procedures.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/Homepage-testimonials.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/Homepage-testimonials.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/Homepage-TheSurgen.php": {

@@ -30,6 +30,11 @@
 			 <?php include("partials/Homepage-Outpatiant.php"); ?>
 		</section>
 		
+		<!-- Outpatient Section -->
+		<section id="home-testimonials" class="home-section-5 group twoColumn">
+			 <?php include("partials/Homepage-testimonials.php"); ?>
+		</section>
+		
 		
 				<!-- Blog post 1 -->
 		<section id="home-blog" class="home-section-6 group twoColumn greyBG">
