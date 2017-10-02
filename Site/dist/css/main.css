@@ -9,6 +9,12 @@
   cursor: hand; }
 
 /* Centering */
+.proceduresMenu .copyWrapper {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0; }
+
 .testimonialHoverText, #homeBlogNext, #homeBlogPrevious, .footerBottom .center .newsletter-wrapper form .newsletterSubmit {
   position: absolute;
   top: 50%;
@@ -443,6 +449,78 @@ textarea {
    ========================================================================== */
 #home-procedures .top {
   text-align: center; }
+
+.proceduresMenu {
+  width: 100%;
+  position: relative;
+  margin-top: 100px; }
+  .proceduresMenu .column {
+    float: left;
+    width: 25%; }
+    .proceduresMenu .column img {
+      width: 100%; }
+  .proceduresMenu .copyWrapper {
+    position: absolute;
+    bottom: 15%;
+    text-align: left;
+    width: min-content; }
+    .proceduresMenu .copyWrapper .proTitle {
+      font-family: BrandonGrotesque-Regular;
+      font-size: 0.875em;
+      color: #fff;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 0 0 20px 0; }
+    .proceduresMenu .copyWrapper .proTitle2 {
+      font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+      font-size: 2.5em;
+      color: #fff;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 0 0 20px 0; }
+    .proceduresMenu .copyWrapper .proPara {
+      font-family: BrandonGrotesque-Regular;
+      font-size: 0.75em;
+      color: #fff;
+      letter-spacing: 1px;
+      margin: 0 0 20px 0;
+      display: none; }
+    .proceduresMenu .copyWrapper .roundButton {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 24px;
+      border: 2px solid #FFF;
+      transition: opacity .2s ease-out; }
+      .proceduresMenu .copyWrapper .roundButton .bg {
+        position: absolute;
+        left: -1px;
+        top: -1px;
+        width: 42px;
+        height: 42px;
+        border-radius: 22px;
+        background-color: #FFF;
+        transform: matrix(0, 0, 0, 0, 0, 0); }
+        .proceduresMenu .copyWrapper .roundButton .bg:hover {
+          transform: matrix(1, 0, 0, 1, 0, 0); }
+      .proceduresMenu .copyWrapper .roundButton .cross {
+        position: absolute;
+        left: 20px;
+        top: 20px; }
+        .proceduresMenu .copyWrapper .roundButton .cross .a {
+          position: absolute;
+          width: 14px;
+          height: 2px;
+          background-color: #FFF;
+          left: -7px;
+          top: -1px; }
+        .proceduresMenu .copyWrapper .roundButton .cross .b {
+          position: absolute;
+          width: 2px;
+          height: 14px;
+          background-color: #FFF;
+          left: -1px;
+          top: -7px; }
 
 /* ==========================================================================
   Home Tesimonial

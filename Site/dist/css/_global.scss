@@ -532,6 +532,110 @@ textarea {
 	}
 }
 
+.proceduresMenu{
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    
+    .column{
+        float: left;
+        width: 25%;
+        
+        img{
+            width:100%;
+        }
+        
+    }
+    
+    .copyWrapper{
+        position: absolute;
+        bottom: 15%;
+        text-align: left;
+        @extend %ach;
+        width: min-content;
+        
+        .proTitle{
+            font-family: $brandonReg;
+            font-size: em(14);
+            color: #fff;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin: 0 0 20px 0;
+        }
+        
+        .proTitle2{
+            font-family: $brandonLight;
+            font-size: em(40);
+            color: #fff;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin: 0 0 20px 0;
+            
+        }
+        
+        .proPara{
+            font-family: $brandonReg;
+            font-size: em(12);
+            color: #fff;
+            letter-spacing: 1px;
+            margin: 0 0 20px 0;
+            display: none;
+            
+        }
+        
+        .roundButton{
+            position: relative;
+            width: 40px;
+            height: 40px;
+            border-radius: 24px;
+            border: 2px solid #FFF;
+            transition: opacity .2s ease-out;
+            
+            .bg{
+                position: absolute;
+                left: -1px;
+                top: -1px;
+                width: 42px;
+                height: 42px;
+                border-radius: 22px;
+                background-color: #FFF;
+                transform: matrix(0, 0, 0, 0, 0, 0);
+                
+                &:hover{
+                        transform: matrix(1, 0, 0, 1, 0, 0);
+                }
+            }
+            
+            .cross {
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                
+                .a {
+                    position: absolute;
+                    width: 14px;
+                    height: 2px;
+                    background-color: #FFF;
+                    left: -7px;
+                    top: -1px;
+                }
+                
+                .b {
+                    position: absolute;
+                    width: 2px;
+                    height: 14px;
+                    background-color: #FFF;
+                    left: -1px;
+                    top: -7px;
+                }
+            }
+            
+        }
+        
+    }
+
+}
+
 
 /* ==========================================================================
   Home Tesimonial

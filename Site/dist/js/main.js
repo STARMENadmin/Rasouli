@@ -38,6 +38,17 @@ $(document).ready(function(){
 	  	$(this).children('.testimonialHoverText').fadeOut();
 	  	$(this).children('.testimonialOpacity').fadeOut();		 
     });
+    
+    // procedure section
+    $(' .copyWrapper').mouseenter(function() {
+        $(this).children('.proPara').slideToggle();
+    });
+    
+     $(' .copyWrapper').mouseleave(function() {
+         
+         $(this).children('.proPara').slideToggle();
+         
+    });
   
   
 });
