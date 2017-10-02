@@ -9,6 +9,17 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/_working Files\/ABNS_TransSeal.png": {
+		"ft": 32768,
+		"iS": 31870,
+		"oA": 0,
+		"oAP": "\/_working Files\/ABNS_TransSeal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_working Files\/brandon.zip": {
 		"ft": 8192,
 		"oA": 2,
@@ -353,6 +364,90 @@
 		"oAP": "\/_working Files\/Fonts\/FONTS\/brandon\/brandon-grotesque-light-58a8a4b38001d.otf",
 		"oF": 0
 		},
+	"\/_working Files\/hipaa_logo.png": {
+		"ft": 32768,
+		"iS": 82648,
+		"oA": 0,
+		"oAP": "\/_working Files\/hipaa_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_working Files\/my-icons-collection.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/my-icons-collection.zip",
+		"oF": 0
+		},
+	"\/_working Files\/my-icons-collection\/backup.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/my-icons-collection\/backup.txt",
+		"oF": 0
+		},
+	"\/_working Files\/my-icons-collection\/license\/license.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/my-icons-collection\/license\/license.pdf",
+		"oF": 0
+		},
+	"\/_working Files\/my-icons-collection\/png\/001-twitter.png": {
+		"ft": 32768,
+		"iS": 1347,
+		"oA": 0,
+		"oAP": "\/_working Files\/my-icons-collection\/png\/001-twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_working Files\/my-icons-collection\/png\/002-facebook-logo.png": {
+		"ft": 32768,
+		"iS": 744,
+		"oA": 0,
+		"oAP": "\/_working Files\/my-icons-collection\/png\/002-facebook-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_working Files\/my-icons-collection\/png\/003-video.png": {
+		"ft": 32768,
+		"iS": 944,
+		"oA": 0,
+		"oAP": "\/_working Files\/my-icons-collection\/png\/003-video.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_working Files\/my-icons-collection\/png\/004-social.png": {
+		"ft": 32768,
+		"iS": 1237,
+		"oA": 0,
+		"oAP": "\/_working Files\/my-icons-collection\/png\/004-social.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_working Files\/pre-footer-logo.png": {
+		"ft": 32768,
+		"iS": 20518,
+		"oA": 0,
+		"oAP": "\/_working Files\/pre-footer-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_working Files\/PSDs\/Rasouli Website Photos (High Res)\/Rasouli_AboutUs_Hero.jpg": {
 		"ft": 16384,
 		"iS": 10066668,
@@ -473,6 +568,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_working Files\/Rasouli_Homepage_MOBILE_01.png": {
+		"ft": 32768,
+		"iS": 19659553,
+		"oA": 0,
+		"oAP": "\/_working Files\/Rasouli_Homepage_MOBILE_01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -543,6 +649,54 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/build\/.gitignore",
+		"oF": 0
+		},
+	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_fonts.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_fonts.scssc",
+		"oF": 0
+		},
+	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_footer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_footer.scssc",
+		"oF": 0
+		},
+	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_global.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_global.scssc",
+		"oF": 0
+		},
+	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_media.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_media.scssc",
+		"oF": 0
+		},
+	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_mixins.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_nav.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_nav.scssc",
+		"oF": 0
+		},
+	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_normalize.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_normalize.scssc",
+		"oF": 0
+		},
+	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/main.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/main.scssc",
 		"oF": 0
 		},
 	"\/Site\/dist\/css\/_fonts.scss": {
@@ -1072,6 +1226,28 @@
 		"oAP": "\/Site\/dist\/img\/.gitignore",
 		"oF": 0
 		},
+	"\/Site\/dist\/img\/abnsLogo.png": {
+		"ft": 32768,
+		"iS": 15701,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/abnsLogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/absLogo.png": {
+		"ft": 32768,
+		"iS": 20391,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/absLogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/blogImage1.jpg": {
 		"ft": 16384,
 		"iS": 163223,
@@ -1114,6 +1290,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/hipaaLogo.png": {
+		"ft": 32768,
+		"iS": 19173,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/hipaaLogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/home-hero.jpg": {
 		"ft": 16384,
 		"iS": 150209,
@@ -1122,6 +1309,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/newsletterArrow.png": {
+		"ft": 32768,
+		"iS": 1023,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/newsletterArrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/Site\/dist\/img\/outpatient-1.jpg": {
@@ -1139,6 +1337,86 @@
 		"iS": 60186,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/outpatient-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresBg1.jpg": {
+		"ft": 16384,
+		"iS": 116004,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresBg1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresBg2.jpg": {
+		"ft": 16384,
+		"iS": 76801,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresBg2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresBg3.jpg": {
+		"ft": 16384,
+		"iS": 137683,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresBg3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresBg4.jpg": {
+		"ft": 16384,
+		"iS": 59173,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresBg4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresColumn1.jpg": {
+		"ft": 16384,
+		"iS": 33135,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresColumn1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresColumn2.jpg": {
+		"ft": 16384,
+		"iS": 35998,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresColumn2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresColumn3.jpg": {
+		"ft": 16384,
+		"iS": 48758,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresColumn3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresColumn4.jpg": {
+		"ft": 16384,
+		"iS": 46211,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresColumn4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1264,6 +1542,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/socialSprite.png": {
+		"ft": 32768,
+		"iS": 4251,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/socialSprite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/testimonial-1.jpg": {
 		"ft": 16384,
 		"iS": 117620,
@@ -1326,6 +1615,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/js\/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Site\/dist\/js\/min\/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/js\/min\/main-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
