@@ -1382,9 +1382,19 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/Site\/dist\/img\/proceduresColumn1.jpg": {
+	"\/Site\/dist\/img\/proceduresColumn1-old.jpg": {
 		"ft": 16384,
 		"iS": 33135,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresColumn1-old.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresColumn1.jpg": {
+		"ft": 16384,
+		"iS": 48075,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/proceduresColumn1.jpg",
 		"oF": 0,
@@ -1392,9 +1402,19 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/Site\/dist\/img\/proceduresColumn2.jpg": {
+	"\/Site\/dist\/img\/proceduresColumn2-old.jpg": {
 		"ft": 16384,
 		"iS": 35998,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresColumn2-old.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresColumn2.jpg": {
+		"ft": 16384,
+		"iS": 67492,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/proceduresColumn2.jpg",
 		"oF": 0,
@@ -1402,11 +1422,31 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/Site\/dist\/img\/proceduresColumn3.jpg": {
+	"\/Site\/dist\/img\/proceduresColumn3-old.jpg": {
 		"ft": 16384,
 		"iS": 48758,
 		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresColumn3-old.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresColumn3.jpg": {
+		"ft": 16384,
+		"iS": 84482,
+		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/proceduresColumn3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresColumn4-old.jpg": {
+		"ft": 16384,
+		"iS": 46211,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresColumn4-old.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1414,7 +1454,7 @@
 		},
 	"\/Site\/dist\/img\/proceduresColumn4.jpg": {
 		"ft": 16384,
-		"iS": 46211,
+		"iS": 66733,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/proceduresColumn4.jpg",
 		"oF": 0,

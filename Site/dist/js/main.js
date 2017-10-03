@@ -57,29 +57,52 @@ $(document).ready(function(){
 		 $(this).children('.copyWrapper').children('.roundButton').children('.readmore').fadeOut();
     });
     
-    var cHeight = $('.column').height();
+
     $('.column').click(function() {
+	    $(this).children('.copyWrapper').fadeOut(200);
+	    $(this).siblings().children('.copyWrapper').fadeOut();
 	    
-	   $('.column').height(cHeight);
-	   $('.column').children('img').delay(300).animate({opacity:'0'});
-	   $('.copyWrapper').fadeOut();
+	    $('.CloseRoundButton').delay(500).animate({opacity: 1});
+	    
+	   $(this).children('.columnOverlay').fadeOut();
+	   $(this).siblings().children('.columnOverlay').fadeIn();
+	   
+	   $(this).children('.columnOpen').delay(400).fadeIn(300);
+	   $(this).siblings().children('.columnOpen').fadeOut(100);
+	   
+	   
 	   $(this).siblings().children('.verticalText').fadeIn();
 	   $(this).children('.verticalText').hide();
 	   
-	   
 	   $(this).siblings().animate({width: '5%'});
 	   $(this).animate({width: '85%'});
-	   
-	   var column = $(this).attr('class').split(' ')[1];
-	   //var bgImage =  $('.proceduresBackgroundWrapper').children(img).attr('column');
-	   var imageID = '#' + column;
-	   
-	   	//alert(imageID);
-	   	
-	    //$('.proceduresBackgroundWrapper').children(imageID).height(cHeight);
-	    $('.proceduresBackgroundWrapper').children(imageID).siblings().delay(300).animate({opacity:'0'});
-	    $('.proceduresBackgroundWrapper').children(imageID).delay(300).animate({opacity:'1'});
     });
+    
+    $(' .CloseRoundButton').mouseenter(function() {
+	    
+	   $(this).children('.bg').addClass('bgOver');
+       $(this).children('.cross').children('.a').addClass('blackBG');
+       $(this).children('.cross').children('.b').addClass('blackBG');
+       
+        
+    });
+    
+    $('.CloseRoundButton').mouseleave(function() {
+	   $(this).children('.bg').removeClass('bgOver');
+       $(this).children('.cross').children('.a').removeClass('blackBG');
+	   $(this).children('.cross').children('.b').removeClass('blackBG');
+    });
+    
+    $('.CloseRoundButton').click(function() {
+	    $('.column').children('.columnOpen').fadeOut(100);
+	    $(this).children('.copyWrapper').delay(500).fadeIn();
+	    $('.CloseRoundButton').animate({opacity: 0}, 200);
+	    $('.column').children('.columnOverlay').fadeOut();
+	    $('.column').animate({width: '25%'});
+	    $('.column').siblings().children('.verticalText').fadeOut();
+	    $('.column').siblings().children('.copyWrapper').fadeIn();
+	    
+	});
   
   
 });

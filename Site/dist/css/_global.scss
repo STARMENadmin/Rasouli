@@ -538,6 +538,73 @@ textarea {
     position: relative;
     margin-top: 100px;
     
+    
+    
+        .CloseRoundButton{
+            position: absolute;
+            z-index: 20;
+            width: 40px;
+            height: 40px;
+            border-radius: 24px;
+            border: 2px solid #FFF;
+            transition: opacity .2s ease-out;
+            @extend %ach;
+            margin-top: 1%;
+            @extend %cursor;
+            opacity: 0;
+            
+            .bg{
+                position: absolute;
+                left: -1px;
+                top: -1px;
+                width: 42px;
+                height: 42px;
+                border-radius: 22px;
+                background-color: #FFF;
+                transform: scale(0);
+                transition: transform 300ms;
+               
+            }
+            .bgOver{
+                        transform: scale(1);
+                       
+                        
+                }
+            
+            
+            .cross {
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                transform: rotate(45deg);
+                
+                .a {
+                    position: absolute;
+                    width: 14px;
+                    height: 2px;
+                    background-color: #FFF;
+                    left: -7px;
+                    top: -1px;
+                    transition: all ease-in-out .3s;
+                }
+                
+                .b {
+                    position: absolute;
+                    width: 2px;
+                    height: 14px;
+                    background-color: #FFF;
+                    left: -1px;
+                    top: -7px;
+                    transition: all ease-in-out .3s;
+                }
+                
+                .blackBG{
+	                background-color: #000;
+                }
+            }
+        }
+
+    
     .column{
         float: left;
         width: 25%;
@@ -549,13 +616,14 @@ textarea {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     border-right: 1px solid #fff;
+    padding-bottom: 40%;
     
     &:last-child{
 	    border: none;
     }
         
         img{
-            width:100%;
+                position: absolute;
         }
         
     }
@@ -572,7 +640,24 @@ textarea {
 	    width: 100%;
 	    white-space: nowrap;
 	    display: none;
+	    z-index: 6;
 	    
+    }
+    
+    .columnOverlay{
+	    position: absolute;
+	    top:0;
+	    left:0;
+	    background-color: #000;
+	    z-index: 5;
+	    width: 100%;
+	    height: 100%;
+	    @include opacity(0.5);
+	    display: none;
+	    
+	    &:hover{
+		     @include opacity(0.7);
+	    }
     }
     
     .copyWrapper{
@@ -580,6 +665,7 @@ textarea {
         text-align: left;
         @extend %ach;
         width: min-content;
+        z-index: 10;
         
         .proTitle{
             font-family: $brandonReg;
@@ -687,22 +773,39 @@ textarea {
         
     }
     
-    .proceduresBackgroundWrapper{
+    .columnOpen{
+	    display: none;
 	    position: absolute;
-	    top:0;
-	    z-index: 1;
-	    overflow: hidden;
-	    width: 100%;
-	    height: 100%;
+	    z-index: 5;
+	    width: 40%;
+	    text-align: right;
+	    @extend %rcv;
+	    left: auto;
+	    right:5%;
 	    
-	    img{
-		    position: absolute;
-		    top:0;
-		    width: 100%;
-		    opacity: 0;
-	    }
+	    .columnOpenTitle{
+           font-family: $brandonLight;
+           font-size: em(30);
+           color: #fff;
+           letter-spacing: 1px;
+           text-transform: uppercase;
+           margin: 0 0 20px 0;
+        }
+        
+        .columnOpenPara{
+            font-family: $brandonReg;
+            font-size: em(16);
+            color: #fff;
+            letter-spacing: 1px;
+            margin: 0 0 0 0;
+            
+            
+        }
+	    
 	    
     }
+    
+
 
 }
 
