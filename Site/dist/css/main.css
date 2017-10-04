@@ -236,10 +236,8 @@ textarea {
    ========================================================================== */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */ }
-
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -253,44 +251,53 @@ textarea {
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important; }
+
   a,
   a:visited {
     text-decoration: underline; }
+
   a[href]:after {
     content: " (" attr(href) ")"; }
+
   abbr[title]:after {
     content: " (" attr(title) ")"; }
+
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
+
   pre {
     white-space: pre-wrap !important; }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
+
   /*
-     * Printing Tables:
-     * 
-     */
+   * Printing Tables:
+   * 
+   */
   thead {
     display: table-header-group; }
+
   tr,
   img {
     page-break-inside: avoid; }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
+
   h2,
   h3 {
     page-break-after: avoid; } }
-
 /* ==========================================================================
   New styles Kaz
    ========================================================================== */
@@ -309,13 +316,16 @@ textarea {
   width: 100%;
   position: relative; }
 
+#hero-about,
 #hero-home {
   position: relative; }
+  #hero-about #home-hero-copy-1,
   #hero-home #home-hero-copy-1 {
     position: absolute;
     z-index: 10;
     top: 30%;
     right: 10%; }
+    #hero-about #home-hero-copy-1 h1,
     #hero-home #home-hero-copy-1 h1 {
       color: #fff;
       font-family: Conv_Austin-Roman;
@@ -325,9 +335,11 @@ textarea {
       letter-spacing: 7px;
       margin-bottom: 40px;
       line-height: 6vw; }
+      #hero-about #home-hero-copy-1 h1 span,
       #hero-home #home-hero-copy-1 h1 span {
         display: block;
         padding-left: 14%; }
+    #hero-about #home-hero-copy-1 h2,
     #hero-home #home-hero-copy-1 h2 {
       color: #fff;
       font-family: BrandonGrotesque-Regular;
@@ -338,37 +350,45 @@ textarea {
       font-weight: normal;
       letter-spacing: 5px;
       padding-left: 10%; }
+      #hero-about #home-hero-copy-1 h2 span,
       #hero-home #home-hero-copy-1 h2 span {
         font-family: BrandonGrotesque-Black;
         font-weight: normal; }
+  #hero-about #home-hero-copy-2,
   #hero-home #home-hero-copy-2 {
     position: absolute;
     bottom: 8%;
     color: #fff;
     z-index: 10;
     padding: 0 8%; }
+    #hero-about #home-hero-copy-2 .left,
     #hero-home #home-hero-copy-2 .left {
       width: 40%;
       float: left; }
+      #hero-about #home-hero-copy-2 .left p,
       #hero-home #home-hero-copy-2 .left p {
         font-family: BrandonGrotesque-Bold;
         font-size: 1.125em;
         text-transform: uppercase;
         letter-spacing: 3px; }
-        #hero-home #home-hero-copy-2 .left p:last-of-type {
-          font-family: Conv_Austin-Roman;
-          text-transform: none;
-          font-size: 4.375em;
-          letter-spacing: 3px;
-          font-weight: normal;
-          margin: 0; }
-          #hero-home #home-hero-copy-2 .left p:last-of-type span {
-            display: block; }
+      #hero-about #home-hero-copy-2 .left .heroLargeText,
+      #hero-home #home-hero-copy-2 .left .heroLargeText {
+        font-family: Conv_Austin-Roman;
+        text-transform: none;
+        font-size: 4.375em;
+        letter-spacing: 3px;
+        font-weight: normal;
+        margin: 0; }
+        #hero-about #home-hero-copy-2 .left .heroLargeText span,
+        #hero-home #home-hero-copy-2 .left .heroLargeText span {
+          display: block; }
+    #hero-about #home-hero-copy-2 .right,
     #hero-home #home-hero-copy-2 .right {
       width: 60%;
       float: left;
       font-family: BrandonGrotesque-Medium;
       margin-top: 58px; }
+      #hero-about #home-hero-copy-2 .right p,
       #hero-home #home-hero-copy-2 .right p {
         font-size: 1.125em;
         line-height: 1.85vw;
@@ -428,12 +448,10 @@ textarea {
 
 .twoColumn img {
   width: 100%; }
-
 .twoColumn .left {
   float: left;
   width: 45%;
   margin-right: 5%; }
-
 .twoColumn .right {
   float: left;
   width: 45%;
@@ -735,6 +753,67 @@ textarea {
   left: 2%; }
 
 /* ==========================================================================
+  about hero
+   ========================================================================== */
+#hero-about {
+  background-color: #000;
+  padding-bottom: 25%; }
+  #hero-about #home-hero-copy-1 {
+    top: 20%; }
+  #hero-about #home-hero-copy-2 {
+    bottom: 15%; }
+    #hero-about #home-hero-copy-2 .left .aboutHeroQuote,
+    #hero-about #home-hero-copy-2 .left .aboutHeroCopy {
+      font-family: BrandonGrotesque-Medium;
+      color: #fff;
+      text-transform: none;
+      font-size: 1em;
+      line-height: 24px;
+      margin: 20px 0; }
+    #hero-about #home-hero-copy-2 .left .aboutHeroQuote {
+      font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+      font-style: italic;
+      margin-top: 60px; }
+      #hero-about #home-hero-copy-2 .left .aboutHeroQuote span {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 0.875em;
+        letter-spacing: 2px;
+        font-family: BrandonGrotesque-Bold;
+        font-style: normal;
+        display: block;
+        margin-top: 20px; }
+  #hero-about .right {
+    width: 40% !important;
+    float: right !important;
+    margin-top: 5% !important; }
+
+.aboutHeroParallax {
+  border: 1px solid #fff;
+  margin-bottom: 50%; }
+  .aboutHeroParallax img:first-of-type {
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%; }
+  .aboutHeroParallax img:last-of-type {
+    position: absolute;
+    top: 60%;
+    left: -20%;
+    z-index: 1;
+    width: 100%; }
+
+/* ==========================================================================
+  about meet the doctor
+   ========================================================================== */
+.twoColumn .imageCopy {
+  font-family: BrandonGrotesque-Medium;
+  color: #000;
+  text-transform: none;
+  font-size: 1em;
+  line-height: 24px; }
+
+/* ==========================================================================
   Footer
    ========================================================================== */
 footer {
@@ -905,7 +984,6 @@ input:focus {
   src: local("☺"), url("../fonts/austin/Austin-Roman/Austin-Roman.woff") format("woff"), url("../fonts/austin/Austin-Roman/Austin-Roman.ttf") format("truetype"), url("../fonts/austin/Austin-Roman.svg") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /** Brandon light **/
 @font-face {
   font-family: 'Conv_brandon-grotesque-light-58a8a4b38001d';
@@ -913,35 +991,30 @@ input:focus {
   src: local("☺"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d/brandon-grotesque-light-58a8a4b38001d.woff") format("woff"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d.ttf") format("truetype"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d.svg") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /** Brandon Black **/
 @font-face {
   font-family: 'BrandonGrotesque-Black';
   src: url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.svg#BrandonGrotesque-Black") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /** Brandon Bold **/
 @font-face {
   font-family: 'BrandonGrotesque-Bold';
   src: url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /** Brandon Med **/
 @font-face {
   font-family: 'BrandonGrotesque-Medium';
   src: url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /** Brandon Reg **/
 @font-face {
   font-family: 'BrandonGrotesque-Regular';
   src: url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

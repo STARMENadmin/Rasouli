@@ -410,6 +410,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/about-hero-right-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51196,
+		"inputAbbreviatedPath": "\/img\/about-hero-right-1.jpg",
+		"outputAbbreviatedPath": "\/img\/about-hero-right-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/about-hero-right-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54651,
+		"inputAbbreviatedPath": "\/img\/about-hero-right-2.jpg",
+		"outputAbbreviatedPath": "\/img\/about-hero-right-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/about-Hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00667e+07,
+		"inputAbbreviatedPath": "\/img\/about-Hero.jpg",
+		"outputAbbreviatedPath": "\/img\/about-Hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/absLogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -520,13 +553,79 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/proceduresColumn1.jpg": {
+	"\/img\/proceduresBg1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116004,
+		"inputAbbreviatedPath": "\/img\/proceduresBg1.jpg",
+		"outputAbbreviatedPath": "\/img\/proceduresBg1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proceduresBg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76801,
+		"inputAbbreviatedPath": "\/img\/proceduresBg2.jpg",
+		"outputAbbreviatedPath": "\/img\/proceduresBg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proceduresBg3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119578,
+		"inputAbbreviatedPath": "\/img\/proceduresBg3.jpg",
+		"outputAbbreviatedPath": "\/img\/proceduresBg3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proceduresBg4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59173,
+		"inputAbbreviatedPath": "\/img\/proceduresBg4.jpg",
+		"outputAbbreviatedPath": "\/img\/proceduresBg4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proceduresColumn1-old.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 33135,
+		"inputAbbreviatedPath": "\/img\/proceduresColumn1-old.jpg",
+		"outputAbbreviatedPath": "\/img\/proceduresColumn1-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proceduresColumn1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48075,
 		"inputAbbreviatedPath": "\/img\/proceduresColumn1.jpg",
 		"outputAbbreviatedPath": "\/img\/proceduresColumn1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proceduresColumn2-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35998,
+		"inputAbbreviatedPath": "\/img\/proceduresColumn2-old.jpg",
+		"outputAbbreviatedPath": "\/img\/proceduresColumn2-old.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -535,9 +634,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 35998,
+		"initialSize": 67492,
 		"inputAbbreviatedPath": "\/img\/proceduresColumn2.jpg",
 		"outputAbbreviatedPath": "\/img\/proceduresColumn2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proceduresColumn3-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48758,
+		"inputAbbreviatedPath": "\/img\/proceduresColumn3-old.jpg",
+		"outputAbbreviatedPath": "\/img\/proceduresColumn3-old.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -546,9 +656,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 48758,
+		"initialSize": 66628,
 		"inputAbbreviatedPath": "\/img\/proceduresColumn3.jpg",
 		"outputAbbreviatedPath": "\/img\/proceduresColumn3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proceduresColumn4-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46211,
+		"inputAbbreviatedPath": "\/img\/proceduresColumn4-old.jpg",
+		"outputAbbreviatedPath": "\/img\/proceduresColumn4-old.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -557,7 +678,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 46211,
+		"initialSize": 66733,
 		"inputAbbreviatedPath": "\/img\/proceduresColumn4.jpg",
 		"outputAbbreviatedPath": "\/img\/proceduresColumn4.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1065,6 +1186,24 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/partials\/about-hero.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/about-hero.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/about-meetDoctor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/about-meetDoctor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1142,6 +1281,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/nav.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/thepractice.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/thepractice.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

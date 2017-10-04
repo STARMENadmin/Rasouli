@@ -1,6 +1,6 @@
  <?php include("partials/header.php"); ?>
  
-    <body class="hompage">
+    <body class="about">
 	     <?php include("partials/nav.php"); ?>
 	     <div id="header-logo">
 	      	<img class="logo" src="img/global/rasouli-spine-logo.jpg">
@@ -10,19 +10,27 @@
         <![endif]-->
 
 		<!-- Hero Section -->
-		<section id="hero-home" class="hero">
-			<?php include("partials/Homepage-hero.php"); ?>
+		<section id="hero-about" class="hero">
+			<?php include("partials/about-hero.php"); ?>
       	</section>
+        
+        
+        		<!-- The Surgeon Section -->
+		<section id="about-meet" class="home-section-2 group twoColumn">
+			<?php include("partials/about-meetDoctor.php"); ?>
+		</section>
+        
+        
+        
+        
+        
       
       <!-- Procedures and Conditions Section -->
 		<section id="home-procedures" class="home-section-2 group">
 			<?php include("partials/Homepage-procedures.php"); ?>
 		</section>
 		
-		<!-- The Surgeon Section -->
-		<section id="home-Surgeon" class="home-section-3 group twoColumn">
-			<?php include("partials/Homepage-TheSurgen.php"); ?>
-		</section>
+
 		
 			
 		<!-- Outpatient Section -->

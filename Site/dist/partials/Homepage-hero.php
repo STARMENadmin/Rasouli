@@ -6,7 +6,7 @@
 			<div id="home-hero-copy-2">
 				<div class="left">
 					<p class="smallTitle">About our practice</p>
-					<p>Tomorrow <span>is here</span></p>
+					<p class="heroLargeText">Tomorrow <span>is here</span></p>
 				</div>
 				<div class="right">
 					

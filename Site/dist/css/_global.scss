@@ -306,7 +306,7 @@ textarea {
 	width: 100%;
 	position: relative;
 }
-
+#hero-about,
 #hero-home{
 	position: relative;
 	
@@ -369,15 +369,10 @@ textarea {
 				font-family: $brandonBold;
 				font-size: em(18);
 				text-transform: uppercase;
-				
 				letter-spacing: 3px;
+            }
 				
-				&:first-of-type{
-					
-					
-				}
-				
-				&:last-of-type{
+				.heroLargeText{
 					font-family: $austinRoman;
 					text-transform: none;
 					font-size: em(70);
@@ -389,9 +384,16 @@ textarea {
 						display: block;
 					}
 				}
-			}
+                
+
+			
+
+            
+
 			
 		}
+        
+
 		
 		.right{
 			width:60%;
@@ -923,6 +925,103 @@ textarea {
 	left: 2%;
 	@extend %acv;
 	
+}
+
+
+/* ==========================================================================
+  about hero
+   ========================================================================== */
+
+#hero-about{
+    
+    background-color: #000;
+    padding-bottom: 25%;
+    
+    #home-hero-copy-1{
+            top: 20%;
+    }
+    
+     
+   
+    
+    #home-hero-copy-2{
+        bottom: 15%;
+        
+        
+        .left{ 
+                .aboutHeroQuote,
+                .aboutHeroCopy{
+                    font-family: $brandonMed;
+                    color: #fff;
+                    text-transform: none;
+                    font-size: em(16);
+                    line-height: 24px;
+                    margin: 20px 0;
+
+                }
+            
+            .aboutHeroQuote{
+                  font-family: $brandonLight;
+                font-style: italic;
+                margin-top: 60px;
+                
+                span{
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-size: em(14);
+                    letter-spacing: 2px;
+                    font-family: $brandonBold;
+                    font-style: normal;
+                    display: block;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    .right{
+        width: 40% !important;
+        float: right !important;
+        margin-top: 5% !important;
+
+    }
+}
+
+.aboutHeroParallax {
+    border: 1px solid #fff;
+     margin-bottom: 50%;
+
+    img{
+        
+        &:first-of-type{
+            right:0;
+            top: 0;
+            z-index: 2;
+                width: 100%;
+        }
+
+        &:last-of-type {
+            position: absolute;
+            top: 60%;
+            left: -20%;
+            z-index: 1;
+            width: 100%;
+        }
+    }
+    
+}
+
+/* ==========================================================================
+  about meet the doctor
+   ========================================================================== */
+
+.twoColumn .imageCopy{
+    font-family: $brandonMed;
+    color: #000;
+    text-transform: none;
+    font-size: em(16);
+    line-height: 24px;
+    
 }
 
 
