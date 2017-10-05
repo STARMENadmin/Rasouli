@@ -15,9 +15,14 @@
       	</section>
         
         
-        		<!-- The Surgeon Section -->
-		<section id="about-meet" class="home-section-2 group twoColumn">
+        		<!-- Meet the doctor Section -->
+		<section id="about-meet" class="about-section-2 group twoColumn">
 			<?php include("partials/about-meetDoctor.php"); ?>
+		</section>
+        
+        		<!-- dedicated Section -->
+		<section id="about-dedicated" class="about-section-3 group twoColumn greyBG">
+			 <?php include("partials/about-dedicated.php"); ?>
 		</section>
         
         
@@ -26,17 +31,14 @@
         
       
       <!-- Procedures and Conditions Section -->
-		<section id="home-procedures" class="home-section-2 group">
+		<section id="home-procedures" class="about-section-2 group">
 			<?php include("partials/Homepage-procedures.php"); ?>
 		</section>
 		
 
 		
 			
-		<!-- Outpatient Section -->
-		<section id="home-outpatient" class="home-section-4 group twoColumn greyBG">
-			 <?php include("partials/Homepage-Outpatiant.php"); ?>
-		</section>
+
 		
 		<!-- Outpatient Section -->
 		<section id="home-testimonials" class="home-section-5 group twoColumn">

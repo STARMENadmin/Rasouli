@@ -12,7 +12,7 @@
                     
                      	<p class="aboutHeroQuote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan."
                             <span>Dr. Rasouli</span>
-                    </p>
+                        </p>
 				</div>
 				<div class="right">
 					

@@ -464,7 +464,11 @@ textarea {
 
 .centered{
 	max-width: 60%;
- 
+}
+
+.centerText{
+    text-align: center;
+    width: 100%;
 }
 
 .copy{
@@ -1022,6 +1026,81 @@ textarea {
     font-size: em(16);
     line-height: 24px;
     
+}
+
+/* ==========================================================================
+  about Dedicated section
+   ========================================================================== */
+
+.bodyQuote{
+                    font-family: $brandonLight;
+                    font-style: italic;
+                    margin: 60px 0 60px 0;
+                    color: #000;
+                    text-transform: none;
+                    font-size: em(18);
+                    line-height: 24px;
+                    letter-spacing: 3px;
+
+                
+                span{
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-size: em(14);
+                    letter-spacing: 2px;
+                    font-family: $brandonBold;
+                    font-style: normal;
+                    display: block;
+                    margin-top: 20px;
+                }
+}
+
+.dedicatedparallax{
+        margin-top: 40%;
+    
+    img:first-of-type{
+        z-index: 2;
+        width: auto;
+        right:6%;
+        position: absolute;
+        top: -65%;
+    }
+    
+    img:nth-child(2){
+           z-index: 1;
+        
+    }
+    
+    img:nth-child(3){
+        z-index: 2;
+        width: auto;
+        right:-10%;
+        left: auto;
+        bottom: -40%;
+    }
+    
+}
+
+#about-dedicated .smallTitle{
+    margin-top: 15%;;
+}
+
+.awardsWrapper{
+    margin-top: 60px;
+    
+    .awardLogo{
+        width: 33.33%;
+        float: left;
+        margin-bottom: 60px;
+
+        img{
+            position: relative;
+            width: 90%;
+            padding: 2% 5%;
+            
+        }
+        
+    }
 }
 
 

@@ -410,6 +410,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/about-dedicated-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24561,
+		"inputAbbreviatedPath": "\/img\/about-dedicated-1.jpg",
+		"outputAbbreviatedPath": "\/img\/about-dedicated-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/about-dedicated-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52262,
+		"inputAbbreviatedPath": "\/img\/about-dedicated-2.jpg",
+		"outputAbbreviatedPath": "\/img\/about-dedicated-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/about-dedicated-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25831,
+		"inputAbbreviatedPath": "\/img\/about-dedicated-3.jpg",
+		"outputAbbreviatedPath": "\/img\/about-dedicated-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/about-hero-right-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -461,6 +494,17 @@
 		"initialSize": 163223,
 		"inputAbbreviatedPath": "\/img\/blogImage1.jpg",
 		"outputAbbreviatedPath": "\/img\/blogImage1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cedars-sinai.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127653,
+		"inputAbbreviatedPath": "\/img\/cedars-sinai.png",
+		"outputAbbreviatedPath": "\/img\/cedars-sinai.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -828,6 +872,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/stanfordLogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26083,
+		"inputAbbreviatedPath": "\/img\/stanfordLogo.png",
+		"outputAbbreviatedPath": "\/img\/stanfordLogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/super-doctors-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7338,
+		"inputAbbreviatedPath": "\/img\/super-doctors-logo.png",
+		"outputAbbreviatedPath": "\/img\/super-doctors-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/testimonial-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1185,6 +1251,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/partials\/about-dedicated.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/about-dedicated.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/partials\/about-hero.php": {
 		"fileType": 8192,
