@@ -103,6 +103,18 @@ $(document).ready(function(){
 	    $('.column').siblings().children('.copyWrapper').fadeIn();
 	    
 	});
+    
+    
+    // The conditions page spinal video dropdown menu
+    
+     $('.dropbtn').click(function() {
+            $('.dropdown-content').addClass('show');
+         });
+    
+         $('.buttonLink').click(function() {
+            $('.dropdown-content').removeClass('show');
+         });
+ 
   
   
 });

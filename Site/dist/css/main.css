@@ -4,7 +4,7 @@
 /* Mixins */
 /* mixin opacity:  @include opacity(0.8) */
 /* Fonts Size font-size: em(24); */
-.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
+.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .condition-video-wrapper .dropbtn, .condition-video-wrapper .dropdown-content p, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
   cursor: pointer;
   cursor: hand; }
 
@@ -898,6 +898,67 @@ textarea {
   float: none; }
   #about-testimonials .rowBottom .column-3 {
     width: 100%; }
+
+/* ==========================================================================
+  condtions page
+   ========================================================================== */
+.theConditionsPage .hero-conditions {
+  padding-bottom: 0 !important; }
+
+.hero-conditions #home-hero-copy-1 {
+  top: 35% !important;
+  left: 20%; }
+
+/* ==========================================================================
+  condtions page
+   ========================================================================== */
+.condition-video-wrapper {
+  width: 100%;
+  max-width: 660px;
+  margin: 100px auto 0 auto;
+  position: relative;
+  display: block; }
+  .condition-video-wrapper .dropbtn {
+    width: 100%;
+    max-width: 660px;
+    height: 104px;
+    border: 1px solid #000;
+    background-color: #fff;
+    font-family: BrandonGrotesque-Bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    padding: 9px 0 0 50px;
+    background-image: url("../img/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: 94% 33px; }
+  .condition-video-wrapper .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+    max-width: 660px;
+    padding: 10px 0; }
+  .condition-video-wrapper .dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: BrandonGrotesque-Bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    padding: 0 0 15px 50px; }
+    .condition-video-wrapper .dropdown-content p:last-of-type {
+      padding: 0 0 0 50px; }
+  .condition-video-wrapper .show {
+    display: block; }
+  .condition-video-wrapper .dropbtn:focus {
+    border: none;
+    outline: 0;
+    border: 1px solid #000; }
 
 /* ==========================================================================
   Footer

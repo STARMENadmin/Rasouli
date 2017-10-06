@@ -1,6 +1,6 @@
 	    	<div id="home-hero-copy-1">
 		      <h1>A Team Providing <span>world-Class Care</span></h1>
-		      <h2>Get back to the quality of life with <span>Rasouli Spine</span>
+                <h2>Get back to the quality of life with <span>Rasouli Spine</span></h2>
 			</div>
 		  
 			<div id="home-hero-copy-2">
