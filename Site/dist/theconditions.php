@@ -17,13 +17,13 @@
         
       
       <!-- spine Section -->
-		<section id="about-team" class="conditions-section-2 group">
+		<section id="conditions-video" class="conditions-section-2 group">
 			<?php include("partials/conditions-spinal.php"); ?>
 		</section>
 		
 		
 		<!-- tesimonial Section -->
-		<section id="about-testimonials" class="about-section-5 group twoColumn">
+		<section id="about-testimonials" class="about-section-5 group twoColumn greyBG">
 			 <?php include("partials/about-testimonials.php"); ?>
 		</section>
 		

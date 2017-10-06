@@ -13,14 +13,103 @@
                     <div class="video-dropdown">
                         <button class="dropbtn">Select Spinal Condition</button>
                           <div id="dropdown" class="dropdown-content">
-                            <p class="buttonLink">Video Link 1</p>
-                            <p  class="buttonLink">Video Link 2</p>
-                            <p class="buttonLink">Video Link 3</p>
+                            <p id="dropDownLink-1" class="buttonLink">Video Link 1</p>
+                            <p id="dropDownLink-2" class="buttonLink">Video Link 2</p>
+                            <p id="dropDownLink-3" class="buttonLink">Video Link 3</p>
+                            <p id="dropDownLink-4" class="buttonLink">Video Link 4</p>
+                            <p id="dropDownLink-5"  class="buttonLink">Video Link 5</p>
+
                           </div><!-- dropdown -->
                     </div><!-- video-dropdown -->
 	                
+                    
+                    
+                    <div class="video-buttons-wrapper">
+                        
+                        <div id="videoPlayBTN-1" class="video-Button">
+                            <div class="videoButtonOverlay"></div>
+                            <p class="videoText-1">Scoliosis</p>
+                            <p class="videoText-2">Learn More</p>
+                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                        </div><!-- video-Button -->
+                        
+                            <div id="videoPlayBTN-2" class="video-Button">
+                            <div class="videoButtonOverlay"></div>
+                            <p class="videoText-1">Lorem</p>
+                            <p class="videoText-2">Learn More</p>
+                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                        </div><!-- video-Button -->
+                        
+                            <div id="videoPlayBTN-3" class="video-Button">
+                            <div class="videoButtonOverlay"></div>
+                            <p class="videoText-1">Ipsum</p>
+                            <p class="videoText-2">Learn More</p>
+                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                        </div><!-- video-Button -->
+                        
+                            <div id="videoPlayBTN-4" class="video-Button">
+                            <div class="videoButtonOverlay"></div>
+                            <p class="videoText-1">Lorem</p>
+                            <p class="videoText-2">Learn More</p>
+                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                        </div><!-- video-Button -->
+                        
+                            <div id="videoPlayBTN-5" class="video-Button">
+                            <div class="videoButtonOverlay"></div>
+                            <p class="videoText-1">Ipsum</p>
+                            <p class="videoText-2">Learn More</p>
+                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                        </div><!-- video-Button -->
+                
+                    
+                        
+                         <div class="clear"></div>
+                    </div><!-- video-buttons-wrapper -->
+                    
+                   <div class="video-player-section">      
 
+                            <div class="left">
+                                
+                                
+                                <p class="smallTitle">About Your Condition</p>
+                                
+                                <div class="player-copy" id="player-copy-1">
+                                    <p class="largeTitle">Scoliosis 1</p>
+                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                </div><!-- #player-copy-1 -->
+                                
+                                    <div class="player-copy" id="player-copy-2">
+                                    <p class="largeTitle">Scoliosis 2</p>
+                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                </div><!-- #player-copy-2 -->
+
+                            </div><!-- left -->
+
+                            <div class="right">
+                                <div class="videoWrapper">
+                                    
+                                    <div class="video-player" id="player-1">
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/NpEaa2P7qZI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                    </div><!-- player-1 -->
+                                    
+                                    <div class="video-player" id="player-2">
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/y2Ky3Wo37AY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                    </div><!-- player-1 -->
+                                    
+                                    
+                                </div><!-- videoWrapper -->
+                            </div><!-- right -->
+                            <div class="clear"></div>
+
+
+                    </div><!-- video-player-section -->     
+                    
 
 	                
-                    <div class="clear"></div>
+                   
                 </div><!-- condition-video-wrapper -->

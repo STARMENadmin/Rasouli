@@ -4,7 +4,7 @@
 /* Mixins */
 /* mixin opacity:  @include opacity(0.8) */
 /* Fonts Size font-size: em(24); */
-.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .condition-video-wrapper .dropbtn, .condition-video-wrapper .dropdown-content p, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
+.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .condition-video-wrapper .dropbtn, .condition-video-wrapper .dropdown-content p, .condition-video-wrapper .video-buttons-wrapper .video-Button, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
   cursor: pointer;
   cursor: hand; }
 
@@ -26,6 +26,16 @@
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -o-transform: translateY(-50%); }
+
+.condition-video-wrapper .video-buttons-wrapper .video-Button .videoText-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }
 
 .testimonialHoverText, #homeBlogNext, #homeBlogPrevious, .footerBottom .center .newsletter-wrapper form .newsletterSubmit {
   position: absolute;
@@ -912,12 +922,18 @@ textarea {
 /* ==========================================================================
   condtions page
    ========================================================================== */
+.conditions-section-2 {
+  padding: 100px 8% 100px 8% !important; }
+
 .condition-video-wrapper {
   width: 100%;
-  max-width: 660px;
   margin: 100px auto 0 auto;
   position: relative;
   display: block; }
+  .condition-video-wrapper .video-dropdown {
+    max-width: 660px;
+    margin: 100px auto 0 auto;
+    position: relative; }
   .condition-video-wrapper .dropbtn {
     width: 100%;
     max-width: 660px;
@@ -937,7 +953,7 @@ textarea {
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 3;
     width: 100%;
     max-width: 660px;
     padding: 10px 0; }
@@ -959,6 +975,86 @@ textarea {
     border: none;
     outline: 0;
     border: 1px solid #000; }
+  .condition-video-wrapper .video-buttons-wrapper {
+    position: relative;
+    width: 100%;
+    margin-top: 80px; }
+    .condition-video-wrapper .video-buttons-wrapper .video-Button {
+      float: left;
+      width: 18.4%;
+      position: relative;
+      margin-right: 2%; }
+      .condition-video-wrapper .video-buttons-wrapper .video-Button:nth-child(5) {
+        margin-right: 0; }
+      .condition-video-wrapper .video-buttons-wrapper .video-Button .videoButtonOverlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        z-index: 2;
+        opacity: 0.6;
+        filter: alpha(opacity=60); }
+      .condition-video-wrapper .video-buttons-wrapper .video-Button .videoButtonBG {
+        position: relative;
+        z-index: 1;
+        width: 100%; }
+      .condition-video-wrapper .video-buttons-wrapper .video-Button .videoText-1 {
+        z-index: 3;
+        margin: 0;
+        font-family: BrandonGrotesque-Bold;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 4px;
+        font-size: 1.25em; }
+      .condition-video-wrapper .video-buttons-wrapper .video-Button .videoText-2 {
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        right: 0;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        bottom: 25%;
+        font-family: BrandonGrotesque-Medium;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        font-size: 0.875em;
+        display: none; }
+      .condition-video-wrapper .video-buttons-wrapper .video-Button .downArrowSmall {
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        right: 0;
+        display: block;
+        margin: 0 auto;
+        bottom: 10%;
+        max-width: 7px;
+        display: none; }
+  .condition-video-wrapper .video-player-section {
+    margin-top: 160px; }
+    .condition-video-wrapper .video-player-section .left {
+      width: 30%;
+      float: left;
+      margin-right: 10%; }
+    .condition-video-wrapper .video-player-section .right {
+      width: 60%;
+      float: left; }
+    .condition-video-wrapper .video-player-section .videoWrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0; }
+    .condition-video-wrapper .video-player-section .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+
+#player-2, #player-copy-2 {
+  display: none; }
 
 /* ==========================================================================
   Footer

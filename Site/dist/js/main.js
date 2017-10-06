@@ -98,7 +98,7 @@ $(document).ready(function(){
 	    $(this).children('.copyWrapper').delay(500).fadeIn();
 	    $('.CloseRoundButton').animate({opacity: 0}, 200);
 	    $('.column').children('.columnOverlay').fadeOut();
-	    $('.column').animate({width: '25%'});
+	    $('.proceduresMenu .column').animate({width: '25%'});
 	    $('.column').siblings().children('.verticalText').fadeOut();
 	    $('.column').siblings().children('.copyWrapper').fadeIn();
 	    
@@ -114,7 +114,47 @@ $(document).ready(function(){
          $('.buttonLink').click(function() {
             $('.dropdown-content').removeClass('show');
          });
+    
+    
+    // video buttons
+     $(' .video-Button').mouseenter(function() { 
+        $(this).children('.videoButtonOverlay').stop().fadeOut();
+         $(this).children('.videoText-2').stop().fadeIn();
+         $(this).children('.downArrowSmall').stop().fadeIn();
+     });
+     $('.video-Button').mouseleave(function() { 
+         $(this).children('.videoButtonOverlay').stop().fadeIn();
+         $(this).children('.videoText-2').stop().fadeOut();
+         $(this).children('.downArrowSmall').stop().fadeOut();
+     });
+    
+    // video selecting
+    
  
+       
+         $('.video-Button').click(function() {
+              var videoButtonID = this.id.slice(-1);
+              var copyId = "#player-copy-" + videoButtonID;
+              var videoPlayerID = "#player-" + videoButtonID;
+             //hides and shows text
+             $(".player-copy").hide();
+             $(copyId).show();
+             //hides and shows video players
+              $(".video-player").hide();
+             $(videoPlayerID).show();
+         });
+    
+        $('.buttonLink').click(function() {
+              var videoButtonID = this.id.slice(-1);
+              var copyId = "#player-copy-" + videoButtonID;
+              var videoPlayerID = "#player-" + videoButtonID;
+             //hides and shows text
+             $(".player-copy").hide();
+             $(copyId).show();
+             //hides and shows video players
+              $(".video-player").hide();
+             $(videoPlayerID).show();
+         });
   
   
 });

@@ -531,6 +531,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/downArrowWhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1056,
+		"inputAbbreviatedPath": "\/img\/downArrowWhite.png",
+		"outputAbbreviatedPath": "\/img\/downArrowWhite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/global\/arrowNext.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -989,6 +1000,17 @@
 		"initialSize": 68717,
 		"inputAbbreviatedPath": "\/img\/theSurgen.jpg",
 		"outputAbbreviatedPath": "\/img\/theSurgen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/videoButton.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15461,
+		"inputAbbreviatedPath": "\/img\/videoButton.jpg",
+		"outputAbbreviatedPath": "\/img\/videoButton.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
