@@ -142,6 +142,12 @@ $(document).ready(function(){
              //hides and shows video players
               $(".video-player").hide();
              $(videoPlayerID).show();
+             //scroll to
+             var offset = 150;
+            $('html, body').animate({
+                    scrollTop: $(".video-player-section").offset().top - offset
+            }, 500);
+             
          });
     
         $('.buttonLink').click(function() {
@@ -154,6 +160,11 @@ $(document).ready(function(){
              //hides and shows video players
               $(".video-player").hide();
              $(videoPlayerID).show();
+            //scroll to
+             var offset = 150;
+            $('html, body').animate({
+                    scrollTop: $(".video-player-section").offset().top - offset
+            }, 500);
          });
   
   

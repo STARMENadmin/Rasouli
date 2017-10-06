@@ -1353,8 +1353,22 @@ textarea {
     
 }
 
-#player-2, #player-copy-2{
+.video-player{
     display: none;
+    
+    &:first-child{
+        display: block;
+    }
+}
+
+.player-copy{
+    
+    display: none;
+}
+div.left div.player-copy:nth-child(2){
+        display: block;
+    
+   
 }
 
 

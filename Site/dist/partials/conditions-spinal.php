@@ -83,10 +83,25 @@
                                     <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
                                 </div><!-- #player-copy-1 -->
                                 
-                                    <div class="player-copy" id="player-copy-2">
+                                <div class="player-copy" id="player-copy-2">
                                     <p class="largeTitle">Scoliosis 2</p>
                                     <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
                                 </div><!-- #player-copy-2 -->
+                                
+                                <div class="player-copy" id="player-copy-3">
+                                    <p class="largeTitle">Scoliosis 3</p>
+                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                </div><!-- #player-copy-3 -->
+                                
+                                <div class="player-copy" id="player-copy-4">
+                                    <p class="largeTitle">Scoliosis 4</p>
+                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                </div><!-- #player-copy-4 -->
+                                
+                                <div class="player-copy" id="player-copy-5">
+                                    <p class="largeTitle">Scoliosis 5</p>
+                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                </div><!-- #player-copy-5 -->
 
                             </div><!-- left -->
 
@@ -99,7 +114,19 @@
                                     
                                     <div class="video-player" id="player-2">
                                         <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/y2Ky3Wo37AY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                    </div><!-- player-1 -->
+                                    </div><!-- player-2 -->
+                                    
+                                    <div class="video-player" id="player-3">
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/RH3i7qONrT4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                    </div><!-- player-3 -->
+                                    
+                                    <div class="video-player" id="player-4">
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/oznr-1-poSU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                    </div><!-- player-4 -->
+                                    
+                                        <div class="video-player" id="player-5">
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/XQu8TTBmGhA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                    </div><!-- player-5 -->
                                     
                                     
                                 </div><!-- videoWrapper -->
