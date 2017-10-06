@@ -1103,6 +1103,61 @@ textarea {
     }
 }
 
+#about-team{
+        padding: 100px 0 100px 0;
+}
+
+#about-testimonials{
+        padding: 100px 0 0px 0;
+}
+
+.teamMenu .column{
+//width: 20%;
+      //  padding-bottom: 33%;
+}
+
+.teamMenu .columnOpen .columnOpenTitle, .teamMenu .columnOpen .columnOpenPara{
+    color:#000;
+}
+
+.about-testimonials-top{
+    margin-bottom: 100px;
+    
+    a{
+        display: block;
+    }
+}
+
+
+/* ==========================================================================
+  about testimonial
+   ========================================================================== */
+#about-testimonials{
+    
+    .left, .right{
+        margin: 0;
+        width: 50%;
+        
+    }
+    
+    .rowTop{
+        float: none;
+        
+        .column-1,  .column-2 {
+            width:50%;
+        }
+    
+    }
+    
+    .rowBottom{
+        float: none;
+                .column-3{
+            width:100%;
+        }
+    }
+}
+
+
 
 /* ==========================================================================
   Footer

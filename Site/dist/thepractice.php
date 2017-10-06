@@ -25,30 +25,17 @@
 			 <?php include("partials/about-dedicated.php"); ?>
 		</section>
         
-        
-        
-        
-        
       
-      <!-- Procedures and Conditions Section -->
-		<section id="home-procedures" class="about-section-2 group">
-			<?php include("partials/Homepage-procedures.php"); ?>
+      <!-- team Section -->
+		<section id="about-team" class="about-section-4 group">
+			<?php include("partials/about-team.php"); ?>
+		</section>
+		
+		
+		<!-- tesimonial Section -->
+		<section id="about-testimonials" class="about-section-5 group twoColumn">
+			 <?php include("partials/about-testimonials.php"); ?>
 		</section>
 		
 
-		
-			
-
-		
-		<!-- Outpatient Section -->
-		<section id="home-testimonials" class="home-section-5 group twoColumn">
-			 <?php include("partials/Homepage-testimonials.php"); ?>
-		</section>
-		
-		
-				<!-- Blog post 1 -->
-		<section id="home-blog" class="home-section-6 group twoColumn greyBG">
-			<?php include("partials/homepage-BlogCarousel.php"); ?>		
-		</section>
-      
          <?php include("partials/footer.php"); ?>

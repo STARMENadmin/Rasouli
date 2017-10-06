@@ -870,6 +870,35 @@ textarea {
       width: 90%;
       padding: 2% 5%; }
 
+#about-team {
+  padding: 100px 0 100px 0; }
+
+#about-testimonials {
+  padding: 100px 0 0px 0; }
+
+.teamMenu .columnOpen .columnOpenTitle, .teamMenu .columnOpen .columnOpenPara {
+  color: #000; }
+
+.about-testimonials-top {
+  margin-bottom: 100px; }
+  .about-testimonials-top a {
+    display: block; }
+
+/* ==========================================================================
+  about testimonial
+   ========================================================================== */
+#about-testimonials .left, #about-testimonials .right {
+  margin: 0;
+  width: 50%; }
+#about-testimonials .rowTop {
+  float: none; }
+  #about-testimonials .rowTop .column-1, #about-testimonials .rowTop .column-2 {
+    width: 50%; }
+#about-testimonials .rowBottom {
+  float: none; }
+  #about-testimonials .rowBottom .column-3 {
+    width: 100%; }
+
 /* ==========================================================================
   Footer
    ========================================================================== */
