@@ -295,7 +295,7 @@ textarea {
 	
 	.logo{
 		width: 100%;
-		
+        max-width: 190px;
 	}
 }
 
@@ -930,6 +930,38 @@ textarea {
 	@extend %acv;
 	
 }
+
+/* ==========================================================================
+  social section
+   ========================================================================== */
+
+.socialSectionWrapper{
+    
+    width: 100%;
+    
+    .twitterLogo{
+        float: left;
+    }
+    
+    .twitter-timeline,
+    .twitterFeedText{
+        float: left;
+        font-family: $brandonMed;
+        color: #000;
+        letter-spacing: 2px;
+        font-size: em(20);
+        margin: 0;
+    }
+}
+.timeline-Tweet-text{
+    border: 1px solid red !important;
+}
+
+
+.timeline-Widget{
+    max-width: 100% !important;
+}      
+
 
 
 /* ==========================================================================

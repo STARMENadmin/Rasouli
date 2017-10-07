@@ -1,4 +1,5 @@
  <nav class="header-nav">
+     <img class="navLogo" src="img/rasouliNavLogo.png"/>
 	 <ul>
 	    <li><a href="index.php">Home</a></li>
 	    <li><a href="thepractice.php">The Practice</a></li>

@@ -11,34 +11,39 @@
 
 		<!-- Hero Section -->
 		<section id="hero-home" class="hero">
-			<?php include("partials/Homepage-hero.php"); ?>
+			<?php include("partials/homepage-hero.php"); ?>
       	</section>
       
       <!-- Procedures and Conditions Section -->
 		<section id="home-procedures" class="home-section-2 group">
-			<?php include("partials/Homepage-procedures.php"); ?>
+			<?php include("partials/homepage-procedures.php"); ?>
 		</section>
 		
 		<!-- The Surgeon Section -->
 		<section id="home-Surgeon" class="home-section-3 group twoColumn">
-			<?php include("partials/Homepage-TheSurgen.php"); ?>
+			<?php include("partials/homepage-TheSurgen.php"); ?>
 		</section>
 		
 			
 		<!-- Outpatient Section -->
 		<section id="home-outpatient" class="home-section-4 group twoColumn greyBG">
-			 <?php include("partials/Homepage-Outpatiant.php"); ?>
+			 <?php include("partials/homepage-Outpatiant.php"); ?>
 		</section>
 		
 		<!-- Outpatient Section -->
 		<section id="home-testimonials" class="home-section-5 group twoColumn">
-			 <?php include("partials/Homepage-testimonials.php"); ?>
+			 <?php include("partials/homepage-testimonials.php"); ?>
 		</section>
 		
 		
 				<!-- Blog post 1 -->
 		<section id="home-blog" class="home-section-6 group twoColumn greyBG">
 			<?php include("partials/homepage-BlogCarousel.php"); ?>		
+		</section>
+        
+        <!-- social media section -->
+		<section id="home-social" class="home-section-7 group">
+			<?php include("partials/homepage-social.php"); ?>		
 		</section>
       
          <?php include("partials/footer.php"); ?>
