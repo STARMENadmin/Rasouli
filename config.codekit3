@@ -448,16 +448,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_working Files\/PSDs\/Rasouli Website Photos (High Res)\/Rasouli_AboutUs_Hero.jpg": {
-		"ft": 16384,
-		"iS": 10066668,
-		"oA": 0,
-		"oAP": "\/_working Files\/PSDs\/Rasouli Website Photos (High Res)\/Rasouli_AboutUs_Hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/_working Files\/PSDs\/Rasouli Website Photos (High Res)\/Rasouli_Blog_Hero.jpg": {
 		"ft": 16384,
 		"iS": 3312147,
@@ -566,6 +556,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/_working Files\/PSDs\/Rasouli Website Photos (High Res)\/thePracticeHero.jpg": {
+		"ft": 16384,
+		"iS": 294912,
+		"oA": 0,
+		"oAP": "\/_working Files\/PSDs\/Rasouli Website Photos (High Res)\/thePracticeHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_working Files\/Rasouli_Homepage_MOBILE_01.png": {
@@ -1237,6 +1237,66 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/about-dedicated-1.jpg": {
+		"ft": 16384,
+		"iS": 24561,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/about-dedicated-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/about-dedicated-2.jpg": {
+		"ft": 16384,
+		"iS": 52262,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/about-dedicated-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/about-dedicated-3.jpg": {
+		"ft": 16384,
+		"iS": 25831,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/about-dedicated-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/about-hero-right-1.jpg": {
+		"ft": 16384,
+		"iS": 51196,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/about-hero-right-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/about-hero-right-2.jpg": {
+		"ft": 16384,
+		"iS": 54651,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/about-hero-right-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/about-Hero.jpg": {
+		"ft": 16384,
+		"iS": 128738,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/about-Hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/absLogo.png": {
 		"ft": 32768,
 		"iS": 20391,
@@ -1256,6 +1316,49 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/cedars-sinai.png": {
+		"ft": 32768,
+		"iS": 22781,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/cedars-sinai.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/conditions-hero.jpg": {
+		"ft": 16384,
+		"iS": 116294,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/conditions-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/downArrow.png": {
+		"ft": 32768,
+		"iS": 1063,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/downArrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/downArrowWhite.png": {
+		"ft": 32768,
+		"iS": 1056,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/downArrowWhite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/Site\/dist\/img\/global\/arrowNext.png": {
@@ -1582,11 +1685,55 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/rasouliNavLogo.png": {
+		"ft": 32768,
+		"iS": 9506,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/rasouliNavLogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/socialSprite.png": {
 		"ft": 32768,
 		"iS": 4251,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/socialSprite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/stanfordLogo.png": {
+		"ft": 32768,
+		"iS": 19378,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/stanfordLogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/super-doctors-logo.png": {
+		"ft": 32768,
+		"iS": 13175,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/super-doctors-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/team-1.png": {
+		"ft": 32768,
+		"iS": 530314,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/team-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1623,11 +1770,52 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/testimonial-4.jpg": {
+		"ft": 16384,
+		"iS": 37867,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/testimonial-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/testimonial-5.jpg": {
+		"ft": 16384,
+		"iS": 58417,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/testimonial-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/theSurgen.jpg": {
 		"ft": 16384,
 		"iS": 68717,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/theSurgen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/twitterLogo.png": {
+		"ft": 32768,
+		"iS": 1582,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/twitterLogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/videoButton.jpg": {
+		"ft": 16384,
+		"iS": 15461,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/videoButton.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1977,6 +2165,48 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/Site\/dist\/partials\/about-dedicated.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/about-dedicated.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/about-hero.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/about-hero.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/about-meetDoctor.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/about-meetDoctor.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/about-team.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/about-team.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/about-testimonials.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/about-testimonials.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/conditions-hero.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/conditions-hero.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/conditions-spinal.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/conditions-spinal.php",
+		"oF": 0
+		},
 	"\/Site\/dist\/partials\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2013,6 +2243,12 @@
 		"oAP": "\/Site\/dist\/partials\/Homepage-procedures.php",
 		"oF": 0
 		},
+	"\/Site\/dist\/partials\/homepage-social.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/homepage-social.php",
+		"oF": 0
+		},
 	"\/Site\/dist\/partials\/Homepage-testimonials.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2035,6 +2271,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/robots.txt",
+		"oF": 0
+		},
+	"\/Site\/dist\/theconditions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/theconditions.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/thepractice.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/thepractice.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/tile-wide.png": {
