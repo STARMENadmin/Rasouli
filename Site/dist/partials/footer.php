@@ -7,7 +7,7 @@
 			<input type="text" name="name" placeholder="First and last name">
 			 <input type="text" name="email" placeholder="Email">
 			 <input type="text" name="phone" placeholder="Phone">
-			<input type="text" name="date" placeholder="Appointment Date">
+			<input type="text" name="date" placeholder="Appointment Date" id="datepicker">
 			
 			<input type="submit" value="Send">
 			</form>
@@ -51,7 +51,7 @@
                     <div class="clear"></div>
                 </div>
             
-                <p>Copyright 2017 Rasouli Spine | Making Brands Work</p>
+                <p class="termsConditins">All Rights Reserved &copy; 2017 |  Rasouli Spine | <a href="http://starmenusa.com/">Making Brands Work</a>&trade;</p>
             </div><!-- center -->
             <div class="right">
                 <div class="socialWrapper">
@@ -70,12 +70,13 @@
  
  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+         <script src="js/jquery-ui.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
          <script src="js/vendor/slick/slick.min.js"></script>
         <script src="js/plugins.js"></script>
-<!--          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
  <script type="text/javascript" src="tweetie.js"></script>
         <script src="js/main.js"></script>
+        
         
        
         

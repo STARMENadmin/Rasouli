@@ -24,7 +24,7 @@ footer{
 		form{
 			input[type=text] {
 				float: left;
-				width: 18%;
+				width: 19.1%;
 				border: 1px solid $darkGrey;
 				background-color: #000;
 				color: #fff;
@@ -78,8 +78,10 @@ footer{
 			margin: 0;
 			display: block;
 			float: right;
-			z-index: 2;
+			z-index: 1;
 			text-align: center;
+			padding: 0;
+			
 			li{
 				display: inline-block;
 				font-size: em(18);
@@ -246,4 +248,9 @@ footer{
 
 input:focus {
     outline:none;
+}
+
+.termsConditins a {
+	color: #fff;
+	text-decoration: none;
 }

@@ -74,8 +74,8 @@ $(document).ready(function(){
 	   $(this).siblings().children('.verticalText').fadeIn();
 	   $(this).children('.verticalText').hide();
 	   
-	   $(this).siblings().animate({width: '5%'});
-	   $(this).animate({width: '85%'});
+	   $(this).siblings().animate({width: '5%'}, 500, 'linear');
+	   $(this).animate({width: '85%'}, 500, 'linear');
     });
     
     $(' .CloseRoundButton').mouseenter(function() {
@@ -98,7 +98,7 @@ $(document).ready(function(){
 	    $(this).children('.copyWrapper').delay(500).fadeIn();
 	    $('.CloseRoundButton').animate({opacity: 0}, 200);
 	    $('.column').children('.columnOverlay').fadeOut();
-	    $('.proceduresMenu .column').animate({width: '25%'});
+	    $('.proceduresMenu .column').animate({width: '25%'}, 500, 'linear');
 	    $('.column').siblings().children('.verticalText').fadeOut();
 	    $('.column').siblings().children('.copyWrapper').fadeIn();
 	    
@@ -172,24 +172,7 @@ $(document).ready(function(){
      
      
      
-		     //twitter 
-		     var $iframeHead;
-		
-			 var twitterStylesTimer = window.setInterval(function(){
-		
-		    $iframeHead = $("iframe#twitter-widget-0").contents().find('head');
-		
-		    if( !$('#twitter-widget-styles', $iframeHead).length ){ //If our stylesheet does not exist tey to place it
-		        $iframeHead.append('<link rel="stylesheet" href="../css/twitter-widget.css" id="twitter-widget-styles">');
-		        
-		       
-		        
-		    }else if( $('#twitter-widget-styles', $iframeHead).length ){    //If stylesheet exists then quit timer
-		        clearInterval(twitterStylesTimer);
-		     
-		    }
-		
-		}, 200);
+
 		
 		
 
@@ -218,7 +201,8 @@ $(document).ready(function(){
 		});
         
 
-        
+        //foooter
+        $( "#datepicker" ).datepicker();
 		      
   
   
