@@ -1784,6 +1784,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/linkArrowBlack.png": {
+		"ft": 32768,
+		"iS": 1047,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/linkArrowBlack.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/linkArrowWhite.png": {
+		"ft": 32768,
+		"iS": 1023,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/linkArrowWhite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/newsletterArrow.png": {
 		"ft": 32768,
 		"iS": 1023,

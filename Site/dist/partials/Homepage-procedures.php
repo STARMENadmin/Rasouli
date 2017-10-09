@@ -5,7 +5,7 @@
 				
 				<p class="copy centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
 				
-				<p class="textCTA">Select image below to see images and procedures.</p>
+				<p class="textCTA">Select image below to see images and procedures. <span class="downArrowBlack"></span></p>
 			</div>
                 
                 <div class="proceduresMenu">

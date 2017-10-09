@@ -9,7 +9,7 @@
   cursor: hand; }
 
 /* Centering */
-.proceduresMenu .CloseRoundButton, .proceduresMenu .copyWrapper {
+.downArrowBlack, .proceduresMenu .CloseRoundButton, .proceduresMenu .copyWrapper {
   position: absolute;
   margin: 0 auto;
   left: 0;
@@ -415,7 +415,38 @@ textarea {
   text-decoration: none;
   font-size: 0.875em;
   letter-spacing: 2px;
-  font-family: BrandonGrotesque-Bold; }
+  font-family: BrandonGrotesque-Bold;
+  position: relative; }
+
+.linkArrowWhite {
+  background: url("../img/linkArrowWhite.png ");
+  background-repeat: no-repeat;
+  display: block;
+  width: 31px;
+  height: 11px;
+  position: absolute;
+  right: -34px;
+  top: 4px; }
+
+.linkArrowBlack {
+  background: url("../img/linkArrowBlack.png ");
+  background-repeat: no-repeat;
+  display: block;
+  width: 31px;
+  height: 11px;
+  position: absolute;
+  right: -34px;
+  top: 4px; }
+
+.downArrowBlack {
+  background: url("../img/downArrow.png ");
+  background-repeat: no-repeat;
+  display: block;
+  width: 11px;
+  height: 31px;
+  position: absolute;
+  right: -15px;
+  top: 34px; }
 
 .white {
   color: #fff; }

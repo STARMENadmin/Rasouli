@@ -12,7 +12,7 @@
 					
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui. In sollicitudin orci purus, in sollicitudin quam finibus tincidunt. Vivamus dapibus lectus sit amet lectus accumsan, at posuere risus gravida. </p>
 					
-					<a class="textCTA white" href="#">Learn More<span class="linkArrow"></span></a>
+					<a class="textCTA white" href="#">Learn More<span class="linkArrow linkArrowWhite"></span></a>
 					
 				</div>    
 			</div>

@@ -426,7 +426,44 @@ textarea {
 	font-size: em(14);
 	letter-spacing: 2px;
 	font-family: $brandonBold;
+	position: relative;
 }
+
+.linkArrowWhite{
+	background: url("../img/linkArrowWhite.png ");
+	background-repeat: no-repeat;
+	display: block;
+	width: 31px;
+    height: 11px;
+    position: absolute;
+    right: -34px;
+    top: 4px;
+}
+
+.linkArrowBlack{
+	background: url("../img/linkArrowBlack.png ");
+	background-repeat: no-repeat;
+	display: block;
+	width: 31px;
+    height: 11px;
+    position: absolute;
+    right: -34px;
+    top: 4px;
+}
+
+.downArrowBlack{
+		background: url("../img/downArrow.png ");
+	background-repeat: no-repeat;
+	display: block;
+	width: 11px;
+    height: 31px;
+    position: absolute;
+    @extend %ach;
+    right: -15px;
+    top: 34px;
+}
+
+
 
 .white{
 	color: #fff;
