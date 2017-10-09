@@ -73,7 +73,11 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
          <script src="js/vendor/slick/slick.min.js"></script>
         <script src="js/plugins.js"></script>
+<!--          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+ <script type="text/javascript" src="tweetie.js"></script>
         <script src="js/main.js"></script>
+        
+       
         
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

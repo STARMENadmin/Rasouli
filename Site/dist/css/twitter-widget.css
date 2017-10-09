@@ -1,0 +1,31 @@
+.timeline-Tweet-metadata,
+.timeline-Tweet-actions,
+.timeline-Tweet-brand,
+.timeline-Tweet-media,
+.timeline-Tweet-author{
+	display: none !important;
+	
+} 
+
+.timeline-Tweet:hover {
+    background-color: #fff !important;
+}
+
+  .timeline-Tweet-text{
+        float: left;
+         font-family: 'BrandonGrotesque-Medium' !important;
+        color: #000;
+        letter-spacing: 2px;
+            font-size: 1.25em !important;
+        margin: 0 !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    
+    .timeline-Tweet{
+	    padding: 0 !important;
+    }
+    
+    .timeline-Widget{
+	    max-width: none !important;
+    }

@@ -941,26 +941,47 @@ textarea {
     
     .twitterLogo{
         float: left;
+        padding-right: 2%;
     }
     
-    .twitter-timeline,
-    .twitterFeedText{
-        float: left;
+    .tweet ul{
+	    margin: 0;
+	    padding: 0;
+	    
+    }
+    .loadingTwitterText,
+    .tweet li .tweetText{
         font-family: $brandonMed;
         color: #000;
         letter-spacing: 2px;
         font-size: em(20);
         margin: 0;
+        text-align: center;
+        list-style-type: none;
+        line-height: 28px;
+        float: left;
+        width: 90%;
+        margin-top: 5px;
+        
+        
+        a{
+	        color: #000;
+        }
     }
 }
 .timeline-Tweet-text{
     border: 1px solid red !important;
+    
+    
 }
 
 
 .timeline-Widget{
     max-width: 100% !important;
-}      
+} 
+
+
+    
 
 
 

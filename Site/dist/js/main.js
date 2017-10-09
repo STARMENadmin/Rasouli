@@ -166,6 +166,60 @@ $(document).ready(function(){
                     scrollTop: $(".video-player-section").offset().top - offset
             }, 500);
          });
+         
+     
+     
+     
+     
+     
+		     //twitter 
+		     var $iframeHead;
+		
+			 var twitterStylesTimer = window.setInterval(function(){
+		
+		    $iframeHead = $("iframe#twitter-widget-0").contents().find('head');
+		
+		    if( !$('#twitter-widget-styles', $iframeHead).length ){ //If our stylesheet does not exist tey to place it
+		        $iframeHead.append('<link rel="stylesheet" href="../css/twitter-widget.css" id="twitter-widget-styles">');
+		        
+		       
+		        
+		    }else if( $('#twitter-widget-styles', $iframeHead).length ){    //If stylesheet exists then quit timer
+		        clearInterval(twitterStylesTimer);
+		     
+		    }
+		
+		}, 200);
+		
+		
+
+		  
+		     
+		     
+		 $('.tweet').twittie({
+            dateFormat: '%b. %d, %Y',
+            template: '{{tweet}} <div class="date">{{date}}</div> <a href="{{url}}" target="_blank">Details</a>',
+            count: 5,
+            hideReplies: true
+        }, function() {
+	        
+	        $('.tweet ul').slick({
+			    infinite: true,
+			    autoplay: true,
+			    fade: true,
+			    arrows: false,
+			    slidesToShow: 1,
+			   	slidesToScroll: 1
+		  	});
+		  
+		  	$( ".tweet ul li" ).wrapInner( "<p class='tweetText'></p>");
+		  	$('.tweet ul li').prepend('  <div class="twitterLogo"><img src="../img/twitterLogo.png" /></div>');
+        
+		});
+        
+
+        
+		      
   
   
 });
