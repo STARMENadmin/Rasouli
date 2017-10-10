@@ -3206,7 +3206,7 @@
 		"oAP": "\/Site\/dist\/img\/about-Hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/Site\/dist\/img\/absLogo.png": {
@@ -4205,13 +4205,13 @@
 		"oAP": "\/Site\/dist\/partials\/header.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-BlogCarousel.php": {
+	"\/Site\/dist\/partials\/homepage-BlogCarousel.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-BlogCarousel.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-hero.php": {
+	"\/Site\/dist\/partials\/homepage-hero.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-hero.php",
@@ -4223,7 +4223,7 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-Outpatiant.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-procedures.php": {
+	"\/Site\/dist\/partials\/homepage-procedures.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-procedures.php",
@@ -4235,13 +4235,13 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-social.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-testimonials.php": {
+	"\/Site\/dist\/partials\/homepage-testimonials.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-testimonials.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-TheSurgen.php": {
+	"\/Site\/dist\/partials\/homepage-TheSurgen.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-TheSurgen.php",
