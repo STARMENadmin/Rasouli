@@ -13,7 +13,36 @@ $(document).ready(function(){
 	}
 	
 	});
+	
+	// Parallax
+	
+/*
+		function parallax(){
+		    var scrolled = $(window).scrollTop();
+		    var elementOffset = $('.parallaxwrapper').offset().top;
+		    $('.paraImage2').css('bottom', + (scrolled * 0.2 / 2 ) + 'px');
+		}
+		
+		$(window).scroll(function(e){
+		    parallax();
+		});
+*/
 
+/*
+function simpleParallax(intensity, element) {
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop();
+            var height = element.height();
+            
+            var imgPos = scrollTop / intensity  + 'px';
+            element.css('transform', 'translateY(' + imgPos + ')');
+        });
+    }
+	var test = $(".paraImage2");
+	
+	
+	simpleParallax(15, test);
+*/
 	
 	
 	

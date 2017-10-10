@@ -5,7 +5,7 @@
 				
 				<p class="copy centered centerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
 				
-				<a class="textCTA black centerText" href="#">More Success Stories<span class="linkArrow"></span></a>
+				<div class="moreWrapper"><a class="textCTA black centerText" href="#">More Success Stories<span class="linkArrow linkArrowBlack"></span></a></div>
 			</div>			
 
             <div class="left">

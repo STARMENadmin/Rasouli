@@ -448,6 +448,9 @@ textarea {
   right: -15px;
   top: 34px; }
 
+.moreWrapper {
+  text-align: center; }
+
 .white {
   color: #fff; }
 
@@ -960,7 +963,9 @@ textarea {
 .about-testimonials-top {
   margin-bottom: 100px; }
   .about-testimonials-top a {
-    display: block; }
+    display: inline-block;
+    margin: 0 auto;
+    width: auto; }
 
 /* ==========================================================================
   about testimonial

@@ -463,6 +463,10 @@ textarea {
     top: 34px;
 }
 
+.moreWrapper{
+	text-align: center;
+}
+
 
 
 .white{
@@ -1214,7 +1218,9 @@ textarea {
     margin-bottom: 100px;
     
     a{
-        display: block;
+        display: inline-block;
+        margin:  0 auto;
+        width:auto;
     }
 }
 
