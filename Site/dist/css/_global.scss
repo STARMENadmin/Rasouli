@@ -1469,6 +1469,35 @@ div.left div.player-copy:nth-child(2){
 
 
 /* ==========================================================================
-  Footer
+  procedures page
    ========================================================================== */
 
+.procedures-hero-copy-1{
+    left:10%;
+    right: auto !important;
+    
+    h2{
+        padding-left: 0 !important;
+    }
+}
+
+.hero-procedures #home-hero-copy-2{
+    bottom: 5% !important;
+}
+
+.hero-procedures{
+    padding-bottom: 15% !important;
+}
+
+.hero-procedures #home-hero-copy-1 {
+    top: 25% !important;
+}
+
+.theproceduresPage .condition-video-wrapper{
+    margin: 0 auto 0 auto;
+}
+
+.theproceduresPage .condition-video-wrapper .video-player-section{
+    
+    margin-top: 0 !important;
+}
