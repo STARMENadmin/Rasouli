@@ -3759,6 +3759,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/resources-hero.jpg": {
+		"ft": 16384,
+		"iS": 240050,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/resources-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/selectSpine.jpg": {
 		"ft": 16384,
 		"iS": 46373,
@@ -4456,10 +4466,28 @@
 		"oAP": "\/Site\/dist\/partials\/procedures-video.php",
 		"oF": 0
 		},
+	"\/Site\/dist\/partials\/resources-forms.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/resources-forms.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/resoures-hero.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/resoures-hero.php",
+		"oF": 0
+		},
 	"\/Site\/dist\/partials\/testimonials-testimonials.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/testimonials-testimonials.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/patient-resources.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/patient-resources.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/robots.txt": {

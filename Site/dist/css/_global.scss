@@ -1894,7 +1894,7 @@ div.left div.player-copy:nth-child(2){
    contact page
    ========================================================================== */
    
-   
+ .resourcesPage  .left,
  .contactPage #contactPage-form .left{
 	 
 	width: 45%;
@@ -1924,13 +1924,13 @@ div.left div.player-copy:nth-child(2){
 	}
 
 }
-
+.resourcesPage .right,
 .contactPage #contactPage-form .right{
 	width: 45%;
     margin-left: 5%;
     float: left;
 }
-
+.resourcesPage,
 .contactPage{
 	
 	.hero-contact{
@@ -2057,3 +2057,42 @@ div.left div.player-copy:nth-child(2){
    .testimonials-section{
 	       padding: 200px 0 0px 0 !important;
    }
+   
+      /* ==========================================================================
+   patient resources page
+   ========================================================================== */
+   
+   
+   
+   		.pdfItem{
+        position: relative;
+        border: 1px solid #808080;
+        padding: 50px;
+        color: #fff;
+        }
+         .title{
+            margin: 0 0 0 0;
+            font-family: $brandonBold;
+            font-size: em(20);
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        .pdfNumber{
+	         font-family: $brandonMed;
+	         font-size: em(24);
+	         margin: 0;
+	         @extend %acm;
+        }
+        
+    .pdfItem  .roundButton {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid #FFF;
+    transition: opacity .2s ease-out;
+    top: 30px;
+    left: 40px;
+}

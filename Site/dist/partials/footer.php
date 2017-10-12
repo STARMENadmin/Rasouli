@@ -24,7 +24,7 @@
 			    <li><a href="the-outpaient-revolution.php">The Outpatient Revolution</a></li>
 			    <li><a href="#">The Blog</a></li>
 			    <li><a href="testimonials.php">Testimonials</a></li>
-			    <li><a href="#">Patient Resources</a></li>
+			    <li><a href="patient-resources.php">Patient Resources</a></li>
 			    <li><a href="contact.php">Contact</a></li>
 			 </ul>
 			 <div class="clear"></div>
