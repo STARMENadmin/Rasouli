@@ -4456,10 +4456,22 @@
 		"oAP": "\/Site\/dist\/partials\/procedures-video.php",
 		"oF": 0
 		},
+	"\/Site\/dist\/partials\/testimonials-testimonials.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/testimonials-testimonials.php",
+		"oF": 0
+		},
 	"\/Site\/dist\/robots.txt": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/robots.txt",
+		"oF": 0
+		},
+	"\/Site\/dist\/testimonials.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/testimonials.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/the-outpaient-revolution.php": {

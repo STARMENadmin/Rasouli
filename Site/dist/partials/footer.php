@@ -16,15 +16,16 @@
 		
 		
 		<nav class="footer-nav">
-			 <ul>			
-			    <li><a href="#">The Practice</a></li>
-			    <li><a href="#">The Conditions</a></li>
-			    <li><a href="#">The Procedures</a></li>
-			    <li><a href="#">The Outpatient Revolution</a></li>
+			 <ul>
+
+			    <li><a href="thepractice.php">The Practice</a></li>
+			    <li><a href="theconditions.php">The Conditions</a></li>
+			    <li><a href="theprocedures.php">The Procedures</a></li>
+			    <li><a href="the-outpaient-revolution.php">The Outpatient Revolution</a></li>
 			    <li><a href="#">The Blog</a></li>
-			    <li><a href="#">Testimonials</a></li>
+			    <li><a href="testimonials.php">Testimonials</a></li>
 			    <li><a href="#">Patient Resources</a></li>
-			    <li><a href="#">Contact</a></li>
+			    <li><a href="contact.php">Contact</a></li>
 			 </ul>
 			 <div class="clear"></div>
 	  	</nav>
