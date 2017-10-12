@@ -1329,6 +1329,27 @@ div.left div.player-copy:nth-child(2) {
 /* ==========================================================================
   outpatient page
    ========================================================================== */
+.outpaientPage .innovationParallax .paraImage2 {
+  z-index: 2 !important;
+  max-width: 465px;
+  bottom: 20% !important;
+  right: -5% !important;
+  left: auto !important; }
+
+.outpaientPage .innovationParallax .paraImage1 {
+  width: 80%; }
+
+.outpaientPage .leadershipParallax .paraImage2 {
+  z-index: 2 !important;
+  max-width: 465px;
+  top: 10% !important;
+  right: -5% !important;
+  left: auto !important; }
+
+.outpaientPage .leadershipParallax .paraImage1 {
+  width: 80%;
+  margin-top: 40%; }
+
 .outpaientPage .hero-outpatient {
   padding-bottom: 0 !important; }
 

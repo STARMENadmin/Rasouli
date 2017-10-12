@@ -3348,6 +3348,66 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/innovation-1.jpg": {
+		"ft": 16384,
+		"iS": 80766,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/innovation-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/innovation-2.jpg": {
+		"ft": 16384,
+		"iS": 28415,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/innovation-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/innovation-3.jpg": {
+		"ft": 16384,
+		"iS": 76367,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/innovation-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/leadership-1.jpg": {
+		"ft": 16384,
+		"iS": 32205,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/leadership-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/leadership-2.jpg": {
+		"ft": 16384,
+		"iS": 41248,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/leadership-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/leadership-3.jpg": {
+		"ft": 16384,
+		"iS": 60768,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/leadership-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/linkArrowBlack.png": {
 		"ft": 32768,
 		"iS": 1047,
