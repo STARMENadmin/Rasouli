@@ -3401,6 +3401,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/outpatientHero.jpg": {
+		"ft": 16384,
+		"iS": 89480,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/outpatientHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/proceduresBg1.jpg": {
 		"ft": 16384,
 		"iS": 116004,
@@ -3516,6 +3526,16 @@
 		"iS": 66733,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/proceduresColumn4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresHero.jpg": {
+		"ft": 16384,
+		"iS": 104076,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresHero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3652,6 +3672,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/selectSpine.jpg": {
+		"ft": 16384,
+		"iS": 46373,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/selectSpine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/socialSprite.png": {
 		"ft": 32768,
 		"iS": 4251,
@@ -3694,6 +3724,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/techno-1.jpg": {
+		"ft": 16384,
+		"iS": 93013,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/techno-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/techno-2.jpg": {
+		"ft": 16384,
+		"iS": 68028,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/techno-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/Site\/dist\/img\/testimonial-1.jpg": {
@@ -4205,13 +4255,13 @@
 		"oAP": "\/Site\/dist\/partials\/header.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/homepage-BlogCarousel.php": {
+	"\/Site\/dist\/partials\/Homepage-BlogCarousel.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-BlogCarousel.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/homepage-hero.php": {
+	"\/Site\/dist\/partials\/Homepage-hero.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-hero.php",
@@ -4223,7 +4273,7 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-Outpatiant.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/homepage-procedures.php": {
+	"\/Site\/dist\/partials\/Homepage-procedures.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-procedures.php",
@@ -4235,13 +4285,13 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-social.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/homepage-testimonials.php": {
+	"\/Site\/dist\/partials\/Homepage-testimonials.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-testimonials.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/homepage-TheSurgen.php": {
+	"\/Site\/dist\/partials\/Homepage-TheSurgen.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-TheSurgen.php",
@@ -4253,10 +4303,64 @@
 		"oAP": "\/Site\/dist\/partials\/nav.php",
 		"oF": 0
 		},
+	"\/Site\/dist\/partials\/outpatient-hero.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/outpatient-hero.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/outpatient-inovation.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/outpatient-inovation.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/outpatient-invasiveTreatments.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/outpatient-invasiveTreatments.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/outpatient-leadership.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/outpatient-leadership.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/outpatient-technology.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/outpatient-technology.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/procedures-hero.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/procedures-hero.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/procedures-spineArea.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/procedures-spineArea.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/procedures-video.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/procedures-video.php",
+		"oF": 0
+		},
 	"\/Site\/dist\/robots.txt": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/robots.txt",
+		"oF": 0
+		},
+	"\/Site\/dist\/the-outpaient-revolution.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/the-outpaient-revolution.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/theconditions.php": {
@@ -4269,6 +4373,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/thepractice.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/theprocedures.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/theprocedures.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/tile-wide.png": {

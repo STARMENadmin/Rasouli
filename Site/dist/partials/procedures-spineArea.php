@@ -1,11 +1,18 @@
 			<div class="left">
+				<div class="hotSpotWrapper">
+					<div class="hotSpot hotSpotActive" id="hotspot-1"><div class="border"></div><span></span></div>
+					<div class="hotSpot" id="hotspot-2"><div class="border"></div><span></span></div>
+					<div class="hotSpot" id="hotspot-3"><div class="border"></div><span></span></div>
+					<div class="hotSpot" id="hotspot-4"><div class="border"></div><span></span></div>
+					
+				</div>
 				<img src="img/selectSpine.jpg"/>
 			</div>
 			<div class="right">
 
                 <div class="spineSelectWrapper">
                     
-                    <div class="spineItem itemOpen">
+                    <div class="spineItem itemOpen" id="spineItem-1">
                             <p class="title">Cervical (Neck)</p>
                                 <div class="roundButton">
 	                                <div class="cross">
@@ -23,8 +30,8 @@
                     
                
                     
-                    <div class="spineItem">
-                            <p class="title">Cervical (Neck)</p>
+                    <div class="spineItem"id="spineItem-2">
+                            <p class="title">Thoracic (Middle Back)</p>
                                 <div class="roundButton">
 	                                <div class="cross">
 	                                    <div class="a"></div>
@@ -43,8 +50,8 @@
                     
                
                     
-                    <div class="spineItem">
-                            <p class="title">Cervical (Neck)</p>
+                    <div class="spineItem" id="spineItem-3">
+                            <p class="title">Lumbar (Lower Back)</p>
                                 <div class="roundButton">
 	                                <div class="cross">
 	                                    <div class="a"></div>
@@ -62,8 +69,8 @@
                     
                
                     
-                    <div class="spineItem">
-                            <p class="title">Cervical (Neck)</p>
+                    <div class="spineItem" id="spineItem-4">
+                            <p class="title">Peripheral Nerve Comditions</p>
                                 <div class="roundButton">
 	                                <div class="cross">
 	                                    <div class="a"></div>

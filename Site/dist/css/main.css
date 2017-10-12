@@ -4,7 +4,7 @@
 /* Mixins */
 /* mixin opacity:  @include opacity(0.8) */
 /* Fonts Size font-size: em(24); */
-.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .condition-video-wrapper .dropbtn, .condition-video-wrapper .dropdown-content p, .condition-video-wrapper .video-buttons-wrapper .video-Button, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
+.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .condition-video-wrapper .dropbtn, .condition-video-wrapper .dropdown-content p, .condition-video-wrapper .video-buttons-wrapper .video-Button, .hotSpotWrapper .hotSpot, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
   cursor: pointer;
   cursor: hand; }
 
@@ -253,8 +253,10 @@ textarea {
    ========================================================================== */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */ }
+
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -268,53 +270,44 @@ textarea {
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important; }
-
   a,
   a:visited {
     text-decoration: underline; }
-
   a[href]:after {
     content: " (" attr(href) ")"; }
-
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-
   /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
-
   pre {
     white-space: pre-wrap !important; }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
   /*
-   * Printing Tables:
-   * 
-   */
+     * Printing Tables:
+     * 
+     */
   thead {
     display: table-header-group; }
-
   tr,
   img {
     page-break-inside: avoid; }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
-
   h2,
   h3 {
     page-break-after: avoid; } }
+
 /* ==========================================================================
   New styles Kaz
    ========================================================================== */
@@ -504,10 +497,12 @@ textarea {
 
 .twoColumn img {
   width: 100%; }
+
 .twoColumn .left {
   float: left;
   width: 45%;
   margin-right: 5%; }
+
 .twoColumn .right {
   float: left;
   width: 45%;
@@ -981,10 +976,12 @@ textarea {
 #about-testimonials .left, #about-testimonials .right {
   margin: 0;
   width: 50%; }
+
 #about-testimonials .rowTop {
   float: none; }
   #about-testimonials .rowTop .column-1, #about-testimonials .rowTop .column-2 {
     width: 50%; }
+
 #about-testimonials .rowBottom {
   float: none; }
   #about-testimonials .rowBottom .column-3 {
@@ -1148,6 +1145,83 @@ div.left div.player-copy:nth-child(2) {
 /* ==========================================================================
   procedures page
    ========================================================================== */
+.hotSpotWrapper {
+  position: absolute;
+  width: 55%;
+  height: 80%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto; }
+  .hotSpotWrapper .hotSpot {
+    position: absolute;
+    transition: opacity .2s ease-out;
+    overflow: hidden; }
+    .hotSpotWrapper .hotSpot:hover {
+      -webkit-box-shadow: 0px 0px 47px -1px white;
+      -moz-box-shadow: 0px 0px 47px -1px white;
+      box-shadow: 0px 0px 47px -1px white; }
+    .hotSpotWrapper .hotSpot .border {
+      position: absolute;
+      box-shadow: inset 0 0 0 2px #fff;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      overflow: hidden; }
+    .hotSpotWrapper .hotSpot span {
+      display: block;
+      position: absolute;
+      background-color: #fff;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+      border-radius: 50%; }
+
+.hotSpotActive {
+  -webkit-box-shadow: 0px 0px 47px -1px white;
+  -moz-box-shadow: 0px 0px 47px -1px white;
+  box-shadow: 0px 0px 47px -1px white; }
+
+#hotspot-1 {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  right: 20%;
+  top: 3%; }
+
+#hotspot-2 {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  right: 36%;
+  top: 25%; }
+
+#hotspot-3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  right: 31%;
+  top: 51%; }
+
+#hotspot-3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  right: 31%;
+  top: 48%; }
+
+#hotspot-4 {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  right: 17%;
+  bottom: 4%; }
+
 .blackBG {
   background-color: #000; }
 
@@ -1241,6 +1315,7 @@ div.left div.player-copy:nth-child(2) {
 #procedures-selectSpine {
   color: #fff; }
   #procedures-selectSpine .left {
+    position: relative;
     float: left;
     width: 48%;
     margin-right: 2%; }
@@ -1256,6 +1331,7 @@ div.left div.player-copy:nth-child(2) {
    ========================================================================== */
 .outpaientPage .hero-outpatient {
   padding-bottom: 0 !important; }
+
 .outpaientPage #outpatient-invasiveTreatments {
   padding-top: 0 !important; }
   .outpaientPage #outpatient-invasiveTreatments .left {
@@ -1286,6 +1362,7 @@ div.left div.player-copy:nth-child(2) {
       line-height: 1.85vw;
       margin: 0 0 20px 0;
       letter-spacing: 2px; }
+
 .outpaientPage .outpatient-hero-copy-1 {
   top: 40% !important;
   left: 23% !important;
@@ -1293,8 +1370,10 @@ div.left div.player-copy:nth-child(2) {
   .outpaientPage .outpatient-hero-copy-1 h2,
   .outpaientPage .outpatient-hero-copy-1 span {
     padding-left: 5% !important; }
+
 .outpaientPage .spineItem:first-child .copyWrapper {
   display: none; }
+
 .outpaientPage .spineSelectWrapper {
   margin-top: 80px;
   width: 100%;
@@ -1506,6 +1585,7 @@ input:focus {
   src: local("☺"), url("../fonts/austin/Austin-Roman/Austin-Roman.woff") format("woff"), url("../fonts/austin/Austin-Roman/Austin-Roman.ttf") format("truetype"), url("../fonts/austin/Austin-Roman.svg") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon light **/
 @font-face {
   font-family: 'Conv_brandon-grotesque-light-58a8a4b38001d';
@@ -1513,30 +1593,35 @@ input:focus {
   src: local("☺"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d/brandon-grotesque-light-58a8a4b38001d.woff") format("woff"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d.ttf") format("truetype"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d.svg") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon Black **/
 @font-face {
   font-family: 'BrandonGrotesque-Black';
   src: url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.svg#BrandonGrotesque-Black") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon Bold **/
 @font-face {
   font-family: 'BrandonGrotesque-Bold';
   src: url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon Med **/
 @font-face {
   font-family: 'BrandonGrotesque-Medium';
   src: url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon Reg **/
 @font-face {
   font-family: 'BrandonGrotesque-Regular';
   src: url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

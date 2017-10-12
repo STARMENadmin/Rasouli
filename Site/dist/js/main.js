@@ -233,18 +233,32 @@ function simpleParallax(intensity, element) {
     // procedures page select neck section 
     
     $('.spineItem').click(function() {
-        
-        $(this).siblings().children('.copyWrapper').stop().slideUp();
-        //
-        $(this).children('.copyWrapper').stop().slideToggle();
-        
-        
-       $(this).toggleClass("itemOpen");
-        $(this).siblings().removeClass("itemOpen");  
-           
+        var dropDownID = this.id.slice(-1);
+        var hotSpotID = "#hotspot-" + dropDownID;
        
-        
+        $('.hotSpot').removeClass('hotSpotActive');
+        $(hotSpotID).addClass('hotSpotActive');
+        $(this).siblings().children('.copyWrapper').stop().slideUp();
+        $(this).children('.copyWrapper').stop().slideToggle();
+        $(this).toggleClass("itemOpen");
+        $(this).siblings().removeClass("itemOpen");  
+
     });
+    
+    $('.hotSpot').click(function() {
+	    var hotSpotID = this.id.slice(-1);
+	    var dropDownID = "#spineItem-" + hotSpotID;
+	     $('.hotSpot').removeClass('hotSpotActive');
+	     $(this).addClass('hotSpotActive');
+	    $(dropDownID).children('.copyWrapper').stop().slideToggle();
+	    $(dropDownID).siblings().children('.copyWrapper').stop().slideUp();
+	    $(dropDownID).toggleClass("itemOpen");
+		$(dropDownID).siblings().removeClass("itemOpen"); 
+
+	    
+	    
+	    
+	});
     
     
         
