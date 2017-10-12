@@ -14,16 +14,19 @@
 			<?php include("partials/procedures-hero.php"); ?>
       	</section>
         
-        
+         <!-- select spine Section -->
+		<section id="procedures-selectSpine" class="procedures-section-2 group blackBG">
+			<?php include("partials/procedures-spineArea.php"); ?>
+		</section>
       
       <!-- video Section -->
-		<section id="conditions-video" class="conditions-section-2 group">
+		<section id="conditions-video" class="procedures-section-3 group">
 			<?php include("partials/procedures-video.php"); ?>
 		</section>
 		
 		
 		<!-- tesimonial Section -->
-		<section id="about-testimonials" class="about-section-5 group twoColumn greyBG">
+		<section id="about-testimonials" class="procedures-section-5 group twoColumn greyBG">
 			 <?php include("partials/about-testimonials.php"); ?>
 		</section>
 		

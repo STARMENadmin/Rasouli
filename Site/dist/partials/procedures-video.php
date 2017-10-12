@@ -12,10 +12,10 @@
                             <div class="left">
                                 
                                 
-                                <p class="smallTitle">About Your Condition</p>
+                                <p class="smallTitle">Message From Dr. Rasouli</p>
                                 
                                 <div class="player-copy" id="player-copy-1">
-                                    <p class="largeTitle">Scoliosis 1</p>
+                                    <p class="largeTitle">Video title</p>
                                     <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
                                 </div><!-- #player-copy-1 -->
                                 

@@ -1472,6 +1472,10 @@ div.left div.player-copy:nth-child(2){
   procedures page
    ========================================================================== */
 
+.blackBG{
+    background-color: #000;
+}
+
 .procedures-hero-copy-1{
     left:10%;
     right: auto !important;
@@ -1501,3 +1505,129 @@ div.left div.player-copy:nth-child(2){
     
     margin-top: 0 !important;
 }
+
+
+#procedures-selectSpine{
+    
+    color:#fff;
+    
+    .left{
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+        
+        img{
+            
+            width: 100%;
+        }
+    }
+    
+    .right{
+        float: right;
+        width: 48%;
+        margin-left: 2%;
+    }
+    
+    .spineSelectWrapper{
+        border: 1px solid #808080;
+    }
+    
+     .itemOpen{
+            background-color: #202020;
+        }
+    .spineItem{
+        position: relative;
+        border-bottom: 1px solid #808080;
+        padding: 50px;
+        
+        &:last-child{
+            border-bottom: none;
+        }
+        
+            &:first-child{
+               
+                
+                .copyWrapper{
+                    display: block;
+                }
+            }
+        
+        
+
+        .roundButton {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                border-radius: 24px;
+                border: 2px solid #FFF;
+                transition: opacity .2s ease-out;
+                top:50px;
+                right: 50px;
+
+                .cross {
+                    position: absolute;
+                    left: 20px;
+                    top: 20px;
+
+                    .a {
+                        position: absolute;
+                        width: 14px;
+                        height: 2px;
+                         background-color: #FFF;
+                        left: -7px;
+                        top: -1px;
+                        transition: all ease-in-out .3s;
+                        }
+
+                        .b {
+                            position: absolute;
+                            width: 2px;
+                            height: 14px;
+                            background-color: #FFF;
+                            left: -1px;
+                            top: -7px;
+                            transition: all ease-in-out .3s;
+                        }   
+
+                    }
+                }
+        
+        
+        
+        .copyWrapper{
+            margin-top: 50px;
+            display: none;
+            
+
+        }
+        
+        .title{
+            margin: 0 0 0 0;
+            font-family: $brandonMed;
+            font-size: em(28);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .title2{
+            margin: 0;
+            font-family: $brandonMed;
+            font-size: em(16);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #939393;
+        }
+        
+        p{
+            font-family: $brandonLight;
+            font-size: em(16);
+            letter-spacing: 2px;
+            line-height: normal;
+            
+        }
+    }
+    
+}
+
+
+

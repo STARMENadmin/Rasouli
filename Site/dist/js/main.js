@@ -228,6 +228,25 @@ function simpleParallax(intensity, element) {
 		  	$('.tweet ul li').prepend('  <div class="twitterLogo"><img src="../img/twitterLogo.png" /></div>');
         
 		});
+    
+    
+    // procedures page select neck section 
+    
+    $('.spineItem').click(function() {
+        
+        $(this).siblings().children('.copyWrapper').stop().slideUp();
+        //
+        $(this).children('.copyWrapper').stop().slideToggle();
+        
+        
+       $(this).toggleClass("itemOpen");
+        $(this).siblings().removeClass("itemOpen");  
+           
+       
+        
+    });
+    
+    
         
 
         //foooter
