@@ -1023,7 +1023,9 @@ textarea {
 
 
     
-
+    .quote{
+        font-style: italic; 
+    }  
 
 
 /* ==========================================================================
@@ -1039,7 +1041,7 @@ textarea {
             top: 20%;
     }
     
-     
+
    
     
     #home-hero-copy-2{
@@ -1507,35 +1509,15 @@ div.left div.player-copy:nth-child(2){
 }
 
 
-#procedures-selectSpine{
+
+.spineSelectWrapper{
+    border: 1px solid #808080;
+}
     
-    color:#fff;
-    
-    .left{
-        float: left;
-        width: 48%;
-        margin-right: 2%;
-        
-        img{
-            
-            width: 100%;
-        }
-    }
-    
-    .right{
-        float: right;
-        width: 48%;
-        margin-left: 2%;
-    }
-    
-    .spineSelectWrapper{
-        border: 1px solid #808080;
-    }
-    
-     .itemOpen{
-            background-color: #202020;
-        }
-    .spineItem{
+.itemOpen{
+    background-color: #202020;
+ }
+.spineItem{
         position: relative;
         border-bottom: 1px solid #808080;
         padding: 50px;
@@ -1544,16 +1526,42 @@ div.left div.player-copy:nth-child(2){
             border-bottom: none;
         }
         
-            &:first-child{
-               
-                
-                .copyWrapper{
-                    display: block;
-                }
+        &:first-child{         
+            .copyWrapper{
+                display: block;
             }
+        }
         
+        .copyWrapper{
+            margin-top: 50px;
+            display: none;
+        }
         
+        .title{
+            margin: 0 0 0 0;
+            font-family: $brandonMed;
+            font-size: em(28);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
 
+        .title2{
+            margin: 0;
+            font-family: $brandonMed;
+            font-size: em(16);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #939393;
+        }
+        
+        p{
+            font-family: $brandonLight;
+            font-size: em(16);
+            letter-spacing: 2px;
+            line-height: normal;
+            
+        }
+}
         .roundButton {
                 position: absolute;
                 width: 40px;
@@ -1590,44 +1598,159 @@ div.left div.player-copy:nth-child(2){
                         }   
 
                     }
-                }
+                }        
         
         
-        
-        .copyWrapper{
-            margin-top: 50px;
-            display: none;
-            
 
-        }
-        
-        .title{
-            margin: 0 0 0 0;
-            font-family: $brandonMed;
-            font-size: em(28);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
 
-        .title2{
-            margin: 0;
-            font-family: $brandonMed;
-            font-size: em(16);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: #939393;
-        }
+
+#procedures-selectSpine{
+    
+    color:#fff;
+    
+    .left{
+        float: left;
+        width: 48%;
+        margin-right: 2%;
         
-        p{
-            font-family: $brandonLight;
-            font-size: em(16);
-            letter-spacing: 2px;
-            line-height: normal;
+        img{
             
+            width: 100%;
         }
     }
+    
+    .right{
+        float: right;
+        width: 48%;
+        margin-left: 2%;
+    }
+    
+           
+
+
+        
+        
+        
+
     
 }
 
 
+/* ==========================================================================
+  outpatient page
+   ========================================================================== */
 
+
+.outpaientPage{
+    .hero-outpatient{
+        padding-bottom: 0 !important;
+    }
+    
+    #outpatient-invasiveTreatments{
+        padding-top: 0 !important;
+        
+        .left{
+            width:45%;
+            margin-right: 5%;
+            float:left;
+             color: #fff;
+            
+            .smallTitle{
+                color: #fff;
+            }
+            
+            .heroLargeText {
+                font-family: Conv_Austin-Roman;
+                text-transform: none;
+                font-size: 4.375em;
+                letter-spacing: 3px;
+                font-weight: normal;
+                margin: 0;
+                span{
+                    display: block;
+                }
+            }
+            
+        }
+          .right{
+            width:45%;
+              margin-left: 5%;
+            float:left;
+              margin-top: 90px;
+              
+              p{
+                  color: #fff;
+                  font-family: $brandonMed;
+                    font-size: 1.125em;
+                    line-height: 1.85vw;
+                    margin: 0 0 20px 0;
+                    letter-spacing: 2px;
+              }
+        }
+        
+    }
+    
+    .outpatient-hero-copy-1{
+        top: 40% !important;
+         left: 23% !important;
+        right: 0 !important;
+        
+        h2,
+        span{
+            padding-left: 5% !important;
+        }
+    }
+    
+    .spineItem:first-child .copyWrapper {
+    display: none;
+    }
+    
+    .spineSelectWrapper{
+        margin-top: 80px;
+        width: 100%;
+        max-width: 660px;
+    }
+    
+    
+}
+
+.boxText{
+    border:1px solid #000;
+    width: 45%;
+   display: inline-block;
+    margin-left: 5%;
+    float: right;
+    margin-bottom: 100px;
+    
+    p{
+        text-align: center;
+        margin: 30px 0;
+    }
+}
+
+.boxTextLeft{
+    margin: 0 5% 100px 0 !important;
+    float: left !important;
+}
+
+.marginBottom{
+ margin-bottom: 100px;   
+    
+}
+
+.quoteName{
+        text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.875em;
+    letter-spacing: 2px;
+    font-family:$brandonBold;
+    font-style: normal;
+    display: block;
+    margin-top: 20px;
+}
+
+.photoText{
+    font-size: em(14);
+    line-height: normal;
+    margin-top: 40px;
+}

@@ -842,6 +842,9 @@ textarea {
 .timeline-Widget {
   max-width: 100% !important; }
 
+.quote {
+  font-style: italic; }
+
 /* ==========================================================================
   about hero
    ========================================================================== */
@@ -1169,6 +1172,72 @@ div.left div.player-copy:nth-child(2) {
 .theproceduresPage .condition-video-wrapper .video-player-section {
   margin-top: 0 !important; }
 
+.spineSelectWrapper {
+  border: 1px solid #808080; }
+
+.itemOpen {
+  background-color: #202020; }
+
+.spineItem {
+  position: relative;
+  border-bottom: 1px solid #808080;
+  padding: 50px; }
+  .spineItem:last-child {
+    border-bottom: none; }
+  .spineItem:first-child .copyWrapper {
+    display: block; }
+  .spineItem .copyWrapper {
+    margin-top: 50px;
+    display: none; }
+  .spineItem .title {
+    margin: 0 0 0 0;
+    font-family: BrandonGrotesque-Medium;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .spineItem .title2 {
+    margin: 0;
+    font-family: BrandonGrotesque-Medium;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #939393; }
+  .spineItem p {
+    font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+    font-size: 1em;
+    letter-spacing: 2px;
+    line-height: normal; }
+
+.roundButton {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  border: 2px solid #FFF;
+  transition: opacity .2s ease-out;
+  top: 50px;
+  right: 50px; }
+  .roundButton .cross {
+    position: absolute;
+    left: 20px;
+    top: 20px; }
+    .roundButton .cross .a {
+      position: absolute;
+      width: 14px;
+      height: 2px;
+      background-color: #FFF;
+      left: -7px;
+      top: -1px;
+      transition: all ease-in-out .3s; }
+    .roundButton .cross .b {
+      position: absolute;
+      width: 2px;
+      height: 14px;
+      background-color: #FFF;
+      left: -1px;
+      top: -7px;
+      transition: all ease-in-out .3s; }
+
 #procedures-selectSpine {
   color: #fff; }
   #procedures-selectSpine .left {
@@ -1181,68 +1250,88 @@ div.left div.player-copy:nth-child(2) {
     float: right;
     width: 48%;
     margin-left: 2%; }
-  #procedures-selectSpine .spineSelectWrapper {
-    border: 1px solid #808080; }
-  #procedures-selectSpine .itemOpen {
-    background-color: #202020; }
-  #procedures-selectSpine .spineItem {
-    position: relative;
-    border-bottom: 1px solid #808080;
-    padding: 50px; }
-    #procedures-selectSpine .spineItem:last-child {
-      border-bottom: none; }
-    #procedures-selectSpine .spineItem:first-child .copyWrapper {
-      display: block; }
-    #procedures-selectSpine .spineItem .roundButton {
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      border-radius: 24px;
-      border: 2px solid #FFF;
-      transition: opacity .2s ease-out;
-      top: 50px;
-      right: 50px; }
-      #procedures-selectSpine .spineItem .roundButton .cross {
-        position: absolute;
-        left: 20px;
-        top: 20px; }
-        #procedures-selectSpine .spineItem .roundButton .cross .a {
-          position: absolute;
-          width: 14px;
-          height: 2px;
-          background-color: #FFF;
-          left: -7px;
-          top: -1px;
-          transition: all ease-in-out .3s; }
-        #procedures-selectSpine .spineItem .roundButton .cross .b {
-          position: absolute;
-          width: 2px;
-          height: 14px;
-          background-color: #FFF;
-          left: -1px;
-          top: -7px;
-          transition: all ease-in-out .3s; }
-    #procedures-selectSpine .spineItem .copyWrapper {
-      margin-top: 50px;
-      display: none; }
-    #procedures-selectSpine .spineItem .title {
-      margin: 0 0 0 0;
+
+/* ==========================================================================
+  outpatient page
+   ========================================================================== */
+.outpaientPage .hero-outpatient {
+  padding-bottom: 0 !important; }
+.outpaientPage #outpatient-invasiveTreatments {
+  padding-top: 0 !important; }
+  .outpaientPage #outpatient-invasiveTreatments .left {
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+    color: #fff; }
+    .outpaientPage #outpatient-invasiveTreatments .left .smallTitle {
+      color: #fff; }
+    .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText {
+      font-family: Conv_Austin-Roman;
+      text-transform: none;
+      font-size: 4.375em;
+      letter-spacing: 3px;
+      font-weight: normal;
+      margin: 0; }
+      .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText span {
+        display: block; }
+  .outpaientPage #outpatient-invasiveTreatments .right {
+    width: 45%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 90px; }
+    .outpaientPage #outpatient-invasiveTreatments .right p {
+      color: #fff;
       font-family: BrandonGrotesque-Medium;
-      font-size: 1.75em;
-      text-transform: uppercase;
+      font-size: 1.125em;
+      line-height: 1.85vw;
+      margin: 0 0 20px 0;
       letter-spacing: 2px; }
-    #procedures-selectSpine .spineItem .title2 {
-      margin: 0;
-      font-family: BrandonGrotesque-Medium;
-      font-size: 1em;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: #939393; }
-    #procedures-selectSpine .spineItem p {
-      font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
-      font-size: 1em;
-      letter-spacing: 2px;
-      line-height: normal; }
+.outpaientPage .outpatient-hero-copy-1 {
+  top: 40% !important;
+  left: 23% !important;
+  right: 0 !important; }
+  .outpaientPage .outpatient-hero-copy-1 h2,
+  .outpaientPage .outpatient-hero-copy-1 span {
+    padding-left: 5% !important; }
+.outpaientPage .spineItem:first-child .copyWrapper {
+  display: none; }
+.outpaientPage .spineSelectWrapper {
+  margin-top: 80px;
+  width: 100%;
+  max-width: 660px; }
+
+.boxText {
+  border: 1px solid #000;
+  width: 45%;
+  display: inline-block;
+  margin-left: 5%;
+  float: right;
+  margin-bottom: 100px; }
+  .boxText p {
+    text-align: center;
+    margin: 30px 0; }
+
+.boxTextLeft {
+  margin: 0 5% 100px 0 !important;
+  float: left !important; }
+
+.marginBottom {
+  margin-bottom: 100px; }
+
+.quoteName {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.875em;
+  letter-spacing: 2px;
+  font-family: BrandonGrotesque-Bold;
+  font-style: normal;
+  display: block;
+  margin-top: 20px; }
+
+.photoText {
+  font-size: 0.875em;
+  line-height: normal;
+  margin-top: 40px; }
 
 footer {
   background-color: #000;
