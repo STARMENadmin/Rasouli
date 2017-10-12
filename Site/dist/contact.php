@@ -14,30 +14,16 @@
 			<?php include("partials/contact-hero.php"); ?>
       	</section>
         
-         <!-- select spine Section -->
-		<section id="contactPage-form" class="outpatient-section-2 group blackBG">
+         <!-- form Section -->
+		<section id="contactPage-form" class="contact-section-2 group blackBG">
 			<?php include("partials/contact-form.php"); ?>
 		</section>
       
-      <!-- technology Section -->
-		<section id="outpaient-technology" class="outpatient-section-3 group twoColumn">
-			<?php include("partials/outpatient-technology.php"); ?>
+      <!-- map Section -->
+		<section id="contactPage-map" class="contact-section-3 group">
+			<?php include("partials/contact-map.php"); ?>
 		</section>
         
-          <!-- inovation Section -->
-		<section id="outpaient-inovation" class="outpatient-section-4 group twoColumn greyBG">
-			<?php include("partials/outpatient-inovation.php"); ?>
-		</section>
-        
-         <!-- leadership Section -->
-		<section id="outpaient-leadership" class="outpatient-section-4 group twoColumn">
-			<?php include("partials/outpatient-leadership.php"); ?>
-		</section>
-		
-		
-			<!-- Blog post 1 -->
-		<section id="home-blog" class="home-section-6 group twoColumn greyBG">
-			<?php include("partials/homepage-BlogCarousel.php"); ?>		
-		</section>
+
 
          <?php include("partials/footer.php"); ?>

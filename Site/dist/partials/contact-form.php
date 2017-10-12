@@ -11,7 +11,7 @@
 						<input type="text" name="last-name" placeholder="Last Name">
 						<input type="text" name="email" placeholder="Email">
 						<input type="text" name="phone" placeholder="Phone">
-						<input type="text" name="message" placeholder="Message" class="messageInput">
+						<textarea  name="message" placeholder="Message" class="messageInput"></textarea>
 						
 						<input type="submit" value="Submit" class="formSubmitButton">
 					</form>

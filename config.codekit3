@@ -3446,6 +3446,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/mapPin.png": {
+		"ft": 32768,
+		"iS": 3170,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/mapPin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/newsletterArrow.png": {
 		"ft": 32768,
 		"iS": 1023,
@@ -4329,6 +4340,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/contact-hero.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/contact-map.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/contact-map.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/footer.php": {

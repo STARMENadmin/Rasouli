@@ -1933,6 +1933,10 @@ div.left div.player-copy:nth-child(2){
 
 .contactPage{
 	
+	.hero-contact{
+		padding-bottom: 0 !important;
+	}
+	
 	.right{
 	
 		.form-wrapper{
@@ -1940,13 +1944,16 @@ div.left div.player-copy:nth-child(2){
 			
 			form{
 				
+				
 				input[type=text] {
+					position: relative;
+					top: 0;
 					float: none;
-					width: 97%;
+					width: 96.5%;
 					border: 1px solid $darkGrey;
 					background-color: transparent;
 					color: #fff;
-					padding: 0 0 0 3%;
+					 padding-left: 3%;
 					margin: 0 0 25px 0;
 					height: 70px;
 					text-transform: uppercase;
@@ -1956,14 +1963,29 @@ div.left div.player-copy:nth-child(2){
 				}
 				
 				.messageInput{
-					height: 300px !important;
+					height: 272px !important;
+					padding: 28px 0 0 3%;					
+					background-color: #000;
+					text-transform: uppercase;
+					margin: 0 0 25px 0;
+					width: 96.5%;
+					color: #fff;
+					text-transform: uppercase;
+					font-family: $brandonBold;
+	                letter-spacing: 2px;
+	                line-height: normal;
+					
+					&:focus{
+				       border: 1px solid $darkGrey;
+				        outline: 0;
+				    }
+					
 					
 				}
 				
 			.formSubmitButton {
 					width: 100%;
-					
-					border: 1px solid $darkGrey;
+					border: none;
 					background-color: #808080 !important;
 					color: #fff;
 					padding: 0;
@@ -1978,15 +2000,20 @@ div.left div.player-copy:nth-child(2){
 				::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 				  color: $darkGrey;
 	                letter-spacing: 2px;
+	                padding-left: 3%;
+
 				}
 				::-moz-placeholder { /* Firefox 19+ */
 				  color: $darkGrey;
+				   padding-left: 3%;
 				}
 				:-ms-input-placeholder { /* IE 10+ */
 				  color: $darkGrey;
+				   padding-left: 3%;
 				}
 				:-moz-placeholder { /* Firefox 18- */
 				  color: $darkGrey;
+				   padding-left: 3%;
 				}
 			}
 			
@@ -1995,4 +2022,29 @@ div.left div.player-copy:nth-child(2){
 	
 }
 
+#contactPage-form,#contactPage-map{
+	    padding: 100px 12% 100px 12%;
+}
+
+
+/* ==========================================================================
+   contact page map
+   ========================================================================== */
    
+   
+   .mapWrapper{
+	   width: 100%;
+	   
+	   #map{
+		   width: 100%;
+		   height: 600px;
+	   }
+	   
+	   p{
+		   text-align: center;
+		   text-transform: uppercase;
+			font-family: $brandonBold;
+	        letter-spacing: 2px;line-height: normal;
+	        margin-bottom: 40px;
+	   }
+   }
