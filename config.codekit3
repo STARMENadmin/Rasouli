@@ -3498,6 +3498,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/pdfButton.png": {
+		"ft": 32768,
+		"iS": 1196,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/pdfButton.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/proceduresBg1.jpg": {
 		"ft": 16384,
 		"iS": 116004,
@@ -4470,6 +4481,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/resources-forms.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/resources-providers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/resources-providers.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/resoures-hero.php": {

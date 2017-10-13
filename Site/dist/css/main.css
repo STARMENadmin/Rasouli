@@ -4,7 +4,7 @@
 /* Mixins */
 /* mixin opacity:  @include opacity(0.8) */
 /* Fonts Size font-size: em(24); */
-.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .condition-video-wrapper .dropbtn, .condition-video-wrapper .dropdown-content p, .condition-video-wrapper .video-buttons-wrapper .video-Button, .hotSpotWrapper .hotSpot, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
+.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .condition-video-wrapper .dropbtn, .condition-video-wrapper .dropdown-content p, .condition-video-wrapper .video-buttons-wrapper .video-Button, .hotSpotWrapper .hotSpot, .pdfItem:hover, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
   cursor: pointer;
   cursor: hand; }
 
@@ -1436,12 +1436,12 @@ div.left div.player-copy:nth-child(2) {
 /* ==========================================================================
    contact page
    ========================================================================== */
-.resourcesPage .left,
+.resourcesPage #resources-forms .left,
 .contactPage #contactPage-form .left {
   width: 45%;
   margin-right: 5%;
   float: left; }
-  .resourcesPage .left .heroLargeText,
+  .resourcesPage #resources-forms .left .heroLargeText,
   .contactPage #contactPage-form .left .heroLargeText {
     font-family: Conv_Austin-Roman;
     text-transform: none;
@@ -1452,7 +1452,7 @@ div.left div.player-copy:nth-child(2) {
     color: #fff;
     line-height: normal;
     margin-bottom: 40px; }
-  .resourcesPage .left p,
+  .resourcesPage #resources-forms .left p,
   .contactPage #contactPage-form .left p {
     color: #fff;
     font-family: BrandonGrotesque-Medium;
@@ -1461,7 +1461,7 @@ div.left div.player-copy:nth-child(2) {
     margin: 0 0 0 0;
     letter-spacing: 2px; }
 
-.resourcesPage .right,
+#resources-forms .right,
 .contactPage #contactPage-form .right {
   width: 45%;
   margin-left: 5%;
@@ -1572,16 +1572,30 @@ div.left div.player-copy:nth-child(2) {
 /* ==========================================================================
    patient resources page
    ========================================================================== */
+#resources-forms {
+  padding: 100px 12% 100px 12% !important; }
+  #resources-forms .left .smallTitle {
+    margin-bottom: 30px !important; }
+
 .pdfItem {
   position: relative;
   border: 1px solid #808080;
   padding: 50px;
-  color: #fff; }
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 70px; }
+  .pdfItem:hover {
+    background-color: #202020; }
+  .pdfItem .pdfButton {
+    position: absolute;
+    right: 40px;
+    top: 37px; }
 
 .title {
   margin: 0 0 0 0;
   font-family: BrandonGrotesque-Bold;
-  font-size: 1.25em;
+  font-size: 1.125em;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px; }
@@ -1600,6 +1614,22 @@ div.left div.player-copy:nth-child(2) {
   transition: opacity .2s ease-out;
   top: 30px;
   left: 40px; }
+
+#resources-providers {
+  padding: 100px 12% 100px 12% !important; }
+  #resources-providers .left .smallTitle {
+    margin-bottom: 30px; }
+  #resources-providers .left p {
+    color: #000 !important; }
+  #resources-providers .right p {
+    color: #000;
+    font-family: BrandonGrotesque-Medium;
+    font-size: 1.125em;
+    line-height: 1.85vw;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px; }
+  #resources-providers .providersWrapper .awardLogo {
+    width: 25%; }
 
 footer {
   background-color: #000;

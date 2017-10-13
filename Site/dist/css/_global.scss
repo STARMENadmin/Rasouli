@@ -1894,7 +1894,7 @@ div.left div.player-copy:nth-child(2){
    contact page
    ========================================================================== */
    
- .resourcesPage  .left,
+ .resourcesPage #resources-forms   .left,
  .contactPage #contactPage-form .left{
 	 
 	width: 45%;
@@ -1924,7 +1924,7 @@ div.left div.player-copy:nth-child(2){
 	}
 
 }
-.resourcesPage .right,
+#resources-forms .right,
 .contactPage #contactPage-form .right{
 	width: 45%;
     margin-left: 5%;
@@ -2062,18 +2062,42 @@ div.left div.player-copy:nth-child(2){
    patient resources page
    ========================================================================== */
    
-   
+   #resources-forms{
+	       padding: 100px 12% 100px 12% !important;
+	   .left .smallTitle{
+	        margin-bottom: 30px !important;
+        	
+	   }
+   }
    
    		.pdfItem{
         position: relative;
         border: 1px solid #808080;
         padding: 50px;
         color: #fff;
+        display: block;
+        text-decoration: none;
+        margin-bottom: 70px;
+        
+	        &:hover{
+		        background-color: #202020;
+		        @extend %cursor;
+	        }
+	        
+	        .pdfButton{
+		        position: absolute;
+		        right:40px;
+		        top:37px;
+	        }
+	        
+	       
         }
+        
+
          .title{
             margin: 0 0 0 0;
             font-family: $brandonBold;
-            font-size: em(20);
+            font-size: em(18);
             text-align: center;
             text-transform: uppercase;
             letter-spacing: 3px;
@@ -2095,4 +2119,32 @@ div.left div.player-copy:nth-child(2){
     transition: opacity .2s ease-out;
     top: 30px;
     left: 40px;
+}
+
+
+#resources-providers{ 
+	  padding: 100px 12% 100px 12% !important;
+	
+	.left .smallTitle{
+		margin-bottom: 30px;
+	}
+	
+	.left p{
+		color: #000 !important;
+	}
+	
+		.right	p{
+		    color: #000;
+		    font-family: BrandonGrotesque-Medium;
+		    font-size: 1.125em;
+		    line-height: 1.85vw;
+		    margin: 0 0 20px 0;
+		    letter-spacing: 2px;
+		}
+		
+		
+	.providersWrapper .awardLogo{
+		width: 25%;
+	}	
+		
 }

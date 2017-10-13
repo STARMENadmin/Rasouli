@@ -15,13 +15,13 @@
       	</section>
         
          <!-- form Section -->
-		<section id="contactPage-form" class="contact-section-2 group blackBG">
+		<section id="resources-forms" class="resources-section-2 group blackBG">
 			<?php include("partials/resources-forms.php"); ?>
 		</section>
       
       <!-- map Section -->
-		<section id="contactPage-map" class="contact-section-3 group">
-			<?php include("partials/contact-map.php"); ?>
+		<section id="resources-providers" class="outpaientPage resources-section-3 group">
+			<?php include("partials/resources-providers.php"); ?>
 		</section>
         
 
