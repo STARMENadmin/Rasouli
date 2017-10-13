@@ -261,6 +261,13 @@ function simpleParallax(intensity, element) {
 
         //foooter
         $( "#datepicker" ).datepicker();
+        
+        
+        
+        // lazyload
+        
+        
+        
 		      
   
   
