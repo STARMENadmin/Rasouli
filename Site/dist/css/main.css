@@ -1631,6 +1631,26 @@ div.left div.player-copy:nth-child(2) {
   #resources-providers .providersWrapper .awardLogo {
     width: 25%; }
 
+.heroLargeText {
+  font-family: Conv_Austin-Roman;
+  text-transform: none;
+  font-size: 4.375em;
+  letter-spacing: 3px;
+  font-weight: normal;
+  margin: 0; }
+  .heroLargeText span {
+    display: block; }
+
+#resources-providers .left {
+  width: 45%;
+  margin-right: 5%;
+  float: left; }
+
+#resources-providers .right {
+  width: 45%;
+  margin-left: 5%;
+  float: left; }
+
 footer {
   background-color: #000;
   color: #fff;

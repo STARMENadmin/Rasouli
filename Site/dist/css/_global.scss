@@ -2148,3 +2148,31 @@ div.left div.player-copy:nth-child(2){
 	}	
 		
 }
+.heroLargeText{
+	font-family: $austinRoman;
+	text-transform: none;
+	font-size: em(70);
+	letter-spacing: 3px;
+	font-weight: normal;
+	margin: 0;
+					
+	span{
+		display: block;
+	}
+}
+				
+#resources-providers{
+	
+	.left{
+		    width: 45%;
+    margin-right: 5%;
+    float: left;
+	}
+	
+	.right{
+	width: 45%;
+    margin-left: 5%;
+    float: left;
+	}
+}	
+			
