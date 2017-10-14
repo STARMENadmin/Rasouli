@@ -31,7 +31,14 @@
 		
 					<?php get_template_part('loop'); ?>
 		
-					<?php // get_template_part('pagination'); ?>
+					<?php  get_template_part('pagination'); ?>
+					<?php
+
+ 
+// don't display the button if there are not enough posts
+if (  $wp_query->max_num_pages > 1 )
+	echo '<div class="misha_loadmore">More posts</div>'; // you can use <a> as well
+?>
 					<div class="clear"></div>
 				</section><!-- /section -->
 				

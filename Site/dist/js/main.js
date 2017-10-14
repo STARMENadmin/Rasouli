@@ -264,7 +264,7 @@ function simpleParallax(intensity, element) {
         
         
         
-        // lazyload
+
         
         
         
