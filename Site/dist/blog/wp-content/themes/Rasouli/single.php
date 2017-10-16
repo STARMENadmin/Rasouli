@@ -1,45 +1,57 @@
 <?php get_header(); ?>
 
+ <nav class="header-nav">
+     <img class="navLogo" src="/img/rasouliNavLogo.png"/>
+	 <ul>
+	    <li><a href="/index.php">Home</a></li>
+	    <li><a href="/thepractice.php">The Practice</a></li>
+	    <li><a href="/theconditions.php">The Conditions</a></li>
+	    <li><a href="/theprocedures.php">The Procedures</a></li>
+	    <li><a href="/the-outpaient-revolution.php">The Outpatient Revolution</a></li>
+	    <li><a href="/contact.php">Contact</a></li>
+	 </ul>
+	 <div id="navBackground"></div>
+	 
+  </nav>
+
+	     <div id="header-logo">
+	      	<img class="logo" src="/img/global/rasouli-spine-logo.jpg">
+	      </div> 
+
+
 	<main role="main">
-	<!-- section -->
-	<section>
+					<!-- Hero Section -->
+		<section id="hero-about" class="hero hero-blog">
+			<div id="home-hero-copy-1" class="blog-hero-copy-1">
+		      <h1>Rasouli Blog</h1>
+                <h2>News and Notes from the Rasouli spine surgery team</h2>
+			</div>
+			<img class="hero-background" src="/img/blogHero.jpg"> 
+      	</section>
+      	
+		<div class="bodyWrapper">
+				<section class="blog-right">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 		<!-- article -->
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<span class="date postDate"><?php the_time('F j, Y'); ?></span>
 
-			<!-- post thumbnail -->
-			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-					<?php the_post_thumbnail(); // Fullsize image for the single post ?>
-				</a>
-			<?php endif; ?>
-			<!-- /post thumbnail -->
 
 			<!-- post title -->
-			<h1>
+			<h1 class="blogTitle blogTitleInterior">
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 			</h1>
 			<!-- /post title -->
 
-			<!-- post details -->
-			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-			<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
-			<!-- /post details -->
+
 
 			<?php the_content(); // Dynamic Content ?>
 
-			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+			
 
-			<p><?php _e( 'Categorised in: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
-
-			<p><?php _e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
-
-			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
-
-			<?php comments_template(); ?>
+		
 
 		</article>
 		<!-- /article -->
@@ -48,20 +60,20 @@
 
 	<?php else: ?>
 
-		<!-- article -->
-		<article>
 
-			<h1><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
-
-		</article>
-		<!-- /article -->
 
 	<?php endif; ?>
-
+		<?php echo do_shortcode( '[ajax_load_more post_type="post" posts_per_page="3" meta_key="" meta_value="" meta_compare="IN" meta_type="CHAR" meta_relation="AND" transition="fade"]' ); ?>
+				
 	</section>
 	<!-- /section -->
+		
+
+				<?php get_sidebar(); ?>
+				<div class="clear"></div>
+		</div><!-- /bodyWrapper -->
 	</main>
 
-<?php get_sidebar(); ?>
+
 
 <?php get_footer(); ?>

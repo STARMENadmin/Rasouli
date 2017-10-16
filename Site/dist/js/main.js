@@ -1,3 +1,5 @@
+jQuery(function($){
+
 $(document).ready(function(){
 	
 	// slide in nav
@@ -225,7 +227,7 @@ function simpleParallax(intensity, element) {
 		  	});
 		  
 		  	$( ".tweet ul li" ).wrapInner( "<p class='tweetText'></p>");
-		  	$('.tweet ul li').prepend('  <div class="twitterLogo"><img src="../img/twitterLogo.png" /></div>');
+		  	//$('.tweet ul li').prepend('  <div class="twitterLogo"><img src="../img/twitterLogo.png" /></div>');
         
 		});
     
@@ -264,11 +266,13 @@ function simpleParallax(intensity, element) {
         
         
         
-
+$(".search .search-input").attr('placeholder', 'Search this website');
         
         
         
 		      
   
   
+});
+
 });

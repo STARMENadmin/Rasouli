@@ -31,7 +31,7 @@
 				<div class="shareWrapper">
 					
 					
-					<script>function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=<url>" rel="nofollow" onclick="return fbs_click()" target="_blank"><img src="../img/facebook-share.png"/></a>
+					<script>function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=<url>" rel="nofollow" onclick="return fbs_click()" target="_blank"><img src="../../img/facebook-share.png"/></a>
 					
 					<a href="http://twitter.com/share?url=<?php the_permalink(); ?>"><img src="../img/twitter-share.png"/></a>
 					
@@ -40,7 +40,7 @@
 					<a href="mailto:?subject=Rasouli Spine Blog Post&amp;body=View the post <?php the_permalink(); ?>" title="Share by Email"><img src="../img/mail-share.png"/></a>
 						<div class="clear"></div>
 				</div>
-				
+			
 		</div><!-- /postRight -->
 		<div class="clear"></div>
 		
