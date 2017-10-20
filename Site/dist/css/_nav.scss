@@ -39,11 +39,19 @@
 		text-align: right;
 		li{
 			display: inline-block;
-			font-size: em(18);
+			font-size: em(16);
 			text-transform: uppercase;
-			font-family: $brandonMed;
+			font-family: $brandonReg;
 			margin-right: 20px;
 			font-weight: normal;
+            letter-spacing: 2px;
+            padding-bottom: 10px;
+            
+            &:hover{
+                    border-bottom: 1px solid #fff;
+            }
+            
+
 			
 			last-of-type{
 				margin-right: 0;
@@ -52,6 +60,8 @@
 			a{
 				color: #fff;
 				text-decoration:none;
+                
+
 			}
 		}
 	}

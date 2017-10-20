@@ -61,8 +61,8 @@ function simpleParallax(intensity, element) {
   	$('.testimonialOpacity').hide();
    
     $(' .hoverWrapper').mouseenter(function() {
-	  	$(this).children('.testimonialHoverText').fadeIn();
-	  	$(this).children('.testimonialOpacity').fadeIn();		 
+	  	$(this).children('.testimonialHoverText').fadeIn(700);
+	  	$(this).children('.testimonialOpacity').fadeIn(700);		 
     });
     
         $(' .hoverWrapper').mouseleave(function() {
@@ -71,25 +71,25 @@ function simpleParallax(intensity, element) {
     });
     
     // procedure section
-    $(' .column').mouseenter(function() {
-        $(this).children('.copyWrapper').children('.proPara').slideToggle();
+    $(' .expandColumn').mouseenter(function() {
+        $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
         $(this).children('.copyWrapper').children('.roundButton').children('.bg').addClass('bgOver');
         $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').addClass('blackBG');
         $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').addClass('blackBG');
-       $(this).children('.copyWrapper').children('.roundButton').children('.readmore').fadeIn();
+       $(this).children('.copyWrapper').children('.roundButton').children('.readmore').stop().fadeIn();
     });
     
-     $(' .column').mouseleave(function() {
+     $(' .expandColumn').mouseleave(function() {
          
-         $(this).children('.copyWrapper').children('.proPara').slideToggle();
+         $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
          $(this).children('.copyWrapper').children('.roundButton').children('.bg').removeClass('bgOver');
          $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').removeClass('blackBG');
 		 $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').removeClass('blackBG');
-		 $(this).children('.copyWrapper').children('.roundButton').children('.readmore').fadeOut();
+		 $(this).children('.copyWrapper').children('.roundButton').children('.readmore').stop().fadeOut();
     });
     
 
-    $('.column').click(function() {
+    $('.expandColumn').click(function() {
 	    $(this).children('.copyWrapper').fadeOut(200);
 	    $(this).siblings().children('.copyWrapper').fadeOut();
 	    
@@ -212,7 +212,7 @@ function simpleParallax(intensity, element) {
 		     
 		 $('.tweet').twittie({
             dateFormat: '%b. %d, %Y',
-            template: '{{tweet}} <div class="date">{{date}}</div> <a href="{{url}}" target="_blank">Details</a>',
+            template: '{{tweet}}  <a href="{{url}}" target="_blank">Details</a>',
             count: 5,
             hideReplies: true
         }, function() {

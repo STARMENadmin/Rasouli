@@ -20,7 +20,7 @@
 	                </div><!-- roundButton -->
 	                
                     <div class="columnWrapper">
-	                    <div class="column column-1">
+	                    <div class="column column-1 expandColumn">
 		                    <p class="verticalText">Medical Assistant</p>
 		                    <div class="columnOverlay"></div>
 	                        <div class="copyWrapper">
@@ -45,7 +45,7 @@
 	                        <img src="img/team-1.png"/>
 	                    </div><!-- column-1 -->
 	                    
-	                    <div class="column column-2">
+	                    <div class="column column-2 expandColumn">
 		                    <p class="verticalText">Medical Assistant</p>
 		                    <div class="columnOverlay"></div>
 	                        <div class="copyWrapper">
@@ -69,7 +69,7 @@
 		                        <img src="img/team-1.png"/>
 		                 </div><!-- column-2 -->
 		                 
-                        <div class="column column-3">
+                        <div class="column column-3 expandColumn">
 		                    <p class="verticalText">Medical Assistant</p>
 		                    <div class="columnOverlay"></div>
 	                        <div class="copyWrapper">
@@ -94,7 +94,7 @@
 		                       <img src="img/team-1.png"/>            
 	                    </div><!-- column-3 -->
 	                    
-	                    <div class="column column-4">
+	                    <div class="column column-4 expandColumn">
 		                    <p class="verticalText">Medical Assistant</p>
 		                    <div class="columnOverlay"></div>
 	                        <div class="copyWrapper">

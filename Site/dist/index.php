@@ -42,7 +42,7 @@
 		</section>
         
         <!-- social media section -->
-		<section id="home-social" class="home-section-7 group">
+		<section id="home-social" class="home-section-7 ">
 			<?php include("partials/homepage-social.php"); ?>		
 		</section>
       

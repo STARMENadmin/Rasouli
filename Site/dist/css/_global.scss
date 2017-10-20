@@ -366,7 +366,7 @@ textarea {
 			float: left;
 			
 			p{
-				font-family: $brandonBold;
+				font-family: $brandonMed;
 				font-size: em(18);
 				text-transform: uppercase;
 				letter-spacing: 3px;
@@ -398,7 +398,7 @@ textarea {
 		.right{
 			width:60%;
 			float: left;
-			font-family: $brandonMed;
+			font-family: $brandonReg;
 			margin-top: 58px;
 			
 			p{
@@ -735,11 +735,12 @@ textarea {
         
         .proPara{
             font-family: $brandonReg;
-            font-size: em(12);
+            font-size: em(16);
             color: #fff;
             letter-spacing: 1px;
             margin: 0 0 100px 0;
             display: none;
+            line-height: normal;
             
         }
         
@@ -946,6 +947,7 @@ textarea {
 	   text-transform: uppercase;
 	   line-height: 56px;
 	   margin-bottom: 100px;
+       letter-spacing: 2px
    }
    
    
@@ -976,10 +978,14 @@ textarea {
   social section
    ========================================================================== */
 
+
+#home-social{
+      padding: 40px 8% 40px 8%;
+}
 .socialSectionWrapper{
     
     width: 100%;
-    
+      
     .twitterLogo{
           text-align: center;
           margin-bottom: 10px;
@@ -992,7 +998,7 @@ textarea {
     }
     .loadingTwitterText,
     .tweet li .tweetText{
-        font-family: $brandonMed;
+        font-family: $brandonReg;
         color: #000;
         letter-spacing: 2px;
         font-size: em(20);
