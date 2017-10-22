@@ -6,6 +6,7 @@
 	z-index: 9999;
 	left:0;
 	transition:0.4s top cubic-bezier(.3, .73, .3, .74);
+    right: 0;
     
     .navLogo{
         width: 100%;
@@ -69,5 +70,5 @@
 
 .slideDown {
     top:0;
-	
 	}
+

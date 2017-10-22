@@ -15424,22 +15424,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/css\/_media.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/_media.scss",
-		"outputAbbreviatedPath": "\/css\/_media.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/css\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -15481,6 +15465,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/_normalize.scss",
 		"outputAbbreviatedPath": "\/css\/_normalize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/css\/_responsive.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/_responsive.scss",
+		"outputAbbreviatedPath": "\/css\/_responsive.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -16032,6 +16032,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/closeNav.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2038,
+		"inputAbbreviatedPath": "\/img\/closeNav.png",
+		"outputAbbreviatedPath": "\/img\/closeNav.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/conditions-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -16116,6 +16127,17 @@
 		"initialSize": 6299,
 		"inputAbbreviatedPath": "\/img\/global\/rasouli-spine-logo.jpg",
 		"outputAbbreviatedPath": "\/img\/global\/rasouli-spine-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hamburger.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3304,
+		"inputAbbreviatedPath": "\/img\/hamburger.jpg",
+		"outputAbbreviatedPath": "\/img\/hamburger.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16479,6 +16501,17 @@
 		"initialSize": 104076,
 		"inputAbbreviatedPath": "\/img\/proceduresHero.jpg",
 		"outputAbbreviatedPath": "\/img\/proceduresHero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rasouli-mobile-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11027,
+		"inputAbbreviatedPath": "\/img\/rasouli-mobile-logo.jpg",
+		"outputAbbreviatedPath": "\/img\/rasouli-mobile-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

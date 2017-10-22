@@ -2,19 +2,51 @@ jQuery(function($){
 
 $(document).ready(function(){
 	
-	// slide in nav
-	
 
-	
-	$(window).scroll(function(){
-		if($(window).scrollTop() >= 600){
-			$('.header-nav').addClass('slideDown');
-		}
-	else{
-		$('.header-nav').removeClass('slideDown');
-	}
-	
-	});
+	   // slide in nav
+    
+        function slideFromTopNav(){
+               if($(window).scrollTop() >= 600){   
+                    $('.header-nav').addClass('slideDown');              
+                }else{
+                    $('.header-nav').removeClass('slideDown');
+                }
+        }
+    
+    
+     
+            
+          
+        
+           
+       
+    
+    
+$(window).scroll(function(){
+    
+          if ($(window).width() > 940) { 
+              slideFromTopNav(); 
+          } else { 
+              
+
+         }
+                      
+                
+});
+    
+            $('.hamburger').click(function() {      
+             $('.header-nav').addClass('slideLeft'); 
+                $(this).hide();
+                $('.closeNav').show();
+           
+            });
+            
+                $('.closeNav').click(function() {      
+             $('.header-nav').removeClass('slideLeft'); 
+                $(this).hide();
+                $('.hamburger').show();
+           
+            });
 	
 	// Parallax
 	
