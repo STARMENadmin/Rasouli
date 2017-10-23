@@ -2347,6 +2347,12 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/_working Files\/slideIn.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/slideIn.zip",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -18523,6 +18529,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/Homepage-TheSurgen.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/nav-static.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/nav-static.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/nav.php": {
