@@ -7,6 +7,10 @@ html {
 
 }
 
+body{
+// 	overflow: hidden;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * 
@@ -1504,12 +1508,21 @@ div.left div.player-copy:nth-child(2){
 	   margin: 0 auto;
 	  // border: 1px solid #fff;
 	  
+
+	  
 	   
 	   .hotSpot{
 		    position: absolute;
 		    transition: opacity .2s ease-out;
 		    overflow: hidden;
 		    @extend %cursor;
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
 		    
 		    
 		    &:hover{
@@ -1544,6 +1557,19 @@ div.left div.player-copy:nth-child(2){
 			    border-radius: 50%;
 		    }
 	   }
+	   
+	   	  .grow{
+		  	width: 130px;
+		  	height: 130px;
+		  	border-radius: 50%;
+		 	-webkit-transition: all 0.5s ease;
+		    -moz-transition: all 0.5s ease;
+		    -o-transition: all 0.5s ease;
+		    transition: all 0.5s ease;
+		    margin-right: -18px;
+		    margin-top: -10px;
+		    
+	  }
    }
    
    .hotSpotActive{
@@ -1554,43 +1580,32 @@ div.left div.player-copy:nth-child(2){
    }
    
    #hotspot-1{
-	      width: 90px;
-		  height: 90px; 
-		  border-radius: 45px;
+ 
+		 
 		  right:20%;
 		  top: 3%;
    }
    
     #hotspot-2{
-	      width: 90px;
-		  height: 90px; 
-		  border-radius: 45px;
+
+
 		  right:36%;
 		  top:25%;
    }
    
     #hotspot-3{
-			width: 120px;
-		    height: 120px;
-		    border-radius: 60px;
-		    right: 31%;
+
+
+		    right: 35%;
 		    top: 51%;
    }
    
-    #hotspot-3{
-			width: 120px;
-		    height: 120px;
-		    border-radius: 60px;
-		    right: 31%;
-		    top: 48%;
-   }
    
     #hotspot-4{
-	    width: 160px;
-	    height: 160px;
-	    border-radius: 80px;
-	    right: 17%;
-	    bottom: 4%;
+
+
+	    right: 26%;
+	    top: 79%;
    }
    
    
@@ -2179,22 +2194,32 @@ div.left div.player-copy:nth-child(2){
 		
 	.providersWrapper{
 		margin-top: 100px;
-		     display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+		width: 100%;
+	    -webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	     align-items: flex-end; 
+		 display: flex; 
+		 justify-content: center
 	} 	
 	.providersWrapper .awardLogo{
 		width: 25%;
-		margin-bottom: 60px;
+		height: 100%;
+		margin-bottom: 80px;
+		text-align:center;
+		vertical-align: bottom;
+		position: relative;
+		
 		
 		img{
 			width: 70%;
 			position: relative;
-			display: block;
+			display: inline-block;
 			margin: 0 auto;
+			padding: 0;
+			vertical-align: bottom;
+			text-align:center;
+			bottom: 0;
 		}
 	}	
 		

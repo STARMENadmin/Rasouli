@@ -2,6 +2,7 @@
  
     <body class="theConditionsPage">
 	     <?php include("partials/nav.php"); ?>
+	       <?php include("partials/nav-static.php"); ?>
 	     <div id="header-logo">
 	      	<img class="logo" src="img/global/rasouli-spine-logo.jpg">
 	      </div> 

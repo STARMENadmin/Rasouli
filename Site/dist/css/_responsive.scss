@@ -89,9 +89,13 @@
 }
 
 
-
 //under 940px
 @media screen and (max-width: 940px) {
+	
+	.header-nav-static{
+		display: none;
+	}
+	
     
     .header-nav{
         transition:0.4s right cubic-bezier(.3, .73, .3, .74);

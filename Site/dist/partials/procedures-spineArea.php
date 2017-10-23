@@ -1,6 +1,6 @@
 			<div class="left">
 				<div class="hotSpotWrapper">
-					<div class="hotSpot hotSpotActive" id="hotspot-1"><div class="border"></div><span></span></div>
+					<div class="hotSpot hotSpotActive grow" id="hotspot-1"><div class="border"></div><span></span></div>
 					<div class="hotSpot" id="hotspot-2"><div class="border"></div><span></span></div>
 					<div class="hotSpot" id="hotspot-3"><div class="border"></div><span></span></div>
 					<div class="hotSpot" id="hotspot-4"><div class="border"></div><span></span></div>

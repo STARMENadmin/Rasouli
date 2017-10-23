@@ -367,6 +367,11 @@ function simpleParallax(intensity, element) {
 	    var hotSpotID = this.id.slice(-1);
 	    var dropDownID = "#spineItem-" + hotSpotID;
 	    $('.hotSpot').removeClass('hotSpotActive');
+	   
+	    $(this).addClass("grow");
+	    $(this).siblings().removeClass("grow");
+
+	    
 	    $(this).addClass('hotSpotActive');
 	    $(dropDownID).children('.copyWrapper').stop().slideToggle();
 	    $(dropDownID).siblings().children('.copyWrapper').stop().slideUp();
@@ -375,8 +380,7 @@ function simpleParallax(intensity, element) {
 
 	});
     
-    
-        
+     
 
         //foooter
         $( "#datepicker" ).datepicker();
