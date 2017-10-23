@@ -16367,6 +16367,12 @@
 		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_normalize.scssc",
 		"oF": 0
 		},
+	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_responsive.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/_responsive.scssc",
+		"oF": 0
+		},
 	"\/Site\/dist\/css\/.sass-cache\/9cf3f8eef344162b9d28e1b90473271ea499e98f\/main.scssc": {
 		"ft": 8192,
 		"oA": 2,
@@ -16412,19 +16418,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/Site\/dist\/css\/_media.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/Site\/dist\/css\/_media.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/Site\/dist\/css\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -16460,6 +16453,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/Site\/dist\/css\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/Site\/dist\/css\/_responsive.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/css\/_responsive.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -17122,6 +17128,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/blogImage1Mobile.jpg": {
+		"ft": 16384,
+		"iS": 90144,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/blogImage1Mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/blogPost.jpg": {
 		"ft": 16384,
 		"iS": 48283,
@@ -17159,6 +17175,17 @@
 		"iS": 22781,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/cedars-sinai.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/closeNav.png": {
+		"ft": 32768,
+		"iS": 2038,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/closeNav.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17250,6 +17277,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/hamburger.jpg": {
+		"ft": 16384,
+		"iS": 3304,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/hamburger.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/hipaaLogo.png": {
 		"ft": 32768,
 		"iS": 19173,
@@ -17263,7 +17300,7 @@
 		},
 	"\/Site\/dist\/img\/home-hero.jpg": {
 		"ft": 16384,
-		"iS": 150209,
+		"iS": 473954,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/home-hero.jpg",
 		"oF": 0,
@@ -17410,7 +17447,7 @@
 		},
 	"\/Site\/dist\/img\/outpatient-1.jpg": {
 		"ft": 16384,
-		"iS": 89740,
+		"iS": 300282,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/outpatient-1.jpg",
 		"oF": 0,
@@ -17585,6 +17622,16 @@
 		"iS": 104076,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/proceduresHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/rasouli-mobile-logo.jpg": {
+		"ft": 16384,
+		"iS": 11027,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/rasouli-mobile-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17868,9 +17915,19 @@
 		},
 	"\/Site\/dist\/img\/theSurgen.jpg": {
 		"ft": 16384,
-		"iS": 68717,
+		"iS": 212643,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/theSurgen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/theSurgenMobile.jpg": {
+		"ft": 16384,
+		"iS": 48392,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/theSurgenMobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18363,25 +18420,25 @@
 	"\/Site\/dist\/partials\/Homepage-BlogCarousel.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Site\/dist\/partials\/homepage-BlogCarousel.php",
+		"oAP": "\/Site\/dist\/partials\/Homepage-BlogCarousel.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/Homepage-hero.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Site\/dist\/partials\/homepage-hero.php",
+		"oAP": "\/Site\/dist\/partials\/Homepage-hero.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/homepage-Outpatiant.php": {
+	"\/Site\/dist\/partials\/Homepage-Outpatiant.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Site\/dist\/partials\/homepage-Outpatiant.php",
+		"oAP": "\/Site\/dist\/partials\/Homepage-Outpatiant.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/Homepage-procedures.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Site\/dist\/partials\/homepage-procedures.php",
+		"oAP": "\/Site\/dist\/partials\/Homepage-procedures.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/homepage-social.php": {
@@ -18390,7 +18447,7 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-social.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-testimonials.php": {
+	"\/Site\/dist\/partials\/homepage-testimonials.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-testimonials.php",
@@ -18399,7 +18456,7 @@
 	"\/Site\/dist\/partials\/Homepage-TheSurgen.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Site\/dist\/partials\/homepage-TheSurgen.php",
+		"oAP": "\/Site\/dist\/partials\/Homepage-TheSurgen.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/nav.php": {
