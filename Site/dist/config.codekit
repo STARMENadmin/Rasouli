@@ -15988,6 +15988,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/blogImage1Mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90144,
+		"inputAbbreviatedPath": "\/img\/blogImage1Mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/blogImage1Mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/blogPost.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -16820,6 +16831,17 @@
 		"initialSize": 68717,
 		"inputAbbreviatedPath": "\/img\/theSurgen.jpg",
 		"outputAbbreviatedPath": "\/img\/theSurgen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/theSurgenMobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48392,
+		"inputAbbreviatedPath": "\/img\/theSurgenMobile.jpg",
+		"outputAbbreviatedPath": "\/img\/theSurgenMobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

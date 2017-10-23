@@ -1,5 +1,10 @@
 			<div class="left">
-				<img src="img/theSurgen.jpg"/>
+                
+                <picture>
+                <source media="(max-width: 768px)" srcset="img/theSurgenMobile.jpg">
+                <img src="img/theSurgen.jpg" >
+                </picture>
+                
 			</div>
 			<div class="right">
 				<p class="smallTitle">The Surgeon</p>

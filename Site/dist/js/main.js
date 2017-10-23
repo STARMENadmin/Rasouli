@@ -79,15 +79,27 @@ function simpleParallax(intensity, element) {
 */
 	
 	
-	
-  $('.home-section-6').slick({
-	  prevArrow: $('#homeBlogPrevious'),
-	  nextArrow: $('#homeBlogNext'),
-	    slide: '.slickWrapper',
-	    infinite: true,
-	    slidesToShow: 1,
-	   	slidesToScroll: 1
-  });
+
+      $('.home-section-6').slick({
+          prevArrow: $('#homeBlogPrevious'),
+          nextArrow: $('#homeBlogNext'),
+            slide: '.slickWrapper',
+            infinite: true,
+            slidesToShow: 1,
+             responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: false
+                    
+                  }
+                }
+
+              ]
+      });
+
   
   	$('.testimonialHoverText').hide();
   	$('.testimonialOpacity').hide();
@@ -104,41 +116,70 @@ function simpleParallax(intensity, element) {
     
     // procedure section
     $(' .expandColumn').mouseenter(function() {
-        $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
-        $(this).children('.copyWrapper').children('.roundButton').children('.bg').addClass('bgOver');
-        $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').addClass('blackBG');
-        $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').addClass('blackBG');
-       $(this).children('.copyWrapper').children('.roundButton').children('.readmore').stop().fadeIn();
+        
+         if ($(window).width() > 768) { 
+        
+            $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
+            $(this).children('.copyWrapper').children('.roundButton').children('.bg').addClass('bgOver');
+            $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').addClass('blackBG');
+            $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').addClass('blackBG');
+           $(this).children('.copyWrapper').children('.roundButton').children('.readmore').stop().fadeIn();
+             
+
+             
+         }
+        
+        
     });
     
      $(' .expandColumn').mouseleave(function() {
          
-         $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
-         $(this).children('.copyWrapper').children('.roundButton').children('.bg').removeClass('bgOver');
-         $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').removeClass('blackBG');
-		 $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').removeClass('blackBG');
-		 $(this).children('.copyWrapper').children('.roundButton').children('.readmore').stop().fadeOut();
+          if ($(window).width() > 768) { 
+         
+             $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
+             $(this).children('.copyWrapper').children('.roundButton').children('.bg').removeClass('bgOver');
+             $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').removeClass('blackBG');
+             $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').removeClass('blackBG');
+             $(this).children('.copyWrapper').children('.roundButton').children('.readmore').stop().fadeOut();
+              
+          }
     });
     
 
     $('.expandColumn').click(function() {
-	    $(this).children('.copyWrapper').fadeOut(200);
-	    $(this).siblings().children('.copyWrapper').fadeOut();
-	    
-	    $('.CloseRoundButton').delay(500).animate({opacity: 1});
-	    
-	   $(this).children('.columnOverlay').fadeOut();
-	   $(this).siblings().children('.columnOverlay').fadeIn();
-	   
-	   $(this).children('.columnOpen').delay(400).fadeIn(300);
-	   $(this).siblings().children('.columnOpen').fadeOut(100);
-	   
-	   
-	   $(this).siblings().children('.verticalText').fadeIn();
-	   $(this).children('.verticalText').hide();
-	   
-	   $(this).siblings().animate({width: '5%'}, 500, 'linear');
-	   $(this).animate({width: '85%'}, 500, 'linear');
+        
+         if ($(window).width() > 768) { 
+             
+                $(this).children('.copyWrapper').fadeOut(200);
+                $(this).siblings().children('.copyWrapper').fadeOut();
+
+                $('.CloseRoundButton').delay(500).animate({opacity: 1});
+
+               $(this).children('.columnOverlay').fadeOut();
+               $(this).siblings().children('.columnOverlay').fadeIn();
+
+               $(this).children('.columnOpen').delay(400).fadeIn(300);
+               $(this).siblings().children('.columnOpen').fadeOut(100);
+
+
+               $(this).siblings().children('.verticalText').fadeIn();
+               $(this).children('.verticalText').hide();
+
+               $(this).siblings().animate({width: '5%'}, 500, 'linear');
+               $(this).animate({width: '85%'}, 500, 'linear');
+             
+         } else{
+             $(this).siblings().children('.copyWrapper').children('.proPara').stop().slideUp();
+            $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
+            $(this).siblings().children('.copyWrapper').children('.roundButton').children('.bg').removeClass('bgOver');
+             $(this).children('.copyWrapper').children('.roundButton').children('.bg').toggleClass('bgOver');
+            $(this).siblings().children('.copyWrapper').children('.roundButton').children('.cross').children('.a').removeClass('blackBG');
+            $(this).siblings().children('.copyWrapper').children('.roundButton').children('.cross').children('.b').removeClass('blackBG');
+            $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').toggleClass('blackBG');
+            $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').toggleClass('blackBG');
+           //$(this).children('.copyWrapper').children('.roundButton').children('.readmore').stop().fadeIn();
+             
+         }
     });
     
     $(' .CloseRoundButton').mouseenter(function() {

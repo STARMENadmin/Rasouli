@@ -1,5 +1,7 @@
 			<img id="homeBlogNext" src="/img/global/arrowNext.png"/>
+
 			<img  id="homeBlogPrevious" src="/img/global/arrowPrevious.png"/>
+
 			<p class="boxTitleSmall">The Blog</p>
 			
 			
@@ -7,7 +9,11 @@
 			<div class="slickWrapper">
 			
 				<div class="left">
-					<img src="img/blogImage1.jpg"/>
+					
+                <picture>
+                    <source media="(max-width: 768px)" srcset="img/blogImage1Mobile.jpg">
+                    <img src="img/blogImage1.jpg"/>
+                </picture>
 				</div>
 				<div class="right">
 					<p class="smallTitle">June 22, 2017</p>

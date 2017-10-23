@@ -1,6 +1,15 @@
-	    	<div id="home-hero-copy-1">
-		      <h1>The New Era <span>of Spine Surgery</span></h1>
-                <h2>Get back to the quality of life with <span>Rasouli Spine</span></h2>
+ <img class="hero-background" src="img/home-hero.jpg"> 	    	
+            <div id="home-hero-copy-1">
+                <h1>
+                    <span class="stack">The</span>
+                    <span class="stack">New Era</span>
+                    <span class="block"><span class="stack">of Spine</span> Surgery</span>
+                </h1>
+                <h2>
+                    <span class="stack">Get back to the</span>
+                    <span class="stack"> quality of life</span>
+                    <span class="stack"></span>with <span class="bold">Rasouli Spine</span></span>
+                </h2>
 			</div>
 		  
 			<div id="home-hero-copy-2">
@@ -15,6 +24,6 @@
 					<a class="textCTA white" href="#">Learn More<span class="linkArrow linkArrowWhite"></span></a>
 					
 				</div>    
-			</div>
+            </div>
 	      
-	     <img class="hero-background" src="img/home-hero.jpg"> 
+	    

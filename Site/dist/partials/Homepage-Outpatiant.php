@@ -10,7 +10,7 @@
 				
 				<div class="parallaxwrapper">
 					<img class="paraImage1" src="img/outpatient-1.jpg"/>
-					<img  class="paraImage2" id="testImage" src="img/outpatient-2.jpg"/>
+					<img  class="paraImage2 desktop" id="testImage" src="img/outpatient-2.jpg"/>
 				</div>
 				
 			</div>

@@ -61,6 +61,34 @@
     width: 30px;
 }
 
+//under 1600
+@media screen and (max-width: 1600px) {
+        .header-nav ul{
+        padding-right: 2%
+    }
+    
+        .header-nav ul li{
+            font-size: 1vw;
+            margin-right: 10px;
+    } 
+}
+
+//under 1024
+@media screen and (max-width: 1024px) {
+    
+    .header-nav ul{
+        padding-right: 2%
+    }
+    .header-nav ul li{
+            font-size: .5em;
+            margin-right: 10px;
+    }  
+    
+    
+}
+
+
+
 //under 940px
 @media screen and (max-width: 940px) {
     
@@ -113,7 +141,7 @@
 
 
 //under 1024 above 768
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
     
     
     .heroLargeText{
@@ -155,6 +183,441 @@
         line-height: normal;
         padding-left: 0%;
         width: 80%;
+    }
+    
+    .footer-inner .logo{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .header-nav ul li{
+            font-size: 1em;
+            
+    } 
+    
+    #hero-home{
+        background-color: #000;
+    }
+    
+    #hero-home #home-hero-copy-2 .left{
+        width:100%;
+        float: none;
+    }
+    
+    #hero-home #home-hero-copy-2 .right{
+        width:100%;
+        float: none;
+    }
+    
+    #hero-home #home-hero-copy-2{
+        position: relative;
+            margin-top: 35%;
+        padding-bottom: 12%;
+    }
+    
+     #hero-home #home-hero-copy-1{
+        top: 20%;
+         padding-right: 8%;
+    }
+    
+    #hero-home #home-hero-copy-1 h1{
+        margin-bottom: 10px;
+        text-align: right;
+            font-size: 9vw;
+        line-height: normal;
+    }
+    
+    #hero-home #home-hero-copy-1 h1 .block{
+        padding-left: 0;
+    }
+    #hero-home #home-hero-copy-1{
+        right:0;
+        width: 58%;
+    }
+        #hero-home #home-hero-copy-1 h2{
+        font-size: 2.5vw;
+        padding-right: 0;
+        line-height: normal;
+        padding-left: 0%;
+        width: 100%;
+        text-align: right;
+            margin-right: 0;
+    }
+    
+    .left p, #hero-home #home-hero-copy-2 .left p{
+         font-size: 2.5vw;
+    }
+    
+    #hero-home #home-hero-copy-2 .left .heroLargeText{
+         font-size: 9vw;
+    }
+    
+    #hero-home #home-hero-copy-2 .right p{
+        font-size: 2.5vw;
+        line-height: normal;
+    }
+    
+    #hero-home #home-hero-copy-2 .right{
+            margin-top: 5px;
+    }
+    
+    .stack{
+        display: block;
+    }
+    
+    .copy{
+        line-height: normal;
+        max-width: 100%;
+    }
+    #home-procedures .top{
+            padding: 0 8%;
+        
+    }
+    
+    #home-procedures{
+        padding: 100px 0 0 0;
+    }
+    
+    .largeTitle{
+            font-size: 8vw;
+    }
+    .smallTitle{
+        font-size: 4vw;
+    }
+    
+   .proceduresMenu .expandColumn{
+        width: 100%;
+        float: none;
+           padding-bottom: 0;
+    }
+    
+    .proceduresMenu .expandColumn img{
+        position: relative;
+    }
+    
+    
+    .proceduresMenu .copyWrapper{
+        left:8%;
+        right: auto;
+    }
+    
+    .proceduresMenu .copyWrapper .roundButton{
+        margin: 0 auto;
+        right: auto;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+    
+    .proceduresMenu .copyWrapper .roundButton .cross {
+        position: absolute;
+        left: 28px;
+        top: 25px;
+    }
+    
+    .proceduresMenu .copyWrapper .roundButton .cross .a{
+            width: 24px;
+            height: 4px;
+            left: -11px;
+            top: 3px;
+    }
+        .proceduresMenu .copyWrapper .roundButton .cross .b{
+            width: 4px;
+            height: 24px;
+    }
+    
+    .proceduresMenu .copyWrapper .proTitle{
+            font-size: 4vw;
+        margin-bottom: 10px;
+    }
+    
+    .proceduresMenu .copyWrapper .proTitle2{
+            font-size: 12vw;
+    }
+    
+    .proceduresMenu .copyWrapper .roundButton .bgOver{
+        left: -1px;
+        top: -1px;
+        width: 62px;
+        height: 62px;
+        border-radius: 30px;
+    }
+    .readmore{
+        display: none;
+    }
+    
+    #home-Surgeon{
+            padding: 0 0 10% 0;
+        background-color: #000;
+        position: relative;
+        
+         .right,
+         .left{
+            float: none;
+            width: 100%;
+            margin-right: 0;
+             margin-left: 0;
+        }
+        
+        .right{
+            position: absolute;
+            bottom: 5%;
+            padding: 0 8%;
+            color: #fff;
+            width: 84%;
+            
+            a{
+                color: #fff;
+            }
+            
+            .smallTitle{
+                margin-bottom: 5px;
+            }
+            .largeTitle{
+                margin-bottom: 5px; 
+            }
+            
+            .copy{
+                font-size: 4vw;
+                margin: 0 auto 10px auto;
+            }
+        }
+    }
+    
+    #home-outpatient{
+        padding: 0;
+        position: relative;
+        
+        .right,
+        .left{
+            float: none;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .right{
+            .parallaxwrapper{
+                margin-bottom: 0;
+            }
+        }
+        
+        .left{
+            position: absolute;
+            bottom: 5%;
+            z-index: 3;
+            padding: 0 8%;
+            width: 84%;
+            text-align: right;
+            
+            .copy{
+                font-size: 4vw;
+            }
+            
+            .linkArrow{
+                display: none;
+            }
+        }
+        
+            .smallTitle{
+                        margin-bottom: 5px;
+                        font-size: 4vw;
+            }
+            .largeTitle{
+                margin-bottom: 5px; 
+                    font-size: 8vw;
+            }
+    }
+    
+    #home-testimonials{
+        
+        padding: 0;
+        
+        .left{
+            width: 84%;
+            float: none;
+            margin: 0;
+            padding: 50px 8%;
+            
+            .copy{
+                font-size: 4vw;
+            }
+        }
+        
+        .right{
+            float: none;
+            width: 100%;
+        }
+        
+            .smallTitle{
+                        margin-bottom: 5px;
+                        font-size: 4vw;
+            }
+            .largeTitle{
+                margin-bottom: 5px; 
+                    font-size: 8vw;
+            }
+        
+         .linkArrow{
+                display: none;
+            }
+        
+        
+    }
+    
+    
+    #home-blog{
+        padding: 0;
+        
+        .left{
+            float: none;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .right {
+            width: 84%;
+            float: none;
+            margin: 0;
+            padding: 50px 8%;
+        }
+        
+        .boxTitleSmall{
+            display: none;
+        }
+        
+        #homeBlogPrevious,
+        #homeBlogNext{
+            display: none !important;
+        }
+        
+        .slickWrapper{
+            
+            display: none;
+            
+            &:nth-child(1){
+                display: block;
+            }
+        }
+        
+        .linkArrow{
+            display: none;
+        }
+    }
+    
+    
+    #home-social{
+        display: none;
+    }
+    
+    
+    // footer
+    .footerBottom .center,
+    .newsletter-wrapper,
+    .form-wrapper,
+    #footerTitle{
+        display: none;
+    }
+    
+    footer .footer-nav{
+        
+        ul{
+            
+            li{
+                display: block;
+                margin-right: 0;
+                text-align: left;
+            }
+        }
+    }
+    .footerBottom .right,
+    .footerBottom .left{
+        float: none;
+        width: 100%;
+            margin: 0 auto;
+    }
+    
+
+    
+    .footerBottom .right .socialWrapper{
+        float: none;
+        width: 228px;
+        margin: 0 auto;
+        
+    }
+    
+    .footerBottom .center p{
+        width: 100%;
+    }
+    
+    .termsConditinsMobile{
+            text-align: center;
+            font-family: BrandonGrotesque-Bold;
+            font-size: 0.6em;
+            color: #fff;
+            letter-spacing: 1px;
+            margin-top: 0px;
+        display: block !important;
+        
+             a {
+                color: #fff;
+                text-decoration: none;
+            }
+    }
+    
+    .footerBottom .left{
+        
+        width: 100%;
+        max-width: 324px;
+        margin-bottom: 20px;
+        
+        .logoWrapper{
+          margin: 0 0;
+            width: 33.33%;
+            
+            &:nth-child(1){
+                margin-left: 0;
+            }
+            
+            &:nth-child(3){
+                margin-right: 0;
+            }
+            
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    
+    .footerBottom .left #absLogo{
+        max-width: 50px;
+    }
+    
+    .footerBottom .left #hipaaLogo{
+        max-width: 90px;
+            margin-top: 0px;
+    }
+    
+    .footerBottom .left #abnsLogo{
+        max-width: 50px;
+        margin-top: 0;
+    }
+    
+    .footerBottom .right .youtube:nth-child(4){
+        margin-right: 0;
+    }
+    
+    .footerBottom .right .socialWrapper{
+            width: 208px;
+    }
+    
+    .footer-inner .logo{
+        display: block;
+        margin: 0 auto;
+            max-width: 100px
     }
     
 }

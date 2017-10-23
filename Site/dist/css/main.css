@@ -320,6 +320,11 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid; } }
+.largeTitle,
+.heroLargeText, h1 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 /* ==========================================================================
   New styles Kaz
    ========================================================================== */
@@ -358,9 +363,8 @@ textarea {
       letter-spacing: 7px;
       margin-bottom: 40px;
       line-height: 6vw; }
-      #hero-about #home-hero-copy-1 h1 span,
-      #hero-home #home-hero-copy-1 h1 span {
-        display: block;
+      #hero-about #home-hero-copy-1 h1 .block,
+      #hero-home #home-hero-copy-1 h1 .block {
         padding-left: 14%; }
     #hero-about #home-hero-copy-1 h2,
     #hero-home #home-hero-copy-1 h2 {
@@ -373,8 +377,8 @@ textarea {
       font-weight: normal;
       letter-spacing: 5px;
       padding-left: 10%; }
-      #hero-about #home-hero-copy-1 h2 span,
-      #hero-home #home-hero-copy-1 h2 span {
+      #hero-about #home-hero-copy-1 h2 .bold,
+      #hero-home #home-hero-copy-1 h2 .bold {
         font-family: BrandonGrotesque-Black;
         font-weight: normal; }
   #hero-about #home-hero-copy-2,
@@ -1924,6 +1928,8 @@ footer {
 
 .footerBottom {
   margin-top: 50px; }
+  .footerBottom .termsConditinsMobile {
+    display: none; }
   .footerBottom .left {
     float: left;
     width: 33.33%; }
@@ -2006,6 +2012,9 @@ footer {
       .footerBottom .right .youtube:hover {
         background-position: -118px -36px; }
 
+.footerBottom .right .youtube:nth-child(4) {
+  margin-right: 0; }
+
 input:focus {
   outline: none; }
 
@@ -2018,8 +2027,9 @@ input:focus {
   font-family: 'Conv_Austin-Roman';
   src: url("../fonts/austin/Austin-Roman/Austin-Roman.eot?#iefix");
   src: local("☺"), url("../fonts/austin/Austin-Roman/Austin-Roman.woff") format("woff"), url("../fonts/austin/Austin-Roman/Austin-Roman.ttf") format("truetype"), url("../fonts/austin/Austin-Roman.svg") format("svg");
-  font-weight: normal !important;
-  font-style: normal; }
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
 /** Brandon light **/
 @font-face {
   font-family: 'Conv_brandon-grotesque-light-58a8a4b38001d';
@@ -2100,6 +2110,20 @@ input:focus {
   right: 22px;
   width: 30px; }
 
+@media screen and (max-width: 1600px) {
+  .header-nav ul {
+    padding-right: 2%; }
+
+  .header-nav ul li {
+    font-size: 1vw;
+    margin-right: 10px; } }
+@media screen and (max-width: 1024px) {
+  .header-nav ul {
+    padding-right: 2%; }
+
+  .header-nav ul li {
+    font-size: .5em;
+    margin-right: 10px; } }
 @media screen and (max-width: 940px) {
   .header-nav {
     transition: 0.4s right cubic-bezier(0.3, 0.73, 0.3, 0.74);
@@ -2130,7 +2154,7 @@ input:focus {
     .header-nav #navBackground {
       opacity: 0.9;
       filter: alpha(opacity=90); } }
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
   .heroLargeText {
     font-size: 6vw !important; }
 
@@ -2162,7 +2186,313 @@ input:focus {
     padding-right: 8%;
     line-height: normal;
     padding-left: 0%;
-    width: 80%; } }
+    width: 80%; }
+
+  .footer-inner .logo {
+    display: none; } }
+@media screen and (max-width: 768px) {
+  .header-nav ul li {
+    font-size: 1em; }
+
+  #hero-home {
+    background-color: #000; }
+
+  #hero-home #home-hero-copy-2 .left {
+    width: 100%;
+    float: none; }
+
+  #hero-home #home-hero-copy-2 .right {
+    width: 100%;
+    float: none; }
+
+  #hero-home #home-hero-copy-2 {
+    position: relative;
+    margin-top: 35%;
+    padding-bottom: 12%; }
+
+  #hero-home #home-hero-copy-1 {
+    top: 20%;
+    padding-right: 8%; }
+
+  #hero-home #home-hero-copy-1 h1 {
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 9vw;
+    line-height: normal; }
+
+  #hero-home #home-hero-copy-1 h1 .block {
+    padding-left: 0; }
+
+  #hero-home #home-hero-copy-1 {
+    right: 0;
+    width: 58%; }
+
+  #hero-home #home-hero-copy-1 h2 {
+    font-size: 2.5vw;
+    padding-right: 0;
+    line-height: normal;
+    padding-left: 0%;
+    width: 100%;
+    text-align: right;
+    margin-right: 0; }
+
+  .left p, #hero-home #home-hero-copy-2 .left p {
+    font-size: 2.5vw; }
+
+  #hero-home #home-hero-copy-2 .left .heroLargeText {
+    font-size: 9vw; }
+
+  #hero-home #home-hero-copy-2 .right p {
+    font-size: 2.5vw;
+    line-height: normal; }
+
+  #hero-home #home-hero-copy-2 .right {
+    margin-top: 5px; }
+
+  .stack {
+    display: block; }
+
+  .copy {
+    line-height: normal;
+    max-width: 100%; }
+
+  #home-procedures .top {
+    padding: 0 8%; }
+
+  #home-procedures {
+    padding: 100px 0 0 0; }
+
+  .largeTitle {
+    font-size: 8vw; }
+
+  .smallTitle {
+    font-size: 4vw; }
+
+  .proceduresMenu .expandColumn {
+    width: 100%;
+    float: none;
+    padding-bottom: 0; }
+
+  .proceduresMenu .expandColumn img {
+    position: relative; }
+
+  .proceduresMenu .copyWrapper {
+    left: 8%;
+    right: auto; }
+
+  .proceduresMenu .copyWrapper .roundButton {
+    margin: 0 auto;
+    right: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px; }
+
+  .proceduresMenu .copyWrapper .roundButton .cross {
+    position: absolute;
+    left: 28px;
+    top: 25px; }
+
+  .proceduresMenu .copyWrapper .roundButton .cross .a {
+    width: 24px;
+    height: 4px;
+    left: -11px;
+    top: 3px; }
+
+  .proceduresMenu .copyWrapper .roundButton .cross .b {
+    width: 4px;
+    height: 24px; }
+
+  .proceduresMenu .copyWrapper .proTitle {
+    font-size: 4vw;
+    margin-bottom: 10px; }
+
+  .proceduresMenu .copyWrapper .proTitle2 {
+    font-size: 12vw; }
+
+  .proceduresMenu .copyWrapper .roundButton .bgOver {
+    left: -1px;
+    top: -1px;
+    width: 62px;
+    height: 62px;
+    border-radius: 30px; }
+
+  .readmore {
+    display: none; }
+
+  #home-Surgeon {
+    padding: 0 0 10% 0;
+    background-color: #000;
+    position: relative; }
+    #home-Surgeon .right,
+    #home-Surgeon .left {
+      float: none;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0; }
+    #home-Surgeon .right {
+      position: absolute;
+      bottom: 5%;
+      padding: 0 8%;
+      color: #fff;
+      width: 84%; }
+      #home-Surgeon .right a {
+        color: #fff; }
+      #home-Surgeon .right .smallTitle {
+        margin-bottom: 5px; }
+      #home-Surgeon .right .largeTitle {
+        margin-bottom: 5px; }
+      #home-Surgeon .right .copy {
+        font-size: 4vw;
+        margin: 0 auto 10px auto; }
+
+  #home-outpatient {
+    padding: 0;
+    position: relative; }
+    #home-outpatient .right,
+    #home-outpatient .left {
+      float: none;
+      width: 100%;
+      margin: 0; }
+    #home-outpatient .right .parallaxwrapper {
+      margin-bottom: 0; }
+    #home-outpatient .left {
+      position: absolute;
+      bottom: 5%;
+      z-index: 3;
+      padding: 0 8%;
+      width: 84%;
+      text-align: right; }
+      #home-outpatient .left .copy {
+        font-size: 4vw; }
+      #home-outpatient .left .linkArrow {
+        display: none; }
+    #home-outpatient .smallTitle {
+      margin-bottom: 5px;
+      font-size: 4vw; }
+    #home-outpatient .largeTitle {
+      margin-bottom: 5px;
+      font-size: 8vw; }
+
+  #home-testimonials {
+    padding: 0; }
+    #home-testimonials .left {
+      width: 84%;
+      float: none;
+      margin: 0;
+      padding: 50px 8%; }
+      #home-testimonials .left .copy {
+        font-size: 4vw; }
+    #home-testimonials .right {
+      float: none;
+      width: 100%; }
+    #home-testimonials .smallTitle {
+      margin-bottom: 5px;
+      font-size: 4vw; }
+    #home-testimonials .largeTitle {
+      margin-bottom: 5px;
+      font-size: 8vw; }
+    #home-testimonials .linkArrow {
+      display: none; }
+
+  #home-blog {
+    padding: 0; }
+    #home-blog .left {
+      float: none;
+      width: 100%;
+      margin: 0; }
+    #home-blog .right {
+      width: 84%;
+      float: none;
+      margin: 0;
+      padding: 50px 8%; }
+    #home-blog .boxTitleSmall {
+      display: none; }
+    #home-blog #homeBlogPrevious,
+    #home-blog #homeBlogNext {
+      display: none !important; }
+    #home-blog .slickWrapper {
+      display: none; }
+      #home-blog .slickWrapper:nth-child(1) {
+        display: block; }
+    #home-blog .linkArrow {
+      display: none; }
+
+  #home-social {
+    display: none; }
+
+  .footerBottom .center,
+  .newsletter-wrapper,
+  .form-wrapper,
+  #footerTitle {
+    display: none; }
+
+  footer .footer-nav ul li {
+    display: block;
+    margin-right: 0;
+    text-align: left; }
+
+  .footerBottom .right,
+  .footerBottom .left {
+    float: none;
+    width: 100%;
+    margin: 0 auto; }
+
+  .footerBottom .right .socialWrapper {
+    float: none;
+    width: 228px;
+    margin: 0 auto; }
+
+  .footerBottom .center p {
+    width: 100%; }
+
+  .termsConditinsMobile {
+    text-align: center;
+    font-family: BrandonGrotesque-Bold;
+    font-size: 0.6em;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    display: block !important; }
+    .termsConditinsMobile a {
+      color: #fff;
+      text-decoration: none; }
+
+  .footerBottom .left {
+    width: 100%;
+    max-width: 324px;
+    margin-bottom: 20px; }
+    .footerBottom .left .logoWrapper {
+      margin: 0 0;
+      width: 33.33%; }
+      .footerBottom .left .logoWrapper:nth-child(1) {
+        margin-left: 0; }
+      .footerBottom .left .logoWrapper:nth-child(3) {
+        margin-right: 0; }
+      .footerBottom .left .logoWrapper img {
+        display: block;
+        margin: 0 auto; }
+
+  .footerBottom .left #absLogo {
+    max-width: 50px; }
+
+  .footerBottom .left #hipaaLogo {
+    max-width: 90px;
+    margin-top: 0px; }
+
+  .footerBottom .left #abnsLogo {
+    max-width: 50px;
+    margin-top: 0; }
+
+  .footerBottom .right .youtube:nth-child(4) {
+    margin-right: 0; }
+
+  .footerBottom .right .socialWrapper {
+    width: 208px; }
+
+  .footer-inner .logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px; } }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

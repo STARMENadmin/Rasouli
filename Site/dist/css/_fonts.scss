@@ -3,8 +3,10 @@
 	font-family: 'Conv_Austin-Roman';
 	src: url('../fonts/austin/Austin-Roman/Austin-Roman.eot?#iefix');
 	src: local('☺'), url('../fonts/austin/Austin-Roman/Austin-Roman.woff') format('woff'), url('../fonts/austin/Austin-Roman/Austin-Roman.ttf') format('truetype'), url('../fonts/austin/Austin-Roman.svg') format('svg');
-	font-weight: normal !important;
+	font-weight: 400 !important;
 	font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    
 }
 
 

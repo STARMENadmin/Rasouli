@@ -110,6 +110,9 @@ footer{
 }
 
 .footerBottom{
+    .termsConditinsMobile{
+        display: none;
+    }
     
     margin-top: 50px;
     
@@ -137,6 +140,8 @@ footer{
             margin-top: 10px;
             
         }
+        
+        
     }
     .center{
          float: left;
@@ -250,6 +255,10 @@ footer{
     
     
 }
+
+    .footerBottom .right .youtube:nth-child(4){
+        margin-right: 0;
+    }
 
 input:focus {
     outline:none;

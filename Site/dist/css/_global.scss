@@ -281,6 +281,16 @@ textarea {
         page-break-after: avoid;
     }
 }
+.largeTitle,
+.heroLargeText, h1{
+     -webkit-font-smoothing: antialiased;
+
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
+   // border: 1px solid red;
+}
 
 
 /* ==========================================================================
@@ -326,8 +336,8 @@ textarea {
 			margin-bottom: 40px;
 			line-height: 6vw;
 			
-			span{
-				display:block;
+			.block{
+				
 				padding-left: 14%;
 				
 			}
@@ -344,7 +354,7 @@ textarea {
 			letter-spacing: 5px;
 			padding-left: 10%;
 			
-			span{
+			.bold{
 				
 				font-family: $brandonBlack;
 				font-weight: normal;

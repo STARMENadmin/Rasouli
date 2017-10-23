@@ -60,8 +60,11 @@
                     <div class="socialIcon facebook"></div>
                     <div class="socialIcon instagram"></div>
                     <div class="socialIcon youtube"></div>
+                     <div class="clear"></div>
                 </div>
             </div>
+            <img class="logo mobile" src="img/global/rasouli-spine-logo.jpg">
+             <p class="termsConditinsMobile mobile">All Rights Reserved &copy; 2017 |  Rasouli Spine | <a href="http://starmenusa.com/">Making Brands Work</a>&trade;</p>
             <div class="clear"></div>
         </div><!-- footerBottom -->
         
