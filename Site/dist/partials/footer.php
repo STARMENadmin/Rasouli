@@ -4,12 +4,7 @@
 		
 		<div class="form-wrapper">
 			<form action="mail.php" method="POST">
-			<input type="text" name="name" placeholder="First and last name">
-			 <input type="text" name="email" placeholder="Email">
-			 <input type="text" name="phone" placeholder="Phone">
-			<input type="text" name="date" placeholder="Appointment Date" id="datepicker">
-			
-			<input type="submit" value="Send">
+			<input type="text" name="name" placeholder="First and last name"><input type="text" name="email" placeholder="Email"><input type="text" name="phone" placeholder="Phone"><input type="text" name="date" placeholder="Appointment Date" id="datepicker"><input type="submit" value="Send">
 			</form>
 			<div class="clear"></div>
 		</div>

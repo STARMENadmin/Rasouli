@@ -19,28 +19,32 @@ footer{
 	
 	.form-wrapper{
 		
-		padding: 20px 0 40px;
+		padding: 0px 0 20px;
 		
 		form{
+			width: 100%;
+			display: block;
+			
 			input[type=text] {
-				float: left;
-				width: 19%;
+				display: inline-block;
+				width: 19.3%;
 				border: 1px solid $darkGrey;
 				background-color: #000;
 				color: #fff;
-				padding: 0 0 0 20px;
+				padding: 0 0 0 1%;
 				margin: 0;
-				height: 55px;
-				margin-right: 1.2%;
+				height: 53px;
+				margin-right: 1%;
 				text-transform: uppercase;
 				font-family: $brandonBold;
                 letter-spacing: 2px;
-                font-size: em(14);
+                font-size: em(12);
+                vertical-align: bottom;
 				
 			}
 			
 			input[type=submit] {
-				float: left;
+				display: inline-block;
 				width: 13.2%;
 				border: 1px solid $darkGrey;
 				background-color: #000;
@@ -52,6 +56,7 @@ footer{
 				font-family: $brandonBold;
                 letter-spacing: 2px;
                 font-size: em(14);
+               
 		
 			}
 			
@@ -86,7 +91,7 @@ footer{
 			
 			li{
 				display: inline-block;
-				font-size: em(14);
+				font-size: em(12);
 				text-transform: uppercase;
 				font-family: $brandonMed;
 				margin-right: 3%;
@@ -102,6 +107,17 @@ footer{
 				a{
 					color: #fff;
 					text-decoration:none;
+					text-shadow: none;
+					-webkit-transition: 300ms linear 0s;
+					-moz-transition: 300ms linear 0s;
+					-o-transition: 300ms linear 0s;
+					transition: 300ms linear 0s;
+					outline: 0 none;
+					
+					&:hover{
+					color: #fff;
+					text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+					}
 				}
 			}
 		}
@@ -114,7 +130,7 @@ footer{
         display: none;
     }
     
-    margin-top: 50px;
+    margin-top: 30px;
     
     .left{
         float: left;
@@ -126,18 +142,18 @@ footer{
              margin-right: 6%;
         }
         #absLogo{
-            max-width: 79px;
+            max-width: 57px;
             width:100%
         }
         #hipaaLogo{
-            max-width: 107px;
+            max-width: 103px;
             width:100%;
-            margin-top: 10px;
+           
         }
         #abnsLogo{
-            max-width: 63px;
+            max-width: 55px;
             width:100%;
-            margin-top: 10px;
+           
             
         }
         
@@ -172,11 +188,11 @@ footer{
                         color: $darkGrey;
                         padding: 0 0 0 20px;
                         margin: 0;
-                        height: 55px;
+                        height: 53px;
                         text-transform: uppercase;
                         font-family: $brandonBold;
                         letter-spacing: 2px;
-                        font-size: em(14);
+                        font-size: em(12);
 
                     }
                 
@@ -199,7 +215,7 @@ footer{
         .socialWrapper{
             float: right;
             width: 208px;
-            margin-top: 20px;
+            margin-top: 10px;
         }
         
         .socialIcon{
