@@ -10,35 +10,35 @@
 			<div class="providersWrapper awardsWrapper ">
     
 			    <div class="awardLogo">
-			        <img src="img/cedars-sinai.png">
+			        <img src="img/providerLogo-aetna.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/super-doctors-logo.png">
+			        <img src="img/providerLogo-molina.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/stanfordLogo.png">
+			        <img src="img/providerLogo-anthem.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/super-doctors-logo.png">
+			        <img src="img/providerLogo-kaiser.png"/>
 			    </div>
 			    
 			     <div class="awardLogo">
-			        <img src="img/stanfordLogo.png">
+			        <img src="img/providerLogo-oscar.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/cedars-sinai.png">
+			        <img src="img/providerLogo-cigna.png"/>
 			    </div>
 			    
 			     <div class="awardLogo">
-			        <img src="img/cedars-sinai.png">
+			        <img src="img/providerLogo-aetna.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/stanfordLogo.png">
+			        <img src="img/providerLogo-molina.png"/>
 			    </div>
     
 

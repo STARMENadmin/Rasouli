@@ -1198,7 +1198,9 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 }
 
 .awardsWrapper{
-    margin-top: 60px;
+    padding-top: 60px;
+    width: 80%;
+    margin: 0 auto;
     
     .awardLogo{
         width: 33.33%;
@@ -1207,8 +1209,10 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 
         img{
             position: relative;
-            width: 90%;
+            width: 70%;
             padding: 2% 5%;
+            display: block;
+            margin: 0 auto;
             
         }
         
@@ -1229,7 +1233,7 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 }
 
 .teamMenu .columnOpen .columnOpenTitle, .teamMenu .columnOpen .columnOpenPara{
-    color:#000;
+   //color:#000;
 }
 
 .about-testimonials-top{
@@ -1858,7 +1862,22 @@ div.left div.player-copy:nth-child(2){
     .spineSelectWrapper{
         margin-top: 80px;
         width: 100%;
-        max-width: 660px;
+        max-width: 600px;
+        
+        .spineItem .title{
+	        text-align: left;
+	        font-size: em(18);
+        }
+        
+        .spineItem:hover{
+	        background-color: #202020;
+	        @extend %cursor;
+        }
+        
+        .roundButton img{
+			@extend %acm;
+			width: 8px;
+        }
     }
     
     
@@ -2089,11 +2108,11 @@ div.left div.player-copy:nth-child(2){
    		.pdfItem{
         position: relative;
         border: 1px solid #808080;
-        padding: 50px;
+        padding: 45px;
         color: #fff;
         display: block;
         text-decoration: none;
-        margin-bottom: 70px;
+        margin-bottom: 40px;
         
 	        &:hover{
 		        background-color: #202020;
@@ -2103,7 +2122,7 @@ div.left div.player-copy:nth-child(2){
 	        .pdfButton{
 		        position: absolute;
 		        right:40px;
-		        top:37px;
+		        top:31px;
 	        }
 	        
 	       
@@ -2133,7 +2152,7 @@ div.left div.player-copy:nth-child(2){
     border-radius: 30px;
     border: 2px solid #FFF;
     transition: opacity .2s ease-out;
-    top: 30px;
+    top: 23px;
     left: 40px;
 }
 
@@ -2160,9 +2179,23 @@ div.left div.player-copy:nth-child(2){
 		
 	.providersWrapper{
 		margin-top: 100px;
+		     display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 	} 	
 	.providersWrapper .awardLogo{
 		width: 25%;
+		margin-bottom: 60px;
+		
+		img{
+			width: 70%;
+			position: relative;
+			display: block;
+			margin: 0 auto;
+		}
 	}	
 		
 }
@@ -2472,3 +2505,6 @@ div.left div.player-copy:nth-child(2){
 	   }
 }
 			
+			.fade-in{
+				opacity: 0;
+			}

@@ -13,34 +13,34 @@
       	</section>
       
       <!-- Procedures and Conditions Section -->
-		<section id="home-procedures" class="home-section-2 group">
+		<section id="home-procedures" class="home-section-2 group fade-in">
 			<?php include("partials/homepage-procedures.php"); ?>
 		</section>
 		
 		<!-- The Surgeon Section -->
-		<section id="home-Surgeon" class="home-section-3 group twoColumn">
+		<section id="home-Surgeon" class="home-section-3 group twoColumn fade-in">
 			<?php include("partials/homepage-TheSurgen.php"); ?>
 		</section>
 		
 			
 		<!-- Outpatient Section -->
-		<section id="home-outpatient" class="home-section-4 group twoColumn greyBG">
+		<section id="home-outpatient" class="home-section-4 group twoColumn greyBG fade-in">
 			 <?php include("partials/homepage-Outpatiant.php"); ?>
 		</section>
 		
 		<!-- Outpatient Section -->
-		<section id="home-testimonials" class="home-section-5 group twoColumn">
+		<section id="home-testimonials" class="home-section-5 group twoColumn fade-in">
 			 <?php include("partials/homepage-testimonials.php"); ?>
 		</section>
 		
 		
 				<!-- Blog post 1 -->
-		<section id="home-blog" class="home-section-6 group twoColumn greyBG">
+		<section id="home-blog" class="home-section-6 group twoColumn greyBG fade-in">
 			<?php include("partials/homepage-BlogCarousel.php"); ?>		
 		</section>
         
         <!-- social media section -->
-		<section id="home-social" class="home-section-7 ">
+		<section id="home-social" class="home-section-7 fade-in">
 			<?php include("partials/homepage-social.php"); ?>		
 		</section>
       

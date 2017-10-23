@@ -30,7 +30,7 @@
 		</section>
         
          <!-- leadership Section -->
-		<section id="outpaient-leadership" class="outpatient-section-4 group twoColumn">
+		<section id="outpaient-leadership" class="outpatient-section-5 group twoColumn">
 			<?php include("partials/outpatient-leadership.php"); ?>
 		</section>
 		

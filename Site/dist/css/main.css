@@ -4,7 +4,7 @@
 /* Mixins */
 /* mixin opacity:  @include opacity(0.8) */
 /* Fonts Size font-size: em(24); */
-.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .condition-video-wrapper .dropbtn, .condition-video-wrapper .dropdown-content p, .condition-video-wrapper .video-buttons-wrapper .video-Button, .hotSpotWrapper .hotSpot, .pdfItem:hover, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
+.proceduresMenu .CloseRoundButton, .proceduresMenu .column, #homeBlogNext, #homeBlogPrevious, .condition-video-wrapper .dropbtn, .condition-video-wrapper .dropdown-content p, .condition-video-wrapper .video-buttons-wrapper .video-Button, .hotSpotWrapper .hotSpot, .outpaientPage .spineSelectWrapper .spineItem:hover, .pdfItem:hover, .footerBottom .right .twitter:hover, .footerBottom .right .facebook:hover, .footerBottom .right .instagram:hover, .footerBottom .right .youtube:hover {
   cursor: pointer;
   cursor: hand; }
 
@@ -27,7 +27,7 @@
   -moz-transform: translateY(-50%);
   -o-transform: translateY(-50%); }
 
-.condition-video-wrapper .video-buttons-wrapper .video-Button .videoText-1, .pdfNumber, .bookingWrapper .bookappt {
+.condition-video-wrapper .video-buttons-wrapper .video-Button .videoText-1, .outpaientPage .spineSelectWrapper .roundButton img, .pdfNumber, .bookingWrapper .bookappt {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -958,24 +958,25 @@ textarea {
   margin-top: 15%; }
 
 .awardsWrapper {
-  margin-top: 60px; }
+  padding-top: 60px;
+  width: 80%;
+  margin: 0 auto; }
   .awardsWrapper .awardLogo {
     width: 33.33%;
     float: left;
     margin-bottom: 60px; }
     .awardsWrapper .awardLogo img {
       position: relative;
-      width: 90%;
-      padding: 2% 5%; }
+      width: 70%;
+      padding: 2% 5%;
+      display: block;
+      margin: 0 auto; }
 
 #about-team {
   padding: 100px 0 100px 0; }
 
 #about-testimonials {
   padding: 100px 0 0px 0; }
-
-.teamMenu .columnOpen .columnOpenTitle, .teamMenu .columnOpen .columnOpenPara {
-  color: #000; }
 
 .about-testimonials-top {
   margin-bottom: 100px; }
@@ -1412,7 +1413,14 @@ div.left div.player-copy:nth-child(2) {
 .outpaientPage .spineSelectWrapper {
   margin-top: 80px;
   width: 100%;
-  max-width: 660px; }
+  max-width: 600px; }
+  .outpaientPage .spineSelectWrapper .spineItem .title {
+    text-align: left;
+    font-size: 1.125em; }
+  .outpaientPage .spineSelectWrapper .spineItem:hover {
+    background-color: #202020; }
+  .outpaientPage .spineSelectWrapper .roundButton img {
+    width: 8px; }
 
 .boxText {
   border: 1px solid #000;
@@ -1594,17 +1602,17 @@ div.left div.player-copy:nth-child(2) {
 .pdfItem {
   position: relative;
   border: 1px solid #808080;
-  padding: 50px;
+  padding: 45px;
   color: #fff;
   display: block;
   text-decoration: none;
-  margin-bottom: 70px; }
+  margin-bottom: 40px; }
   .pdfItem:hover {
     background-color: #202020; }
   .pdfItem .pdfButton {
     position: absolute;
     right: 40px;
-    top: 37px; }
+    top: 31px; }
 
 .title {
   margin: 0 0 0 0;
@@ -1626,7 +1634,7 @@ div.left div.player-copy:nth-child(2) {
   border-radius: 30px;
   border: 2px solid #FFF;
   transition: opacity .2s ease-out;
-  top: 30px;
+  top: 23px;
   left: 40px; }
 
 #resources-providers {
@@ -1643,9 +1651,21 @@ div.left div.player-copy:nth-child(2) {
     margin: 0 0 20px 0;
     letter-spacing: 2px; }
   #resources-providers .providersWrapper {
-    margin-top: 100px; }
+    margin-top: 100px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
   #resources-providers .providersWrapper .awardLogo {
-    width: 25%; }
+    width: 25%;
+    margin-bottom: 60px; }
+    #resources-providers .providersWrapper .awardLogo img {
+      width: 70%;
+      position: relative;
+      display: block;
+      margin: 0 auto; }
 
 .heroLargeText {
   font-family: Conv_Austin-Roman;
@@ -1865,6 +1885,9 @@ article {
   .single .alm-reveal article:first-child {
     padding: 70px 0 80px 0; }
 
+.fade-in {
+  opacity: 0; }
+
 footer {
   background-color: #000;
   color: #fff;
@@ -1885,7 +1908,7 @@ footer {
       display: block; }
       footer .form-wrapper form input[type=text] {
         display: inline-block;
-        width: 19.3%;
+        width: 19%;
         border: 1px solid #808080;
         background-color: #000;
         color: #fff;
@@ -1900,7 +1923,7 @@ footer {
         vertical-align: bottom; }
       footer .form-wrapper form input[type=submit] {
         display: inline-block;
-        width: 13.2%;
+        width: 14%;
         border: 1px solid #808080;
         background-color: #000;
         color: #fff;

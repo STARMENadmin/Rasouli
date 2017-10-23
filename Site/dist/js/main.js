@@ -16,7 +16,25 @@ $(document).ready(function(){
     
      
             
-          
+   // lazy load setions{
+	   
+   $(window).scroll( function(){
+	
+			$('.fade-in').each( function(){
+			var objBot = $(this).offset().top + ($(this).outerHeight() / 3);
+			var winBot = $(window).scrollTop() + $(window).height();
+
+			if( winBot > objBot ){
+				$(this).animate({
+					opacity: 1
+				}, 800 );
+			}
+		});
+	
+	
+	});
+
+        
         
            
        
@@ -274,7 +292,33 @@ function simpleParallax(intensity, element) {
      
      
      
-     
+     //outpataient jump links
+      	$('.spineItemPageLink-1').click(function() {
+	      	
+             var offset = 50;
+            $('html, body').animate({
+                    scrollTop: $(".outpatient-section-3").offset().top - offset
+            }, 500);
+            
+        });
+        
+        $('.spineItemPageLink-2').click(function() {
+	      	
+             var offset = 50;
+            $('html, body').animate({
+                    scrollTop: $(".outpatient-section-4").offset().top - offset
+            }, 500);
+            
+        });
+        
+        $('.spineItemPageLink-3').click(function() {
+	      	
+             var offset = 50;
+            $('html, body').animate({
+                    scrollTop: $(".outpatient-section-5").offset().top - offset
+            }, 500);
+            
+        });
      
 
 		
@@ -307,7 +351,7 @@ function simpleParallax(intensity, element) {
     
     // procedures page select neck section 
     
-    $('.spineItem').click(function() {
+    $('#procedures-selectSpine .spineItem').click(function() {
         var dropDownID = this.id.slice(-1);
         var hotSpotID = "#hotspot-" + dropDownID;
         $('.hotSpot').removeClass('hotSpotActive');

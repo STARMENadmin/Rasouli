@@ -17627,6 +17627,72 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/providerLogo-aetna.png": {
+		"ft": 32768,
+		"iS": 5806,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/providerLogo-aetna.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/providerLogo-anthem.png": {
+		"ft": 32768,
+		"iS": 6681,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/providerLogo-anthem.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/providerLogo-cigna.png": {
+		"ft": 32768,
+		"iS": 6193,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/providerLogo-cigna.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/providerLogo-kaiser.png": {
+		"ft": 32768,
+		"iS": 6121,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/providerLogo-kaiser.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/providerLogo-molina.png": {
+		"ft": 32768,
+		"iS": 5860,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/providerLogo-molina.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/providerLogo-oscar.png": {
+		"ft": 32768,
+		"iS": 4260,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/providerLogo-oscar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/rasouli-mobile-logo.jpg": {
 		"ft": 16384,
 		"iS": 11027,
@@ -17838,8 +17904,8 @@
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/team-1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
