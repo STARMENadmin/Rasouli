@@ -16516,6 +16516,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/providerLogo-aetna.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5806,
+		"inputAbbreviatedPath": "\/img\/providerLogo-aetna.png",
+		"outputAbbreviatedPath": "\/img\/providerLogo-aetna.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/providerLogo-anthem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6681,
+		"inputAbbreviatedPath": "\/img\/providerLogo-anthem.png",
+		"outputAbbreviatedPath": "\/img\/providerLogo-anthem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/providerLogo-cigna.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6193,
+		"inputAbbreviatedPath": "\/img\/providerLogo-cigna.png",
+		"outputAbbreviatedPath": "\/img\/providerLogo-cigna.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/providerLogo-kaiser.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6121,
+		"inputAbbreviatedPath": "\/img\/providerLogo-kaiser.png",
+		"outputAbbreviatedPath": "\/img\/providerLogo-kaiser.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/providerLogo-molina.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5860,
+		"inputAbbreviatedPath": "\/img\/providerLogo-molina.png",
+		"outputAbbreviatedPath": "\/img\/providerLogo-molina.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/providerLogo-oscar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4260,
+		"inputAbbreviatedPath": "\/img\/providerLogo-oscar.png",
+		"outputAbbreviatedPath": "\/img\/providerLogo-oscar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/rasouli-mobile-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -17402,6 +17468,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/homepage-TheSurgen.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/nav-static.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/nav-static.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
