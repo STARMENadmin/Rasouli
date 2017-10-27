@@ -4,7 +4,7 @@
                 <span class="block">Advancement</span>
                 </p>
                 
-                	<p class="bodyQuote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan."
+                	<p class="bodyQuote desktop">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan."
                             <span>Dr. Rasouli</span>
                         </p>
                 
@@ -18,8 +18,8 @@
 			<div class="right">
 				
 				<div class="parallaxwrapper dedicatedparallax">
-					<img src="img/about-dedicated-1.jpg"/>
-					<img src="img/about-dedicated-2.jpg"/>
+					<img class="desktop" src="img/about-dedicated-1.jpg"/>
+					<img class="desktop" src="img/about-dedicated-2.jpg"/>
                     <img src="img/about-dedicated-3.jpg"/>
 				</div>
 				

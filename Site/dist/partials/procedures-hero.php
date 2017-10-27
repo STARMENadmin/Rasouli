@@ -1,4 +1,5 @@
-	    	<div id="home-hero-copy-1" class="procedures-hero-copy-1">
+   <img class="hero-background" src="img/proceduresHero.jpg"> 
+<div id="home-hero-copy-1" class="procedures-hero-copy-1">
 		      <h1><span class="block">When Surgery</span>is an Artform</h1>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 			</div>
@@ -17,4 +18,4 @@
 </div>
 		  
 	      
-	     <img class="hero-background" src="img/proceduresHero.jpg"> 
+	  

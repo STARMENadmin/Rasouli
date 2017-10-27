@@ -74,6 +74,21 @@
     } 
 }
 
+@media screen and (max-width: 1300px) {
+    
+    #hero-about #home-hero-copy-1 {
+    top: 22%;
+    }
+    
+    #hero-about #home-hero-copy-2{
+        bottom: 2% !important;
+    }
+    
+        #hero-about .right{
+        margin-top: 0 !important;
+    }
+}
+
 //under 1024
 @media screen and (max-width: 1024px) {
     
@@ -148,40 +163,72 @@
 //under 1024 above 768
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     
+
+    
+    
+    #hero-about #home-hero-copy-2{
+        bottom: auto !important;
+        top: 40%;
+    }
+    
+    #hero-about {
+
+    padding-bottom: 45%;
+    }
+    
+    .copy{
+        line-height: normal;
+    }
+    
+    #about-team{
+        padding: 100px 0 0 0;
+    }
+    
     
     .heroLargeText{
         
         font-size: 6vw !important;
     }
-    
+    #hero-about #home-hero-copy-2 .right,
     #hero-home #home-hero-copy-2 .right{
         margin-top: 0;
     }
     
+    #hero-about #home-hero-copy-2 .right p,
     #hero-home #home-hero-copy-2 .right p{
             font-size: 1.75vw;
             line-height: normal;
     }
     
+    #hero-home #home-hero-copy-2 .left p,
     #hero-home #home-hero-copy-2 .left p{
             font-size: 1.5vw;
     }
     
-    #hero-about #home-hero-copy-1, #hero-home #home-hero-copy-1{
+     #hero-home #home-hero-copy-1{
         top: 20%;
     }
     
+    #hero-about #home-hero-copy-1{
+        top: 13%;
+    }
+    
+    #hero-about #home-hero-copy-1 h1,
     #hero-home #home-hero-copy-1 h1{
             margin-bottom: 10px;
     }
     
+    #hero-about #home-hero-copy-1 h1 span,
     #hero-home #home-hero-copy-1 h1 span{
         padding-left: 0;
     }
+    
+    #hero-about #home-hero-copy-1,
     #hero-home #home-hero-copy-1{
         right:0;
         width: 58%;
     }
+    #hero-about #home-hero-copy-1 h2,
     #hero-home #home-hero-copy-1 h2{
         font-size: 1.5vw;
         padding-right: 8%;
@@ -198,6 +245,95 @@
 
 @media screen and (max-width: 768px) {
     
+    .outpatient-section-2{
+        padding-top: 21% !important;
+        background-color: #000;
+    }
+    
+
+    
+    .hero-outpatient{
+        padding-bottom: 37% !important;
+    }
+    
+        .outpaientPage .outpatient-hero-copy-1{
+        left: auto !important;
+    }
+    
+    #procedures-selectSpine{
+            padding: 0 8% 100px 8%;
+    }
+    
+    .hero-procedures {
+        padding-bottom: 0 !important;
+    }
+    .procedures-section-2 .left{
+        display: none;
+    }
+    
+    #procedures-selectSpine .right {
+    float: none;
+    width: 100%;
+    margin-left: 0%;
+    }
+    
+    .hero-procedures{
+    
+    .procedures-hero-copy-1{
+        right: 0 !important;
+            top: 19% !important;
+        
+
+        }
+        
+                #home-hero-copy-2{
+                margin-top: 61% !important;
+        }
+    }
+    
+    
+   .condition-video-wrapper .video-player-section{
+       
+           margin-top: 60px;
+        
+        .left{
+            float: none;
+            width: 100%;
+        }
+        
+        .right{
+           float: none;
+            width: 100%;
+        }
+    }
+    
+    
+    .video-buttons-wrapper{
+        display: none;
+    }
+    
+    
+    .theConditionsPage .hero-conditions {
+            padding-bottom: 110px !important;
+        }
+    
+    .hero-conditions #home-hero-copy-1{
+            top: 30% !important;
+    }
+    
+    
+    .aboutHeroParallax{
+            margin-bottom: 0;
+        
+        img:last-of-type{
+            
+        }
+    }
+    
+    #hero-about{
+        padding-bottom: 0;
+    }
+    
     .header-nav ul li{
             font-size: 1em;
             
@@ -206,20 +342,28 @@
     #hero-home{
         background-color: #000;
     }
-    
+    #outpatient-invasiveTreatments .left,
+     #hero-about #home-hero-copy-2 .left,
     #hero-home #home-hero-copy-2 .left{
-        width:100%;
-        float: none;
+        width:100% !important;
+        float: none !important;
     }
     
+    #outpatient-invasiveTreatments .right,
+    #hero-about #home-hero-copy-2 .right,
     #hero-home #home-hero-copy-2 .right{
-        width:100%;
-        float: none;
+        width:100% !important;
+        float: none !important;
     }
-    
     #hero-home #home-hero-copy-2{
         position: relative;
             margin-top: 35%;
+        padding-bottom: 12%;
+    }
+    
+        #hero-about #home-hero-copy-2{
+        position: relative;
+            margin-top: 32%;
         padding-bottom: 12%;
     }
     
@@ -228,6 +372,13 @@
          padding-right: 8%;
     }
     
+    #hero-about #home-hero-copy-1{
+        top: 14%;
+         padding-right: 8%;
+        left: auto;
+    }
+    
+    #hero-about #home-hero-copy-1 h1,
     #hero-home #home-hero-copy-1 h1{
         margin-bottom: 10px;
         text-align: right;
@@ -235,13 +386,18 @@
         line-height: normal;
     }
     
+    #hero-about #home-hero-copy-1 h1 .block,
     #hero-home #home-hero-copy-1 h1 .block{
         padding-left: 0;
     }
+    
+    #hero-about #home-hero-copy-1,
     #hero-home #home-hero-copy-1{
         right:0;
         width: 58%;
     }
+    
+    #hero-about #home-hero-copy-1 h2,
         #hero-home #home-hero-copy-1 h2{
         font-size: 2.5vw;
         padding-right: 0;
@@ -252,19 +408,21 @@
             margin-right: 0;
     }
     
+     #hero-about #home-hero-copy-2 .left p,
     .left p, #hero-home #home-hero-copy-2 .left p{
          font-size: 2.5vw;
     }
     
+    #hero-about #home-hero-copy-2 .left .heroLargeText,
     #hero-home #home-hero-copy-2 .left .heroLargeText{
          font-size: 9vw;
     }
-    
+    #hero-about #home-hero-copy-2 .right p,
     #hero-home #home-hero-copy-2 .right p{
         font-size: 2.5vw;
         line-height: normal;
     }
-    
+    #hero-about #home-hero-copy-2 .right,
     #hero-home #home-hero-copy-2 .right{
             margin-top: 5px;
     }
@@ -277,9 +435,20 @@
         line-height: normal;
         max-width: 100%;
     }
+    #about-testimonials .top,
+    #about-team .top,
     #home-procedures .top{
             padding: 0 8%;
         
+    }
+    
+    #about-testimonials .left{
+        display: none;
+    }
+    
+    #about-testimonials .right{
+        float: none;
+        width: 100%;
     }
     
     #home-procedures{
@@ -353,7 +522,7 @@
     .readmore{
         display: none;
     }
-    
+    #about-meet,
     #home-Surgeon{
             padding: 0 0 10% 0;
         background-color: #000;
@@ -392,6 +561,23 @@
         }
     }
     
+    .outpaientPage #outpatient-invasiveTreatments .right p{
+                font-size: 2.5vw;
+        line-height: normal;
+       
+    }
+    
+    
+    #about-dedicated .left{
+       bottom: auto !important;
+        top:2%;
+    }
+    
+    #about-dedicated  .awardLogo{
+            width: 50%;
+    }
+    
+    #about-dedicated,
     #home-outpatient{
         padding: 0;
         position: relative;
@@ -406,7 +592,20 @@
         .right{
             .parallaxwrapper{
                 margin-bottom: 0;
+                margin-top: 0;
+                
+                img{
+                    position: relative;
+                }
             }
+            
+            .dedicatedparallax img:nth-child(3) {
+                    z-index: 2;
+                     width: 100%;; 
+                    right: auto;
+                    left: auto;
+                     bottom: auto
+                }
         }
         
         .left{
@@ -470,6 +669,10 @@
             }
         
         
+    }
+    
+    #about-team{
+        padding: 100px 0 0 0;
     }
     
     

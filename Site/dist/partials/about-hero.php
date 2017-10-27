@@ -1,6 +1,9 @@
-	    	<div id="home-hero-copy-1">
+     <img class="hero-background" src="img/about-hero.jpg"> 
+<div id="home-hero-copy-1">
 		      <h1>A Team Providing <span class="block">world-Class Care</span></h1>
-                <h2>Get back to the quality of life with <span>Rasouli Spine</span></h2>
+                <h2> <span class="stack">Get back to the</span>
+                    <span class="stack"> quality of life</span>
+                    <span class="stack"></span>with <span class="bold">Rasouli Spine</span></span></h2>
 			</div>
 		  
 			<div id="home-hero-copy-2">
@@ -19,11 +22,11 @@
 				
 						<div class="parallaxwrapper aboutHeroParallax">
 					<img src="img/about-hero-right-1.jpg"/>
-					<img src="img/about-hero-right-2.jpg"/>
+					<img class="desktop" src="img/about-hero-right-2.jpg"/>
 				</div>
 				
 					
 				</div>    
 			</div>
 	      
-	     <img class="hero-background" src="img/about-hero.jpg"> 
+	

@@ -262,10 +262,8 @@ textarea {
    ========================================================================== */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */ }
-
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -279,44 +277,53 @@ textarea {
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important; }
+
   a,
   a:visited {
     text-decoration: underline; }
+
   a[href]:after {
     content: " (" attr(href) ")"; }
+
   abbr[title]:after {
     content: " (" attr(title) ")"; }
+
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
+
   pre {
     white-space: pre-wrap !important; }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
+
   /*
-     * Printing Tables:
-     * 
-     */
+   * Printing Tables:
+   * 
+   */
   thead {
     display: table-header-group; }
+
   tr,
   img {
     page-break-inside: avoid; }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
+
   h2,
   h3 {
     page-break-after: avoid; } }
-
 .largeTitle,
 .heroLargeText, h1 {
   -webkit-font-smoothing: antialiased;
@@ -382,7 +389,7 @@ textarea {
   #hero-about #home-hero-copy-2,
   #hero-home #home-hero-copy-2 {
     position: absolute;
-    bottom: 8%;
+    bottom: 8% !important;
     color: #fff;
     z-index: 10;
     padding: 0 8%; }
@@ -511,12 +518,10 @@ textarea {
 
 .twoColumn img {
   width: 100%; }
-
 .twoColumn .left {
   float: left;
   width: 45%;
   margin-right: 5%; }
-
 .twoColumn .right {
   float: left;
   width: 45%;
@@ -737,6 +742,10 @@ textarea {
       letter-spacing: 1px;
       margin: 0 0 0 0; }
 
+.theproceduresPage .hero-procedures #home-hero-copy-2 {
+  bottom: 0 !important;
+  top: 71%; }
+
 /* ==========================================================================
   Home Tesimonial
    ========================================================================== */
@@ -867,6 +876,8 @@ textarea {
   padding-bottom: 25%; }
   #hero-about #home-hero-copy-1 {
     top: 20%; }
+  #hero-about .procedures-hero-copy-1 {
+    top: 25%; }
   #hero-about #home-hero-copy-2 {
     bottom: 15%; }
     #hero-about #home-hero-copy-2 .left .aboutHeroQuote,
@@ -996,12 +1007,10 @@ textarea {
 #about-testimonials .left, #about-testimonials .right {
   margin: 0;
   width: 50%; }
-
 #about-testimonials .rowTop {
   float: none; }
   #about-testimonials .rowTop .column-1, #about-testimonials .rowTop .column-2 {
     width: 50%; }
-
 #about-testimonials .rowBottom {
   float: none; }
   #about-testimonials .rowBottom .column-3 {
@@ -1255,9 +1264,6 @@ div.left div.player-copy:nth-child(2) {
 .hero-procedures {
   padding-bottom: 15% !important; }
 
-.hero-procedures #home-hero-copy-1 {
-  top: 25% !important; }
-
 .theproceduresPage .condition-video-wrapper {
   margin: 0 auto 0 auto; }
 
@@ -1353,7 +1359,6 @@ div.left div.player-copy:nth-child(2) {
   bottom: 20% !important;
   right: -5% !important;
   left: auto !important; }
-
 .outpaientPage .innovationParallax .paraImage1 {
   width: 80%; }
 
@@ -1363,45 +1368,38 @@ div.left div.player-copy:nth-child(2) {
   top: 10% !important;
   right: -5% !important;
   left: auto !important; }
-
 .outpaientPage .leadershipParallax .paraImage1 {
   width: 80%;
   margin-top: 40%; }
 
-.outpaientPage .hero-outpatient {
-  padding-bottom: 0 !important; }
-
-.outpaientPage #outpatient-invasiveTreatments {
-  padding-top: 0 !important; }
-  .outpaientPage #outpatient-invasiveTreatments .left {
-    width: 45%;
-    margin-right: 5%;
-    float: left;
+.outpaientPage #outpatient-invasiveTreatments .left {
+  width: 45%;
+  margin-right: 5%;
+  float: left;
+  color: #fff; }
+  .outpaientPage #outpatient-invasiveTreatments .left .smallTitle {
     color: #fff; }
-    .outpaientPage #outpatient-invasiveTreatments .left .smallTitle {
-      color: #fff; }
-    .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText {
-      font-family: Conv_Austin-Roman;
-      text-transform: none;
-      font-size: 4.375em;
-      letter-spacing: 3px;
-      font-weight: normal;
-      margin: 0; }
-      .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText span {
-        display: block; }
-  .outpaientPage #outpatient-invasiveTreatments .right {
-    width: 45%;
-    margin-left: 5%;
-    float: left;
-    margin-top: 90px; }
-    .outpaientPage #outpatient-invasiveTreatments .right p {
-      color: #fff;
-      font-family: BrandonGrotesque-Medium;
-      font-size: 1.125em;
-      line-height: 1.85vw;
-      margin: 0 0 20px 0;
-      letter-spacing: 2px; }
-
+  .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText {
+    font-family: Conv_Austin-Roman;
+    text-transform: none;
+    font-size: 4.375em;
+    letter-spacing: 3px;
+    font-weight: normal;
+    margin: 0; }
+    .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText span {
+      display: block; }
+.outpaientPage #outpatient-invasiveTreatments .right {
+  width: 45%;
+  margin-left: 5%;
+  float: left;
+  margin-top: 90px; }
+  .outpaientPage #outpatient-invasiveTreatments .right p {
+    color: #fff;
+    font-family: BrandonGrotesque-Medium;
+    font-size: 1.125em;
+    line-height: 1.85vw;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px; }
 .outpaientPage .outpatient-hero-copy-1 {
   top: 40% !important;
   left: 23% !important;
@@ -1409,10 +1407,8 @@ div.left div.player-copy:nth-child(2) {
   .outpaientPage .outpatient-hero-copy-1 h2,
   .outpaientPage .outpatient-hero-copy-1 span {
     padding-left: 5% !important; }
-
 .outpaientPage .spineItem:first-child .copyWrapper {
   display: none; }
-
 .outpaientPage .spineSelectWrapper {
   margin-top: 80px;
   width: 100%;
@@ -1495,7 +1491,6 @@ div.left div.player-copy:nth-child(2) {
 .resourcesPage .hero-contact,
 .contactPage .hero-contact {
   padding-bottom: 0 !important; }
-
 .resourcesPage .right .form-wrapper form input[type=text],
 .contactPage .right .form-wrapper form input[type=text] {
   position: relative;
@@ -1511,7 +1506,6 @@ div.left div.player-copy:nth-child(2) {
   text-transform: uppercase;
   font-family: BrandonGrotesque-Bold;
   letter-spacing: 2px; }
-
 .resourcesPage .right .form-wrapper form .messageInput,
 .contactPage .right .form-wrapper form .messageInput {
   height: 272px !important;
@@ -1529,7 +1523,6 @@ div.left div.player-copy:nth-child(2) {
   .contactPage .right .form-wrapper form .messageInput:focus {
     border: 1px solid #808080;
     outline: 0; }
-
 .resourcesPage .right .form-wrapper form .formSubmitButton,
 .contactPage .right .form-wrapper form .formSubmitButton {
   width: 100%;
@@ -1543,26 +1536,22 @@ div.left div.player-copy:nth-child(2) {
   font-family: BrandonGrotesque-Bold;
   letter-spacing: 2px;
   text-align: center; }
-
 .resourcesPage .right .form-wrapper form ::-webkit-input-placeholder,
 .contactPage .right .form-wrapper form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #808080;
   letter-spacing: 2px;
   padding-left: 3%; }
-
 .resourcesPage .right .form-wrapper form ::-moz-placeholder,
 .contactPage .right .form-wrapper form ::-moz-placeholder {
   /* Firefox 19+ */
   color: #808080;
   padding-left: 3%; }
-
 .resourcesPage .right .form-wrapper form :-ms-input-placeholder,
 .contactPage .right .form-wrapper form :-ms-input-placeholder {
   /* IE 10+ */
   color: #808080;
   padding-left: 3%; }
-
 .resourcesPage .right .form-wrapper form :-moz-placeholder,
 .contactPage .right .form-wrapper form :-moz-placeholder {
   /* Firefox 18- */
@@ -1589,14 +1578,14 @@ div.left div.player-copy:nth-child(2) {
     margin-bottom: 40px; }
 
 /* ==========================================================================
-   tesimonial page
-   ========================================================================== */
+tesimonial page
+========================================================================== */
 .testimonials-section {
   padding: 200px 0 0px 0 !important; }
 
-/* ==========================================================================
-   patient resources page
-   ========================================================================== */
+   /* ==========================================================================
+patient resources page
+========================================================================== */
 #resources-forms {
   padding: 100px 12% 100px 12% !important; }
   #resources-forms .left .smallTitle {
@@ -1693,15 +1682,14 @@ div.left div.player-copy:nth-child(2) {
   width: 45%;
   margin-right: 5%;
   float: left; }
-
 #resources-providers .right {
   width: 45%;
   margin-left: 5%;
   float: left; }
 
-/* ==========================================================================
-   blog  page
-   ========================================================================== */
+   /* ==========================================================================
+blog  page
+========================================================================== */
 .hero-blog {
   padding-bottom: 0 !important; }
 
@@ -1738,9 +1726,9 @@ article {
   padding: 70px 0 80px 0; }
   article:first-child {
     /*
-		   padding-top: 0;
-		   border: 0;
-*/ }
+    		   padding-top: 0;
+    		   border: 0;
+    */ }
   article p {
     font-family: BrandonGrotesque-Regular;
     font-size: 1em;
@@ -1833,12 +1821,10 @@ article {
     font-size: 1.25em;
     text-transform: uppercase;
     letter-spacing: 2px; }
-
 .sidebar #searchsubmit {
   position: absolute;
   top: 53px;
   right: 20px; }
-
 .sidebar .search-input {
   background-color: #f2f2f2;
   border: none;
@@ -1850,7 +1836,6 @@ article {
   font-family: BrandonGrotesque-Medium;
   letter-spacing: 1px;
   font-size: 1.125em; }
-
 .sidebar h3 {
   font-family: BrandonGrotesque-Bold;
   font-size: 1.25em;
@@ -1858,18 +1843,15 @@ article {
   margin: 0 0 25px 0;
   letter-spacing: 2px;
   color: #000; }
-
 .sidebar ul {
   margin: 0;
   padding: 0; }
-
 .sidebar li {
   font-family: BrandonGrotesque-Medium;
   list-style-type: none;
   font-size: 1.125em;
   margin: 0 0 15px 0;
   letter-spacing: 1px; }
-
 .sidebar #categories-2, .sidebar #archives-2 {
   border-top: 1px solid #000;
   padding: 50px 0; }
@@ -1877,7 +1859,6 @@ article {
 .single .blog-right article:first-of-type {
   padding-top: 0;
   padding-bottom: 0; }
-
 .single article {
   border-top: 0; }
   .single article:first-child {
@@ -1889,7 +1870,6 @@ article {
   .single article img {
     position: relative;
     padding-bottom: 20px; }
-
 .single .alm-reveal article {
   border-top: 1px solid !important;
   margin-bottom: 0px;
@@ -2095,7 +2075,6 @@ input:focus {
   font-weight: 400 !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
-
 /** Brandon light **/
 @font-face {
   font-family: 'Conv_brandon-grotesque-light-58a8a4b38001d';
@@ -2103,35 +2082,30 @@ input:focus {
   src: local("☺"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d/brandon-grotesque-light-58a8a4b38001d.woff") format("woff"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d.ttf") format("truetype"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d.svg") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /** Brandon Black **/
 @font-face {
   font-family: 'BrandonGrotesque-Black';
   src: url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.svg#BrandonGrotesque-Black") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /** Brandon Bold **/
 @font-face {
   font-family: 'BrandonGrotesque-Bold';
   src: url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /** Brandon Med **/
 @font-face {
   font-family: 'BrandonGrotesque-Medium';
   src: url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 /** Brandon Reg **/
 @font-face {
   font-family: 'BrandonGrotesque-Regular';
   src: url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular") format("svg");
   font-weight: normal !important;
   font-style: normal; }
-
 .mobile {
   display: none; }
 
@@ -2184,28 +2158,41 @@ input:focus {
 @media screen and (max-width: 1600px) {
   .header-nav ul {
     padding-right: 2%; }
+
   .header-nav ul li {
     font-size: 1vw;
     margin-right: 10px; } }
+@media screen and (max-width: 1300px) {
+  #hero-about #home-hero-copy-1 {
+    top: 22%; }
 
+  #hero-about #home-hero-copy-2 {
+    bottom: 2% !important; }
+
+  #hero-about .right {
+    margin-top: 0 !important; } }
 @media screen and (max-width: 1024px) {
   .header-nav ul {
     padding-right: 2%; }
+
   .header-nav ul li {
     font-size: .5em;
     margin-right: 10px; } }
-
 @media screen and (max-width: 940px) {
   .header-nav-static {
     display: none; }
+
   .header-nav {
     transition: 0.4s right cubic-bezier(0.3, 0.73, 0.3, 0.74);
     right: -100%;
     left: auto; }
+
   .mobile {
     display: block; }
+
   .desktop {
     display: none; }
+
   .header-nav {
     top: 0;
     height: 100%; }
@@ -2224,64 +2211,174 @@ input:focus {
     .header-nav #navBackground {
       opacity: 0.9;
       filter: alpha(opacity=90); } }
-
 @media screen and (max-width: 1024px) and (min-width: 769px) {
+  #hero-about #home-hero-copy-2 {
+    bottom: auto !important;
+    top: 40%; }
+
+  #hero-about {
+    padding-bottom: 45%; }
+
+  .copy {
+    line-height: normal; }
+
+  #about-team {
+    padding: 100px 0 0 0; }
+
   .heroLargeText {
     font-size: 6vw !important; }
+
+  #hero-about #home-hero-copy-2 .right,
   #hero-home #home-hero-copy-2 .right {
     margin-top: 0; }
+
+  #hero-about #home-hero-copy-2 .right p,
   #hero-home #home-hero-copy-2 .right p {
     font-size: 1.75vw;
     line-height: normal; }
+
+  #hero-home #home-hero-copy-2 .left p,
   #hero-home #home-hero-copy-2 .left p {
     font-size: 1.5vw; }
-  #hero-about #home-hero-copy-1,
+
   #hero-home #home-hero-copy-1 {
     top: 20%; }
+
+  #hero-about #home-hero-copy-1 {
+    top: 13%; }
+
+  #hero-about #home-hero-copy-1 h1,
   #hero-home #home-hero-copy-1 h1 {
     margin-bottom: 10px; }
+
+  #hero-about #home-hero-copy-1 h1 span,
   #hero-home #home-hero-copy-1 h1 span {
     padding-left: 0; }
+
+  #hero-about #home-hero-copy-1,
   #hero-home #home-hero-copy-1 {
     right: 0;
     width: 58%; }
+
+  #hero-about #home-hero-copy-1 h2,
   #hero-home #home-hero-copy-1 h2 {
     font-size: 1.5vw;
     padding-right: 8%;
     line-height: normal;
     padding-left: 0%;
     width: 80%; }
+
   .footer-inner .logo {
     display: none; } }
-
 @media screen and (max-width: 768px) {
+  .outpatient-section-2 {
+    padding-top: 21% !important;
+    background-color: #000; }
+
+  .hero-outpatient {
+    padding-bottom: 37% !important; }
+
+  .outpaientPage .outpatient-hero-copy-1 {
+    left: auto !important; }
+
+  #procedures-selectSpine {
+    padding: 0 8% 100px 8%; }
+
+  .hero-procedures {
+    padding-bottom: 0 !important; }
+
+  .procedures-section-2 .left {
+    display: none; }
+
+  #procedures-selectSpine .right {
+    float: none;
+    width: 100%;
+    margin-left: 0%; }
+
+  .hero-procedures .procedures-hero-copy-1 {
+    right: 0 !important;
+    top: 19% !important; }
+  .hero-procedures #home-hero-copy-2 {
+    margin-top: 61% !important; }
+
+  .condition-video-wrapper .video-player-section {
+    margin-top: 60px; }
+    .condition-video-wrapper .video-player-section .left {
+      float: none;
+      width: 100%; }
+    .condition-video-wrapper .video-player-section .right {
+      float: none;
+      width: 100%; }
+
+  .video-buttons-wrapper {
+    display: none; }
+
+  .theConditionsPage .hero-conditions {
+    padding-bottom: 110px !important; }
+
+  .hero-conditions #home-hero-copy-1 {
+    top: 30% !important; }
+
+  .aboutHeroParallax {
+    margin-bottom: 0; }
+
+  #hero-about {
+    padding-bottom: 0; }
+
   .header-nav ul li {
     font-size: 1em; }
+
   #hero-home {
     background-color: #000; }
+
+  #outpatient-invasiveTreatments .left,
+  #hero-about #home-hero-copy-2 .left,
   #hero-home #home-hero-copy-2 .left {
-    width: 100%;
-    float: none; }
+    width: 100% !important;
+    float: none !important; }
+
+  #outpatient-invasiveTreatments .right,
+  #hero-about #home-hero-copy-2 .right,
   #hero-home #home-hero-copy-2 .right {
-    width: 100%;
-    float: none; }
+    width: 100% !important;
+    float: none !important; }
+
   #hero-home #home-hero-copy-2 {
     position: relative;
     margin-top: 35%;
     padding-bottom: 12%; }
+
+  #hero-about #home-hero-copy-2 {
+    position: relative;
+    margin-top: 32%;
+    padding-bottom: 12%; }
+
   #hero-home #home-hero-copy-1 {
     top: 20%;
     padding-right: 8%; }
+
+  #hero-about #home-hero-copy-1 {
+    top: 14%;
+    padding-right: 8%;
+    left: auto; }
+
+  #hero-about #home-hero-copy-1 h1,
   #hero-home #home-hero-copy-1 h1 {
     margin-bottom: 10px;
     text-align: right;
     font-size: 9vw;
     line-height: normal; }
+
+  #hero-about #home-hero-copy-1 h1 .block,
   #hero-home #home-hero-copy-1 h1 .block {
     padding-left: 0; }
+
+  #hero-about #home-hero-copy-1,
   #hero-home #home-hero-copy-1 {
     right: 0;
     width: 58%; }
+
+  #hero-about #home-hero-copy-1 h2,
   #hero-home #home-hero-copy-1 h2 {
     font-size: 2.5vw;
     padding-right: 0;
@@ -2290,103 +2387,174 @@ input:focus {
     width: 100%;
     text-align: right;
     margin-right: 0; }
+
+  #hero-about #home-hero-copy-2 .left p,
   .left p, #hero-home #home-hero-copy-2 .left p {
     font-size: 2.5vw; }
+
+  #hero-about #home-hero-copy-2 .left .heroLargeText,
   #hero-home #home-hero-copy-2 .left .heroLargeText {
     font-size: 9vw; }
+
+  #hero-about #home-hero-copy-2 .right p,
   #hero-home #home-hero-copy-2 .right p {
     font-size: 2.5vw;
     line-height: normal; }
+
+  #hero-about #home-hero-copy-2 .right,
   #hero-home #home-hero-copy-2 .right {
     margin-top: 5px; }
+
   .stack {
     display: block; }
+
   .copy {
     line-height: normal;
     max-width: 100%; }
+
+  #about-testimonials .top,
+  #about-team .top,
   #home-procedures .top {
     padding: 0 8%; }
+
+  #about-testimonials .left {
+    display: none; }
+
+  #about-testimonials .right {
+    float: none;
+    width: 100%; }
+
   #home-procedures {
     padding: 100px 0 0 0; }
+
   .largeTitle {
     font-size: 8vw; }
+
   .smallTitle {
     font-size: 4vw; }
+
   .proceduresMenu .expandColumn {
     width: 100%;
     float: none;
     padding-bottom: 0; }
+
   .proceduresMenu .expandColumn img {
     position: relative; }
+
   .proceduresMenu .copyWrapper {
     left: 8%;
     right: auto; }
+
   .proceduresMenu .copyWrapper .roundButton {
     margin: 0 auto;
     right: auto;
     width: 60px;
     height: 60px;
     border-radius: 30px; }
+
   .proceduresMenu .copyWrapper .roundButton .cross {
     position: absolute;
     left: 28px;
     top: 25px; }
+
   .proceduresMenu .copyWrapper .roundButton .cross .a {
     width: 24px;
     height: 4px;
     left: -11px;
     top: 3px; }
+
   .proceduresMenu .copyWrapper .roundButton .cross .b {
     width: 4px;
     height: 24px; }
+
   .proceduresMenu .copyWrapper .proTitle {
     font-size: 4vw;
     margin-bottom: 10px; }
+
   .proceduresMenu .copyWrapper .proTitle2 {
     font-size: 12vw; }
+
   .proceduresMenu .copyWrapper .roundButton .bgOver {
     left: -1px;
     top: -1px;
     width: 62px;
     height: 62px;
     border-radius: 30px; }
+
   .readmore {
     display: none; }
+
+  #about-meet,
   #home-Surgeon {
     padding: 0 0 10% 0;
     background-color: #000;
     position: relative; }
+    #about-meet .right,
+    #about-meet .left,
     #home-Surgeon .right,
     #home-Surgeon .left {
       float: none;
       width: 100%;
       margin-right: 0;
       margin-left: 0; }
+    #about-meet .right,
     #home-Surgeon .right {
       position: absolute;
       bottom: 5%;
       padding: 0 8%;
       color: #fff;
       width: 84%; }
+      #about-meet .right a,
       #home-Surgeon .right a {
         color: #fff; }
+      #about-meet .right .smallTitle,
       #home-Surgeon .right .smallTitle {
         margin-bottom: 5px; }
+      #about-meet .right .largeTitle,
       #home-Surgeon .right .largeTitle {
         margin-bottom: 5px; }
+      #about-meet .right .copy,
       #home-Surgeon .right .copy {
         font-size: 4vw;
         margin: 0 auto 10px auto; }
+
+  .outpaientPage #outpatient-invasiveTreatments .right p {
+    font-size: 2.5vw;
+    line-height: normal; }
+
+  #about-dedicated .left {
+    bottom: auto !important;
+    top: 2%; }
+
+  #about-dedicated .awardLogo {
+    width: 50%; }
+
+  #about-dedicated,
   #home-outpatient {
     padding: 0;
     position: relative; }
+    #about-dedicated .right,
+    #about-dedicated .left,
     #home-outpatient .right,
     #home-outpatient .left {
       float: none;
       width: 100%;
       margin: 0; }
+    #about-dedicated .right .parallaxwrapper,
     #home-outpatient .right .parallaxwrapper {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-top: 0; }
+      #about-dedicated .right .parallaxwrapper img,
+      #home-outpatient .right .parallaxwrapper img {
+        position: relative; }
+    #about-dedicated .right .dedicatedparallax img:nth-child(3),
+    #home-outpatient .right .dedicatedparallax img:nth-child(3) {
+      z-index: 2;
+      width: 100%;
+      right: auto;
+      left: auto;
+      bottom: auto; }
+    #about-dedicated .left,
     #home-outpatient .left {
       position: absolute;
       bottom: 5%;
@@ -2394,16 +2562,21 @@ input:focus {
       padding: 0 8%;
       width: 84%;
       text-align: right; }
+      #about-dedicated .left .copy,
       #home-outpatient .left .copy {
         font-size: 4vw; }
+      #about-dedicated .left .linkArrow,
       #home-outpatient .left .linkArrow {
         display: none; }
+    #about-dedicated .smallTitle,
     #home-outpatient .smallTitle {
       margin-bottom: 5px;
       font-size: 4vw; }
+    #about-dedicated .largeTitle,
     #home-outpatient .largeTitle {
       margin-bottom: 5px;
       font-size: 8vw; }
+
   #home-testimonials {
     padding: 0; }
     #home-testimonials .left {
@@ -2424,6 +2597,10 @@ input:focus {
       font-size: 8vw; }
     #home-testimonials .linkArrow {
       display: none; }
+
+  #about-team {
+    padding: 100px 0 0 0; }
+
   #home-blog {
     padding: 0; }
     #home-blog .left {
@@ -2446,28 +2623,35 @@ input:focus {
         display: block; }
     #home-blog .linkArrow {
       display: none; }
+
   #home-social {
     display: none; }
+
   .footerBottom .center,
   .newsletter-wrapper,
   .form-wrapper,
   #footerTitle {
     display: none; }
+
   footer .footer-nav ul li {
     display: block;
     margin-right: 0;
     text-align: left; }
+
   .footerBottom .right,
   .footerBottom .left {
     float: none;
     width: 100%;
     margin: 0 auto; }
+
   .footerBottom .right .socialWrapper {
     float: none;
     width: 228px;
     margin: 0 auto; }
+
   .footerBottom .center p {
     width: 100%; }
+
   .termsConditinsMobile {
     text-align: center;
     font-family: BrandonGrotesque-Bold;
@@ -2479,6 +2663,7 @@ input:focus {
     .termsConditinsMobile a {
       color: #fff;
       text-decoration: none; }
+
   .footerBottom .left {
     width: 100%;
     max-width: 324px;
@@ -2493,23 +2678,28 @@ input:focus {
       .footerBottom .left .logoWrapper img {
         display: block;
         margin: 0 auto; }
+
   .footerBottom .left #absLogo {
     max-width: 50px; }
+
   .footerBottom .left #hipaaLogo {
     max-width: 90px;
     margin-top: 0px; }
+
   .footerBottom .left #abnsLogo {
     max-width: 50px;
     margin-top: 0; }
+
   .footerBottom .right .youtube:nth-child(4) {
     margin-right: 0; }
+
   .footerBottom .right .socialWrapper {
     width: 208px; }
+
   .footer-inner .logo {
     display: block;
     margin: 0 auto;
     max-width: 100px; } }
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

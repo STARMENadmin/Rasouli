@@ -320,6 +320,9 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 	width: 100%;
 	position: relative;
 }
+
+
+
 #hero-about,
 #hero-home{
 	position: relative;
@@ -368,10 +371,12 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 			
 		}
 	}
+    
+  
 	
 	#home-hero-copy-2{
 		position: absolute;
-		bottom: 8%;
+		bottom: 8% !important;
 		color: #fff;
 		z-index: 10;
 		padding: 0 8%;
@@ -872,7 +877,10 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 
 
 }
-
+.theproceduresPage  .hero-procedures #home-hero-copy-2{
+        bottom: 0 !important;
+    top: 71%;
+    }
 
 /* ==========================================================================
   Home Tesimonial
@@ -1054,6 +1062,8 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
   about hero
    ========================================================================== */
 
+
+
 #hero-about{
     
     background-color: #000;
@@ -1061,6 +1071,10 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
     
     #home-hero-copy-1{
             top: 20%;
+    }
+    
+    .procedures-hero-copy-1{
+          top: 25%;
     }
     
 
@@ -1633,9 +1647,7 @@ div.left div.player-copy:nth-child(2){
     padding-bottom: 15% !important;
 }
 
-.hero-procedures #home-hero-copy-1 {
-    top: 25% !important;
-}
+
 
 .theproceduresPage .condition-video-wrapper{
     margin: 0 auto 0 auto;
@@ -1814,11 +1826,11 @@ div.left div.player-copy:nth-child(2){
 
 .outpaientPage{
     .hero-outpatient{
-        padding-bottom: 0 !important;
+        //padding-bottom: 0 !important;
     }
     
     #outpatient-invasiveTreatments{
-        padding-top: 0 !important;
+        //padding-top: 0 !important;
         
         .left{
             width:45%;
@@ -2535,3 +2547,4 @@ div.left div.player-copy:nth-child(2){
 			.fade-in{
 				opacity: 0;
 			}
+

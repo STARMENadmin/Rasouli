@@ -1,5 +1,8 @@
 			<div class="left">
-				<img src="img/theSurgen.jpg"/>
+				                <picture>
+                <source media="(max-width: 768px)" srcset="img/theSurgenMobile.jpg">
+                <img src="img/theSurgen.jpg" >
+                </picture>
                 <p class="imageCopy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan.</p>
 			</div>
 			<div class="right">
