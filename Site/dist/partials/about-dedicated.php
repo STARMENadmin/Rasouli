@@ -26,7 +26,7 @@
 			</div>
 			<div class="clear"></div>
 
-<p class="smallTitle centerText">Awards and certifications for Rasouli Spine</p>
+<div class="top"><p class="smallTitle centerText">Awards and certifications for Rasouli Spine</p></div>
 
 <div class="awardsWrapper">
     

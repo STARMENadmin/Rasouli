@@ -9,7 +9,7 @@
         <![endif]-->
 
 		<!-- Hero Section -->
-		<section id="hero-home" class="hero">
+		<section id="hero-home" class="hero hero-home">
 			<?php include("partials/homepage-hero.php"); ?>
       	</section>
       

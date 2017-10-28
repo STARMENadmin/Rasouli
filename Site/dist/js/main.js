@@ -27,7 +27,7 @@ $(document).ready(function(){
 			if( winBot > objBot ){
 				$(this).animate({
 					opacity: 1
-				}, 800 );
+				}, 500 );
 			}
 		});
 	
@@ -106,7 +106,7 @@ function simpleParallax(intensity, element) {
             slidesToShow: 1,
              responsive: [
                 {
-                    breakpoint: 768,
+                    breakpoint: 769,
                     settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,

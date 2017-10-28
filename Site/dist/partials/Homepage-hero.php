@@ -1,4 +1,8 @@
- <img class="hero-background" src="img/home-hero.jpg"> 	    	
+
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/home-hero-mobile.jpg">
+               <img class="hero-background" src="img/home-hero.jpg">
+            </picture> 	    	
             <div id="home-hero-copy-1">
                 <h1>
                     <span class="stack">The</span>

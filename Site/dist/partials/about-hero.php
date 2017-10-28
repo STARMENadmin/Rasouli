@@ -1,5 +1,10 @@
-     <img class="hero-background" src="img/about-hero.jpg"> 
-<div id="home-hero-copy-1">
+    
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/about-hero-mobile.jpg">
+                 <img class="hero-background" src="img/about-hero.jpg"> 
+            </picture>
+                
+			<div id="home-hero-copy-1">
 		      <h1>A Team Providing <span class="block">world-Class Care</span></h1>
                 <h2> <span class="stack">Get back to the</span>
                     <span class="stack"> quality of life</span>

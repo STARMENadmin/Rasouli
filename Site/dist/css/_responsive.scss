@@ -76,8 +76,8 @@
 
 @media screen and (max-width: 1300px) {
     
-    #hero-about #home-hero-copy-1 {
-    top: 22%;
+    .hero-about #home-hero-copy-1 {
+    top: 32%;
     }
     
     #hero-about #home-hero-copy-2{
@@ -87,10 +87,104 @@
         #hero-about .right{
         margin-top: 0 !important;
     }
+    
+
 }
 
 //under 1024
 @media screen and (max-width: 1024px) {
+	
+	
+	.outpaientPage .spineSelectWrapper,
+	.outpaientPage .spineSelectOuter{
+		width: 100% !important;
+		max-width: 100%;
+	}
+	
+	
+	
+	.outpaientPage .outpatient-hero-copy-1{
+		    top: 29% !important;
+		    left: auto !important;
+		    right: 10% !important;
+		    width: 55% !important;
+	}
+	
+	.outpaientPage .hero-outpatient{
+		padding-bottom: 0 !important;
+		
+	}
+	
+	#outpatient-invasiveTreatments{
+		padding: 0px 8% 100px 8%;
+	}
+	
+	.outpaientPage #outpatient-invasiveTreatments .right{
+		margin-top:  0;
+		
+		 p{
+		line-height: normal;
+		}
+		
+	}
+	
+	.hero-procedures{
+		padding-bottom: 25% !important;
+	}
+	
+	.hero-conditions #home-hero-copy-1 {
+    top: 29% !important;
+    left: auto;
+    right: 10%;
+	}
+	
+	.hero-procedures #home-hero-copy-1{
+		  
+		    left: auto;
+		    right: 10% !important;
+	}
+	
+	
+.about .hero-about #home-hero-copy-1 {
+    	top: 13% !important;
+	}
+	
+	#hero-about{
+		    padding-bottom: 35% ;
+	}
+	
+.theproceduresPage	.hero-procedures {
+	
+		#home-hero-copy-2{
+			    top: 60%;
+		}
+	
+		#home-hero-copy-1{
+			    top: 25%;
+		}
+	
+	}
+	
+	#procedures-selectSpine .left{
+		display: none;
+	}
+	
+	#procedures-selectSpine .right {
+	    float: none;
+	    width: 100%;
+	    margin-left: 0%;
+	}
+	
+
+	
+	.proceduresMenu .columnOpen .columnOpenTitle{
+		font-size: 2vw;
+	}
+	.proceduresMenu .columnOpen .columnOpenPara{
+		font-size: 1.5vw;
+	}
+	
+	
     
     .header-nav ul{
         padding-right: 2%
@@ -101,11 +195,31 @@
     }  
     
     
+    .largeTitle{
+	    font-size: 3.5vw;
+    }
+    
+    #home-testimonials{
+	    .left{
+		    width: 30%;
+	    }
+	    
+	    .right{
+		    width: 65%;
+	    }
+    }
+    
+    
 }
 
 
 //under 940px
 @media screen and (max-width: 940px) {
+	
+	.spineItem .title{
+		font-size: 3.5vw;
+	}
+	
 	
 	.header-nav-static{
 		display: none;
@@ -163,12 +277,14 @@
 //under 1024 above 768
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     
-
+	.proceduresMenu .column img {
+    	max-width: 1024px;
+	}
     
     
     #hero-about #home-hero-copy-2{
-        bottom: auto !important;
-        top: 40%;
+      //  bottom: auto !important;
+       // top: 40%;
     }
     
     #hero-about {
@@ -209,8 +325,12 @@
         top: 20%;
     }
     
-    #hero-about #home-hero-copy-1{
+    .hero-about #home-hero-copy-1{
         top: 13%;
+    }
+    
+    .theproceduresPage .hero-procedures #home-hero-copy-1{
+	    top:24%;
     }
     
     #hero-about #home-hero-copy-1 h1,
@@ -223,8 +343,8 @@
         padding-left: 0;
     }
     
-    #hero-about #home-hero-copy-1,
-    #hero-home #home-hero-copy-1{
+
+    .hero #home-hero-copy-1{
         right:0;
         width: 58%;
     }
@@ -244,10 +364,87 @@
 }
 
 @media screen and (max-width: 768px) {
+	#outpaient-leadership,
+	#outpaient-inovation,
+	#outpaient-technology{
+		
+		    padding: 50px 8% 50px 8%;
+		
+		.boxText{
+			    width: 100%;
+			        margin-left: 0%;
+		}
+		
+		.largeTitle {
+		    font-size: 5vw;
+		}
+		
+	}
+	
+	
+	.outpaientPage .outpatient-hero-copy-1{
+		right: 0 !important;
+	}
+	
+	.spineItem .title{
+		font-size: 2.75vw;
+	}
+	
+	.about .hero-about #home-hero-copy-1 {
+    	top: 15% !important;
+	}
+	
+	
+	.hero-procedures #home-hero-copy-1 {
+
+    right: 0% !important;
+}
+	
+	
+	.theproceduresPage #hero-about #home-hero-copy-1{
+		    top: 21%;
+	}
+	
+	
+	#conditions-video{
+		padding: 50px 8%;
+	}
+	
+	.conditions-section-2{
+		padding-top: 50px !important;
+	}
+	
+	
+	.video-player-section{
+		text-align: center;
+		
+
+		.smallTitle{
+			    font-size: 4vw;
+		}
+		.largeTitle{
+			    font-size: 8vw;
+		}
+		.copy{
+			    font-size: 1.125em;
+		} 
+	}
+	
+	.condition-video-wrapper .dropbtn{
+		 font-size: 3vw;
+	}
+	
+	
     
     .outpatient-section-2{
-        padding-top: 21% !important;
+        padding-top: 0 !important;
         background-color: #000;
+        position: relative;
+        margin-top: -50%;
+        background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 26%, rgba(0,0,0,1) 27%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 26%,rgba(0,0,0,1) 27%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 26%,rgba(0,0,0,1) 27%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
     }
     
 
@@ -261,7 +458,8 @@
     }
     
     #procedures-selectSpine{
-            padding: 0 8% 100px 8%;
+            padding: 5px 8% 100px 8%;
+            margin-top: -1px;
     }
     
     .hero-procedures {
@@ -281,13 +479,14 @@
     
     .procedures-hero-copy-1{
         right: 0 !important;
-            top: 19% !important;
+           
         
 
         }
         
                 #home-hero-copy-2{
-                margin-top: 61% !important;
+                top: 21% !important;
+                position: absolute;
         }
     }
     
@@ -318,7 +517,7 @@
         }
     
     .hero-conditions #home-hero-copy-1{
-            top: 30% !important;
+            top: 20% !important;
     }
     
     
@@ -357,13 +556,13 @@
     }
     #hero-home #home-hero-copy-2{
         position: relative;
-            margin-top: 35%;
+            margin-top: -50%;
         padding-bottom: 12%;
     }
     
         #hero-about #home-hero-copy-2{
         position: relative;
-            margin-top: 32%;
+            margin-top: -50%;
         padding-bottom: 12%;
     }
     
@@ -436,10 +635,17 @@
         max-width: 100%;
     }
     #about-testimonials .top,
-    #about-team .top,
-    #home-procedures .top{
+    #about-team .top{
             padding: 0 8%;
         
+    }
+    
+    
+    #home-procedures .top{
+	    padding: 50px 8% 75px 8%;
+    }
+    .proceduresMenu{
+	    margin-top: 0;
     }
     
     #about-testimonials .left{
@@ -452,7 +658,7 @@
     }
     
     #home-procedures{
-        padding: 100px 0 0 0;
+        padding:  0;
     }
     
     .largeTitle{
@@ -577,6 +783,8 @@
             width: 50%;
     }
     
+
+    
     #about-dedicated,
     #home-outpatient{
         padding: 0;
@@ -635,6 +843,31 @@
             }
     }
     
+        #about-dedicated  .top{
+	    padding: 0 8% 0 8%;
+	    margin: 0;
+	    display: block;
+	    
+	    .smallTitle{
+		    margin-top: 50px;
+	    }
+    }
+    #about-testimonials,
+    #about-team{
+	    padding-top: 50px;
+    }
+    #about-team{
+	    padding-bottom: 0;
+    }
+    .about-testimonials-top {
+     margin-bottom:50px; 
+	}
+	
+	.testimonialHoverText{
+		font-size: 3vw;
+		line-height: normal;
+	}
+    
     #home-testimonials{
         
         padding: 0;
@@ -672,7 +905,7 @@
     }
     
     #about-team{
-        padding: 100px 0 0 0;
+     
     }
     
     
@@ -828,4 +1061,46 @@
             max-width: 100px
     }
     
+}
+
+@media screen and (max-width: 650px) {
+	
+	.spineItem{
+		padding: 30px 30px 30px 20px;
+	
+		.roundButton{
+			top: 16px;
+			right: 20px;
+		}
+	}
+}
+
+// under 414px iphone 6 plus
+@media screen and (max-width: 414px) {
+	
+	#hero-about #home-hero-copy-2 .right p, #hero-home #home-hero-copy-2 .right p {
+    font-size: 1em;
+    line-height: normal;
+	}	
+	
+}
+
+// under 375px iphone 6 
+@media screen and (max-width: 375px) {
+	
+.spineItem	.roundButton{
+		border: none;
+		right: 10px;
+	}
+	
+}
+
+// under 320px iphone 5
+@media screen and (max-width: 320px) {
+	
+	#hero-home #home-hero-copy-2 {
+	   
+
+	}
+	
 }

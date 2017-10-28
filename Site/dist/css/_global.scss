@@ -590,7 +590,7 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
   Home section 2
    ========================================================================== */
 #home-procedures{
-	    padding: 100px 0 100px 0;
+	    padding: 100px 0 0 0;
 	
 	.top{
 		text-align: center;
@@ -1240,7 +1240,7 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 }
 
 #about-team{
-        padding: 100px 0 100px 0;
+        padding: 100px 0 0 0;
 }
 
 #about-testimonials{
@@ -1644,7 +1644,7 @@ div.left div.player-copy:nth-child(2){
 }
 
 .hero-procedures{
-    padding-bottom: 15% !important;
+    padding-bottom: 15%;
 }
 
 
@@ -1693,6 +1693,7 @@ div.left div.player-copy:nth-child(2){
             font-size: em(28);
             text-transform: uppercase;
             letter-spacing: 2px;
+            text-align: left;
         }
 
         .title2{
@@ -1791,6 +1792,14 @@ div.left div.player-copy:nth-child(2){
   outpatient page
    ========================================================================== */
 
+.outpaientPage .roundButton{
+	@extend %acv;
+}
+
+.outpaientPage .hero-outpatient{
+	padding-bottom: 0 !important;
+}
+
 .outpaientPage .innovationParallax{
 	.paraImage2{
 		z-index: 2 !important;
@@ -1874,7 +1883,7 @@ div.left div.player-copy:nth-child(2){
     }
     
     .outpatient-hero-copy-1{
-        top: 40% !important;
+        top: 39% !important;
          left: 23% !important;
         right: 0 !important;
         

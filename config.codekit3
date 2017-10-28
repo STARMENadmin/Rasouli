@@ -17073,6 +17073,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/about-hero-mobile.jpg": {
+		"ft": 16384,
+		"iS": 25332,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/about-hero-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/about-hero-right-1.jpg": {
 		"ft": 16384,
 		"iS": 51196,
@@ -17198,6 +17208,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/conditions-hero-mobile.jpg": {
+		"ft": 16384,
+		"iS": 47020,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/conditions-hero-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/conditions-hero.jpg": {
 		"ft": 16384,
 		"iS": 116294,
@@ -17302,6 +17322,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/home-hero-mobile.jpg": {
+		"ft": 16384,
+		"iS": 58761,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/home-hero-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/Site\/dist\/img\/home-hero.jpg": {
@@ -17471,6 +17501,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/outpatientHero-mobile.jpg": {
+		"ft": 16384,
+		"iS": 46379,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/outpatientHero-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/outpatientHero.jpg": {
 		"ft": 16384,
 		"iS": 89480,
@@ -17478,7 +17518,7 @@
 		"oAP": "\/Site\/dist\/img\/outpatientHero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/Site\/dist\/img\/pdfButton.png": {
@@ -17618,6 +17658,16 @@
 		"iS": 66733,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/proceduresColumn4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/proceduresHero-mobile.jpg": {
+		"ft": 16384,
+		"iS": 47275,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/proceduresHero-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18498,7 +18548,7 @@
 	"\/Site\/dist\/partials\/Homepage-hero.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Site\/dist\/partials\/Homepage-hero.php",
+		"oAP": "\/Site\/dist\/partials\/homepage-hero.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/Homepage-Outpatiant.php": {
