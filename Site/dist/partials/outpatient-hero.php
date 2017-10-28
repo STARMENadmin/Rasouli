@@ -1,6 +1,6 @@
 
               <picture>
-                <source media="(max-width: 768px)" srcset="img/outpatientHero-mobile.jpg">
+                <source media="(max-width: 768px)" srcset="img/outpatientHeromobile-mobile.jpg">
                  <img class="hero-background" src="img/outpatientHero.jpg"> 
             </picture> 	
   	    	
