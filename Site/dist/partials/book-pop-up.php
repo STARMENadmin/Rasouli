@@ -15,8 +15,9 @@
 			<p class="fieldTitle">Preferred Appointment date</p>
 			
 			<div class="PreferredWrapper">
-				<div class="checkBox">
+				<div class="checkBoxWrapper">
 					<input type="checkbox" name="flexible" value="flexible">
+				</div>
 					<p>Flexible</p>
 					<div class="clear"></div>
 				</div>
