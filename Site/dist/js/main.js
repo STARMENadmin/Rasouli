@@ -17,6 +17,7 @@ $(document).ready(function(){
      
             
    // lazy load setions{
+/*
 	   
    $(window).scroll( function(){
 	
@@ -33,6 +34,7 @@ $(document).ready(function(){
 	
 	
 	});
+*/
 
         
         
@@ -44,11 +46,7 @@ $(window).scroll(function(){
     
           if ($(window).width() > 940) { 
               slideFromTopNav(); 
-          } else { 
-              
-
-         }
-                      
+          }                       
                 
 });
     

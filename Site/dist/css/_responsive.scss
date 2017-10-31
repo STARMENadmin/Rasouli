@@ -1,3 +1,111 @@
+
+.bookingPopUp{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background-color: #000;
+	    z-index: 999999999;
+	    
+	    .bookingPopUpInner{
+		    position: absolute;
+		    border: 1px solid #fff;
+		    margin: 8%;
+		    width: 64%;
+		    z-index: 1;
+		    padding: 10%;
+		    
+		    input[type=text]{
+			    width: 98%;
+			    border: 0;
+			    margin-bottom: 15px;
+			    padding: 2% 0 2% 2%;
+		    }
+		    
+		    .PreferredWrapper{
+			    
+			     input[type=text]{
+				     width: 48%;
+				     float: right;
+			     }
+			     .checkBox{
+				     width: 50%;
+				     float: left;
+				     
+				    input[type=checkbox]{
+				     width: 50%;
+				     float: left;
+				     background-color: #000;
+				     border: 1px solid #000;
+				     display: block;
+				     border-radius: 0;
+			     	}
+				     
+				     p{
+					     margin: 0;
+					     color:#fff;
+					     width: 50%;
+						 float: left;
+				     }
+			     }
+		    }
+		    
+		    input[type=submit]{
+			    background-color: #000;
+			    border: 1px solid #fff;
+			    color: #fff;
+			     font-family: $brandonReg;
+			    text-transform: uppercase;
+			    padding: 7px 0;
+			    max-width: 100px;
+			    margin: 0 auto;
+			    display: block;
+			    width: 100%;
+			     letter-spacing: 2px;
+		    }
+		    
+		    
+		    .popUpTitle{
+			    color: #fff;
+			    font-family: $austinRoman;
+			    -webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				 font-size: 8vw;
+				 margin-top: 20px;
+		    }
+		    .fieldTitle{
+			    font-family: $brandonReg;
+			    text-transform: uppercase;
+			    font-family: BrandonGrotesque-Bold;
+			    letter-spacing: 2px;
+			    font-size: 3vw;
+			    margin: 0 0 5px 0;
+			    padding: 0 0 0 0;
+			    -webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				color: #fff;
+		    }
+		    
+		    .closePopUpNav{
+			    //display: none;
+			    z-index: 99999;
+			    position: absolute;
+			    top: 20px;
+			    right: 20px;
+			    width: 20px;
+			    
+		    }
+	    }
+}
+.bookingPopUpBG{
+		position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	 //@include opacity(0.9);
+}
+
 .mobile{
     display: none;
 }
@@ -93,6 +201,70 @@
 
 //under 1024
 @media screen and (max-width: 1024px) {
+	
+	.sidebar .search-input{
+		padding: 5px 0 0 5%;
+		width: 95%;
+	}
+	
+	.sidebar ul{
+	 	//display: flex;
+	 	//justify-content: space-around;
+	 
+	 	
+	 	li{
+		 	display: inline-block;
+		    text-align: center;
+		    margin-right: 7%;
+		    
+		    &:nth-child(4n+1){
+			    margin-right: 0;
+		    }
+	 	}
+	 	
+  	}
+	.single .bodyWrapper,
+	.home .bodyWrapper{
+		padding: 50px 8%;
+	}
+	.sidebar{
+		float: none;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	
+	 .sidebar #archives-2{
+		border-bottom: 1px solid #000;
+	}
+	
+	.sidebar #categories-2, .sidebar #archives-2 {
+    border-top: 1px solid #000;
+    padding: 25px 0;
+}
+	
+	.blog-right{
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	.sidebar #searchform{
+		border-top: none;
+	}
+	
+	.single .wrapper main .hero-blog .blog-hero-copy-1,
+	.home .wrapper main .hero-blog .blog-hero-copy-1{
+		
+			top:40% !important;
+		h2{
+			padding-right: 0 !important;
+			width: 100% !important;
+		}
+	}
+	
+	.contactPage #contactPage-form .left p{
+		line-height: normal;
+	}
 	
 	
 	.outpaientPage .spineSelectWrapper,
@@ -364,6 +536,122 @@
 }
 
 @media screen and (max-width: 768px) {
+	
+	.single .sidebar{
+		display: none;
+	}
+	
+	
+	
+	.aligncenter, div.aligncenter {
+    display: block;
+     margin: 0 auto;  
+    width: 100%;
+    height: auto;
+    
+    }
+	
+	.single .alm-reveal article{
+		border-top: 0 !important;
+		border-bottom: 0;
+	}
+	
+	article{
+		width:100%;
+		padding-top: 0;
+		border-top: 0 solid #000;
+		padding-left: 0;
+		
+/*
+		&:nth-child(odd){
+			margin-right: 2%;
+		}
+		
+		&:nth-child(even){
+			margin-left: 2%;
+		}
+*/
+		
+		.postLeft{
+			width: 100%;
+			float:none;
+			    margin: 0 0 25px 0;
+		}
+		
+		.postRight{
+			width: 100%;
+			float:none;
+			margin-left: 0;
+		}
+	}
+	
+	
+	
+	.single .wrapper main .hero-blog .blog-hero-copy-1,
+	.home .wrapper main .hero-blog .blog-hero-copy-1{
+		width: 50% !important;
+	}
+	
+	
+	.contactPage .hero-contact{
+		position: absolute !important;
+		z-index: 1;
+	}
+	
+	#contactPage-form{
+		position: relative;
+		z-index: 2;
+		background-color: transparent;
+		padding: 57% 8% 50px 8%;
+		
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 75%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,1) 75%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,1) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+		    
+		    
+	}
+	
+	
+	.contactPage #contactPage-form{
+		
+		.right{
+			float: none;
+			margin: 0;
+			width: 100%;
+			
+			.form-wrapper{
+				margin-top: 50px;
+			}
+		}
+		.left{
+			float: none;
+			margin: 0;
+			width: 100%;
+			
+			.heroLargeText{
+				text-align: right;
+			}
+			
+			p{
+			text-align: right;
+				
+			}
+		}
+	}
+	
+	.contactPage #contactPage-map{
+		padding: 50px 8%;
+	}
+	
+	
+.outpaientPage	#outpatient-invasiveTreatments .right{
+		    margin-left: 0;
+		    margin-top: 20px;
+		
+	}
+	
+	
 	#outpaient-leadership,
 	#outpaient-inovation,
 	#outpaient-technology{
@@ -429,6 +717,10 @@
 			    font-size: 1.125em;
 		} 
 	}
+	
+	.copy{
+			    font-size: 3vw;
+		} 
 	
 	.condition-video-wrapper .dropbtn{
 		 font-size: 3vw;
@@ -609,7 +901,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     
      #hero-about #home-hero-copy-2 .left p,
     .left p, #hero-home #home-hero-copy-2 .left p{
-         font-size: 2.5vw;
+         font-size: 3vw;
     }
     
     #hero-about #home-hero-copy-2 .left .heroLargeText,
@@ -618,7 +910,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     }
     #hero-about #home-hero-copy-2 .right p,
     #hero-home #home-hero-copy-2 .right p{
-        font-size: 2.5vw;
+        font-size: 3vw;
         line-height: normal;
     }
     #hero-about #home-hero-copy-2 .right,
@@ -768,7 +1060,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     }
     
     .outpaientPage #outpatient-invasiveTreatments .right p{
-                font-size: 2.5vw;
+                font-size: 3vw;
         line-height: normal;
        
     }
@@ -957,7 +1249,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     // footer
     .footerBottom .center,
     .newsletter-wrapper,
-    .form-wrapper,
+    footer .form-wrapper,
     #footerTitle{
         display: none;
     }
@@ -1063,15 +1355,113 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     
 }
 
+
+@media screen and (max-width: 767px) {
+	
+	#outpaient-leadership .left, #outpaient-leadership .right,
+	#outpaient-inovation .left, #outpaient-inovation .right,
+	#outpaient-technology .left, #outpaient-technology .right{
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	
+	 #outpaient-leadership .right,
+	#outpaient-inovation .right,
+	#outpaient-technology .right{
+		margin-top: 50px;
+	}
+	
+	.outpaientPage .boxTextLeft,
+	.outpaientPage .marginBottom,
+	.outpaientPage .boxText{
+		margin: 0 0 50px 0 !important;
+		
+	}
+	
+	.outpaientPage #outpatient-invasiveTreatments .left .heroLargeText{
+		font-size: 8vw;
+	}
+	
+	.outpaientPage .spineItem{
+		padding: 30px;
+	}
+	
+	.outpaientPage	.outpatient-section .copy {
+		font-size: 4vw;
+	}
+	
+	.outpaientPage	.outpatient-section .largeTitle{
+		font-size: 8vw ;
+	}
+	
+		.outpaientPage .parallaxwrapper{
+			
+			 .paraImage2{
+			 display: none;
+			}
+			
+			.paraImage1{
+				width: 100%;
+				margin: 0;
+			}
+		
+		}
+		
+		.innovationParallax{
+			margin-bottom: 0;
+		}
+		
+		.outpaientPage .photoText{
+			margin: 50px 0 0 0 !important;
+		}
+		
+		.leadershipParallax{
+			margin: 0 0 50px 0;
+		}
+		
+		#contactPage-form{
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 50%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,1) 50%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */    
+		}
+	
+}
+
 @media screen and (max-width: 650px) {
 	
-	.spineItem{
+	article p{
+		
+		.alignleft {
+		    float: none;
+		    margin: 5px 0px 0px 0;
+		}
+		
+		img{
+			width: 100%;
+			padding-bottom: 0 !important;
+			    height: auto;
+		}
+	}
+	
+	
+	.theproceduresPage .spineItem{
 		padding: 30px 30px 30px 20px;
 	
 		.roundButton{
 			top: 16px;
 			right: 20px;
 		}
+	}
+	
+	.outpaientPage .roundButton{
+			right: 20px;
+	}
+		
+	.outpaientPage .spineItem{
+		padding: 30px 25% 30px 20px;
 	}
 }
 
@@ -1081,7 +1471,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	#hero-about #home-hero-copy-2 .right p, #hero-home #home-hero-copy-2 .right p {
     font-size: 1em;
     line-height: normal;
-	}	
+	}
+	
+			#contactPage-form{
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 40%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,1) 40%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,1) 40%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */    
+		}	
 	
 }
 

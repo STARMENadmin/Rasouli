@@ -17124,11 +17124,31 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/blogHero-mobile.jpg": {
+		"ft": 16384,
+		"iS": 20619,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/blogHero-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/blogHero.jpg": {
 		"ft": 16384,
 		"iS": 63771,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/blogHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/blogHero1024.jpg": {
+		"ft": 16384,
+		"iS": 41659,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/blogHero1024.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17226,6 +17246,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/contact-hero-mobile.jpg": {
+		"ft": 16384,
+		"iS": 98893,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/contact-hero-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/Site\/dist\/img\/contact-hero.jpg": {
@@ -17331,7 +17361,7 @@
 		"oAP": "\/Site\/dist\/img\/home-hero-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/Site\/dist\/img\/home-hero.jpg": {
@@ -18495,6 +18525,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/blog-hero.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/book-pop-up.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/book-pop-up.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/conditions-hero.php": {

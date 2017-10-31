@@ -110,6 +110,9 @@ html {
   font-size: 1em;
   line-height: 1.4; }
 
+body {
+  position: relative; }
+
 /*
  * Remove text-shadow in selection highlight:
  * 
@@ -1513,7 +1516,8 @@ div.left div.player-copy:nth-child(2) {
   height: 70px;
   text-transform: uppercase;
   font-family: BrandonGrotesque-Bold;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  background-color: #000; }
 
 .resourcesPage .right .form-wrapper form .messageInput,
 .contactPage .right .form-wrapper form .messageInput {
@@ -1711,7 +1715,8 @@ div.left div.player-copy:nth-child(2) {
 .blog-hero-copy-1 {
   left: 0;
   right: 0 !important;
-  top: 30% !important; }
+  top: 30% !important;
+  width: 100% !important; }
   .blog-hero-copy-1 h1 {
     text-align: center; }
   .blog-hero-copy-1 h2 {
@@ -1899,9 +1904,6 @@ article {
   border-bottom: 0; }
   .single .alm-reveal article:first-child {
     padding: 70px 0 80px 0; }
-
-.fade-in {
-  opacity: 0; }
 
 footer {
   background-color: #000;
@@ -2135,6 +2137,87 @@ input:focus {
   font-weight: normal !important;
   font-style: normal; }
 
+.bookingPopUp {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 999999999; }
+  .bookingPopUp .bookingPopUpInner {
+    position: absolute;
+    border: 1px solid #fff;
+    margin: 8%;
+    width: 64%;
+    z-index: 1;
+    padding: 10%; }
+    .bookingPopUp .bookingPopUpInner input[type=text] {
+      width: 98%;
+      border: 0;
+      margin-bottom: 15px;
+      padding: 2% 0 2% 2%; }
+    .bookingPopUp .bookingPopUpInner .PreferredWrapper input[type=text] {
+      width: 48%;
+      float: right; }
+    .bookingPopUp .bookingPopUpInner .PreferredWrapper .checkBox {
+      width: 50%;
+      float: left; }
+      .bookingPopUp .bookingPopUpInner .PreferredWrapper .checkBox input[type=checkbox] {
+        width: 50%;
+        float: left;
+        background-color: #000;
+        border: 1px solid #000;
+        display: block;
+        border-radius: 0; }
+      .bookingPopUp .bookingPopUpInner .PreferredWrapper .checkBox p {
+        margin: 0;
+        color: #fff;
+        width: 50%;
+        float: left; }
+    .bookingPopUp .bookingPopUpInner input[type=submit] {
+      background-color: #000;
+      border: 1px solid #fff;
+      color: #fff;
+      font-family: BrandonGrotesque-Regular;
+      text-transform: uppercase;
+      padding: 7px 0;
+      max-width: 100px;
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+      letter-spacing: 2px; }
+    .bookingPopUp .bookingPopUpInner .popUpTitle {
+      color: #fff;
+      font-family: Conv_Austin-Roman;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 8vw;
+      margin-top: 20px; }
+    .bookingPopUp .bookingPopUpInner .fieldTitle {
+      font-family: BrandonGrotesque-Regular;
+      text-transform: uppercase;
+      font-family: BrandonGrotesque-Bold;
+      letter-spacing: 2px;
+      font-size: 3vw;
+      margin: 0 0 5px 0;
+      padding: 0 0 0 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #fff; }
+    .bookingPopUp .bookingPopUpInner .closePopUpNav {
+      z-index: 99999;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 20px; }
+
+.bookingPopUpBG {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000; }
+
 .mobile {
   display: none; }
 
@@ -2200,6 +2283,42 @@ input:focus {
     margin-top: 0 !important; } }
 
 @media screen and (max-width: 1024px) {
+  .sidebar .search-input {
+    padding: 5px 0 0 5%;
+    width: 95%; }
+  .sidebar ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 7%; }
+    .sidebar ul li:nth-child(4n+1) {
+      margin-right: 0; }
+  .single .bodyWrapper,
+  .home .bodyWrapper {
+    padding: 50px 8%; }
+  .sidebar {
+    float: none;
+    width: 100%;
+    margin-bottom: 50px; }
+  .sidebar #archives-2 {
+    border-bottom: 1px solid #000; }
+  .sidebar #categories-2, .sidebar #archives-2 {
+    border-top: 1px solid #000;
+    padding: 25px 0; }
+  .blog-right {
+    float: none;
+    width: 100%;
+    margin-left: 0; }
+  .sidebar #searchform {
+    border-top: none; }
+  .single .wrapper main .hero-blog .blog-hero-copy-1,
+  .home .wrapper main .hero-blog .blog-hero-copy-1 {
+    top: 40% !important; }
+    .single .wrapper main .hero-blog .blog-hero-copy-1 h2,
+    .home .wrapper main .hero-blog .blog-hero-copy-1 h2 {
+      padding-right: 0 !important;
+      width: 100% !important; }
+  .contactPage #contactPage-form .left p {
+    line-height: normal; }
   .outpaientPage .spineSelectWrapper,
   .outpaientPage .spineSelectOuter {
     width: 100% !important;
@@ -2335,6 +2454,76 @@ input:focus {
     display: none; } }
 
 @media screen and (max-width: 768px) {
+  .single .sidebar {
+    display: none; }
+  .aligncenter, div.aligncenter {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto; }
+  .single .alm-reveal article {
+    border-top: 0 !important;
+    border-bottom: 0; }
+  article {
+    width: 100%;
+    padding-top: 0;
+    border-top: 0 solid #000;
+    padding-left: 0;
+    /*
+		&:nth-child(odd){
+			margin-right: 2%;
+		}
+		
+		&:nth-child(even){
+			margin-left: 2%;
+		}
+*/ }
+    article .postLeft {
+      width: 100%;
+      float: none;
+      margin: 0 0 25px 0; }
+    article .postRight {
+      width: 100%;
+      float: none;
+      margin-left: 0; }
+  .single .wrapper main .hero-blog .blog-hero-copy-1,
+  .home .wrapper main .hero-blog .blog-hero-copy-1 {
+    width: 50% !important; }
+  .contactPage .hero-contact {
+    position: absolute !important;
+    z-index: 1; }
+  #contactPage-form {
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    padding: 57% 8% 50px 8%;
+    background: -moz-linear-gradient(top, transparent 0%, transparent 1%, black 75%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, transparent 0%, transparent 1%, black 75%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, transparent 0%, transparent 1%, black 75%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+    /* IE6-9 */ }
+  .contactPage #contactPage-form .right {
+    float: none;
+    margin: 0;
+    width: 100%; }
+    .contactPage #contactPage-form .right .form-wrapper {
+      margin-top: 50px; }
+  .contactPage #contactPage-form .left {
+    float: none;
+    margin: 0;
+    width: 100%; }
+    .contactPage #contactPage-form .left .heroLargeText {
+      text-align: right; }
+    .contactPage #contactPage-form .left p {
+      text-align: right; }
+  .contactPage #contactPage-map {
+    padding: 50px 8%; }
+  .outpaientPage #outpatient-invasiveTreatments .right {
+    margin-left: 0;
+    margin-top: 20px; }
   #outpaient-leadership,
   #outpaient-inovation,
   #outpaient-technology {
@@ -2370,6 +2559,8 @@ input:focus {
       font-size: 8vw; }
     .video-player-section .copy {
       font-size: 1.125em; }
+  .copy {
+    font-size: 3vw; }
   .condition-video-wrapper .dropbtn {
     font-size: 3vw; }
   .outpatient-section-2 {
@@ -2476,13 +2667,13 @@ input:focus {
     margin-right: 0; }
   #hero-about #home-hero-copy-2 .left p,
   .left p, #hero-home #home-hero-copy-2 .left p {
-    font-size: 2.5vw; }
+    font-size: 3vw; }
   #hero-about #home-hero-copy-2 .left .heroLargeText,
   #hero-home #home-hero-copy-2 .left .heroLargeText {
     font-size: 9vw; }
   #hero-about #home-hero-copy-2 .right p,
   #hero-home #home-hero-copy-2 .right p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     line-height: normal; }
   #hero-about #home-hero-copy-2 .right,
   #hero-home #home-hero-copy-2 .right {
@@ -2584,7 +2775,7 @@ input:focus {
         font-size: 4vw;
         margin: 0 auto 10px auto; }
   .outpaientPage #outpatient-invasiveTreatments .right p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     line-height: normal; }
   #about-dedicated .left {
     bottom: auto !important;
@@ -2700,7 +2891,7 @@ input:focus {
     display: none; }
   .footerBottom .center,
   .newsletter-wrapper,
-  .form-wrapper,
+  footer .form-wrapper,
   #footerTitle {
     display: none; }
   footer .footer-nav ul li {
@@ -2760,18 +2951,82 @@ input:focus {
     margin: 0 auto;
     max-width: 100px; } }
 
+@media screen and (max-width: 767px) {
+  #outpaient-leadership .left, #outpaient-leadership .right,
+  #outpaient-inovation .left, #outpaient-inovation .right,
+  #outpaient-technology .left, #outpaient-technology .right {
+    float: none;
+    width: 100%;
+    margin-left: 0; }
+  #outpaient-leadership .right,
+  #outpaient-inovation .right,
+  #outpaient-technology .right {
+    margin-top: 50px; }
+  .outpaientPage .boxTextLeft,
+  .outpaientPage .marginBottom,
+  .outpaientPage .boxText {
+    margin: 0 0 50px 0 !important; }
+  .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText {
+    font-size: 8vw; }
+  .outpaientPage .spineItem {
+    padding: 30px; }
+  .outpaientPage .outpatient-section .copy {
+    font-size: 4vw; }
+  .outpaientPage .outpatient-section .largeTitle {
+    font-size: 8vw; }
+  .outpaientPage .parallaxwrapper .paraImage2 {
+    display: none; }
+  .outpaientPage .parallaxwrapper .paraImage1 {
+    width: 100%;
+    margin: 0; }
+  .innovationParallax {
+    margin-bottom: 0; }
+  .outpaientPage .photoText {
+    margin: 50px 0 0 0 !important; }
+  .leadershipParallax {
+    margin: 0 0 50px 0; }
+  #contactPage-form {
+    background: -moz-linear-gradient(top, transparent 0%, transparent 1%, black 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, transparent 0%, transparent 1%, black 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, transparent 0%, transparent 1%, black 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+    /* IE6-9 */ } }
+
 @media screen and (max-width: 650px) {
-  .spineItem {
+  article p .alignleft {
+    float: none;
+    margin: 5px 0px 0px 0; }
+  article p img {
+    width: 100%;
+    padding-bottom: 0 !important;
+    height: auto; }
+  .theproceduresPage .spineItem {
     padding: 30px 30px 30px 20px; }
-    .spineItem .roundButton {
+    .theproceduresPage .spineItem .roundButton {
       top: 16px;
-      right: 20px; } }
+      right: 20px; }
+  .outpaientPage .roundButton {
+    right: 20px; }
+  .outpaientPage .spineItem {
+    padding: 30px 25% 30px 20px; } }
 
 @media screen and (max-width: 414px) {
   #hero-about #home-hero-copy-2 .right p,
   #hero-home #home-hero-copy-2 .right p {
     font-size: 1em;
-    line-height: normal; } }
+    line-height: normal; }
+  #contactPage-form {
+    background: -moz-linear-gradient(top, transparent 0%, transparent 1%, black 40%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, transparent 0%, transparent 1%, black 40%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, transparent 0%, transparent 1%, black 40%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+    /* IE6-9 */ } }
 
 @media screen and (max-width: 375px) {
   .spineItem .roundButton {

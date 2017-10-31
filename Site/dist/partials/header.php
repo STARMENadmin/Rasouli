@@ -16,3 +16,8 @@
          <link rel="stylesheet" href="css/main.css">
          <link rel="stylesheet" href="css/jquery-ui.css">
     </head>
+    
+    
+      <?php include("partials/book-pop-up.php"); ?>
+	      <?php include("partials/nav.php"); ?>
+	       <?php include("partials/nav-static.php"); ?>
