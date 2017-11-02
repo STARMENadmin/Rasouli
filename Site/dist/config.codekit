@@ -15922,6 +15922,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/about-hero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25332,
+		"inputAbbreviatedPath": "\/img\/about-hero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/about-hero-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/about-hero-right-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15966,6 +15977,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/blogHero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20619,
+		"inputAbbreviatedPath": "\/img\/blogHero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/blogHero-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/blogHero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15973,6 +15995,17 @@
 		"initialSize": 63771,
 		"inputAbbreviatedPath": "\/img\/blogHero.jpg",
 		"outputAbbreviatedPath": "\/img\/blogHero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/blogHero1024.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41659,
+		"inputAbbreviatedPath": "\/img\/blogHero1024.jpg",
+		"outputAbbreviatedPath": "\/img\/blogHero1024.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16054,6 +16087,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/conditions-hero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47020,
+		"inputAbbreviatedPath": "\/img\/conditions-hero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/conditions-hero-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/conditions-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -16061,6 +16105,17 @@
 		"initialSize": 116294,
 		"inputAbbreviatedPath": "\/img\/conditions-hero.jpg",
 		"outputAbbreviatedPath": "\/img\/conditions-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/contact-hero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59841,
+		"inputAbbreviatedPath": "\/img\/contact-hero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/contact-hero-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16160,6 +16215,17 @@
 		"initialSize": 19173,
 		"inputAbbreviatedPath": "\/img\/hipaaLogo.png",
 		"outputAbbreviatedPath": "\/img\/hipaaLogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home-hero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58761,
+		"inputAbbreviatedPath": "\/img\/home-hero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/home-hero-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16340,11 +16406,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/outpatientHero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46379,
+		"inputAbbreviatedPath": "\/img\/outpatientHero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/outpatientHero-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/outpatientHero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 89480,
+		"initialSize": 81493,
 		"inputAbbreviatedPath": "\/img\/outpatientHero.jpg",
 		"outputAbbreviatedPath": "\/img\/outpatientHero.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -16501,6 +16578,17 @@
 		"initialSize": 66733,
 		"inputAbbreviatedPath": "\/img\/proceduresColumn4.jpg",
 		"outputAbbreviatedPath": "\/img\/proceduresColumn4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proceduresHero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47275,
+		"inputAbbreviatedPath": "\/img\/proceduresHero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/proceduresHero-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -17346,6 +17434,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/book-pop-up.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/book-pop-up.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/conditions-hero.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -17418,11 +17515,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/homepage-hero.php": {
+	"\/partials\/Homepage-hero.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/homepage-hero.php",
+		"inputAbbreviatedPath": "\/partials\/Homepage-hero.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

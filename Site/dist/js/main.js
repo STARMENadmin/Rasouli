@@ -1,20 +1,19 @@
 jQuery(function($){
 
 $(document).ready(function(){
-	
+    
 
-	   // slide in nav
     
-        function slideFromTopNav(){
-               if($(window).scrollTop() >= 600){   
-                    $('.header-nav').addClass('slideDown');              
-                }else{
-                    $('.header-nav').removeClass('slideDown');
-                }
-        }
+    var $el = $('.paraImage2');
+    var bottom = $el.position().top + $el.offset().top + $el.outerHeight(true);
+    console.log(bottom);
     
     
-     
+$(window).scroll(function() {
+ // $(".paraImage2").css({
+  //  "bottom": bottom + "px",
+ // });
+});
             
    // lazy load setions{
 /*
@@ -39,7 +38,15 @@ $(document).ready(function(){
         
         
            
-       
+  	   // slide in nav
+    
+        function slideFromTopNav(){
+               if($(window).scrollTop() >= 600){   
+                    $('.header-nav').addClass('slideDown');              
+                }else{
+                    $('.header-nav').removeClass('slideDown');
+                }
+        }     
     
     
 $(window).scroll(function(){
