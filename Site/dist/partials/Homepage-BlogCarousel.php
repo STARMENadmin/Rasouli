@@ -8,13 +8,7 @@
 			<!-- Start Carousel Wrapper Copy and paste -->
 			<div class="slickWrapper">
 			
-				<div class="left">
-					
-                <picture>
-                    <source media="(max-width: 768px)" srcset="img/blogImage1Mobile.jpg">
-                    <img src="img/blogImage1.jpg"/>
-                </picture>
-				</div>
+
 				<div class="right">
 					<p class="smallTitle">June 22, 2017</p>
 					<p class="largeTitle">Life After <span class="block">Spine Surgery</span></p>
@@ -23,6 +17,15 @@
 					<a class="textCTA black" href="#">Visit Blog<span class="linkArrow linkArrowBlack"></span></a>
 					
 				</div>
+				
+				<div class="left">
+					
+	                <picture>
+	                    <source media="(max-width: 768px)" srcset="img/blogImage1Mobile.jpg">
+	                    <img src="img/blogImage1.jpg"/>
+	                </picture>
+				</div>
+				
 				<div class="clear"></div>
 			
 			</div>
@@ -32,9 +35,7 @@
 			<!-- Start Carousel Wrapper Copy and paste -->
 			<div class="slickWrapper">
 			
-				<div class="left">
-					<img src="img/theSurgen.jpg"/>
-				</div>
+
 				<div class="right">
 					<p class="smallTitle">June 22, 2017</p>
 					<p class="largeTitle">Life After <span class="block">Spine Surgery</span></p>
@@ -42,6 +43,10 @@
 					
 					<a class="textCTA black" href="#">Visit Blog<span class="linkArrow "></span></a>
 					
+				</div>
+				
+				<div class="left">
+					<img src="img/theSurgen.jpg"/>
 				</div>
 				<div class="clear"></div>
 			

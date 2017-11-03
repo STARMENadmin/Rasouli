@@ -7,7 +7,7 @@
         <![endif]-->
 
 		<!-- Hero Section -->
-		<section id="hero-about" class="hero hero-contact">
+		<section id="hero-about" class="hero patient-resources">
 			<?php include("partials/resoures-hero.php"); ?>
       	</section>
         

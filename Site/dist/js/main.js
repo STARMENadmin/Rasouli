@@ -4,16 +4,25 @@ $(document).ready(function(){
     
 
     
-    var $el = $('.paraImage2');
-    var bottom = $el.position().top + $el.offset().top + $el.outerHeight(true);
-    console.log(bottom);
+    // responsive booking 
+    $('.bookingWrapper').click(function() {
+	    
+	    $('.bookingPopUp').fadeIn();
+	    
+    });
+    
+    $('.closePopUpNav').click(function() {
+	     $('.bookingPopUp').fadeOut();
+    });
     
     
-$(window).scroll(function() {
- // $(".paraImage2").css({
-  //  "bottom": bottom + "px",
- // });
-});
+    $(window).resize(function() {
+		 if ($(window).width() > 940) { 
+			  $('.bookingPopUp').fadeOut();
+		 }
+	});
+    
+
             
    // lazy load setions{
 /*
@@ -71,35 +80,8 @@ $(window).scroll(function(){
            
             });
 	
-	// Parallax
-	
-/*
-		function parallax(){
-		    var scrolled = $(window).scrollTop();
-		    var elementOffset = $('.parallaxwrapper').offset().top;
-		    $('.paraImage2').css('bottom', + (scrolled * 0.2 / 2 ) + 'px');
-		}
-		
-		$(window).scroll(function(e){
-		    parallax();
-		});
-*/
 
-/*
-function simpleParallax(intensity, element) {
-        $(window).scroll(function() {
-            var scrollTop = $(window).scrollTop();
-            var height = element.height();
-            
-            var imgPos = scrollTop / intensity  + 'px';
-            element.css('transform', 'translateY(' + imgPos + ')');
-        });
-    }
-	var test = $(".paraImage2");
-	
-	
-	simpleParallax(15, test);
-*/
+
 	
 	
 
@@ -192,6 +174,7 @@ function simpleParallax(intensity, element) {
                $(this).animate({width: '85%'}, 500, 'linear');
              
          } else{
+/*
              $(this).siblings().children('.copyWrapper').children('.proPara').stop().slideUp();
             $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
             $(this).siblings().children('.copyWrapper').children('.roundButton').children('.bg').removeClass('bgOver');
@@ -200,6 +183,7 @@ function simpleParallax(intensity, element) {
             $(this).siblings().children('.copyWrapper').children('.roundButton').children('.cross').children('.b').removeClass('blackBG');
             $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').toggleClass('blackBG');
             $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').toggleClass('blackBG');
+*/
            //$(this).children('.copyWrapper').children('.roundButton').children('.readmore').stop().fadeIn();
              
          }
@@ -388,7 +372,8 @@ function simpleParallax(intensity, element) {
      
 
         //foooter
-        $( "#datepicker" ).datepicker();
+        $( "#datepicker" ).datepicker({ dateFormat: 'yy-mm-dd' });
+         //$( "#datepickerMobile" ).datepicker();
         
         
         

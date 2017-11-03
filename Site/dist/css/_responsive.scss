@@ -42,6 +42,17 @@
 		    z-index: 1;
 		    padding: 10%;
 		    
+
+		    
+		    input[type=date]{
+			     width: 48%;
+				 float: right;
+				 padding: 2% 0 2% 2%;
+				 margin-top: 10px;
+				     height: 15px;
+		    }
+		    
+		    
 		    input[type=text]{
 			    width: 98%;
 			    border: 0;
@@ -49,24 +60,104 @@
 			    padding: 2% 0 2% 2%;
 		    }
 		    
+		   .hasDatepicker{
+			    width: 50% !important;
+			    float: left;
+			    margin-top: 10px;
+		    }
+		    
 		    .PreferredWrapper{
+			    width: 48%;
+			    float: left;
+			    margin-top: 10px;
+			    position: relative;
 			    
+			    	p{
+					    color: #fff;
+					    margin: 0;
+					    float: left;
+					    font-family: $brandonLight;
+					    text-transform: uppercase;
+					    letter-spacing: 2px;
+					    font-size: 3vw;
+					    margin: 0 0 0 38px;
+					    position: absolute;
+					    @extend %acv;
+				    }
+			    
+			    .checkBoxWrapper{
+				    width: 28px;
+				     height: 28px;
+				    position: relative;
+				    float: left;
+				    display: block;
+				        margin-bottom: 3px;
+				    
+
+				    
+				    input[type=checkbox]{
+						
+					     width: 100%;
+					     height: 100%;
+					     float: left;
+					     background-color: #fff;
+					     border: 1px solid #000;
+					     display: block;
+					     border-radius: 0;
+					     z-index: 2;
+					     position: absolute;
+						 opacity: 0;
+    					
+    					&:checked + label:after {
+								opacity: 1;
+							}
+			     	}
+				    
+				    label{
+					    position: absolute;
+						width: 28px;
+						height: 28px;
+						top: 0;
+					  	left: 0;
+						background: #000;
+						border:1px solid #fff;
+						z-index: 1;
+						
+						&:after {
+							opacity: 0.2;
+						    content: '';
+						    position: absolute;
+						    width: 18px;
+						    height: 8px;
+						    background: transparent;
+						    top: 5px;
+						    left: 3px;
+						    border: 5px solid #fff;
+						    border-top: none;
+						    border-right: none;
+						    transform: rotate(-45deg);
+						}
+						
+							&:after:hover::after {
+								opacity: 0.5;
+							}
+							
+							
+				    }
+			    }
+
+			    
+/*
 			     input[type=text]{
 				     width: 48%;
 				     float: right;
 			     }
+*/
 			     .checkBox{
 				     width: 50%;
 				     float: left;
 				     
-				    input[type=checkbox]{
-				     width: 50%;
-				     float: left;
-				     background-color: #000;
-				     border: 1px solid #000;
-				     display: block;
-				     border-radius: 0;
-			     	}
+
 				     
 				     p{
 					     margin: 0;
@@ -89,6 +180,7 @@
 			    display: block;
 			    width: 100%;
 			     letter-spacing: 2px;
+			        margin-top: 40px;
 		    }
 		    
 		    
@@ -198,6 +290,50 @@
 
 //under 1600
 @media screen and (max-width: 1600px) {
+	
+	#resources-forms .documents-wrapper{
+		
+		.pdfItem{
+			padding: 30px;
+			margin-bottom: 30px;
+			
+			.title{
+				font-size: 1.25vw;
+			}
+		}
+		
+		.pdfItem .pdfButton{
+			width: 30px;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+			    -ms-transform: translateY(-50%);
+			    -webkit-transform: translateY(-50%);
+			    -moz-transform: translateY(-50%);
+			    -o-transform: translateY(-50%);
+		}
+		
+		.pdfItem .roundButton{
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		    -webkit-transform: translateY(-50%);
+		    -moz-transform: translateY(-50%);
+		    -o-transform: translateY(-50%);
+		    
+		    .pdfNumber{
+			    font-size: 1em;
+		    }
+		}
+		
+		 .title{
+		padding: 0 15%;
+		}
+	}
+	
         .header-nav ul{
         padding-right: 2%
     }
@@ -227,6 +363,26 @@
 
 //under 1024
 @media screen and (max-width: 1024px) {
+	
+	
+	
+	.testimonialsPage #about-testimonials .top{
+		
+		    padding: 0 8%;
+		.smallTitle {
+	    font-size: 4vw;
+		}
+		.largeTitle {
+		    font-size: 8vw;
+		}
+		
+		.copy {
+		    line-height: normal;
+		    max-width: 100%;
+		}
+	}
+	
+	
 	
 	.sidebar .search-input{
 		padding: 5px 0 0 5%;
@@ -407,12 +563,61 @@
 	    }
     }
     
+    .patient-resources{
+	    padding-bottom: 0 !important;
+    }
     
+    
+}
+
+//under 1023
+@media screen and (max-width: 1023px) {
+	
+	    .patient-resources{
+	   display: none;
+	      
+    }
+    
+	#resources-providers .right p,
+	.resourcesPage #resources-forms .left p{
+		line-height: normal !important;
+	}
+	
+	.resourcesPage #resources-forms{
+		 padding: 200px 8% 50px 8% !important;
+		
+		.left{
+			text-align: center;
+			line-height: normal !important;
+		}
+		
+		.right,
+		 .left{
+			width: 100%;
+			float: none;
+			    margin: 0%;
+		}
+		
+		.documents-wrapper{
+			display: none;
+			margin-top: 40px;
+		}
+		
+		
+	}
 }
 
 
 //under 940px
 @media screen and (max-width: 940px) {
+	
+	
+	.testimonialsPage .bookingWrapper{
+		
+        box-shadow: inset 0px 0px 0px 1px #000;
+        box-sizing: border-box;
+        
+        }
 	
 	.spineItem .title{
 		font-size: 3.5vw;
@@ -562,6 +767,74 @@
 }
 
 @media screen and (max-width: 768px) {
+	
+	.teamMenu{
+		display: none;
+	}
+	
+	.about #about-testimonials{
+		background-color: #ededed;
+		
+		.linkArrowBlack{
+			display: none;
+		}
+	}
+	.hompage #home-outpatient img,
+	.about #about-dedicated .right img{
+		@include opacity(0.2) 
+	}
+	
+	.hompage    .readmore{
+        	display: block !important;
+        	font-size: 3vw !important;
+        	left: 0 !important;
+    	}
+    	
+    	.hompage  .proceduresMenu .copyWrapper .roundButton .bg{
+	    	display: none !important;
+    	}
+    	
+    	.hompage  .proceduresMenu .copyWrapper .roundButton{
+	    	width: 100px !important;
+	    	text-align: left;
+	    	border: none !important;
+	    	margin: 0 !important;
+	    	left:0 !important;
+	    	padding: 0;
+	    	top: 0;
+	    	position: relative;
+    	}
+    	
+    .hompage .roundButton .cross{
+	    	display: none;
+    	}
+	
+	.proceduresMenu .copyWrapper .proPara{
+		font-size: 4vw;
+	}
+	
+	.textCTA{
+		    border: 2px solid #000;
+			padding: 10px;
+			font-size: 3vw;
+			margin-top: 0px;
+			display: inline-block;
+	}
+	
+	#home-procedures .textCTA{
+		border: none;
+		line-height: normal;
+	}
+	
+	#hero-home .textCTA,
+	#home-Surgeon .textCTA{
+		  border: 2px solid #fff !important;
+	}
+	
+	.downArrowBlack,
+	.linkArrowWhite{
+		display: none
+	}
 	
 	.single .sidebar{
 		display: none;
@@ -1043,9 +1316,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
         height: 62px;
         border-radius: 30px;
     }
-    .readmore{
-        display: none;
-    }
+
     #about-meet,
     #home-Surgeon{
             padding: 0 0 10% 0;
@@ -1384,6 +1655,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 @media screen and (max-width: 767px) {
 	
+	.resourcesPage #resources-forms .left .heroLargeText{
+		 font-size: 8vw;
+	}
+	
+	#resources-providers .providersWrapper{
+		margin-top: 50px;
+		    padding-top: 0px;
+	}
+	
+	#resources-providers .providersWrapper .awardLogo{
+		width: 50%;
+	}
+	
+	#resources-providers{
+		    padding: 50px 8%  !important;
+		text-align: center;
+		
+		.left {
+			width: 100%;
+		    margin-right: 0%;
+		    float: none;
+		    
+		    .heroLargeText{
+			    font-size: 8vw;
+				margin: 0 0 25px 0;
+		    }
+		}
+		.right {
+			width: 100%;
+		    margin-left: 0%;
+		    float: none;
+		    
+		    p{
+			    font-size: 3vw;
+			    line-height: normal;
+		    }
+		}
+	}
+	
 	#outpaient-leadership .left, #outpaient-leadership .right,
 	#outpaient-inovation .left, #outpaient-inovation .right,
 	#outpaient-technology .left, #outpaient-technology .right{
@@ -1493,6 +1803,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 // under 414px iphone 6 plus
 @media screen and (max-width: 414px) {
+	
+	.bookingPopUp .bookingPopUpInner .PreferredWrapper{
+		width: 100%;
+		float: none;
+	}
+	
+	.bookingPopUp .bookingPopUpInner #datepickerMobile{
+		width: 100% !important;
+		float: none;
+	}
 	
 	#hero-about #home-hero-copy-2 .right p, #hero-home #home-hero-copy-2 .right p {
     font-size: 1em;

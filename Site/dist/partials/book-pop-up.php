@@ -16,12 +16,14 @@
 			
 			<div class="PreferredWrapper">
 				<div class="checkBoxWrapper">
-					<input type="checkbox" name="flexible" value="flexible">
-				</div>
-					<p>Flexible</p>
+					<input type="checkbox" value="1" id="checkbox" name=""/>
+					<label for="checkboxInput"></label>
 					<div class="clear"></div>
 				</div>
-				<input type="text" name="date"  id="datepicker">
+					<p>Flexible?</p>
+					<div class="clear"></div>
+				</div>
+				<input type="date" name="dateMobile"  id="datepickerMobile">
 				<div class="clear"></div>
 			</div>
 			

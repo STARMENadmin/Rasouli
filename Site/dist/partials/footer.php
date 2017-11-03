@@ -4,7 +4,7 @@
 		
 		<div class="form-wrapper">
 			<form action="mail.php" method="POST">
-			<input type="text" name="name" placeholder="First and last name"><input type="text" name="email" placeholder="Email"><input type="text" name="phone" placeholder="Phone"><input type="text" name="date" placeholder="Appointment Date" id="datepicker"><input type="submit" value="Send">
+			<input type="text" name="name" placeholder="First and last name"><input type="text" name="email" placeholder="Email"><input type="text" name="phone" placeholder="Phone"><input type="text" name="date" placeholder="Appointment Date" id="datepicker" ><input type="submit" value="Send">
 			</form>
 			<div class="clear"></div>
 		</div>
@@ -67,9 +67,14 @@
 	 
 </footer>
  
- <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-         <script src="js/jquery-ui.min.js"></script>
+ 		<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+ 		
+<!--         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
+<!--          <script src="js/jquery-ui.min.js"></script> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+	
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
          <script src="js/vendor/slick/slick.min.js"></script>
 
