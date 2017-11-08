@@ -1502,7 +1502,13 @@ div.left div.player-copy:nth-child(2) {
 .contactPage .hero-contact {
   padding-bottom: 0 !important; }
 
+.resourcesPage .right .form-wrapper #contactResponse,
+.contactPage .right .form-wrapper #contactResponse {
+  color: #fff; }
+
+.resourcesPage .right .form-wrapper form input[type=email],
 .resourcesPage .right .form-wrapper form input[type=text],
+.contactPage .right .form-wrapper form input[type=email],
 .contactPage .right .form-wrapper form input[type=text] {
   position: relative;
   top: 0;

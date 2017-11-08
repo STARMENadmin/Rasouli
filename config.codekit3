@@ -18857,6 +18857,12 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/Site\/dist\/mail.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/mail.php",
+		"oF": 0
+		},
 	"\/Site\/dist\/partials\/about-dedicated.php": {
 		"ft": 8192,
 		"oA": 2,

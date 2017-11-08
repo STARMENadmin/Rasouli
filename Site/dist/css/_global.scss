@@ -2015,10 +2015,14 @@ div.left div.player-copy:nth-child(2){
 	
 		.form-wrapper{
 			
+			#contactResponse{
+				color: #fff;
+			}
+			
 			
 			form{
 				
-				
+				input[type=email],
 				input[type=text] {
 					position: relative;
 					top: 0;
