@@ -1467,6 +1467,29 @@ div.left div.player-copy:nth-child(2) {
 /* ==========================================================================
    contact page
    ========================================================================== */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #000 inset !important; }
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #000 inset !important; }
+
+.autoFillColor:-webkit-autofill {
+  -webkit-text-fill-color: #fff; }
+
+.autoFillColor:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff; }
+
+#contact-form .alert {
+  color: #fff;
+  color: #fff;
+  font-family: BrandonGrotesque-Medium;
+  font-size: 1.125em;
+  line-height: 1.85vw;
+  margin: 20px 0 0 0;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: normal; }
+
 .resourcesPage #resources-forms .left,
 .contactPage #contactPage-form .left {
   width: 45%;
