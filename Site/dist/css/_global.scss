@@ -1988,8 +1988,14 @@ input:-webkit-autofill {
     -webkit-text-fill-color: #fff;
 }
 
-#contact-form .alert{
-	color:#fff;
+.contact-form .help-block{
+width: 100%;
+display: inline-block;
+
+}
+.contact-form .help-block,
+.contact-form .alert{
+		color:#fff;
 		    color: #fff;
 	    font-family: BrandonGrotesque-Medium;
 	    font-size: 1.125em;
@@ -1998,6 +2004,7 @@ input:-webkit-autofill {
 	    letter-spacing: 2px;
 	    text-align: center;
 	    line-height: normal;
+	  
 	
 }
    

@@ -9,7 +9,10 @@
     }
 }(this, function () {
     "use strict";
+	
 
+
+	
     var ContactForm = function (form, options) {
         if (!this || !(this instanceof ContactForm)) {
             return new ContactForm(form, options);
@@ -21,9 +24,13 @@
 
         this.form     = form instanceof Node ? form : document.querySelector(form);
         this.endpoint = options.endpoint;
-
+		
         this.send();
+        
+         	
     };
+    
+ 
 
     ContactForm.prototype = {
         hasClass: function (el, name) {
@@ -103,6 +110,7 @@
         send: function () {
             this.form.addEventListener('submit', function (e) {
                 e.preventDefault();
+             
 
                 var elements = document.querySelectorAll('.form-control'),
                     formData;

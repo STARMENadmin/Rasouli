@@ -2,7 +2,7 @@
 
 return [
     'subject' => [
-        'prefix' => '[Contact Form]'
+        'prefix' => 'New Message From Rasoulispine.com'
     ],
     'emails' => [
         'to'   => 'kaz@starmenusa.com',

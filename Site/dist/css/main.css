@@ -1479,7 +1479,12 @@ input:-webkit-autofill:focus {
 .autoFillColor:-webkit-autofill:focus {
   -webkit-text-fill-color: #fff; }
 
-#contact-form .alert {
+.contact-form .help-block {
+  width: 100%;
+  display: inline-block; }
+
+.contact-form .help-block,
+.contact-form .alert {
   color: #fff;
   color: #fff;
   font-family: BrandonGrotesque-Medium;
@@ -1952,6 +1957,8 @@ footer {
     footer .form-wrapper form {
       width: 100%;
       display: block; }
+      footer .form-wrapper form input[type=textarea],
+      footer .form-wrapper form input[type=email],
       footer .form-wrapper form input[type=text] {
         display: inline-block;
         width: 19%;
@@ -1967,6 +1974,7 @@ footer {
         letter-spacing: 2px;
         font-size: 0.75em;
         vertical-align: bottom; }
+      footer .form-wrapper form .formSubmitButton,
       footer .form-wrapper form input[type=submit] {
         display: inline-block;
         width: 14%;

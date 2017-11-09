@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->setFrom($config->get('emails.from'));
         $mail->setSender($name);
         $mail->setSenderEmail($email);
-        $mail->setSubject( 'New Message From Rasoulispine.com');
+        $mail->setSubject($config->get('subject.prefix'));
 
         $body = "
         <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">

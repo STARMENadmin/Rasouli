@@ -25,6 +25,8 @@ footer{
 			width: 100%;
 			display: block;
 			
+			input[type=textarea],
+			input[type=email],
 			input[type=text] {
 				display: inline-block;
 				width: 19%;
@@ -42,7 +44,7 @@ footer{
                 vertical-align: bottom;
 				
 			}
-			
+			.formSubmitButton,
 			input[type=submit] {
 				display: inline-block;
 				width: 14%;

@@ -1,3 +1,17 @@
+<?php
+// form code
+require_once './vendor/autoload.php';
+
+$helperLoader = new SplClassLoader('Helpers', './vendor');
+$helperLoader->register();
+
+use Helpers\Config;
+
+$config = new Config;
+$config->load('./config/config.php');
+
+?>
+
 <!doctype html>
 <html class="no-js" lang="">
     <head>
