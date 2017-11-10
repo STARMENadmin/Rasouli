@@ -66,7 +66,7 @@
                 
 
 				<div class="newsletter-wrapper">
-					<form action="https://starmendev.us17.list-manage.com/subscribe/post?u=cf573a54028a55aa9f9fff083&amp;id=bfb030f16c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<form action="https://starmendev.us17.list-manage.com/subscribe/post-json?u=cf573a54028a55aa9f9fff083&amp;id=bfb030f16c&c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					    
 							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Sign up for newsletter">
 							
@@ -76,9 +76,11 @@
 							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 						
 							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cf573a54028a55aa9f9fff083_bfb030f16c" tabindex="-1" value=""></div>
-					    	<div class="clear"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button newsletterSubmit" >send</button></div>
-					   
+					    	<div class="clear"><input type="image" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button newsletterSubmit autoFillColor" src="/img/newsletterArrow.png"></input></div>
+					
+                </div>
 					</form>
+					    <div id="subscribe-result">
 				</div>
 
 <!--End mc_embed_signup-->

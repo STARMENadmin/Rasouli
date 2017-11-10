@@ -2090,6 +2090,15 @@ footer {
       color: #fff;
       letter-spacing: 1px;
       margin-top: 40px; }
+    .footerBottom .center #subscribe-result {
+      width: 80%;
+      margin: 0 auto; }
+      .footerBottom .center #subscribe-result p {
+        margin: 20px 0 !important;
+        font-size: 0.75em;
+        line-height: normal; }
+        .footerBottom .center #subscribe-result p a {
+          color: #fff; }
     .footerBottom .center .newsletter-wrapper {
       border: 1px solid #808080;
       width: 80%;
@@ -2102,7 +2111,7 @@ footer {
         max-width: 500px;
         border: 0;
         background-color: #000;
-        color: #808080;
+        color: #fff;
         padding: 0 0 0 20px;
         margin: 0;
         height: 53px;
@@ -2111,15 +2120,23 @@ footer {
         letter-spacing: 2px;
         font-size: 0.75em; }
       .footerBottom .center .newsletter-wrapper form .newsletterSubmit {
-        /*
-	                background-image: url('../img/newsletterArrow.png');
-	                background-repeat: no-repeat;
-	                background-color: transparent;
-	                outline: 0;
-	                display: block;
-*/
+        background-image: url("../img/newsletterArrow.png");
+        background-repeat: no-repeat;
+        background-color: transparent;
+        outline: 0;
+        display: block;
         border: none;
         right: 30px; }
+      .footerBottom .center .newsletter-wrapper form input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 1000px #000 inset !important; }
+      .footerBottom .center .newsletter-wrapper form input:-webkit-autofill:focus {
+        -webkit-box-shadow: 0 0 0 1000px #000 inset !important; }
+      .footerBottom .center .newsletter-wrapper form input:-webkit-autofill {
+        -webkit-text-fill-color: #fff;
+        color: #fff; }
+      .footerBottom .center .newsletter-wrapper form input:-webkit-autofill:focus {
+        -webkit-text-fill-color: #fff;
+        color: #fff; }
   .footerBottom .right {
     float: left;
     width: 33.33%; }

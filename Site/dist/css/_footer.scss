@@ -207,11 +207,27 @@ footer{
             margin-top: 40px;
         }
         
+        #subscribe-result{
+	        width: 80%;
+	        margin: 0 auto;
+	         p{
+	            margin: 20px 0 !important;
+	             font-size: em(12);
+	             line-height: normal;
+	            
+	            a{
+		            color: #fff;
+	            }
+            }
+        }
+        
         .newsletter-wrapper{
             border: 1px solid $darkGrey;
             width: 80%;
             position: relative;
             margin: 0 auto;
+            
+            
             
             form{	
 	            	input[type=email], 
@@ -221,7 +237,7 @@ footer{
                         max-width: 500px;
                        border: 0;
                         background-color: #000;
-                        color: $darkGrey;
+                        color: #fff;
                         padding: 0 0 0 20px;
                         margin: 0;
                         height: 53px;
@@ -233,19 +249,40 @@ footer{
                     }
                 
                 .newsletterSubmit{
-/*
+
 	                background-image: url('../img/newsletterArrow.png');
 	                background-repeat: no-repeat;
 	                background-color: transparent;
 	                outline: 0;
-	                display: block;
-*/
+	                display: block;					
 	                border: none;
                     @extend %acv;
                     right:30px;
                     @extend %cursor;
                     
+                    
+                    
+                    
                 }
+                	    input:-webkit-autofill {
+						    -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
+						    }
+						
+						input:-webkit-autofill:focus {
+						    -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
+						
+						}
+						
+						
+						input:-webkit-autofill{
+						    -webkit-text-fill-color: #fff;
+						    color: #fff;
+						}
+						input:-webkit-autofill:focus {
+						    -webkit-text-fill-color: #fff;
+						     color: #fff;
+						}
+
                 
                 
             }
