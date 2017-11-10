@@ -368,16 +368,42 @@ $(window).scroll(function(){
 		$(dropDownID).siblings().removeClass("itemOpen"); 
 
 	});
+	
+	//sidebar
+	 $(".search .search-input").attr('placeholder', 'Search this website');
     
      
 
         //foooter
-        $( "#datepicker" ).datepicker({ dateFormat: 'yy-mm-dd' });
+       // $( "#contact-form-footer" ).datepicker({ dateFormat: 'yy-mm-dd' });
          //$( "#datepickerMobile" ).datepicker();
+         
+         	$('.contact-form').one('click', function(e) {
+				    
+			    	var id = $(this).attr('id');
+					
+					var formId = '#' + id;
+					
+				
+					
+					var unclickedForm = $('form').not(formId);
+						console.log(formId);
+									
+					$(unclickedForm).children().removeAttr('name');					
+			    
+			    	new ContactForm(formId, {
+			            endpoint: './process.php'
+			        });
+
+		     });
+		        
+		    $("#dateFormField").attr('placeholder', 'Date');
         
         
         
-		 $(".search .search-input").attr('placeholder', 'Search this website');
+		
+		 
+		
         
         
         

@@ -25,6 +25,7 @@
         this.form     = form instanceof Node ? form : document.querySelector(form);
         this.endpoint = options.endpoint;
 		
+
         this.send();
         
          	
@@ -124,6 +125,8 @@
 
                 formData = {
                     'name'    : document.querySelector('input[name="form-name"]').value,
+                    'nameLast' : document.querySelector('input[name="form-nameLast"]').value,
+                    'date'    : document.querySelector('input[name="form-date"]').value,
                     'email'   : document.querySelector('input[name="form-email"]').value,
                     'subject' : document.querySelector('input[name="form-subject"]').value,
                     'message' : document.querySelector('textarea[name="form-message"]').value
@@ -136,6 +139,18 @@
             if (!data.success) {
                 if (data.errors.name) {
                     var name = document.querySelector('input[name="form-name"]').parentNode,
+                        error;
+
+                    this.addClass(name, 'has-error');
+                    error = this.template(
+                        '<span class="help-block">{report}</span>', {
+                        report: data.errors.name
+                    });
+
+                    name.insertAdjacentHTML('beforeend', error);
+                }
+                                if (data.errors.name) {
+                    var name = document.querySelector('input[name="form-namLast"]').parentNode,
                         error;
 
                     this.addClass(name, 'has-error');

@@ -51,8 +51,8 @@
 				 margin-top: 10px;
 				     height: 15px;
 		    }
-		    
-		    
+		    #dateFormField,
+		    input[type=email],
 		    input[type=text]{
 			    width: 98%;
 			    border: 0;
@@ -168,7 +168,7 @@
 			     }
 		    }
 		    
-		    input[type=submit]{
+		    .formSubmitButton{
 			    background-color: #000;
 			    border: 1px solid #fff;
 			    color: #fff;

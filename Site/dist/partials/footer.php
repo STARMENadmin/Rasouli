@@ -11,10 +11,12 @@
 -->
 			
 			    <form enctype="application/x-www-form-urlencoded;" id="contact-form-footer" class="contact-form form-horizontal" role="form" method="post">
-                    <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php echo $config->get('fields.name'); ?>" required>
+                    <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php// echo $config->get('fields.name'); ?>Name" required>
+                     <input type="text" class="form-control autoFillColor hide" name="form-nameLast" placeholder="<?php echo $config->get('fields.nameLast'); ?>" >
                     <input type="email" class="form-control autoFillColor"  name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
                     <input type="text" class="form-control autoFillColor"  name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>
-                    <textarea class="form-control messageInput autoFillColor"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
+                    <input type="date" id="dateFormField" class="form-control messageInput autoFillColor"    name="form-date" placeholder="<?php echo $config->get('fields.date'); ?>" required></input>
+                     <textarea class="form-control messageInput autoFillColor hide"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" ></textarea>
                     <button type="submit" class="formSubmitButton"><?php echo $config->get('fields.btn-send'); ?></button>           
         		</form>
 			<div class="clear"></div>
@@ -50,15 +52,38 @@
                 <div class="clear"></div>
             </div>
             <div class="center">
+<!--
                 <div class="newsletter-wrapper">
 	                
-                        <form action="mail.php" method="POST">
+                    <form action="mail.php" method="POST">
                             <input type="text" name="email" placeholder="Sign up for newsletter">
                             <input class="newsletterSubmit" type="image" src="img/newsletterArrow.png" border="0" alt="Submit">
-                        </form>
+                    </form>
 
                     <div class="clear"></div>
                 </div>
+-->
+                
+
+				<div class="newsletter-wrapper">
+					<form action="https://starmendev.us17.list-manage.com/subscribe/post?u=cf573a54028a55aa9f9fff083&amp;id=bfb030f16c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					    
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Sign up for newsletter">
+							
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cf573a54028a55aa9f9fff083_bfb030f16c" tabindex="-1" value=""></div>
+					    	<div class="clear"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button newsletterSubmit" >send</button></div>
+					   
+					</form>
+				</div>
+
+<!--End mc_embed_signup-->
+                
+                
             
                 <p class="termsConditins">All Rights Reserved &copy; 2017 |  Rasouli Spine | <a href="http://starmenusa.com/">Making Brands Work</a>&trade;</p>
             </div><!-- center -->
@@ -112,16 +137,9 @@
 			    
 
 			    
-			    $('form').click(function() {
-			    	var id = $(this).attr('id');
-					alert(id);
-					});
-			    
-		        new ContactForm(id, {
-		            endpoint: './process.php'
-		        });
+
 		        
-	        
+
 		        
 		        
 

@@ -25,7 +25,19 @@ footer{
 			width: 100%;
 			display: block;
 			
-			input[type=textarea],
+			/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #fff;
+}
+			
+			input[type=date],
 			input[type=email],
 			input[type=text] {
 				display: inline-block;
@@ -42,6 +54,7 @@ footer{
                 letter-spacing: 2px;
                 font-size: em(12);
                 vertical-align: bottom;
+                 resize: none;
 				
 			}
 			.formSubmitButton,
@@ -60,6 +73,10 @@ footer{
                 font-size: em(14);
                
 		
+			}
+			
+			textarea::-webkit-input-placeholder {
+				padding-top: 19px;
 			}
 			
 			::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -180,7 +197,8 @@ footer{
             position: relative;
             margin: 0 auto;
             
-            form{
+            form{	
+	            	input[type=email], 
                     input[type=text] {
                         float: left;
                         width: 80%;
@@ -199,8 +217,17 @@ footer{
                     }
                 
                 .newsletterSubmit{
+/*
+	                background-image: url('../img/newsletterArrow.png');
+	                background-repeat: no-repeat;
+	                background-color: transparent;
+	                outline: 0;
+	                display: block;
+*/
+	                border: none;
                     @extend %acv;
                     right:30px;
+                    @extend %cursor;
                     
                 }
                 

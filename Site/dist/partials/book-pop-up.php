@@ -5,13 +5,17 @@
 		<p class="popUpTitle">Request consultation<br/> by appointment only</p>
 		
 		<div class="popUp-form-wrapper">
-			<form action="mail.php" method="POST">
+			
+			
+<!--
+			<form enctype="application/x-www-form-urlencoded;" id="contact-form-mobile" class="contact-form form-horizontal" role="form" method="post">
 			<p class="fieldTitle">First and Last name</p>
-			<input type="text" name="name">
+			  <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php// echo $config->get('fields.name'); ?>Name" required>
+			   <input type="text" class="form-control autoFillColor hide" name="form-nameLast" placeholder="<?php echo $config->get('fields.nameLast'); ?>" >
 			<p class="fieldTitle">Email</p>
-			<input type="text" name="email" >
+			 <input type="email" class="form-control autoFillColor"  name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
 			<p class="fieldTitle">Phone</p>
-			<input type="text" name="phone" >
+			    <input type="text" class="form-control autoFillColor"  name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>
 			<p class="fieldTitle">Preferred Appointment date</p>
 			
 			<div class="PreferredWrapper">
@@ -23,12 +27,30 @@
 					<p>Flexible?</p>
 					<div class="clear"></div>
 				</div>
-				<input type="date" name="dateMobile"  id="datepickerMobile">
+				 <textarea id="dateFormField" class="form-control messageInput autoFillColor"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
 				<div class="clear"></div>
 			</div>
 			
-			<input type="submit" value="Send">
+			<button type="submit" class="formSubmitButton"><?php echo $config->get('fields.btn-send'); ?></button> 
 			</form>
+-->
+			
+			
+<!--
+				<form enctype="application/x-www-form-urlencoded;" id="contact-form-footer" class="contact-form form-horizontal" role="form" method="post">
+                    <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php// echo $config->get('fields.name'); ?>Name" required>
+                     <input type="text" class="form-control autoFillColor hide" name="form-nameLast" placeholder="<?php echo $config->get('fields.nameLast'); ?>" >
+                    <input type="email" class="form-control autoFillColor"  name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
+                    <input type="text" class="form-control autoFillColor"  name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>
+                    <textarea id="dateFormField" class="form-control messageInput autoFillColor"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
+                    <button type="submit" class="formSubmitButton"><?php echo $config->get('fields.btn-send'); ?></button>           
+        		</form>
+-->
+			
+			
+			
+			
+			
 			<div class="clear"></div>
 		</div>
 		

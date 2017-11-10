@@ -1968,6 +1968,11 @@ div.left div.player-copy:nth-child(2){
    contact page
    ========================================================================== */
    
+   .hide{
+	   display: none !important;
+	   ;
+   }
+   
    
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
