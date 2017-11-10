@@ -26,16 +26,20 @@ footer{
 			display: block;
 			
 			/* Removes the spin button */
-input[type="date"]::-webkit-inner-spin-button { 
-    display: none;
-}
-input[type="date"]::-webkit-clear-button {
-    display: none;
-}
-/* Always display the drop down caret */
-input[type="date"]::-webkit-calendar-picker-indicator {
-    color: #fff;
-}
+			input[type="date"]::-webkit-inner-spin-button { 
+			    display: none;
+			}
+			input[type="date"]::-webkit-clear-button {
+			    display: none;
+			}
+			/* Always display the drop down caret */
+			input[type="date"]::-webkit-calendar-picker-indicator {
+			    color: $darkGrey;
+			    background-color: #000;
+			    display: block;
+			    opacity: 1;
+			    margin-right: 10px;
+			}
 			
 			input[type=date],
 			input[type=email],
@@ -75,9 +79,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 		
 			}
 			
-			textarea::-webkit-input-placeholder {
-				padding-top: 19px;
+			input[type="date"]:before{
+			    color:lightgray;
+			    content:attr(placeholder);
 			}
+			::-webkit-datetime-edit{		
+			  color: $darkGrey;	
+			}
+			
+		
+
 			
 			::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 			  color: $darkGrey;
@@ -92,6 +103,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 			:-moz-placeholder { /* Firefox 18- */
 			  color: $darkGrey;
 			}
+			
+
+
+			
+			
 		}
 		
 	}

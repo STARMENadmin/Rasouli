@@ -5,7 +5,7 @@ return [
         'prefix' => 'New Message From Rasoulispine.com'
     ],
     'emails' => [
-        'to'   => 'kaz@starmenusa.com',
+        'to'   => 'dev@starmenusa.com',
         'from' => 'dev@starmenusa.com'
     ],
     'messages' => [

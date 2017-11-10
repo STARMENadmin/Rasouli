@@ -33,6 +33,56 @@
 	background-color: #000;
     z-index: 999999999;
     display: none;
+    
+			::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			 color: #000;
+			}
+			::-moz-placeholder { /* Firefox 19+ */
+			  color: #000;
+			}
+			:-ms-input-placeholder { /* IE 10+ */
+			   color: #000;
+			}
+			:-moz-placeholder { /* Firefox 18- */
+			 
+			 color: #000;
+			}
+			
+			/* Removes the spin button */
+			input[type="date"]::-webkit-inner-spin-button { 
+			    display: none;
+			}
+			input[type="date"]::-webkit-clear-button {
+			    display: none;
+			}
+			/* Always display the drop down caret */
+			input[type="date"]::-webkit-calendar-picker-indicator {
+			    color: #000;
+			    background-color: #fff;
+			    display: block;
+			    opacity: 1;
+			    margin-right: 10px;
+			}
+			
+			
+			
+			 .autoFillColor:-webkit-autofill{
+			    -webkit-text-fill-color: #000;
+			}
+			
+			.autoFillColor:-webkit-autofill:focus {
+			    -webkit-text-fill-color: #000;
+			}
+			
+			input:-webkit-autofill {
+			    -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+			
+			}
+			
+			input:-webkit-autofill:focus {
+			    -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+			
+			}
 	    
 	    .bookingPopUpInner{
 		    position: absolute;
@@ -51,13 +101,14 @@
 				 margin-top: 10px;
 				     height: 15px;
 		    }
-		    #dateFormField,
+		    .dateFormField,
 		    input[type=email],
 		    input[type=text]{
 			    width: 98%;
 			    border: 0;
 			    margin-bottom: 15px;
 			    padding: 2% 0 2% 2%;
+			    color: #000;
 		    }
 		    
 		   .hasDatepicker{
@@ -287,6 +338,8 @@
     right: 22px;
     width: 30px;
 }
+
+
 
 //under 1600
 @media screen and (max-width: 1600px) {
@@ -1809,7 +1862,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 		float: none;
 	}
 	
-	.bookingPopUp .bookingPopUpInner #datepickerMobile{
+	.bookingPopUp .bookingPopUpInner .dateFormField{
 		width: 100% !important;
 		float: none;
 	}

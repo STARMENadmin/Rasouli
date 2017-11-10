@@ -1973,23 +1973,24 @@ div.left div.player-copy:nth-child(2){
 	   ;
    }
    
-   
-input:-webkit-autofill {
+#contact-form-footer input:-webkit-autofill,   
+#contact-form-desktop input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
 
 	}
-	
-	input:-webkit-autofill:focus {
+#contact-form-footer 	input:-webkit-autofill:focus,
+#contact-form-desktop	input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
 
 }
 
 
- .autoFillColor:-webkit-autofill {
+#contact-form-footer .autoFillColor:-webkit-autofill,
+#contact-form-desktop .autoFillColor:-webkit-autofill{
     -webkit-text-fill-color: #fff;
 }
-	
-	.autoFillColor:-webkit-autofill:focus {
+#contact-form-footer .autoFillColor:-webkit-autofill:focus,
+#contact-form-desktop .autoFillColor:-webkit-autofill:focus {
     -webkit-text-fill-color: #fff;
 }
 

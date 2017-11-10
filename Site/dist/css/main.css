@@ -1470,16 +1470,20 @@ div.left div.player-copy:nth-child(2) {
 .hide {
   display: none !important; }
 
-input:-webkit-autofill {
+#contact-form-footer input:-webkit-autofill,
+#contact-form-desktop input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px #000 inset !important; }
 
-input:-webkit-autofill:focus {
+#contact-form-footer input:-webkit-autofill:focus,
+#contact-form-desktop input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 1000px #000 inset !important; }
 
-.autoFillColor:-webkit-autofill {
+#contact-form-footer .autoFillColor:-webkit-autofill,
+#contact-form-desktop .autoFillColor:-webkit-autofill {
   -webkit-text-fill-color: #fff; }
 
-.autoFillColor:-webkit-autofill:focus {
+#contact-form-footer .autoFillColor:-webkit-autofill:focus,
+#contact-form-desktop .autoFillColor:-webkit-autofill:focus {
   -webkit-text-fill-color: #fff; }
 
 .contact-form .help-block {
@@ -1967,7 +1971,11 @@ footer {
       footer .form-wrapper form input[type="date"]::-webkit-clear-button {
         display: none; }
       footer .form-wrapper form input[type="date"]::-webkit-calendar-picker-indicator {
-        color: #fff; }
+        color: #808080;
+        background-color: #000;
+        display: block;
+        opacity: 1;
+        margin-right: 10px; }
       footer .form-wrapper form input[type=date],
       footer .form-wrapper form input[type=email],
       footer .form-wrapper form input[type=text] {
@@ -2000,8 +2008,11 @@ footer {
         font-family: BrandonGrotesque-Bold;
         letter-spacing: 2px;
         font-size: 0.875em; }
-      footer .form-wrapper form textarea::-webkit-input-placeholder {
-        padding-top: 19px; }
+      footer .form-wrapper form input[type="date"]:before {
+        color: lightgray;
+        content: attr(placeholder); }
+      footer .form-wrapper form ::-webkit-datetime-edit {
+        color: #808080; }
       footer .form-wrapper form ::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
         color: #808080;
@@ -2205,7 +2216,39 @@ input:focus {
   left: 0;
   background-color: #000;
   z-index: 999999999;
-  display: none; }
+  display: none;
+  /* Removes the spin button */
+  /* Always display the drop down caret */ }
+  .bookingPopUp ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #000; }
+  .bookingPopUp ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #000; }
+  .bookingPopUp :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #000; }
+  .bookingPopUp :-moz-placeholder {
+    /* Firefox 18- */
+    color: #000; }
+  .bookingPopUp input[type="date"]::-webkit-inner-spin-button {
+    display: none; }
+  .bookingPopUp input[type="date"]::-webkit-clear-button {
+    display: none; }
+  .bookingPopUp input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #000;
+    background-color: #fff;
+    display: block;
+    opacity: 1;
+    margin-right: 10px; }
+  .bookingPopUp .autoFillColor:-webkit-autofill {
+    -webkit-text-fill-color: #000; }
+  .bookingPopUp .autoFillColor:-webkit-autofill:focus {
+    -webkit-text-fill-color: #000; }
+  .bookingPopUp input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset !important; }
+  .bookingPopUp input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset !important; }
   .bookingPopUp .bookingPopUpInner {
     position: absolute;
     border: 1px solid #fff;
@@ -2219,13 +2262,14 @@ input:focus {
       padding: 2% 0 2% 2%;
       margin-top: 10px;
       height: 15px; }
-    .bookingPopUp .bookingPopUpInner #dateFormField,
+    .bookingPopUp .bookingPopUpInner .dateFormField,
     .bookingPopUp .bookingPopUpInner input[type=email],
     .bookingPopUp .bookingPopUpInner input[type=text] {
       width: 98%;
       border: 0;
       margin-bottom: 15px;
-      padding: 2% 0 2% 2%; }
+      padding: 2% 0 2% 2%;
+      color: #000; }
     .bookingPopUp .bookingPopUpInner .hasDatepicker {
       width: 50% !important;
       float: left;
@@ -3274,7 +3318,7 @@ input:focus {
   .bookingPopUp .bookingPopUpInner .PreferredWrapper {
     width: 100%;
     float: none; }
-  .bookingPopUp .bookingPopUpInner #datepickerMobile {
+  .bookingPopUp .bookingPopUpInner .dateFormField {
     width: 100% !important;
     float: none; }
   #hero-about #home-hero-copy-2 .right p,

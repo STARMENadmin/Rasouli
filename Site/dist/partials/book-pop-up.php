@@ -7,7 +7,6 @@
 		<div class="popUp-form-wrapper">
 			
 			
-<!--
 			<form enctype="application/x-www-form-urlencoded;" id="contact-form-mobile" class="contact-form form-horizontal" role="form" method="post">
 			<p class="fieldTitle">First and Last name</p>
 			  <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php// echo $config->get('fields.name'); ?>Name" required>
@@ -27,13 +26,13 @@
 					<p>Flexible?</p>
 					<div class="clear"></div>
 				</div>
-				 <textarea id="dateFormField" class="form-control messageInput autoFillColor"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
+				 <textarea id="dateFormField" class="form-control messageInput autoFillColor hide"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" ></textarea>
+				   <input type="date" id="" class="form-control messageInput autoFillColor dateFormField"    name="form-date" placeholder="<?php echo $config->get('fields.date'); ?>" required></input>
 				<div class="clear"></div>
 			</div>
 			
 			<button type="submit" class="formSubmitButton"><?php echo $config->get('fields.btn-send'); ?></button> 
 			</form>
--->
 			
 			
 <!--

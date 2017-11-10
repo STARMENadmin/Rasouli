@@ -397,7 +397,7 @@ $(window).scroll(function(){
 
 		     });
 		        
-		    $("#dateFormField").attr('placeholder', 'Date');
+		    //$(".dateFormField").attr('placeholder', 'Apointment Date');
         
         
         
