@@ -2236,6 +2236,99 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_working Files\/jquery.parallax-scroll-master.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master.zip",
+		"oF": 0
+		},
+	"\/_working Files\/jquery.parallax-scroll-master\/demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master\/demo.html",
+		"oF": 0
+		},
+	"\/_working Files\/jquery.parallax-scroll-master\/img\/GitHub_Logo.png": {
+		"ft": 32768,
+		"iS": 13001,
+		"oA": 0,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master\/img\/GitHub_Logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_working Files\/jquery.parallax-scroll-master\/img\/paris.jpg": {
+		"ft": 16384,
+		"iS": 220500,
+		"oA": 0,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master\/img\/paris.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_working Files\/jquery.parallax-scroll-master\/js\/jquery-2.1.3.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master\/js\/jquery-2.1.3.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/_working Files\/jquery.parallax-scroll-master\/js\/jquery.easing.1.3.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master\/js\/jquery.easing.1.3-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/_working Files\/jquery.parallax-scroll-master\/js\/jquery.parallax-scroll.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master\/js\/jquery.parallax-scroll-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/_working Files\/jquery.parallax-scroll-master\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master\/LICENSE",
+		"oF": 0
+		},
+	"\/_working Files\/jquery.parallax-scroll-master\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_working Files\/jquery.parallax-scroll-master\/stars.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/jquery.parallax-scroll-master\/stars.html",
+		"oF": 0
+		},
 	"\/_working Files\/my-icons-collection\/backup.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -2291,372 +2384,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master.zip",
-		"oF": 0
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/css\/demotheme.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/css\/demotheme-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/001.png": {
-		"ft": 32768,
-		"iS": 1422254,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/001.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/002.png": {
-		"ft": 32768,
-		"iS": 567952,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/002.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/003.png": {
-		"ft": 32768,
-		"iS": 540606,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/003.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/bg-assassins.jpg": {
-		"ft": 16384,
-		"iS": 304672,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/bg-assassins.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/bg.jpg": {
-		"ft": 16384,
-		"iS": 667159,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/birds.png": {
-		"ft": 32768,
-		"iS": 305288,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/birds.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/black-cloud.png": {
-		"ft": 32768,
-		"iS": 337593,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/black-cloud.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-01.png": {
-		"ft": 32768,
-		"iS": 223153,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-02.png": {
-		"ft": 32768,
-		"iS": 271208,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-02.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-03.png": {
-		"ft": 32768,
-		"iS": 12264,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-03.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-04.png": {
-		"ft": 32768,
-		"iS": 65708,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-04.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-05.png": {
-		"ft": 32768,
-		"iS": 116924,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-05.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-06.png": {
-		"ft": 32768,
-		"iS": 215931,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-06.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-07.png": {
-		"ft": 32768,
-		"iS": 140865,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/smoke-07.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/stick.png": {
-		"ft": 32768,
-		"iS": 89540,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/stick.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/Thumbs.db": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/assassins\/Thumbs.db",
-		"oF": 0
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/circle.png": {
-		"ft": 32768,
-		"iS": 5658,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/circle.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/ex.png": {
-		"ft": 32768,
-		"iS": 6104,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/ex.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/pattern.png": {
-		"ft": 32768,
-		"iS": 2805,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/pattern.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/sly-2.png": {
-		"ft": 32768,
-		"iS": 392372,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/sly-2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/sly.png": {
-		"ft": 32768,
-		"iS": 451252,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/sly.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/square.png": {
-		"ft": 32768,
-		"iS": 789,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/square.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/tearaway.jpg": {
-		"ft": 16384,
-		"iS": 64649,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/tearaway.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/triangle.png": {
-		"ft": 32768,
-		"iS": 5139,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/triangle.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/wallpaper-1132086.jpg": {
-		"ft": 16384,
-		"iS": 108918,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/img\/wallpaper-1132086.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/index.html",
-		"oF": 0
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/js\/jquery.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/js\/jquery-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/js\/jquery.nicescroll.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/js\/jquery.nicescroll.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/js\/parallaxImg.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/js\/parallaxImg-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/MIT.LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/MIT.LICENSE",
-		"oF": 0
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/params.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/demo\/params-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/MIT.LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/MIT.LICENSE",
-		"oF": 0
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/parallaxImg.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/parallaxImg-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_working Files\/Parallax-img-scroll-master\/Parallax-img-scroll-master\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/_working Files\/pre-footer-logo.png": {
 		"ft": 32768,
@@ -18661,6 +18388,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/Site\/dist\/js\/vendor\/jquery.parallax-scroll.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/js\/vendor\/jquery.parallax-scroll-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/Site\/dist\/js\/vendor\/modernizr-3.5.0.min-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -18677,16 +18414,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/js\/vendor\/modernizr-3.5.0.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/Site\/dist\/js\/vendor\/parallaxImg.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/Site\/dist\/js\/vendor\/parallaxImg-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -19035,10 +18762,10 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-hero.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-Outpatiant.php": {
+	"\/Site\/dist\/partials\/homepage-Outpatiant.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Site\/dist\/partials\/Homepage-Outpatiant.php",
+		"oAP": "\/Site\/dist\/partials\/homepage-Outpatiant.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/Homepage-procedures.php": {

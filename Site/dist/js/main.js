@@ -430,26 +430,23 @@ $(window).scroll(function(){
 			        console.log(data.msg)
 			        $('#mce-EMAIL').css('borderColor', '#ffffff')
 			        $('#subscribe-result').css('color', 'rgb(53, 114, 210)')
-			        $('#subscribe-result').html('<p class="mailchimpResponse">Thank you for subscribing. We have sent you a confirmation email.</p>')
+			        $('#subscribe-result').html('<p class="mailchimpResponse">Thank you for subscribing.</p>')
 			        $('#mce-EMAIL').val('')
 			      } else {
 			        // Something went wrong, do something to notify the user.
 			        console.log(data.msg)
 			        $('#mce-EMAIL').css('borderColor', '#ff8282')
 			        $('#subscribe-result').css('color', '#ff8282')
-			        $('#subscribe-result').html('<p>' + data.msg.substring() + '</p>')
+			        $('#subscribe-result').html('<p>' + data.msg.substring(0) + '</p>')
 			      }
 			    }
 			  })
-			};
+			}
 					
         
         
         
-        
-        
-
-		      
+      
   
   
 });
