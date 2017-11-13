@@ -4,14 +4,14 @@
                  <img class="hero-background" src="img/about-hero.jpg"> 
             </picture>
                 
-			<div id="home-hero-copy-1">
+			<div id="home-hero-copy-1" >
 		      <h1>A Team Providing <span class="block">world-Class Care</span></h1>
                 <h2> <span class="stack">Get back to the</span>
                     <span class="stack"> quality of life</span>
                     <span class="stack"></span>with <span class="bold">Rasouli Spine</span></span></h2>
 			</div>
 		  
-			<div id="home-hero-copy-2">
+			<div id="home-hero-copy-2" data-parallax='{"y" : 20, "smoothness": 20}'>
 				<div class="left">
 					<p class="smallTitle">About our practice</p>
 					<p class="heroLargeText">Twenty Years<span>of Success</span></p>
@@ -26,8 +26,8 @@
 					
 				
 						<div class="parallaxwrapper aboutHeroParallax">
-					<img src="img/about-hero-right-1.jpg"/>
-					<img class="desktop" src="img/about-hero-right-2.jpg"/>
+					<img src="img/about-hero-right-1.jpg" data-parallax='{"y" : -50, "smoothness": 20}'/>
+					<img class="desktop" src="img/about-hero-right-2.jpg" data-parallax='{"y" : 50, "smoothness": 30}'/>
 				</div>
 				
 					

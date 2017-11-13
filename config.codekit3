@@ -18750,7 +18750,7 @@
 		"oAP": "\/Site\/dist\/partials\/header.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-BlogCarousel.php": {
+	"\/Site\/dist\/partials\/homepage-BlogCarousel.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-BlogCarousel.php",
@@ -18780,7 +18780,7 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-social.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-testimonials.php": {
+	"\/Site\/dist\/partials\/homepage-testimonials.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-testimonials.php",
@@ -18789,7 +18789,7 @@
 	"\/Site\/dist\/partials\/Homepage-TheSurgen.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Site\/dist\/partials\/Homepage-TheSurgen.php",
+		"oAP": "\/Site\/dist\/partials\/homepage-TheSurgen.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/nav-static.php": {

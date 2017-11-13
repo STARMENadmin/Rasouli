@@ -9,7 +9,7 @@
 			<div class="slickWrapper">
 			
 
-				<div class="right" data-parallax='{"y" : 75, "smoothness": 20}'>
+				<div class="right" data-parallax='{"y" : 20, "smoothness": 20}'>
 					<p class="smallTitle">June 22, 2017</p>
 					<p class="largeTitle">Life After <span class="block">Spine Surgery</span></p>
 					<p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
@@ -36,7 +36,7 @@
 			<div class="slickWrapper">
 			
 
-				<div class="right" data-parallax='{"y" : 75, "smoothness": 20}'>
+				<div class="right" data-parallax='{"y" : 20, "smoothness": 20}'>
 					<p class="smallTitle">June 22, 2017</p>
 					<p class="largeTitle">Life After <span class="block">Spine Surgery</span></p>
 					<p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
