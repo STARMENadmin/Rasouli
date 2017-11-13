@@ -577,7 +577,7 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 		
 		&:last-of-type{
 		position: absolute;
-		bottom: -20%;
+		bottom: -15%;
 		left: -20%;
 		z-index: 1;	
 		}
@@ -720,6 +720,8 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
         }
         
     }
+    
+
     
     .verticalText{
 	    font-family: $brandonReg;
@@ -985,6 +987,13 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
   Home blog
    ========================================================================== */
    
+   
+  .slick-slide{
+
+  padding-top: 50px;
+	   
+   }
+   
    .boxTitleSmall{
 	   border: 1px solid #000;
 	   text-align: center;
@@ -1001,8 +1010,16 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
    
    
    
-  .home-blog{
-	  position: relative;
+  #home-blog{
+	  //position: relative;
+	  
+	  .right{
+		  margin: 0 5% 0 0;
+	  }
+	  
+	  .left{
+		  margin: 0 0 0 5%;
+	  }
   } 
    
 #homeBlogNext, #homeBlogPrevious{
@@ -1273,7 +1290,7 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 }
 
 .teamMenu .column{
-//width: 20%;
+width: 20%;
       //  padding-bottom: 33%;
 }
 

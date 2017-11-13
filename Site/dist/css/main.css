@@ -533,7 +533,7 @@ textarea {
     z-index: 2; }
     .parallaxwrapper img:last-of-type {
       position: absolute;
-      bottom: -20%;
+      bottom: -15%;
       left: -20%;
       z-index: 1; }
 
@@ -809,6 +809,9 @@ textarea {
 /* ==========================================================================
   Home blog
    ========================================================================== */
+.slick-slide {
+  padding-top: 50px; }
+
 .boxTitleSmall {
   border: 1px solid #000;
   text-align: center;
@@ -822,8 +825,11 @@ textarea {
   margin-bottom: 100px;
   letter-spacing: 2px; }
 
-.home-blog {
-  position: relative; }
+#home-blog .right {
+  margin: 0 5% 0 0; }
+
+#home-blog .left {
+  margin: 0 0 0 5%; }
 
 #homeBlogNext, #homeBlogPrevious {
   width: 15px;
@@ -1001,6 +1007,9 @@ textarea {
 
 #about-testimonials {
   padding: 100px 0 0px 0; }
+
+.teamMenu .column {
+  width: 20%; }
 
 .about-testimonials-top {
   margin-bottom: 100px; }
