@@ -23,7 +23,7 @@
                 
                 </p>
 				<p class="copy marginBottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
-                <img src="img/techno-2.jpg">
+                <img src="img/techno-2.jpg" data-parallax='{"y" : -20, "smoothness": 20}'>
 				
 				
 				

@@ -1,6 +1,9 @@
 jQuery(function($){
 
 $(document).ready(function(){
+	
+	
+	$('.onLoadFadeIn').fadeOut(1000);
     
 
     

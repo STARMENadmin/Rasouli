@@ -314,6 +314,14 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 	}
 }
 
+.onLoadFadeIn{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	    z-index: 9999999999999;
+}
+
 /* ==========================================================================
   Home Hero
    ========================================================================== */

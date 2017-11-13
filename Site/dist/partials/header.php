@@ -32,7 +32,9 @@ $config->load('./config/config.php');
          <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     </head>
     
-    
+    <div class="onLoadFadeIn"></div>
       <?php include("partials/book-pop-up.php"); ?>
 	      <?php include("partials/nav.php"); ?>
 	       <?php include("partials/nav-static.php"); ?>
+	       
+	       
