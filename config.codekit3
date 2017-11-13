@@ -18388,6 +18388,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/Site\/dist\/js\/vendor\/jquery.parallax-scroll-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/js\/vendor\/jquery.parallax-scroll-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/Site\/dist\/js\/vendor\/jquery.parallax-scroll.js": {
 		"ft": 64,
 		"ma": 0,
@@ -18786,7 +18796,7 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-testimonials.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-TheSurgen.php": {
+	"\/Site\/dist\/partials\/homepage-TheSurgen.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-TheSurgen.php",

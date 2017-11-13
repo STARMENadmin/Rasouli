@@ -1,4 +1,4 @@
-			<div class="left" data-parallax='{"y" : 20, "smoothness": 20}'>
+			<div class="left parallax" data-parallax='{"y" : 50, "smoothness": 0}'>
 				
 				<p class="largeTitle">Deadicated <span class="block">to Medical</span>
                 <span class="block">Advancement</span>
@@ -18,9 +18,9 @@
 			<div class="right">
 				
 				<div class="parallaxwrapper dedicatedparallax">
-					<img class="desktop" src="img/about-dedicated-1.jpg" data-parallax='{"y" : -20, "smoothness": 20}'/>
-					<img class="desktop" src="img/about-dedicated-2.jpg" data-parallax='{"y" : 20, "smoothness": 30}'/>
-                    <img src="img/about-dedicated-3.jpg"data-parallax='{"y" : -30, "smoothness": 30}'/>
+					<img class="desktop parallax" src="img/about-dedicated-1.jpg" data-parallax='{"y" : -30, "smoothness": 0}'/>
+					<img class="desktop parallax" src="img/about-dedicated-2.jpg" data-parallax='{"y" : 30, "smoothness": 0}'/>
+                    <img class="parallax" src="img/about-dedicated-3.jpg"data-parallax='{"y" : -40, "smoothness": 0}'/>
 				</div>
 				
 			</div>

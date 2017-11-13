@@ -397,6 +397,13 @@
     } 
 }
 
+@media screen and (max-width: 1400px) {
+	
+	.parallax{
+		transform:none !important;
+	}
+}
+
 @media screen and (max-width: 1300px) {
     
     .hero-about #home-hero-copy-1 {

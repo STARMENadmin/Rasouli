@@ -87,7 +87,7 @@
                 
                 
             
-                <p class="termsConditins">All Rights Reserved &copy; 2017 |  Rasouli Spine | <a href="http://starmenusa.com/">Making Brands Work</a>&trade;</p>
+                <p class="termsConditins">All Rights Reserved &copy; 2017 |  Rasouli Spine | <a href="http://starmenusa.com/"  target="_blank">Making Brands Work</a>&trade;</p>
             </div><!-- center -->
             <div class="right">
                 <div class="socialWrapper">

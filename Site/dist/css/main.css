@@ -816,7 +816,7 @@ textarea {
 /* ==========================================================================
   Home blog
    ========================================================================== */
-.slick-slide {
+#home-blog .slick-slide {
   padding-top: 50px; }
 
 .boxTitleSmall {
@@ -2516,6 +2516,10 @@ input:focus {
   .header-nav ul li {
     font-size: 1vw;
     margin-right: 10px; } }
+
+@media screen and (max-width: 1400px) {
+  .parallax {
+    transform: none !important; } }
 
 @media screen and (max-width: 1300px) {
   .hero-about #home-hero-copy-1 {

@@ -9,7 +9,7 @@
 			<div class="slickWrapper">
 			
 
-				<div class="right" data-parallax='{"y" : 20, "smoothness": 20}'>
+				<div class="right parallax" data-parallax='{"y" : 100, "smoothness": 0}'>
 					<p class="smallTitle">June 22, 2017</p>
 					<p class="largeTitle">Life After <span class="block">Spine Surgery</span></p>
 					<p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
@@ -18,7 +18,7 @@
 					
 				</div>
 				
-				<div class="left" data-parallax='{"y" : -50, "smoothness": 20}'>
+				<div class="left parallax" data-parallax='{"y" : -50, "smoothness": 0}'>
 					
 	                <picture>
 	                    <source media="(max-width: 768px)" srcset="img/blogImage1Mobile.jpg">
@@ -36,7 +36,7 @@
 			<div class="slickWrapper">
 			
 
-				<div class="right" data-parallax='{"y" : 20, "smoothness": 20}'>
+				<div class="right parallax" data-parallax='{"y" : 100, "smoothness": 0}'>
 					<p class="smallTitle">June 22, 2017</p>
 					<p class="largeTitle">Life After <span class="block">Spine Surgery</span></p>
 					<p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
@@ -45,7 +45,7 @@
 					
 				</div>
 				
-				<div class="left" data-parallax='{"y" : -50, "smoothness": 20}'>
+				<div class="left parallax" data-parallax='{"y" : -50, "smoothness": 0}'>
 					<img src="img/theSurgen.jpg"/>
 				</div>
 				<div class="clear"></div>

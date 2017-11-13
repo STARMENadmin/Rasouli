@@ -4,7 +4,7 @@
     <p class="smallTitle">Cutting edge Technology</p>
     </div>
     
-           <div class="left" data-parallax='{"y" : -50, "smoothness": 20}'>
+           <div class="left parallax" data-parallax='{"y" : -50, "smoothness": 0}'>
 				    <img class="marginBottom" src="img/techno-1.jpg">
                     <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
                
@@ -14,7 +14,7 @@
                             
                             
 			</div>
-			<div class="right" data-parallax='{"y" : 20, "smoothness": 20}'>
+			<div class="right parallax" data-parallax='{"y" : 100, "smoothness": 0}'>
 				
 				<p class="largeTitle" >Technology is
                     <span class="block">the Driving force</span>
@@ -23,7 +23,7 @@
                 
                 </p>
 				<p class="copy marginBottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
-                <img src="img/techno-2.jpg" data-parallax='{"y" : -20, "smoothness": 20}'>
+                <img class="parallax" src="img/techno-2.jpg" data-parallax='{"y" : -60, "smoothness": 0}'>
 				
 				
 				

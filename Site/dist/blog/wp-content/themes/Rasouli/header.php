@@ -26,6 +26,7 @@
 
 	</head>
 	<body <?php body_class(); ?>>
+		<div class="onLoadFadeIn"></div>
 
 		<!-- wrapper -->
 		<div class="wrapper">
