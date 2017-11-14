@@ -325,6 +325,19 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 /* ==========================================================================
   Home Hero
    ========================================================================== */
+   
+   .bouncArrow{
+	   position: absolute;
+	   bottom: 2%;
+	   margin: 0 auto;
+	   display: block;
+	   width: 11px;
+	   left:0;
+	   right: 0;
+   }
+   
+   
+   
 .hero{
 	width: 100%;
 	position: relative;
@@ -2060,6 +2073,10 @@ display: inline-block;
 	    line-height: normal;
 	  
 	
+}
+
+.patient-resources{
+	padding-bottom: 0 !important;
 }
    
  .resourcesPage #resources-forms   .left,

@@ -85,6 +85,78 @@
 		"oAP": "\/_working Files\/Ajax-Contact-Form-master\/vendor\/SimpleMail\/SimpleMail.class.php",
 		"oF": 0
 		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Black.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Black.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-BlackItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-BlackItalic.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Bold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Bold.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-BoldItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-BoldItalic.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Light.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Light.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-LightItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-LightItalic.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Medium.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Medium.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-MediumItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-MediumItalic.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Regular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Regular.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-RegularItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-RegularItalic.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Thin.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-Thin.otf",
+		"oF": 0
+		},
+	"\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-ThinItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/Brandon Text\/HVD Fonts - BrandonText-ThinItalic.otf",
+		"oF": 0
+		},
 	"\/_working Files\/brandon\/brandon-grotesque-light-58a8a4b38001d (1).otf": {
 		"ft": 8192,
 		"oA": 2,
@@ -209,6 +281,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_working Files\/brandon\/HVD Fonts - BrandonGrotesque-ThinItalic.otf",
+		"oF": 0
+		},
+	"\/_working Files\/BrandonWebFonts\/Brandon Text.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_working Files\/BrandonWebFonts\/Brandon Text.zip",
 		"oF": 0
 		},
 	"\/_working Files\/BrandonWebFonts\/BrandonGrotesque-Black\/BrandonGrotesque-Black.eot": {
@@ -16992,6 +17070,97 @@
 		"oAP": "\/Site\/dist\/favicon.ico",
 		"oF": 0
 		},
+	"\/Site\/dist\/favicons.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/favicons.zip",
+		"oF": 0
+		},
+	"\/Site\/dist\/favicons\/android-chrome-96x96.png": {
+		"ft": 32768,
+		"iS": 3899,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/favicons\/android-chrome-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3062,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/Site\/dist\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1548,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1830,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/Site\/dist\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/Site\/dist\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4172,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/Site\/dist\/fonts\/austin\/Austin-Roman\/Austin-Roman.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -17184,22 +17353,61 @@
 		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonGrotesque-Regular\/BrandonGrotesque-Regular.woff",
 		"oF": 0
 		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.eot",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.otf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.ttf",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/BrandonText-Light.woff",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/preview.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/preview.html",
+		"oF": 0
+		},
+	"\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/fonts\/brandon\/BrandonText-Light\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/Site\/dist\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/humans.txt",
 		"oF": 0
-		},
-	"\/Site\/dist\/icon.png": {
-		"ft": 32768,
-		"iS": 2884,
-		"oA": 0,
-		"oAP": "\/Site\/dist\/icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/Site\/dist\/img\/.gitignore": {
 		"ft": 8192,
@@ -18766,7 +18974,7 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-BlogCarousel.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/Homepage-hero.php": {
+	"\/Site\/dist\/partials\/homepage-hero.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-hero.php",
@@ -18953,28 +19161,6 @@
 		"oA": 2,
 		"oAP": "\/Site\/dist\/theprocedures.php",
 		"oF": 0
-		},
-	"\/Site\/dist\/tile-wide.png": {
-		"ft": 32768,
-		"iS": 1854,
-		"oA": 0,
-		"oAP": "\/Site\/dist\/tile-wide.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/Site\/dist\/tile.png": {
-		"ft": 32768,
-		"iS": 3482,
-		"oA": 0,
-		"oAP": "\/Site\/dist\/tile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/Site\/dist\/tweetie-min.js": {
 		"ft": 64,

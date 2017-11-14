@@ -1,3 +1,4 @@
+<php $pgName = 'Rasouli Spine | The Practice'; ?>
  <?php include("partials/header.php"); ?>
  
     <body class="about">

@@ -97,7 +97,7 @@
 	      
 	      
 	      
-        var uluru = {lat: 34.1015187, lng: -118.33006799999998};
+        var uluru = {lat: 34.0741777, lng: -118.41580340000002};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 15,
 		  disableDefaultUI: true,
@@ -114,7 +114,7 @@
         
           var image = '../img/mapPin.png';
 		  var beachMarker = new google.maps.Marker({
-		    position: {lat: 34.1015187, lng: -118.33006799999998},
+		    position: {lat: 34.0741777, lng: -118.41580340000002},
 		    map: map,
 		    icon: image
 		  });

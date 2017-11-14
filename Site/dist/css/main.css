@@ -347,6 +347,15 @@ textarea {
 /* ==========================================================================
   Home Hero
    ========================================================================== */
+.bouncArrow {
+  position: absolute;
+  bottom: 2%;
+  margin: 0 auto;
+  display: block;
+  width: 11px;
+  left: 0;
+  right: 0; }
+
 .hero {
   width: 100%;
   position: relative; }
@@ -510,7 +519,7 @@ textarea {
   width: 100%; }
 
 .copy {
-  font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+  font-family: BrandonText-Light;
   font-size: 1.125em;
   line-height: 1.85vw;
   margin: 0 auto 30px auto;
@@ -666,7 +675,7 @@ textarea {
       text-transform: uppercase;
       margin: 0 0 20px 0; }
     .proceduresMenu .copyWrapper .proTitle2 {
-      font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+      font-family: BrandonText-Light;
       font-size: 2.5em;
       color: #fff;
       letter-spacing: 1px;
@@ -744,7 +753,7 @@ textarea {
     left: auto;
     right: 5%; }
     .proceduresMenu .columnOpen .columnOpenTitle {
-      font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+      font-family: BrandonText-Light;
       font-size: 1.875em;
       color: #fff;
       letter-spacing: 1px;
@@ -910,7 +919,7 @@ textarea {
       line-height: 24px;
       margin: 20px 0; }
     #hero-about #home-hero-copy-2 .left .aboutHeroQuote {
-      font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+      font-family: BrandonText-Light;
       font-style: italic;
       margin-top: 60px; }
       #hero-about #home-hero-copy-2 .left .aboutHeroQuote span {
@@ -955,7 +964,7 @@ textarea {
   about Dedicated section
    ========================================================================== */
 .bodyQuote {
-  font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+  font-family: BrandonText-Light;
   font-style: italic;
   margin: 60px 0 60px 0;
   color: #000;
@@ -1327,7 +1336,7 @@ div.left div.player-copy:nth-child(2) {
     letter-spacing: 2px;
     color: #939393; }
   .spineItem p {
-    font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+    font-family: BrandonText-Light;
     font-size: 1em;
     letter-spacing: 2px;
     line-height: normal; }
@@ -1526,6 +1535,9 @@ div.left div.player-copy:nth-child(2) {
   letter-spacing: 2px;
   text-align: center;
   line-height: normal; }
+
+.patient-resources {
+  padding-bottom: 0 !important; }
 
 .resourcesPage #resources-forms .left,
 .contactPage #contactPage-form .left {
@@ -2214,6 +2226,14 @@ input:focus {
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
 
+/** Brandon text light **/
+@font-face {
+  font-family: 'BrandonText-Light';
+  src: url("../fonts/brandon/BrandonText-Light/BrandonText-Light.eot#iefix");
+  src: url("../fonts/brandon/BrandonText-Light/BrandonText-Light.otf") format("opentype"), url("../fonts/brandon/BrandonText-Light/BrandonText-Light.ttf") format("truetype"), url("../fonts/brandon/BrandonText-Light/BrandonText-Light.woff") format("woff"), url("../fonts/brandon/BrandonText-Light/BrandonText-Light.svg#BrandonText-Light") format("svg");
+  font-weight: normal !important;
+  font-style: normal; }
+
 /** Brandon light **/
 @font-face {
   font-family: 'Conv_brandon-grotesque-light-58a8a4b38001d';
@@ -2331,7 +2351,7 @@ input:focus {
         color: #fff;
         margin: 0;
         float: left;
-        font-family: Conv_brandon-grotesque-light-58a8a4b38001d;
+        font-family: BrandonText-Light;
         text-transform: uppercase;
         letter-spacing: 2px;
         font-size: 3vw;

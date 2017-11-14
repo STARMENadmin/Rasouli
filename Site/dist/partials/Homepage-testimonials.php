@@ -3,7 +3,7 @@
 				<p class="largeTitle">Changing the <span class="block">Lives of Patients</span></p>
 				<p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
 				
-				<a class="textCTA black" href="#">More Success Stories<span class="linkArrow linkArrowBlack"></span></a>
+				<a class="textCTA black" href="testimonials.php">More Success Stories<span class="linkArrow linkArrowBlack"></span></a>
 				
 			</div>
 			<div class="right">

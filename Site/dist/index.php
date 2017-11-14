@@ -1,3 +1,4 @@
+<php $pgName = 'Rasouli Spine | Home'; ?>
  <?php include("partials/header.php"); ?>
  
     <body class="hompage">
@@ -41,8 +42,10 @@
 		</section>
         
         <!-- social media section -->
+<!--
 		<section id="home-social" class="home-section-7 fade-in">
-			<?php include("partials/homepage-social.php"); ?>		
+			<?php// include("partials/homepage-social.php"); ?>		
 		</section>
+-->
       
          <?php include("partials/footer.php"); ?>
