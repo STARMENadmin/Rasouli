@@ -1,11 +1,6 @@
-
-
-			 
-			$(function() {
-				    ParallaxScroll.init();
-				});
-
-    
+$(function() {
+    ParallaxScroll.init();
+});
 
 var ParallaxScroll = {
     /* PUBLIC VARIABLES */

@@ -125,7 +125,7 @@
          <script src="js/vendor/jquery.parallax-scroll.js"></script>
         
         
-       
+       	<script src="public/js/contact-form.js"></script>
         
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
@@ -135,17 +135,7 @@
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
         
-        	<script src="public/js/contact-form.js"></script>
-		    <script type="text/javascript">
-			    
+        
 
-			    
-
-		        
-
-		        
-		        
-
-    </script>
     </body>
 </html>
