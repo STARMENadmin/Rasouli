@@ -2323,7 +2323,9 @@ input:focus {
       float: right;
       padding: 2% 0 2% 2%;
       margin-top: 10px;
-      height: 15px; }
+      height: 15px;
+      -webkit-appearance: none;
+      border-radius: 0; }
     .bookingPopUp .bookingPopUpInner .dateFormField,
     .bookingPopUp .bookingPopUpInner input[type=email],
     .bookingPopUp .bookingPopUpInner input[type=text] {
@@ -2331,7 +2333,8 @@ input:focus {
       border: 0;
       margin-bottom: 15px;
       padding: 2% 0 2% 2%;
-      color: #000; }
+      color: #000;
+      border-radius: 0; }
     .bookingPopUp .bookingPopUpInner .hasDatepicker {
       width: 50% !important;
       float: left;
@@ -2653,7 +2656,7 @@ input:focus {
   .patient-resources {
     padding-bottom: 0 !important; } }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .patient-resources {
     display: none; }
   #resources-providers .right p,
@@ -2708,7 +2711,7 @@ input:focus {
       opacity: 0.9;
       filter: alpha(opacity=90); } }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   .proceduresMenu .column img {
     max-width: 1024px; }
   #hero-about {
@@ -3294,7 +3297,7 @@ input:focus {
     margin: 0 auto;
     max-width: 100px; } }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .resourcesPage #resources-forms .left .heroLargeText {
     font-size: 8vw; }
   #resources-providers .providersWrapper {

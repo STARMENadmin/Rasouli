@@ -99,7 +99,9 @@
 				 float: right;
 				 padding: 2% 0 2% 2%;
 				 margin-top: 10px;
-				     height: 15px;
+				 height: 15px;
+				-webkit-appearance: none;
+				border-radius: 0;
 		    }
 		    .dateFormField,
 		    input[type=email],
@@ -109,6 +111,7 @@
 			    margin-bottom: 15px;
 			    padding: 2% 0 2% 2%;
 			    color: #000;
+			     border-radius: 0;
 		    }
 		    
 		   .hasDatepicker{
@@ -630,8 +633,8 @@
     
 }
 
-//under 1023
-@media screen and (max-width: 1023px) {
+//under 1024
+@media screen and (max-width: 1024px) {
 	
 	    .patient-resources{
 	   display: none;
@@ -738,7 +741,7 @@
 
 
 //under 1024 above 768
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
     
 	.proceduresMenu .column img {
     	max-width: 1024px;
@@ -1713,7 +1716,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	
 	.resourcesPage #resources-forms .left .heroLargeText{
 		 font-size: 8vw;
