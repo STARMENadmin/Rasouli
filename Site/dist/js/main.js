@@ -206,9 +206,14 @@ $(window).scroll(function(){
 	    $(this).children('.copyWrapper').delay(500).fadeIn();
 	    $('.CloseRoundButton').animate({opacity: 0}, 200);
 	    $('.column').children('.columnOverlay').fadeOut();
-	    $('.proceduresMenu .column').animate({width: '25%'}, 500, 'linear');
 	    $('.column').siblings().children('.verticalText').fadeOut();
 	    $('.column').siblings().children('.copyWrapper').fadeIn();
+	    
+	      if ($("body").hasClass("about")) {
+		  	$('.proceduresMenu .column').animate({width: '20%'}, 500, 'linear');
+		  	 } else {
+			  	 $('.proceduresMenu .column').animate({width: '25%'}, 500, 'linear');
+			}
 	    
 	});
     

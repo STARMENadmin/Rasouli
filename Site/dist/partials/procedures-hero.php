@@ -2,7 +2,7 @@
    
                <picture>
                 <source media="(max-width: 768px)" srcset="img/proceduresHero-mobile.jpg">
-                  <img class="hero-background" src="img/proceduresHero.jpg"> 
+                  <img alt="procedures Hero" class="hero-background" src="img/proceduresHero.jpg"> 
             </picture> 
             
 <div id="home-hero-copy-1" class="procedures-hero-copy-1">

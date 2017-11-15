@@ -33,13 +33,13 @@
         <div class="footerBottom">
             <div class="left">
                 <div class="logoWrapper">
-                    <img id="absLogo" src="/img/absLogo.png"/>
+                    <img alt="absLogo" id="absLogo" src="/img/absLogo.png"/>
                 </div>
                 <div class="logoWrapper">
-                    <img id ="hipaaLogo"src="/img/hipaaLogo.png"/>
+                    <img alt="hipaaLogo" id="hipaaLogo" src="/img/hipaaLogo.png"/>
                 </div> 
                 <div class="logoWrapper">
-                    <img id="abnsLogo" src="/img/abnsLogo.png"/>
+                    <img alt="abnsLogo" id="abnsLogo" src="/img/abnsLogo.png"/>
                 </div>    
                 <div class="clear"></div>
             </div>

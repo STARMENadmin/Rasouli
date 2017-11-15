@@ -29,7 +29,7 @@
                     <div class="spineItem spineItemPageLink-1">
                             <p class="title">Cutting Edge Technology</p>
                                 <div class="roundButton">
-	                                <img src="img/downArrowWhite.png"/>
+	                                <img alt="down Arrow White" src="img/downArrowWhite.png"/>
 	                            </div><!-- roundButton -->                   
                     </div><!-- spineItem -->
                     
@@ -39,7 +39,7 @@
                     <div class="spineItem spineItemPageLink-2">
                             <p class="title">Philosophy of innovation</p>
                                 <div class="roundButton">
-	                                <img src="img/downArrowWhite.png"/>
+	                                <img alt="down Arrow White" src="img/downArrowWhite.png"/>
 	                            </div><!-- roundButton -->  
                     </div><!-- spineItem -->
                     
@@ -51,7 +51,7 @@
                     <div class="spineItem spineItemPageLink-3">
                             <p class="title">Thought leadership</p>
                                 <div class="roundButton">
-	                                <img src="img/downArrowWhite.png"/>
+	                                <img alt="down Arrow White" src="img/downArrowWhite.png"/>
 	                            </div><!-- roundButton -->                   
                     </div><!-- spineItem -->
                                

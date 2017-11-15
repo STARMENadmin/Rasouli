@@ -1,7 +1,10 @@
-<php $pgName = 'Rasouli Spine | The Practice'; ?>
- <?php include("partials/header.php"); ?>
+<?php include("partials/header.php"); ?>
  
     <body class="about">
+	          <div class="onLoadFadeIn"></div>
+	  <?php include("partials/book-pop-up.php"); ?>
+	  <?php include("partials/nav.php"); ?>
+	  <?php include("partials/nav-static.php"); ?>
 
 
         <!--[if lte IE 9]>

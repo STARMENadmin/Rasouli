@@ -15,7 +15,7 @@
                      <input type="text" class="form-control autoFillColor hide" name="form-nameLast" placeholder="<?php echo $config->get('fields.nameLast'); ?>" >
                     <input type="email" class="form-control autoFillColor"  name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
                     <input type="text" class="form-control autoFillColor"  name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>
-                    <input type="date" id="" class="form-control messageInput autoFillColor dateFormField"    name="form-date" placeholder="<?php // echo $config->get('fields.date'); ?>" required></input>
+                    <input type="date" class="form-control messageInput autoFillColor dateFormField"    name="form-date" placeholder="<?php // echo $config->get('fields.date'); ?>" required>
                      <textarea class="form-control messageInput autoFillColor hide"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" ></textarea>
                     <button type="submit" class="formSubmitButton"><?php echo $config->get('fields.btn-send'); ?></button>           
         		</form>
@@ -41,13 +41,13 @@
         <div class="footerBottom">
             <div class="left">
                 <div class="logoWrapper">
-                    <img id="absLogo" src="img/absLogo.png"/>
+                    <img id="absLogo" src="img/absLogo.png" alt="absLogo"/>
                 </div>
                 <div class="logoWrapper">
-                    <img id ="hipaaLogo"src="img/hipaaLogo.png"/>
+                    <img id="hipaaLogo" src="img/hipaaLogo.png" alt="hipaaLogo"/>
                 </div> 
                 <div class="logoWrapper">
-                    <img id="abnsLogo" src="img/abnsLogo.png"/>
+                    <img id="abnsLogo" src="img/abnsLogo.png" alt="abnsLogo"/>
                 </div>    
                 <div class="clear"></div>
             </div>
@@ -73,17 +73,19 @@
 							<div id="mce-responses" class="clear">
 								<div class="response" id="mce-error-response" style="display:none"></div>
 								<div class="response" id="mce-success-response" style="display:none"></div>
-							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							</div>    
 						
-							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cf573a54028a55aa9f9fff083_bfb030f16c" tabindex="-1" value=""></div>
-					    	<div class="clear"><input type="image" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button newsletterSubmit autoFillColor" src="/img/newsletterArrow.png"></input></div>
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cf573a54028a55aa9f9fff083_bfb030f16c" tabindex="-1" ></div>
+					    	<div class="clear">
+						    	<input type="image" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button newsletterSubmit autoFillColor" src="/img/newsletterArrow.png" alt="newsletter arrow image">
+						    </div>
 					
-                </div>
+                
 					</form>
-					    <div id="subscribe-result">
-				</div>
+					   
+				</div><!--newsletter-wrapper-->
+				<div id="subscribe-result"></div>
 
-<!--End mc_embed_signup-->
                 
                 
             
@@ -98,7 +100,7 @@
                      <div class="clear"></div>
                 </div>
             </div>
-            <img class="logo mobile" src="img/global/rasouli-spine-logo.jpg">
+            <img class="logo mobile" src="img/global/rasouli-spine-logo.jpg" alt="Rasouli mobile footer logo">
              <p class="termsConditinsMobile mobile">All Rights Reserved &copy; 2017 |  Rasouli Spine | <a href="http://starmenusa.com/">Making Brands Work</a>&trade;</p>
             <div class="clear"></div>
         </div><!-- footerBottom -->
@@ -114,6 +116,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+		<link rel="stylesheet" href="css/jquery-ui.css">
 	
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
          <script src="js/vendor/slick/slick.min.js"></script>

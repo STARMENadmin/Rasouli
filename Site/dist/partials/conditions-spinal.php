@@ -1,7 +1,7 @@
 			<div class="top">
 				<p class="smallTitle centerText">Spinal Conditions</p>
 				
-                <p class="largeTitle centerText">Dont Let a Condition<span class="block">Hold you Back</spans></p>
+                <p class="largeTitle centerText">Dont Let a Condition<span class="block">Hold you Back</span></p>
 				
 				<p class="copy centered centerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
 				
@@ -30,40 +30,40 @@
                             <div class="videoButtonOverlay"></div>
                             <p class="videoText-1">Scoliosis</p>
                             <p class="videoText-2">Learn More</p>
-                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
-                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                            <img alt="downArrowSmall" class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img alt="videoButtonBG" class="videoButtonBG" src="img/videoButton.jpg"/>
                         </div><!-- video-Button -->
                         
                             <div id="videoPlayBTN-2" class="video-Button">
                             <div class="videoButtonOverlay"></div>
                             <p class="videoText-1">Lorem</p>
                             <p class="videoText-2">Learn More</p>
-                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
-                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                            <img alt="downArrowSmall" class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img alt="videoButtonBG" class="videoButtonBG" src="img/videoButton.jpg"/>
                         </div><!-- video-Button -->
                         
                             <div id="videoPlayBTN-3" class="video-Button">
                             <div class="videoButtonOverlay"></div>
                             <p class="videoText-1">Ipsum</p>
                             <p class="videoText-2">Learn More</p>
-                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
-                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                            <img alt="downArrowSmall" class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img alt="videoButtonBG" class="videoButtonBG" src="img/videoButton.jpg"/>
                         </div><!-- video-Button -->
                         
                             <div id="videoPlayBTN-4" class="video-Button">
                             <div class="videoButtonOverlay"></div>
                             <p class="videoText-1">Lorem</p>
                             <p class="videoText-2">Learn More</p>
-                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
-                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                            <img alt="downArrowSmall" class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img alt="videoButtonBG" class="videoButtonBG" src="img/videoButton.jpg"/>
                         </div><!-- video-Button -->
                         
                             <div id="videoPlayBTN-5" class="video-Button">
                             <div class="videoButtonOverlay"></div>
                             <p class="videoText-1">Ipsum</p>
                             <p class="videoText-2">Learn More</p>
-                            <img class="downArrowSmall" src="img/downArrowWhite.png"/>
-                            <img class="videoButtonBG" src="img/videoButton.jpg"/>
+                            <img alt="downArrowSmall" class="downArrowSmall" src="img/downArrowWhite.png"/>
+                            <img alt="videoButtonBG" class="videoButtonBG" src="img/videoButton.jpg"/>
                         </div><!-- video-Button -->
                 
                     

@@ -1,7 +1,7 @@
 
             <picture>
                 <source media="(max-width: 768px)" srcset="img/home-hero-mobile.jpg">
-               <img class="hero-background" src="img/home-hero.jpg">
+               <img class="hero-background" src="img/home-hero.jpg" alt="homepage hero">
             </picture> 	    	
             <div id="home-hero-copy-1">
                 <h1>
@@ -12,7 +12,7 @@
                 <h2>
                     <span class="stack">Get back to the</span>
                     <span class="stack"> quality of life</span>
-                    <span class="stack"></span>with <span class="bold">Rasouli Spine</span></span>
+                    <span class="stack"></span>with <span class="bold">Rasouli Spine</span>
                 </h2>
 			</div>
 		  

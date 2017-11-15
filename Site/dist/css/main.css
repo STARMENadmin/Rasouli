@@ -62,7 +62,7 @@
     left: 8%;
     z-index: 2;
     top: 18px; }
-  .header-nav #navBackground {
+  .header-nav .navBackground {
     opacity: 0.8;
     filter: alpha(opacity=80);
     background-color: #000;
@@ -2704,7 +2704,7 @@ input:focus {
         margin-top: 0; }
       .header-nav li:hover {
         border-bottom: 0 !important; }
-    .header-nav #navBackground {
+    .header-nav .navBackground {
       opacity: 0.9;
       filter: alpha(opacity=90); } }
 

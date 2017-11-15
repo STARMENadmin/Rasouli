@@ -13,6 +13,6 @@
 	    <li><a href="/the-outpaient-revolution.php">The Outpatient Revolution</a></li>
 	    <li><a href="/contact.php">Contact</a></li>
 	 </ul>
-	 <div id="navBackground"></div>
+	 <div class="navBackground"></div>
 	 
   </nav>

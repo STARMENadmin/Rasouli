@@ -1,6 +1,6 @@
-			<img id="homeBlogNext" src="/img/global/arrowNext.png"/>
+			<img id="homeBlogNext" src="/img/global/arrowNext.png" alt="blog next button"/>
 
-			<img  id="homeBlogPrevious" src="/img/global/arrowPrevious.png"/>
+			<img  id="homeBlogPrevious" src="/img/global/arrowPrevious.png" alt="blog back button"/>
 
 			<p class="boxTitleSmall">The Blog</p>
 			
@@ -22,7 +22,7 @@
 					
 	                <picture>
 	                    <source media="(max-width: 768px)" srcset="img/blogImage1Mobile.jpg">
-	                    <img src="img/blogImage1.jpg"/>
+	                    <img src="img/blogImage1.jpg" alt="blog image 1"/>
 	                </picture>
 				</div>
 				
@@ -46,7 +46,7 @@
 				</div>
 				
 				<div class="left parallax" data-parallax='{"y" : -50, "smoothness": 0}'>
-					<img src="img/theSurgen.jpg"/>
+					<img src="img/theSurgen.jpg" alt="blog image 1"/>
 				</div>
 				<div class="clear"></div>
 			

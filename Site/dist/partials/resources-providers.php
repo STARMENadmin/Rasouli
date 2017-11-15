@@ -10,35 +10,35 @@
 			<div class="providersWrapper awardsWrapper ">
     
 			    <div class="awardLogo">
-			        <img src="img/providerLogo-aetna.png"/>
+			        <img alt="provider Logo aetna" alt="aetna" src="img/providerLogo-aetna.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/providerLogo-molina.png"/>
+			        <img alt="provider Logo" alt="molina" src="img/providerLogo-molina.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/providerLogo-anthem.png"/>
+			        <img alt="provider Logo molina" alt="anthem" src="img/providerLogo-anthem.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/providerLogo-kaiser.png"/>
+			        <img alt="provider Logo kaiser" alt="kaiser" src="img/providerLogo-kaiser.png"/>
 			    </div>
 			    
 			     <div class="awardLogo">
-			        <img src="img/providerLogo-oscar.png"/>
+			        <img alt="provider Logo oscar" alt="oscar" src="img/providerLogo-oscar.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/providerLogo-cigna.png"/>
+			        <img alt="provider Logo cigna" alt="cigna" src="img/providerLogo-cigna.png"/>
 			    </div>
 			    
 			     <div class="awardLogo">
-			        <img src="img/providerLogo-aetna.png"/>
+			        <img alt="provider Logo aetna" alt="aetna" src="img/providerLogo-aetna.png"/>
 			    </div>
 			    
 			    <div class="awardLogo">
-			        <img src="img/providerLogo-molina.png"/>
+			        <img alt="provider Logo molina" alt="molina" src="img/providerLogo-molina.png"/>
 			    </div>
     
 

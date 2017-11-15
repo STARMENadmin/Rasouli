@@ -42,7 +42,7 @@
 		                        <p class="columnOpenPara" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis risus egestas efficitur aliquet. Ut vel est a velit interdum semper. Vestibulum eleifend pulvinar enim finibus congue. Nam sagittis nunc interdum, commodo augue vestibulum, pellentesque libero. Donec et accumsan dui, vel lobortis turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada<br/> <br/>Aliquam consequat elementum ex. Vestibulum lorem magna, volutpat hendrerit varius sit amet, lobortis et ligula. Ut a mi eu risus hendrerit tincidunt sed at magna. Morbi lacinia tempus tortor, non commodo sapien consequat at. Pellentesque eget posuere est. Nunc et ex non enim consequat suscipit vel sed justo. </p>
 	                        </div><!-- columnOpen -->
 	                        
-	                        <img src="img/team-1.png"/>
+	                        <img alt="team image 1" src="img/team-1.png"/>
 	                    </div><!-- column-1 -->
 	                    
 	                    <div class="column column-2 expandColumn">
@@ -66,7 +66,7 @@
 		                        <p class="columnOpenPara" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis risus egestas efficitur aliquet. Ut vel est a velit interdum semper. Vestibulum eleifend pulvinar enim finibus congue. Nam sagittis nunc interdum, commodo augue vestibulum, pellentesque libero. Donec et accumsan dui, vel lobortis turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada<br/> <br/>Aliquam consequat elementum ex. Vestibulum lorem magna, volutpat hendrerit varius sit amet, lobortis et ligula. Ut a mi eu risus hendrerit tincidunt sed at magna. Morbi lacinia tempus tortor, non commodo sapien consequat at. Pellentesque eget posuere est. Nunc et ex non enim consequat suscipit vel sed justo. </p>
 	                        </div><!-- columnOpen -->
 	                        
-		                        <img src="img/team-1.png"/>
+		                        <img alt="team image 2" src="img/team-1.png"/>
 		                 </div><!-- column-2 -->
 		                 
                         <div class="column column-3 expandColumn">
@@ -91,7 +91,7 @@
 		                        <p class="columnOpenPara" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis risus egestas efficitur aliquet. Ut vel est a velit interdum semper. Vestibulum eleifend pulvinar enim finibus congue. Nam sagittis nunc interdum, commodo augue vestibulum, pellentesque libero. Donec et accumsan dui, vel lobortis turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada<br/> <br/>Aliquam consequat elementum ex. Vestibulum lorem magna, volutpat hendrerit varius sit amet, lobortis et ligula. Ut a mi eu risus hendrerit tincidunt sed at magna. Morbi lacinia tempus tortor, non commodo sapien consequat at. Pellentesque eget posuere est. Nunc et ex non enim consequat suscipit vel sed justo. </p>
 	                        </div><!-- columnOpen -->
 	                        	                  
-		                       <img src="img/team-1.png"/>            
+		                       <img alt="team image 3" src="img/team-1.png"/>            
 	                    </div><!-- column-3 -->
 	                    
 	                    <div class="column column-4 expandColumn">
@@ -116,7 +116,7 @@
 		                        <p class="columnOpenPara" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis risus egestas efficitur aliquet. Ut vel est a velit interdum semper. Vestibulum eleifend pulvinar enim finibus congue. Nam sagittis nunc interdum, commodo augue vestibulum, pellentesque libero. Donec et accumsan dui, vel lobortis turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada<br/> <br/>Aliquam consequat elementum ex. Vestibulum lorem magna, volutpat hendrerit varius sit amet, lobortis et ligula. Ut a mi eu risus hendrerit tincidunt sed at magna. Morbi lacinia tempus tortor, non commodo sapien consequat at. Pellentesque eget posuere est. Nunc et ex non enim consequat suscipit vel sed justo. </p>
 	                        </div><!-- columnOpen -->
 	                        
-		                        <img src="img/team-1.png"/>
+		                        <img alt="team image 4" src="img/team-1.png"/>
 		                </div><!-- column-4 -->
 		                
 		                
@@ -142,7 +142,7 @@
 		                        <p class="columnOpenPara" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis risus egestas efficitur aliquet. Ut vel est a velit interdum semper. Vestibulum eleifend pulvinar enim finibus congue. Nam sagittis nunc interdum, commodo augue vestibulum, pellentesque libero. Donec et accumsan dui, vel lobortis turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada<br/> <br/>Aliquam consequat elementum ex. Vestibulum lorem magna, volutpat hendrerit varius sit amet, lobortis et ligula. Ut a mi eu risus hendrerit tincidunt sed at magna. Morbi lacinia tempus tortor, non commodo sapien consequat at. Pellentesque eget posuere est. Nunc et ex non enim consequat suscipit vel sed justo. </p>
 	                        </div><!-- columnOpen -->
 	                        
-		                        <img src="img/team-1.png"/>
+		                        <img alt="team image 6" src="img/team-1.png"/>
 		                </div><!-- column-5 -->
                         
                         

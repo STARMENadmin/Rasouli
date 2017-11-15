@@ -19052,6 +19052,12 @@
 		"oAP": "\/Site\/dist\/partials\/outpatient-technology.php",
 		"oF": 0
 		},
+	"\/Site\/dist\/partials\/page-titles.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/page-titles.php",
+		"oF": 0
+		},
 	"\/Site\/dist\/partials\/procedures-hero.php": {
 		"ft": 8192,
 		"oA": 2,

@@ -1,7 +1,7 @@
 <div class="bookingPopUp">
 	
 	<div class="bookingPopUpInner">
-		<img class="closePopUpNav" src="/img/closeNav.png">
+		<img class="closePopUpNav" src="/img/closeNav.png" alt="x close image">
 		<p class="popUpTitle">Request consultation<br/> by appointment only</p>
 		
 		<div class="popUp-form-wrapper">
@@ -19,7 +19,7 @@
 			
 			<div class="PreferredWrapper">
 				<div class="checkBoxWrapper">
-					<input type="checkbox" value="1" id="checkbox" name=""/>
+					<input type="checkbox" value="1" id="checkbox" name="preferredDate"/>
 					<label for="checkboxInput"></label>
 					<div class="clear"></div>
 				</div>
@@ -27,9 +27,9 @@
 					<div class="clear"></div>
 				</div>
 				 <textarea id="dateFormField" class="form-control messageInput autoFillColor hide"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" ></textarea>
-				   <input type="date" id="" class="form-control messageInput autoFillColor dateFormField"    name="form-date" placeholder="<?php echo $config->get('fields.date'); ?>" required></input>
+				   <input type="date" class="form-control messageInput autoFillColor dateFormField"    name="form-date" placeholder="<?php echo $config->get('fields.date'); ?>" required>
 				<div class="clear"></div>
-			</div>
+			
 			
 			<button type="submit" class="formSubmitButton"><?php echo $config->get('fields.btn-send'); ?></button> 
 			</form>

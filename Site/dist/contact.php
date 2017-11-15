@@ -1,6 +1,10 @@
  <?php include("partials/header.php"); ?>
  
     <body class="contactPage">
+	  <div class="onLoadFadeIn"></div>
+	  <?php include("partials/book-pop-up.php"); ?>
+	  <?php include("partials/nav.php"); ?>
+	  <?php include("partials/nav-static.php"); ?>
 
 
         <!--[if lte IE 9]>

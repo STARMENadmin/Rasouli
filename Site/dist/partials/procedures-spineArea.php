@@ -6,7 +6,7 @@
 					<div class="hotSpot" id="hotspot-4"><div class="border"></div><span></span></div>
 					
 				</div>
-				<img src="img/selectSpine.jpg"/>
+				<img alt=" spine image" src="img/selectSpine.jpg"/>
 			</div>
 			<div class="right">
 
@@ -30,7 +30,7 @@
                     
                
                     
-                    <div class="spineItem"id="spineItem-2">
+                    <div class="spineItem" id="spineItem-2">
                             <p class="title">Thoracic (Middle Back)</p>
                                 <div class="roundButton">
 	                                <div class="cross">

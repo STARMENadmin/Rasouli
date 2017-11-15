@@ -14,7 +14,7 @@
                             <div class="roundButton">
 								<p class="pdfNumber">1</p>
 	                        </div><!-- roundButton -->
-	                    <img class="pdfButton" src="../img/pdfButton.png"/>              
+	                    <img alt="Background Form pdfButton" class="pdfButton" src="../img/pdfButton.png"/>              
                     </a><!-- pdfItem -->
                     
                     <a href="#" class="pdfItem" download>
@@ -22,7 +22,7 @@
                             <div class="roundButton">
 								<p class="pdfNumber">2</p>
 	                        </div><!-- roundButton -->
-	                    <img class="pdfButton" src="../img/pdfButton.png"/>              
+	                    <img alt="History Form pdfButton" class="pdfButton" src="../img/pdfButton.png"/>              
                     </a><!-- pdfItem -->
                     
                     
@@ -31,7 +31,7 @@
                             <div class="roundButton">
 								<p class="pdfNumber">3</p>
 	                        </div><!-- roundButton -->
-	                    <img class="pdfButton" src="../img/pdfButton.png"/>              
+	                    <img alt="Surgery Form pdfButton" class="pdfButton" src="../img/pdfButton.png"/>              
                     </a><!-- pdfItem -->
                     
                     
@@ -40,7 +40,7 @@
                             <div class="roundButton">
 								<p class="pdfNumber">4</p>
 	                        </div><!-- roundButton -->
-	                    <img class="pdfButton" src="../img/pdfButton.png"/>              
+	                    <img alt="Surgery Packet pdfButton" class="pdfButton" src="../img/pdfButton.png"/>              
                     </a><!-- pdfItem -->
 
 				</div><!-- documents-wrapper -->
