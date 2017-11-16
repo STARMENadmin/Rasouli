@@ -1348,8 +1348,7 @@ div.left div.player-copy:nth-child(2) {
   border-radius: 24px;
   border: 2px solid #FFF;
   transition: opacity .2s ease-out;
-  top: 50px;
-  right: 50px; }
+  top: 50px; }
   .roundButton .cross {
     position: absolute;
     left: 20px;
@@ -1595,7 +1594,8 @@ div.left div.player-copy:nth-child(2) {
   text-transform: uppercase;
   font-family: BrandonGrotesque-Bold;
   letter-spacing: 2px;
-  background-color: #000; }
+  background-color: #000;
+  border-radius: 0; }
 
 .resourcesPage .right .form-wrapper form .messageInput,
 .contactPage .right .form-wrapper form .messageInput {
@@ -2030,7 +2030,8 @@ footer {
         letter-spacing: 2px;
         font-size: 0.75em;
         vertical-align: bottom;
-        resize: none; }
+        resize: none;
+        -webkit-appearance: none; }
       footer .form-wrapper form .formSubmitButton,
       footer .form-wrapper form input[type=submit] {
         display: inline-block;
@@ -2552,7 +2553,40 @@ input:focus {
   #hero-about .right {
     margin-top: 0 !important; } }
 
+@media screen and (max-width: 1200px) {
+  .proceduresMenu .copyWrapper {
+    bottom: 5%; }
+    .proceduresMenu .copyWrapper .proTitle2 {
+      font-size: 2.5vw; }
+    .proceduresMenu .copyWrapper .roundButton {
+      top: 0px; } }
+
 @media screen and (max-width: 1024px) {
+  .proceduresMenu .copyWrapper .roundButton {
+    width: 24px;
+    height: 24px; }
+  .proceduresMenu .copyWrapper .roundButton .cross {
+    position: absolute;
+    left: 12px;
+    top: 12px; }
+  .proceduresMenu .copyWrapper .roundButton .bg {
+    left: 0px;
+    top: 0px;
+    width: 25px;
+    height: 25px; }
+  .proceduresMenu .copyWrapper .roundButton .readmore {
+    left: 32px;
+    top: -7px; }
+  .proceduresMenu .copyWrapper .proPara {
+    margin: 0 0 25px 0; }
+  .proceduresMenu .copyWrapper .proTitle2 {
+    font-size: 2.5vw; }
+  .proceduresMenu .copyWrapper .proTitle {
+    font-size: 1.5vw; }
+  .proceduresMenu .copyWrapper .proPara {
+    font-size: 1.5vw; }
+  .proceduresMenu .copyWrapper .roundButton .readmore {
+    font-size: 1vw; }
   .testimonialsPage #about-testimonials .top {
     padding: 0 8%; }
     .testimonialsPage #about-testimonials .top .smallTitle {

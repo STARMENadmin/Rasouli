@@ -111,7 +111,7 @@
 			    margin-bottom: 15px;
 			    padding: 2% 0 2% 2%;
 			    color: #000;
-			     border-radius: 0;
+			    border-radius: 0;
 		    }
 		    
 		   .hasDatepicker{
@@ -424,8 +424,68 @@
 
 }
 
+//under 1200
+@media screen and (max-width: 1200px) {
+	
+	.proceduresMenu .copyWrapper{
+		bottom: 5%;
+		
+		.proTitle2{
+			font-size: 2.5vw;
+		}
+		    
+		.roundButton{
+		 top:0px;
+		}
+	}
+	
+}
+
 //under 1024
 @media screen and (max-width: 1024px) {
+	
+	.proceduresMenu .copyWrapper .roundButton{
+		width: 24px;
+		height: 24px;
+	}
+	
+	.proceduresMenu .copyWrapper .roundButton .cross {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+	}
+	
+	.proceduresMenu .copyWrapper .roundButton .bg {
+	    left: 0px;
+	    top: 0px;
+	    width: 25px;
+	    height: 25px;
+    }
+    
+    .proceduresMenu .copyWrapper .roundButton .readmore {
+	    left: 32px;
+	    top: -7px;
+    }
+	
+	.proceduresMenu .copyWrapper .proPara{
+		margin: 0 0 25px 0;
+	}
+	
+	.proceduresMenu .copyWrapper .proTitle2{
+		font-size: 2.5vw;
+	}
+	
+	.proceduresMenu .copyWrapper .proTitle{
+		font-size: 1.5vw;
+	}
+	
+	.proceduresMenu .copyWrapper .proPara{
+		font-size: 1.5vw;
+	}
+	
+	.proceduresMenu .copyWrapper .roundButton .readmore{
+		font-size: 1vw;
+	}
 	
 	
 	

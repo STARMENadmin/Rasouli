@@ -1783,7 +1783,7 @@ div.left div.player-copy:nth-child(2){
                 border: 2px solid #FFF;
                 transition: opacity .2s ease-out;
                 top:50px;
-                right: 50px;
+                //right: 50px;
 
                 .cross {
                     position: absolute;
@@ -2149,6 +2149,7 @@ display: inline-block;
 					font-family: $brandonBold;
 	                letter-spacing: 2px;
 	                background-color: #000;
+	                border-radius: 0;
 					
 				}
 				
