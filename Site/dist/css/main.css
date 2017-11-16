@@ -2554,6 +2554,10 @@ input:focus {
     margin-top: 0 !important; } }
 
 @media screen and (max-width: 1200px) {
+  .footerBottom .center .newsletter-wrapper {
+    width: 100%; }
+  .footerBottom .center .newsletter-wrapper form .newsletterSubmit {
+    right: 10px; }
   .proceduresMenu .copyWrapper {
     bottom: 5%; }
     .proceduresMenu .copyWrapper .proTitle2 {
@@ -2562,6 +2566,8 @@ input:focus {
       top: 0px; } }
 
 @media screen and (max-width: 1024px) {
+  footer .footer-inner {
+    padding: 0 2%; }
   .proceduresMenu .copyWrapper .roundButton {
     width: 24px;
     height: 24px; }
@@ -2711,6 +2717,12 @@ input:focus {
       margin-top: 40px; } }
 
 @media screen and (max-width: 940px) {
+  .footerBottom .center {
+    float: left;
+    width: 35.33%; }
+  .footerBottom .right {
+    float: left;
+    width: 30.33%; }
   .header-nav ul li {
     font-size: 2vw; }
   .testimonialsPage .bookingWrapper {

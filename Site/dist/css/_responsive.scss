@@ -427,6 +427,14 @@
 //under 1200
 @media screen and (max-width: 1200px) {
 	
+	.footerBottom .center .newsletter-wrapper{
+		width: 100%;
+	}
+	
+	.footerBottom .center .newsletter-wrapper form .newsletterSubmit{
+		right: 10px;
+	}
+	
 	.proceduresMenu .copyWrapper{
 		bottom: 5%;
 		
@@ -443,6 +451,9 @@
 
 //under 1024
 @media screen and (max-width: 1024px) {
+	footer .footer-inner {
+    padding: 0 2%;
+}
 	
 	.proceduresMenu .copyWrapper .roundButton{
 		width: 24px;
@@ -733,6 +744,16 @@
 
 //under 940px
 @media screen and (max-width: 940px) {
+	
+	.footerBottom .center {
+    float: left;
+    width: 35.33%;
+	}
+	
+	.footerBottom .right {
+    float: left;
+    width: 30.33%;
+	}
 	
 	.header-nav ul li {
     font-size: 2vw;
