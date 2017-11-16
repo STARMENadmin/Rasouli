@@ -2711,6 +2711,8 @@ input:focus {
       margin-top: 40px; } }
 
 @media screen and (max-width: 940px) {
+  .header-nav ul li {
+    font-size: 2vw; }
   .testimonialsPage .bookingWrapper {
     box-shadow: inset 0px 0px 0px 1px #000;
     box-sizing: border-box; }
