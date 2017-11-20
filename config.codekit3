@@ -8542,6 +8542,97 @@
 		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/comments.php",
 		"oF": 0
 		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicon.ico",
+		"oF": 0
+		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/android-chrome-96x96.png": {
+		"ft": 32768,
+		"iS": 3899,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/android-chrome-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3062,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1548,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1830,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4172,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/Site\/dist\/blog\/wp-content\/themes\/Rasouli\/fonts\/readme.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -16578,6 +16669,12 @@
 		"oAP": "\/Site\/dist\/config\/config.php",
 		"oF": 0
 		},
+	"\/Site\/dist\/config\/config2.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/config\/config2.php",
+		"oF": 0
+		},
 	"\/Site\/dist\/contact.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -18272,6 +18369,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/Rasouli_logo_white_long.png": {
+		"ft": 32768,
+		"iS": 14609,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/Rasouli_logo_white_long.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/Rasouli_OutpatientRev_Hero.jpg": {
 		"ft": 16384,
 		"iS": 3535224,
@@ -18298,8 +18406,8 @@
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/rasouliNavLogo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -19112,6 +19220,12 @@
 		"oAP": "\/Site\/dist\/process.php",
 		"oF": 0
 		},
+	"\/Site\/dist\/process2.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/process2.php",
+		"oF": 0
+		},
 	"\/Site\/dist\/public\/js\/contact-form-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -19128,6 +19242,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/public\/js\/contact-form-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Site\/dist\/public\/js\/contact-form2.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/public\/js\/contact-form2-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

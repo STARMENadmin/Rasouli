@@ -96,6 +96,8 @@
       .header-nav ul li a {
         color: #fff;
         text-decoration: none; }
+    .header-nav ul .active {
+      border-bottom: 1px solid #fff; }
 
 .slideDown {
   top: 0; }
@@ -379,7 +381,7 @@ textarea {
       font-weight: normal;
       letter-spacing: 7px;
       margin-bottom: 40px;
-      line-height: 6vw; }
+      line-height: 5vw; }
       #hero-about #home-hero-copy-1 h1 .block,
       #hero-home #home-hero-copy-1 h1 .block {
         padding-left: 14%; }
@@ -765,6 +767,18 @@ textarea {
       color: #fff;
       letter-spacing: 1px;
       margin: 0 0 0 0; }
+
+.contactPage,
+.outpaientPage,
+.theproceduresPage {
+  background-color: #000; }
+
+#resources-providers,
+#contactPage-map,
+#outpaient-leadership,
+#outpaient-technology,
+#conditions-video {
+  background-color: #fff; }
 
 .theproceduresPage .hero-procedures #home-hero-copy-2 {
   bottom: 0 !important;
@@ -1208,6 +1222,9 @@ div.left div.player-copy:nth-child(2) {
 /* ==========================================================================
   procedures page
    ========================================================================== */
+.spineSelectWrapper .roundButton {
+  right: 50px; }
+
 .hotSpotWrapper {
   position: absolute;
   width: 55%;
@@ -1983,12 +2000,15 @@ article {
   .single .alm-reveal article:first-child {
     padding: 70px 0 80px 0; }
 
+.fade-in {
+  opacity: 0; }
+
 footer {
   background-color: #000;
   color: #fff;
   width: 100%;
   position: relative;
-  padding: 20px 0 30px; }
+  padding: 30px 0 30px; }
   footer .footer-inner {
     padding: 0 8%; }
     footer .footer-inner #footerTitle {
@@ -2013,6 +2033,7 @@ footer {
         display: block;
         opacity: 1;
         margin-right: 10px; }
+      footer .form-wrapper form .footerMessage,
       footer .form-wrapper form input[type=date],
       footer .form-wrapper form input[type=email],
       footer .form-wrapper form input[type=text] {
@@ -2082,7 +2103,10 @@ footer {
       font-weight: normal;
       text-align: center;
       letter-spacing: 2px;
-      line-height: 32px; }
+      line-height: 32px;
+      border-bottom: 1px solid #000; }
+      footer .footer-nav ul li:hover {
+        border-bottom: 1px solid #fff; }
       footer .footer-nav ul li last-of-type {
         margin-right: 0; }
       footer .footer-nav ul li a {
@@ -2093,13 +2117,16 @@ footer {
         -moz-transition: 300ms linear 0s;
         -o-transition: 300ms linear 0s;
         transition: 300ms linear 0s;
-        outline: 0 none; }
-        footer .footer-nav ul li a:hover {
-          color: #fff;
-          text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff; }
+        outline: 0 none;
+        padding-bottom: 10px; }
+
+.glowHover a:hover,
+.glowHover:hover {
+  color: #fff;
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff; }
 
 .footerBottom {
-  margin-top: 30px; }
+  margin: 50px 0 0 0; }
   .footerBottom .termsConditinsMobile {
     display: none; }
   .footerBottom .left {
@@ -2541,6 +2568,11 @@ input:focus {
     font-size: 1vw;
     margin-right: 10px; } }
 
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2) {
+  .parallax {
+    transform: none !important; } }
+
 @media screen and (max-width: 1400px) {
   .parallax {
     transform: none !important; } }
@@ -2812,6 +2844,8 @@ input:focus {
     background-color: #ededed; }
     .about #about-testimonials .linkArrowBlack {
       display: none; }
+  .theConditionsPage #about-testimonials .linkArrowBlack {
+    display: none; }
   .hompage #home-outpatient img,
   .about #about-dedicated .right img {
     opacity: 0.2;
@@ -3456,6 +3490,10 @@ input:focus {
   .spineItem .roundButton {
     border: none;
     right: 10px; } }
+
+@media screen and (max-width: 350px) {
+  .termsConditinsMobile {
+    font-size: 0.5em; } }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document

@@ -400,6 +400,16 @@
     } 
 }
 
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+@media only screen and (min-device-width : 1536px) and (max-device-width : 2048px) and (-webkit-min-device-pixel-ratio: 2) {
+	  
+	  .parallax{
+		transform:none !important;
+	}
+
+}
+
+
 @media screen and (max-width: 1400px) {
 	
 	.parallax{
@@ -927,6 +937,11 @@
 			display: none;
 		}
 	}
+	
+	.theConditionsPage #about-testimonials .linkArrowBlack{
+		display:none;
+	}
+	
 	.hompage #home-outpatient img,
 	.about #about-dedicated .right img{
 		@include opacity(0.2) 
@@ -1984,6 +1999,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 		right: 10px;
 	}
 	
+}
+
+// under 350px
+@media screen and (max-width: 350px) {
+	
+	.termsConditinsMobile{
+		font-size: 0.5em;
+	}
 }
 
 // under 320px iphone 5

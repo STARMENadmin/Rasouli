@@ -3,7 +3,7 @@
     
    <div class="mapWrapper">
 	   
-	   <p>Rasouli Spine Office<br/>50 N. ROXBURY DR., FIFTH FLOOR BEVERLY HILLS, CA 90210</p>
+	   <p>Rasouli Spine Office<br/>444 S Vincente Boulevard, Suite 901 Los Angeles, CA 90048</p>
 	   
 
 		
@@ -97,7 +97,7 @@
 	      
 	      
 	      
-        var uluru = {lat: 34.0741777, lng: -118.41580340000002};
+        var uluru = {lat: 34.0698504, lng: -118.37527};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 15,
 		  disableDefaultUI: true,
@@ -114,7 +114,7 @@
         
           var image = '../img/mapPin.png';
 		  var beachMarker = new google.maps.Marker({
-		    position: {lat: 34.0741777, lng: -118.41580340000002},
+		    position: {lat: 34.0698504, lng: -118.37527},
 		    map: map,
 		    icon: image
 		  });

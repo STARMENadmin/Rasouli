@@ -8,26 +8,16 @@
 			
 			
 			<form enctype="application/x-www-form-urlencoded;" id="contact-form-mobile" class="contact-form form-horizontal" role="form" method="post">
-			<p class="fieldTitle">First and Last name</p>
+			<p class="fieldTitle">Name</p>
 			  <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php// echo $config->get('fields.name'); ?>Name" required>
 			   <input type="text" class="form-control autoFillColor hide" name="form-nameLast" placeholder="<?php echo $config->get('fields.nameLast'); ?>" >
 			<p class="fieldTitle">Email</p>
 			 <input type="email" class="form-control autoFillColor"  name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
 			<p class="fieldTitle">Phone</p>
 			    <input type="text" class="form-control autoFillColor"  name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>
-			<p class="fieldTitle">Preferred Appointment date</p>
-			
-			<div class="PreferredWrapper">
-				<div class="checkBoxWrapper">
-					<input type="checkbox" value="1" id="checkbox" name="preferredDate"/>
-					<label for="checkboxInput"></label>
-					<div class="clear"></div>
-				</div>
-					<p>Flexible?</p>
-					<div class="clear"></div>
-				</div>
-				 <textarea id="dateFormField" class="form-control messageInput autoFillColor hide"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" ></textarea>
-				   <input type="date" class="form-control messageInput autoFillColor dateFormField"    name="form-date" placeholder="<?php echo $config->get('fields.date'); ?>" required>
+			<p class="fieldTitle">Message</p>
+			<textarea id="dateFormField" class="form-control messageInput autoFillColor dateFormField"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" ></textarea>
+				
 				<div class="clear"></div>
 			
 			

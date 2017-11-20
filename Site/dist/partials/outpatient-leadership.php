@@ -18,7 +18,7 @@
                             
                             
 			</div>
-			<div class="right parallax" data-parallax='{"y" : 50, "smoothness": 10}'>
+			<div class="right parallax" data-parallax='{"y" : 10, "smoothness": 10}'>
 				
 				<p class="largeTitle">Not Just Changing
                     <span class="block">Surgery - We're</span>

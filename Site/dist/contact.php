@@ -17,12 +17,12 @@
       	</section>
         
          <!-- form Section -->
-		<section id="contactPage-form" class="contact-section-2 group blackBG">
+		<section id="contactPage-form" class="contact-section-2 group blackBG fade-in">
 			<?php include("partials/contact-form.php"); ?>
 		</section>
       
       <!-- map Section -->
-		<section id="contactPage-map" class="contact-section-3 group">
+		<section id="contactPage-map" class="contact-section-3 group fade-in">
 			<?php include("partials/contact-map.php"); ?>
 		</section>
         

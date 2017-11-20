@@ -9,7 +9,10 @@
     }
 }(this, function () {
     "use strict";
+	
 
+
+	
     var ContactForm = function (form, options) {
         if (!this || !(this instanceof ContactForm)) {
             return new ContactForm(form, options);
@@ -21,9 +24,14 @@
 
         this.form     = form instanceof Node ? form : document.querySelector(form);
         this.endpoint = options.endpoint;
+		
 
         this.send();
+        
+         	
     };
+    
+ 
 
     ContactForm.prototype = {
         hasClass: function (el, name) {
@@ -103,6 +111,7 @@
         send: function () {
             this.form.addEventListener('submit', function (e) {
                 e.preventDefault();
+             
 
                 var elements = document.querySelectorAll('.form-control'),
                     formData;
@@ -116,6 +125,8 @@
 
                 formData = {
                     'name'    : document.querySelector('input[name="form-name"]').value,
+                    'nameLast' : document.querySelector('input[name="form-nameLast"]').value,
+                    'date'    : document.querySelector('input[name="form-date"]').value,
                     'email'   : document.querySelector('input[name="form-email"]').value,
                     'subject' : document.querySelector('input[name="form-subject"]').value,
                     'message' : document.querySelector('textarea[name="form-message"]').value
@@ -128,6 +139,18 @@
             if (!data.success) {
                 if (data.errors.name) {
                     var name = document.querySelector('input[name="form-name"]').parentNode,
+                        error;
+
+                    this.addClass(name, 'has-error');
+                    error = this.template(
+                        '<span class="help-block">{report}</span>', {
+                        report: data.errors.name
+                    });
+
+                    name.insertAdjacentHTML('beforeend', error);
+                }
+                                if (data.errors.name) {
+                    var name = document.querySelector('input[name="form-namLast"]').parentNode,
                         error;
 
                     this.addClass(name, 'has-error');
@@ -183,12 +206,10 @@
                     report: data.message
                 });
 
-
-				//this.empty(this.form);
+                //this.empty(this.form);
                 $('.formSubmitButton').text('Submited');
                 $('input, textarea').val('');
                 $('.autoFillColor').removeClass('autoFillColor');
-                //this.empty(this.form);
                 this.form.insertAdjacentHTML('beforeend', success);
             }
         },

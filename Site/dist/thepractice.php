@@ -18,24 +18,24 @@
         
         
         		<!-- Meet the doctor Section -->
-		<section id="about-meet" class="about-section-2 group twoColumn">
+		<section id="about-meet" class="about-section-2 group twoColumn fade-in">
 			<?php include("partials/about-meetDoctor.php"); ?>
 		</section>
         
         		<!-- dedicated Section -->
-		<section id="about-dedicated" class="about-section-3 group twoColumn greyBG">
+		<section id="about-dedicated" class="about-section-3 group twoColumn greyBG fade-in">
 			 <?php include("partials/about-dedicated.php"); ?>
 		</section>
         
       
       <!-- team Section -->
-		<section id="about-team" class="about-section-4 group">
+		<section id="about-team" class="about-section-4 group fade-in">
 			<?php include("partials/about-team.php"); ?>
 		</section>
 		
 		
 		<!-- tesimonial Section -->
-		<section id="about-testimonials" class="about-section-5 group twoColumn">
+		<section id="about-testimonials" class="about-section-5 group twoColumn fade-in">
 			 <?php include("partials/about-testimonials.php"); ?>
 		</section>
 		

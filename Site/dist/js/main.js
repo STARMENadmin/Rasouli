@@ -3,6 +3,23 @@ jQuery(function($){
 $(document).ready(function(){
 	
 	
+	
+	// page link highlight	
+ 	$("a[href*='" + location.pathname + "']").parent('li').addClass("active");
+ 	
+ 	
+ 	$('.textCTA').mouseenter(function() { 
+	 	$(this).children('.linkArrow').stop().animate({"right":"-44px"},200);
+	
+	 	
+ 	});
+ 	$(' .textCTA').mouseleave(function() {
+	 		$(this).children('.linkArrow').stop().animate({"right":"-34px"},200);
+	 	
+ 	});
+ 	
+	
+	
 	$('.onLoadFadeIn').fadeOut(1000);
     
 
@@ -28,7 +45,7 @@ $(document).ready(function(){
 
             
    // lazy load setions{
-/*
+
 	   
    $(window).scroll( function(){
 	
@@ -45,7 +62,7 @@ $(document).ready(function(){
 	
 	
 	});
-*/
+
 
         
         

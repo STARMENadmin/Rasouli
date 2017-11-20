@@ -4,14 +4,20 @@
 		
 		<div class="form-wrapper">
 			
-<!--
-			<form action="mail.php" method="POST">
-			<input type="text" name="name" placeholder="First and last name"><input type="text" name="email" placeholder="Email"><input type="text" name="phone" placeholder="Phone"><input type="text" name="date" placeholder="Appointment Date" id="datepicker" ><input type="submit" value="Send">
-			</form>
--->
+
 			
 			    <form enctype="application/x-www-form-urlencoded;" id="contact-form-footer" class="contact-form form-horizontal" role="form" method="post">
-                    <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php// echo $config->get('fields.name'); ?>Name" required><input type="text" class="form-control autoFillColor hide" name="form-nameLast" placeholder="<?php echo $config->get('fields.nameLast'); ?>" ><input type="email" class="form-control autoFillColor"  name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required><input type="text" class="form-control autoFillColor"  name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required><input type="date" class="form-control messageInput autoFillColor dateFormField"    name="form-date" placeholder="<?php // echo $config->get('fields.date'); ?>" required><textarea class="form-control messageInput autoFillColor hide"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" ></textarea><button type="submit" class="formSubmitButton"><?php echo $config->get('fields.btn-send'); ?></button>           
+                    
+                    
+                    
+                    
+                       <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php  echo $config->get('fields.name'); ?>" required>
+
+                    <input type="email" class="form-control autoFillColor"  name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
+                    <input type="text" class="form-control autoFillColor"  name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>                 
+                    <textarea class="form-control messageInput autoFillColor footerMessage"    name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
+
+                    <button type="submit" class="formSubmitButton"><?php echo $config->get('fields.btn-send'); ?></button>         
         		</form>
 			<div class="clear"></div>
 		</div>

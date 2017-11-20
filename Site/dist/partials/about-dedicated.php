@@ -1,4 +1,4 @@
-			<div class="left parallax" data-parallax='{"y" : 50, "smoothness": 10}'>
+			<div class="left parallax" data-parallax='{"y" : 10, "smoothness": 10}'>
 				
 				<p class="largeTitle">Deadicated <span class="block">to Medical</span>
                 <span class="block">Advancement</span>

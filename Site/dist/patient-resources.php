@@ -11,17 +11,17 @@
         <![endif]-->
 
 		<!-- Hero Section -->
-		<section id="hero-about" class="hero patient-resources">
+		<section id="hero-about" class="hero patient-resources ">
 			<?php include("partials/resoures-hero.php"); ?>
       	</section>
         
          <!-- form Section -->
-		<section id="resources-forms" class="resources-section-2 group blackBG">
+		<section id="resources-forms" class="resources-section-2 group blackBG fade-in">
 			<?php include("partials/resources-forms.php"); ?>
 		</section>
       
       <!-- map Section -->
-		<section id="resources-providers" class="outpaientPage resources-section-3 group">
+		<section id="resources-providers" class="outpaientPage resources-section-3 group fade-in">
 			<?php include("partials/resources-providers.php"); ?>
 		</section>
         

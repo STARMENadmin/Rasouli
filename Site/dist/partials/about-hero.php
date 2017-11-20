@@ -11,8 +11,8 @@
                     <span class="stack"></span>with <span class="bold">Rasouli Spine</span></h2>
 			</div>
 		  
-			<div id="home-hero-copy-2" >
-				<div class="left parallax"  data-parallax='{"y" : -50, "smoothness": 10}'>
+			<div id="home-hero-copy-2" class="fade-in">
+				<div class="left parallax"  data-parallax='{"y" : -10, "smoothness": 10}'>
 					<p class="smallTitle">About our practice</p>
 					<p class="heroLargeText">Twenty Years<span>of Success</span></p>
                     
@@ -22,7 +22,7 @@
                             <span>Dr. Rasouli</span>
                         </p>
 				</div>
-				<div class="right">
+				<div class="right fade-in">
 					
 				
 						<div class="parallaxwrapper aboutHeroParallax">

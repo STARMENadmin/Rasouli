@@ -14,7 +14,7 @@
                             
                             
 			</div>
-			<div class="right parallax" data-parallax='{"y" : 50, "smoothness": 10}'>
+			<div class="right parallax" data-parallax='{"y" : 10, "smoothness": 10}'>
 				
 				<p class="largeTitle" >Technology is
                     <span class="block">the Driving force</span>

@@ -1,4 +1,4 @@
-			<div class="left parallax" data-parallax='{"y" : -50, "smoothness": 10}'>
+			<div class="left parallax" data-parallax='{"y" : -10, "smoothness": 10}'>
 				<p class="smallTitle">Testimonials</p>
 				<p class="largeTitle">Changing the <span class="block">Lives of Patients</span></p>
 				<p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>

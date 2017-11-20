@@ -12,23 +12,23 @@
         <![endif]-->
 
 		<!-- Hero Section -->
-		<section id="hero-about" class="hero hero-procedures">
+		<section id="hero-about" class="hero hero-procedures ">
 			<?php include("partials/procedures-hero.php"); ?>
       	</section>
         
          <!-- select spine Section -->
-		<section id="procedures-selectSpine" class="procedures-section-2 group blackBG">
+		<section id="procedures-selectSpine" class="procedures-section-2 group blackBG fade-in">
 			<?php include("partials/procedures-spineArea.php"); ?>
 		</section>
       
       <!-- video Section -->
-		<section id="conditions-video" class="procedures-section-3 group">
+		<section id="conditions-video" class="procedures-section-3 group fade-in">
 			<?php include("partials/procedures-video.php"); ?>
 		</section>
 		
 		
 		<!-- tesimonial Section -->
-		<section id="about-testimonials" class="procedures-section-5 group twoColumn greyBG">
+		<section id="about-testimonials" class="procedures-section-5 group twoColumn greyBG fade-in">
 			 <?php include("partials/about-testimonials.php"); ?>
 		</section>
 		

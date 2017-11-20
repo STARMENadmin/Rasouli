@@ -11,20 +11,20 @@
         <![endif]-->
 
 		<!-- Hero Section -->
-		<section id="hero-about" class="hero hero-conditions">
+		<section id="hero-about" class="hero hero-conditions ">
 			<?php include("partials/conditions-hero.php"); ?>
       	</section>
         
         
       
       <!-- spine Section -->
-		<section id="conditions-video" class="conditions-section-2 group">
+		<section id="conditions-video" class="conditions-section-2 group fade-in">
 			<?php include("partials/conditions-spinal.php"); ?>
 		</section>
 		
 		
 		<!-- tesimonial Section -->
-		<section id="about-testimonials" class="about-section-5 group twoColumn greyBG">
+		<section id="about-testimonials" class="about-section-5 group twoColumn greyBG fade-in">
 			 <?php include("partials/about-testimonials.php"); ?>
 		</section>
 		

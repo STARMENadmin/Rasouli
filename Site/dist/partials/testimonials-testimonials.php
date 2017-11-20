@@ -11,7 +11,7 @@
             <div class="left">
                 
                 <div class="row rowTop">
-                    <div class="column column-1">
+                    <div class="column column-1 ">
                         	<div class="hoverWrapper">					
 								<p class="testimonialHoverText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit." <span class="block">Jennifer A.</span></p>
 								<div class="testimonialOpacity"></div>
@@ -19,7 +19,7 @@
 							</div>
                         
                     </div><!-- column-1-->
-                    <div class="column column-2">
+                    <div class="column column-2 fade-in">
                         	<div class="hoverWrapper">					
 								<p class="testimonialHoverText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit." <span class="block">Jennifer A.</span></p>
 								<div class="testimonialOpacity"></div>

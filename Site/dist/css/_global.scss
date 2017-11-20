@@ -365,7 +365,7 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
 			font-weight: normal;
 			letter-spacing: 7px;
 			margin-bottom: 40px;
-			line-height: 6vw;
+			line-height: 5vw;
 			
 			.block{
 				
@@ -923,8 +923,22 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
     }
     
 
-
 }
+.contactPage,
+.outpaientPage,
+.theproceduresPage{
+	background-color: #000;
+}
+
+#resources-providers,
+#contactPage-map,
+#outpaient-leadership,
+#outpaient-technology,
+#conditions-video{
+	background-color: #fff;
+}
+
+
 .theproceduresPage  .hero-procedures #home-hero-copy-2{
         bottom: 0 !important;
     top: 71%;
@@ -1575,6 +1589,12 @@ div.left div.player-copy:nth-child(2){
 /* ==========================================================================
   procedures page
    ========================================================================== */
+   
+   
+   .spineSelectWrapper .roundButton{
+	   right: 50px;
+   }
+   
    
    .hotSpotWrapper{
 	   position: absolute;
@@ -2673,6 +2693,6 @@ display: inline-block;
 }
 			
 			.fade-in{
-				//opacity: 0;
+				opacity: 0;
 			}
 
