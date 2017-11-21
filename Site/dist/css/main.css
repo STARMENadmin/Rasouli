@@ -2003,6 +2003,9 @@ article {
 .fade-in {
   opacity: 0; }
 
+.has-error {
+  border: 0px solid red; }
+
 footer {
   background-color: #000;
   color: #fff;
@@ -2085,6 +2088,13 @@ footer {
       footer .form-wrapper form :-moz-placeholder {
         /* Firefox 18- */
         color: #808080; }
+      footer .form-wrapper form .messageInput {
+        height: 32px;
+        padding-top: 21px;
+        color: #808080; }
+        footer .form-wrapper form .messageInput:focus {
+          color: #fff;
+          outline: none; }
   footer .footer-nav ul {
     width: 100%;
     position: relative;

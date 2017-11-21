@@ -29,6 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (empty($name)) {
         $errors['name'] = $config->get('messages.validation.emptyname');
+        
     }
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -62,9 +63,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />
             </head>
             <body>
-                <h1>{$subject}</h1>
+               
                 <p><strong>{$config->get('fields.name')}:</strong> {$name}</p>
                 <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
+                <p><strong>Phone:</strong> {$subject}</p>
                 <p><strong>{$config->get('fields.message')}:</strong> {$message}</p>
             </body>
         </html>";

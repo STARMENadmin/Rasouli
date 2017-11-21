@@ -105,7 +105,19 @@ footer{
 			  color: $darkGrey;
 			}
 			
-
+				.messageInput{
+					
+					height: 32px;
+					padding-top: 21px;
+					
+					 color: $darkGrey;
+					 
+					 &:focus{
+						 color: #fff;
+						    outline: none;
+					 } 
+				
+				}
 
 			
 			

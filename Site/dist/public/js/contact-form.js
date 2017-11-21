@@ -134,6 +134,7 @@
                     error = this.template(
                         '<span class="help-block">{report}</span>', {
                         report: data.errors.name
+                       
                     });
 
                     name.insertAdjacentHTML('beforeend', error);
@@ -182,11 +183,13 @@
                     '<div class="alert alert-success">{report}</div>', {
                     report: data.message
                 });
-
+				
+				
+			
 
 				//this.empty(this.form);
                 $('.formSubmitButton').text('Submited');
-                $('input, textarea').val('');
+                //$('input, textarea').val('');
                 $('.autoFillColor').removeClass('autoFillColor');
                 //this.empty(this.form);
                 this.form.insertAdjacentHTML('beforeend', success);

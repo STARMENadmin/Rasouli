@@ -105,6 +105,8 @@ RewriteRule ^ /index.html [L]
 
 Options -MultiViews
 
+ErrorDocument 404 http://localhost:8888/404.php
+
 
 # ######################################################################
 # # INTERNET EXPLORER                                                  #

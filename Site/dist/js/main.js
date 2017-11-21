@@ -3,9 +3,14 @@ jQuery(function($){
 $(document).ready(function(){
 	
 	
+
+	
 	
 	// page link highlight	
- 	$("a[href*='" + location.pathname + "']").parent('li').addClass("active");
+ $('nav a[href$="/' + location.pathname.split("/")[1] + '"]').parent('li').addClass('active');
+  
+  
+
  	
  	
  	$('.textCTA').mouseenter(function() { 
@@ -398,6 +403,8 @@ $(window).scroll(function(){
          //$( "#datepickerMobile" ).datepicker();
          
          	$('.contact-form').one('click', function(e) {
+	         	
+	         	
 				    
 			    	var id = $(this).attr('id');
 					
@@ -415,8 +422,97 @@ $(window).scroll(function(){
 			        });
 
 		     });
-		        
-		    //$(".dateFormField").attr('placeholder', 'Apointment Date');
+		   
+
+			
+	// body foem validation red borders		
+	 $('.bodyFormButton').click(function() {
+        var isValid = true;
+        $('#contact-form-desktop').children('.form-control').each(function() {
+            if ($.trim($(this).val()) == '') {
+                isValid = false;
+                $(this).css({
+                    "border": "1px solid red"
+                    
+                });
+            }
+            else {
+                $(this).css({"border": " 1px solid  #808080" });
+
+            }
+
+        });
+
+        if (isValid == false){
+
+          //  e.preventDefault();
+
+       } else {
+
+           // alert('Thank you for submitting');
+			}
+    });
+    
+    
+    // footer form validation red borders		
+	 $('.footerFormButton').click(function() {
+        var isValid = true;
+        $('#contact-form-footer').children('.form-control').each(function() {
+            if ($.trim($(this).val()) == '') {
+                isValid = false;
+                $(this).css({
+                    "border": "1px solid red"
+                    
+                });
+            }
+            else {
+                $(this).css({"border": " 1px solid  #808080" });
+
+            }
+
+        });
+
+        if (isValid == false){
+
+          //  e.preventDefault();
+
+       } else {
+
+           // alert('Thank you for submitting');
+			}
+    });
+    
+    
+      // mobile form validation red borders		
+	 $('.mobileFormButton').click(function() {
+        var isValid = true;
+        $('#contact-form-mobile').children('.form-control').each(function() {
+            if ($.trim($(this).val()) == '') {
+                isValid = false;
+                $(this).css({
+                    "border": "1px solid red"
+                    
+                });
+            }
+            else {
+                $(this).css({"border": "" });
+
+            }
+
+        });
+
+        if (isValid == false){
+
+          //  e.preventDefault();
+
+       } else {
+
+           // alert('Thank you for submitting');
+			}
+    });
+
+			
+			
         
         
         

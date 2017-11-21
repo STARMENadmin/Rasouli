@@ -21,8 +21,7 @@ return [
     'fields' => [
         'name'     => 'Name',
         'email'    => 'Email',
-        'phone'    => 'Phone',
-        'subject'  => 'Subject',
+        'subject'  => 'Phone',
         'message'  => 'Message',
         'btn-send' => 'Send'
     ]

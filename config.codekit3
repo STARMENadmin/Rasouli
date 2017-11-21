@@ -2660,10 +2660,10 @@
 		"oAP": "\/Site\/dist\/.htaccess",
 		"oF": 0
 		},
-	"\/Site\/dist\/404.html": {
+	"\/Site\/dist\/404.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Site\/dist\/404.html",
+		"oAP": "\/Site\/dist\/404.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/api\/config.php": {
@@ -19242,6 +19242,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/public\/js\/contact-form-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Site\/dist\/public\/js\/contact-form2-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/public\/js\/contact-form2-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

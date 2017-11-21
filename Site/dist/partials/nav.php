@@ -12,7 +12,7 @@
      <img class="navLogo desktop" src="/img/rasouliNavLogo.png" alt="Rasouli Spine dropdown nav logo"/>
 
 	 <ul>
-	    <li><a href="/index.php">Home</a></li>
+	    <li><a href="/">Home</a></li>
 	    <li><a href="/thepractice.php">The Practice</a></li>
 	    <li><a href="/theconditions.php">The Conditions</a></li>
 	    <li><a href="/theprocedures.php">The Procedures</a></li>

@@ -6,7 +6,7 @@
 
 <nav class="header-nav header-nav-static">
 	 <ul>
-	    <li><a href="/index.php">Home</a></li>
+	    <li><a href="/">Home</a></li>
 	    <li><a href="/thepractice.php">The Practice</a></li>
 	    <li><a href="/theconditions.php">The Conditions</a></li>
 	    <li><a href="/theprocedures.php">The Procedures</a></li>

@@ -21,7 +21,7 @@
 				<div class="clear"></div>
 			
 			
-			<button type="submit" class="formSubmitButton"><?php echo $config->get('fields.btn-send'); ?></button> 
+			<button type="submit" class="formSubmitButton mobileFormButton"><?php echo $config->get('fields.btn-send'); ?></button> 
 			</form>
 			
 			
