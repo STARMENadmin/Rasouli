@@ -1,70 +1,14 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Page Not Found</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-             <link rel="stylesheet" href="css/main.css">
-
-         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <style>
-
-        * {
-            line-height: 1.2;
-            margin: 0;
-        }
-
-        html {
-            color: #888;
-            display: table;
-            font-family: sans-serif;
-            height: 100%;
-            text-align: center;
-            width: 100%;
-        }
-
-        body {
-            display: table-cell;
-            vertical-align: middle;
-            margin: 2em auto;
-        }
-
-        h1 {
-            color: #555;
-            font-size: 2em;
-            font-weight: 400;
-        }
-
-        p {
-            margin: 0 auto;
-            width: 280px;
-        }
-
-        @media only screen and (max-width: 280px) {
-
-            body, p {
-                width: 95%;
-            }
-
-            h1 {
-                font-size: 1.5em;
-                margin: 0 0 0.3em;
-            }
-
-        }
-
-    </style>
-</head>
+ <?php include("partials/header.php"); ?>
 <body>
-<!--
+
 	<?php include("partials/book-pop-up.php"); ?>
 	  <?php include("partials/nav.php"); ?>
 	  <?php include("partials/nav-static.php"); ?>
--->
-    <h1>404</h1>
-    <p>WE CAN’T SEEM TO FIND <br/>THE PAGE YOU’RE LOOKING FOR</p>
-     <p>HERE ARE SOME: <br/>HELPFUL LINKS INSTEAD:</p>
+    
+<section class="page404">
+    <img src="img/404image.png"/>
+    <h1>WE CAN’T SEEM TO FIND <br/>THE PAGE YOU’RE LOOKING FOR</h1>
+     <p>HERE ARE SOME<br/>HELPFUL LINKS INSTEAD:</p>
      
 		<nav class="error-nav">
 		 				<ul>
@@ -78,7 +22,9 @@
 					    <li><a href="contact.php">Contact</a></li>
 					 </ul>
 		</nav>
+    
+    </section>
      
-</body>
-</html>
+
 <!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
+         <?php include("partials/footer.php"); ?>

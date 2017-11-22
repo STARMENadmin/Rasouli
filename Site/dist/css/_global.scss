@@ -2701,3 +2701,53 @@ display: inline-block;
 				
 			}
 
+   /* ==========================================================================
+   404  page
+   ========================================================================== */
+
+.page404{
+    width:90%;
+    max-width: 550px;
+    
+    margin:0 auto;
+    text-align: center;
+    padding:200px 5% 100px 5%;
+    
+    
+    img{
+        display:block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    h1{
+        font-family: $brandonBlack;
+        font-size: em(18);
+        font-weight: normal;
+        line-height:normal;
+        margin: 30px 0 40px 0;
+    }
+    
+    p{
+       font-family: $brandonMed; 
+       font-size: em(16);
+         margin: 0 0 40px 0; 
+    }
+    
+    ul{
+        list-style-type: none;
+        margin:0;
+        padding: 0;
+        
+        li{ 
+            margin: 0 0 10px 0; 
+            text-transform:uppercase;
+            font-size: em(16);
+            a{
+            text-decoration: none;
+            font-family: $brandonMed; 
+            color: #000;
+            }
+        }
+    }
+}
