@@ -927,6 +927,23 @@
 
 @media screen and (max-width: 768px) {
 	
+	#about-staff{
+		    padding: 10px 8% 50px 8%;
+		
+		.left, .right{
+			    float: none;
+		    width: 100%;
+		    margin: 0;
+		}
+		
+		.right{
+			margin-top: 15px;
+		}
+		
+
+	}
+	
+	
 	.teamMenu{
 		display: none;
 	}

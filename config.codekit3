@@ -17755,6 +17755,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/Site\/dist\/img\/contact-hero.jpg": {
+		"ft": 16384,
+		"iS": 517344,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/contact-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/Site\/dist\/img\/downArrow.png": {
 		"ft": 32768,
 		"iS": 1063,
@@ -18446,7 +18456,7 @@
 		"oAP": "\/Site\/dist\/img\/selectSpine.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/Site\/dist\/img\/socialSprite.png": {
@@ -18454,6 +18464,17 @@
 		"iS": 4251,
 		"oA": 0,
 		"oAP": "\/Site\/dist\/img\/socialSprite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Site\/dist\/img\/staffPhoto.png": {
+		"ft": 32768,
+		"iS": 1065400,
+		"oA": 0,
+		"oAP": "\/Site\/dist\/img\/staffPhoto.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -19015,6 +19036,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/about-meetDoctor.php",
+		"oF": 0
+		},
+	"\/Site\/dist\/partials\/about-staff.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Site\/dist\/partials\/about-staff.php",
 		"oF": 0
 		},
 	"\/Site\/dist\/partials\/about-team.php": {

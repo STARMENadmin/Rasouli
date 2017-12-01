@@ -198,7 +198,7 @@ $(window).scroll(function(){
 			   
 			   if ($("body").hasClass("about")) {
                		$(this).siblings().animate({width: '5%'}, 500, 'linear');
-			   		$(this).animate({width: '80%'}, 500, 'linear');
+			   		$(this).animate({width: '90%'}, 500, 'linear');
                } else {
 	               
 	               $(this).siblings().animate({width: '5%'}, 500, 'linear');
@@ -233,7 +233,7 @@ $(window).scroll(function(){
 	    $('.column').siblings().children('.copyWrapper').fadeIn();
 	    
 	      if ($("body").hasClass("about")) {
-		  	$('.proceduresMenu .column').animate({width: '20%'}, 500, 'linear');
+		  	$('.proceduresMenu .column').animate({width: '33.33%'}, 500, 'linear');
 		  	 } else {
 			  	 $('.proceduresMenu .column').animate({width: '25%'}, 500, 'linear');
 			}

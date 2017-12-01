@@ -33,9 +33,14 @@
 			<?php include("partials/about-team.php"); ?>
 		</section>
 		
+		<!-- Deadicated Staff Section -->
+		<section id="about-staff" class="about-section-5 group twoColumn fade-in">
+			<?php include("partials/about-staff.php"); ?>
+		</section>
+		
 		
 		<!-- tesimonial Section -->
-		<section id="about-testimonials" class="about-section-5 group twoColumn fade-in">
+		<section id="about-testimonials" class="about-section-6 group twoColumn fade-in greyBG">
 			 <?php include("partials/about-testimonials.php"); ?>
 		</section>
 		

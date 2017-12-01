@@ -527,7 +527,7 @@ textarea {
   font-size: 1.125em;
   line-height: 1.85vw;
   margin: 0 auto 30px auto;
-  letter-spacing: 2px; }
+  letter-spacing: 1px; }
 
 .greyBG {
   background-color: #EDEDED; }
@@ -1040,7 +1040,7 @@ textarea {
   padding: 100px 0 0px 0; }
 
 .teamMenu .column {
-  width: 20%; }
+  width: 33.33%; }
 
 .about-testimonials-top {
   margin-bottom: 100px; }
@@ -1048,6 +1048,13 @@ textarea {
     display: inline-block;
     margin: 0 auto;
     width: auto; }
+
+.staffListTitle {
+  letter-spacing: 2px !important;
+  margin-bottom: 10px !important; }
+
+.staffName {
+  font-family: BrandonGrotesque-Bold; }
 
 /* ==========================================================================
   about testimonial
@@ -2890,6 +2897,14 @@ input:focus {
     display: none; } }
 
 @media screen and (max-width: 768px) {
+  #about-staff {
+    padding: 10px 8% 50px 8%; }
+    #about-staff .left, #about-staff .right {
+      float: none;
+      width: 100%;
+      margin: 0; }
+    #about-staff .right {
+      margin-top: 15px; }
   .teamMenu {
     display: none; }
   .about #about-testimonials {
