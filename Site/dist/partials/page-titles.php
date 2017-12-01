@@ -34,6 +34,9 @@ if (stripos($_SERVER['REQUEST_URI'], 'testimonials.php')){
 if (stripos($_SERVER['REQUEST_URI'], 'patient-resources.php')){
 	$title = 'Rasouli Spine | Patient Resources';
 }
+if (stripos($_SERVER['REQUEST_URI'], '404.php')){
+	$title = '404 Error';
+}
 
 
 

@@ -87,15 +87,17 @@
       font-family: BrandonGrotesque-Regular;
       margin-right: 20px;
       font-weight: normal;
-      letter-spacing: 2px;
-      padding-bottom: 10px; }
-      .header-nav ul li:hover {
-        border-bottom: 1px solid #fff; }
+      letter-spacing: 2px; }
       .header-nav ul li last-of-type {
         margin-right: 0; }
       .header-nav ul li a {
         color: #fff;
-        text-decoration: none; }
+        text-decoration: none;
+        padding-bottom: 5px; }
+        .header-nav ul li a:hover {
+          border-bottom: 1px solid #fff; }
+      .header-nav ul li .active {
+        border-bottom: 1px solid #fff; }
     .header-nav ul .active {
       border-bottom: 1px solid #fff; }
 
@@ -267,8 +269,10 @@ textarea {
    ========================================================================== */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */ }
+
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -282,53 +286,44 @@ textarea {
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important; }
-
   a,
   a:visited {
     text-decoration: underline; }
-
   a[href]:after {
     content: " (" attr(href) ")"; }
-
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-
   /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
-
   pre {
     white-space: pre-wrap !important; }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
   /*
-   * Printing Tables:
-   * 
-   */
+     * Printing Tables:
+     * 
+     */
   thead {
     display: table-header-group; }
-
   tr,
   img {
     page-break-inside: avoid; }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
-
   h2,
   h3 {
     page-break-after: avoid; } }
+
 .largeTitle,
 .heroLargeText, h1 {
   -webkit-font-smoothing: antialiased;
@@ -539,10 +534,12 @@ textarea {
 
 .twoColumn img {
   width: 100%; }
+
 .twoColumn .left {
   float: left;
   width: 45%;
   margin-right: 5%; }
+
 .twoColumn .right {
   float: left;
   width: 45%;
@@ -862,6 +859,7 @@ textarea {
 
 #home-blog .right {
   margin: 0 5% 0 0; }
+
 #home-blog .left {
   margin: 0 0 0 5%; }
 
@@ -1057,10 +1055,12 @@ textarea {
 #about-testimonials .left, #about-testimonials .right {
   margin: 0;
   width: 50%; }
+
 #about-testimonials .rowTop {
   float: none; }
   #about-testimonials .rowTop .column-1, #about-testimonials .rowTop .column-2 {
     width: 50%; }
+
 #about-testimonials .rowBottom {
   float: none; }
   #about-testimonials .rowBottom .column-3 {
@@ -1332,7 +1332,7 @@ div.left div.player-copy:nth-child(2) {
 .spineItem {
   position: relative;
   border-bottom: 1px solid #808080;
-  padding: 50px; }
+  padding: 40px; }
   .spineItem:last-child {
     border-bottom: none; }
   .spineItem:first-child .copyWrapper {
@@ -1415,6 +1415,7 @@ div.left div.player-copy:nth-child(2) {
   bottom: 20% !important;
   right: -5% !important;
   left: auto !important; }
+
 .outpaientPage .innovationParallax .paraImage1 {
   width: 80%; }
 
@@ -1424,6 +1425,7 @@ div.left div.player-copy:nth-child(2) {
   top: 10% !important;
   right: -5% !important;
   left: auto !important; }
+
 .outpaientPage .leadershipParallax .paraImage1 {
   width: 80%;
   margin-top: 40%; }
@@ -1444,6 +1446,7 @@ div.left div.player-copy:nth-child(2) {
     margin: 0; }
     .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText span {
       display: block; }
+
 .outpaientPage #outpatient-invasiveTreatments .right {
   width: 45%;
   margin-left: 5%;
@@ -1456,6 +1459,7 @@ div.left div.player-copy:nth-child(2) {
     line-height: 1.85vw;
     margin: 0 0 20px 0;
     letter-spacing: 2px; }
+
 .outpaientPage .outpatient-hero-copy-1 {
   top: 39% !important;
   left: 23% !important;
@@ -1463,8 +1467,10 @@ div.left div.player-copy:nth-child(2) {
   .outpaientPage .outpatient-hero-copy-1 h2,
   .outpaientPage .outpatient-hero-copy-1 span {
     padding-left: 5% !important; }
+
 .outpaientPage .spineItem:first-child .copyWrapper {
   display: none; }
+
 .outpaientPage .spineSelectWrapper {
   margin-top: 80px;
   width: 100%;
@@ -1575,6 +1581,9 @@ div.left div.player-copy:nth-child(2) {
     line-height: 1.85vw;
     margin: 0 0 0 0;
     letter-spacing: 2px; }
+  .resourcesPage #resources-forms .left .formAddress,
+  .contactPage #contactPage-form .left .formAddress {
+    margin: 50px 0 30px 0; }
 
 #resources-forms .right,
 .contactPage #contactPage-form .right {
@@ -1585,9 +1594,11 @@ div.left div.player-copy:nth-child(2) {
 .resourcesPage .hero-contact,
 .contactPage .hero-contact {
   padding-bottom: 0 !important; }
+
 .resourcesPage .right .form-wrapper #contactResponse,
 .contactPage .right .form-wrapper #contactResponse {
   color: #fff; }
+
 .resourcesPage .right .form-wrapper form input[type=email],
 .resourcesPage .right .form-wrapper form input[type=text],
 .contactPage .right .form-wrapper form input[type=email],
@@ -1607,6 +1618,7 @@ div.left div.player-copy:nth-child(2) {
   letter-spacing: 2px;
   background-color: #000;
   border-radius: 0; }
+
 .resourcesPage .right .form-wrapper form .messageInput,
 .contactPage .right .form-wrapper form .messageInput {
   height: 272px !important;
@@ -1624,6 +1636,7 @@ div.left div.player-copy:nth-child(2) {
   .contactPage .right .form-wrapper form .messageInput:focus {
     border: 1px solid #808080;
     outline: 0; }
+
 .resourcesPage .right .form-wrapper form .formSubmitButton,
 .contactPage .right .form-wrapper form .formSubmitButton {
   width: 100%;
@@ -1637,22 +1650,26 @@ div.left div.player-copy:nth-child(2) {
   font-family: BrandonGrotesque-Bold;
   letter-spacing: 2px;
   text-align: center; }
+
 .resourcesPage .right .form-wrapper form ::-webkit-input-placeholder,
 .contactPage .right .form-wrapper form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #808080;
   letter-spacing: 2px;
   padding-left: 3%; }
+
 .resourcesPage .right .form-wrapper form ::-moz-placeholder,
 .contactPage .right .form-wrapper form ::-moz-placeholder {
   /* Firefox 19+ */
   color: #808080;
   padding-left: 3%; }
+
 .resourcesPage .right .form-wrapper form :-ms-input-placeholder,
 .contactPage .right .form-wrapper form :-ms-input-placeholder {
   /* IE 10+ */
   color: #808080;
   padding-left: 3%; }
+
 .resourcesPage .right .form-wrapper form :-moz-placeholder,
 .contactPage .right .form-wrapper form :-moz-placeholder {
   /* Firefox 18- */
@@ -1679,14 +1696,14 @@ div.left div.player-copy:nth-child(2) {
     margin-bottom: 40px; }
 
 /* ==========================================================================
-tesimonial page
-========================================================================== */
+   tesimonial page
+   ========================================================================== */
 .testimonials-section {
   padding: 200px 0 0px 0 !important; }
 
-   /* ==========================================================================
-patient resources page
-========================================================================== */
+/* ==========================================================================
+   patient resources page
+   ========================================================================== */
 #resources-forms {
   padding: 100px 12% 100px 12% !important; }
   #resources-forms .left .smallTitle {
@@ -1783,14 +1800,15 @@ patient resources page
   width: 45%;
   margin-right: 5%;
   float: left; }
+
 #resources-providers .right {
   width: 45%;
   margin-left: 5%;
   float: left; }
 
-   /* ==========================================================================
-blog  page
-========================================================================== */
+/* ==========================================================================
+   blog  page
+   ========================================================================== */
 .hero-blog {
   padding-bottom: 0 !important; }
 
@@ -1828,9 +1846,9 @@ article {
   padding: 70px 0 80px 0; }
   article:first-child {
     /*
-    		   padding-top: 0;
-    		   border: 0;
-    */ }
+		   padding-top: 0;
+		   border: 0;
+*/ }
   article p {
     font-family: BrandonGrotesque-Regular;
     font-size: 1em;
@@ -1923,10 +1941,12 @@ article {
     font-size: 1.25em;
     text-transform: uppercase;
     letter-spacing: 2px; }
+
 .sidebar #searchsubmit {
   position: absolute;
   top: 53px;
   right: 20px; }
+
 .sidebar .search-input {
   background-color: #f2f2f2;
   border: none;
@@ -1938,6 +1958,7 @@ article {
   font-family: BrandonGrotesque-Medium;
   letter-spacing: 1px;
   font-size: 1.125em; }
+
 .sidebar h3 {
   font-family: BrandonGrotesque-Bold;
   font-size: 1.25em;
@@ -1945,15 +1966,18 @@ article {
   margin: 0 0 25px 0;
   letter-spacing: 2px;
   color: #000; }
+
 .sidebar ul {
   margin: 0;
   padding: 0; }
+
 .sidebar li {
   font-family: BrandonGrotesque-Medium;
   list-style-type: none;
   font-size: 1.125em;
   margin: 0 0 15px 0;
   letter-spacing: 1px; }
+
 .sidebar #categories-2, .sidebar #archives-2 {
   border-top: 1px solid #000;
   padding: 50px 0; }
@@ -1961,6 +1985,7 @@ article {
 .single .blog-right article:first-of-type {
   padding-top: 0;
   padding-bottom: 0; }
+
 .single article {
   border-top: 0; }
   .single article:first-child {
@@ -1972,6 +1997,7 @@ article {
   .single article img {
     position: relative;
     padding-bottom: 20px; }
+
 .single .alm-reveal article {
   border-top: 1px solid !important;
   margin-bottom: 0px;
@@ -1986,8 +2012,8 @@ article {
   border: 0px solid red; }
 
 /* ==========================================================================
-404  page
-========================================================================== */
+   404  page
+   ========================================================================== */
 .page404 {
   width: 90%;
   max-width: 550px;
@@ -2278,6 +2304,7 @@ input:focus {
   font-weight: 400 !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
+
 /** Brandon text light **/
 @font-face {
   font-family: 'BrandonText-Light';
@@ -2285,6 +2312,7 @@ input:focus {
   src: url("../fonts/brandon/BrandonText-Light/BrandonText-Light.otf") format("opentype"), url("../fonts/brandon/BrandonText-Light/BrandonText-Light.ttf") format("truetype"), url("../fonts/brandon/BrandonText-Light/BrandonText-Light.woff") format("woff"), url("../fonts/brandon/BrandonText-Light/BrandonText-Light.svg#BrandonText-Light") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon light **/
 @font-face {
   font-family: 'Conv_brandon-grotesque-light-58a8a4b38001d';
@@ -2292,30 +2320,35 @@ input:focus {
   src: local("☺"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d/brandon-grotesque-light-58a8a4b38001d.woff") format("woff"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d.ttf") format("truetype"), url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d.svg") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon Black **/
 @font-face {
   font-family: 'BrandonGrotesque-Black';
   src: url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Black/BrandonGrotesque-Black.svg#BrandonGrotesque-Black") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon Bold **/
 @font-face {
   font-family: 'BrandonGrotesque-Bold';
   src: url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Bold/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon Med **/
 @font-face {
   font-family: 'BrandonGrotesque-Medium';
   src: url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Medium/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 /** Brandon Reg **/
 @font-face {
   font-family: 'BrandonGrotesque-Regular';
   src: url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.otf") format("opentype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.woff") format("woff"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.ttf") format("truetype"), url("../fonts/brandon/BrandonGrotesque-Regular/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular") format("svg");
   font-weight: normal !important;
   font-style: normal; }
+
 .bookingPopUp {
   position: fixed;
   width: 100%;
@@ -2391,11 +2424,11 @@ input:focus {
       margin-top: 10px;
       position: relative;
       /*
-      			     input[type=text]{
-      				     width: 48%;
-      				     float: right;
-      			     }
-      */ }
+			     input[type=text]{
+				     width: 48%;
+				     float: right;
+			     }
+*/ }
       .bookingPopUp .bookingPopUpInner .PreferredWrapper p {
         color: #fff;
         margin: 0;
@@ -2580,80 +2613,69 @@ input:focus {
       font-size: 1em; }
   #resources-forms .documents-wrapper .title {
     padding: 0 15%; }
-
   .header-nav ul {
     padding-right: 2%; }
-
   .header-nav ul li {
     font-size: 1vw;
     margin-right: 10px; } }
+
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 @media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2) {
   .parallax {
     transform: none !important; } }
+
 @media screen and (max-width: 1400px) {
   .parallax {
     transform: none !important; } }
+
 @media screen and (max-width: 1300px) {
   .hero-about #home-hero-copy-1 {
     top: 32%; }
-
   #hero-about #home-hero-copy-2 {
     bottom: 2% !important; }
-
   #hero-about .right {
     margin-top: 0 !important; } }
+
 @media screen and (max-width: 1200px) {
   .footerBottom .center .newsletter-wrapper {
     width: 100%; }
-
   .footerBottom .center .newsletter-wrapper form .newsletterSubmit {
     right: 10px; }
-
   .proceduresMenu .copyWrapper {
     bottom: 5%; }
     .proceduresMenu .copyWrapper .proTitle2 {
       font-size: 2.5vw; }
     .proceduresMenu .copyWrapper .roundButton {
       top: 0px; } }
+
 @media screen and (max-width: 1024px) {
   footer .footer-inner {
     padding: 0 2%; }
-
   .proceduresMenu .copyWrapper .roundButton {
     width: 24px;
     height: 24px; }
-
   .proceduresMenu .copyWrapper .roundButton .cross {
     position: absolute;
     left: 12px;
     top: 12px; }
-
   .proceduresMenu .copyWrapper .roundButton .bg {
     left: 0px;
     top: 0px;
     width: 25px;
     height: 25px; }
-
   .proceduresMenu .copyWrapper .roundButton .readmore {
     left: 32px;
     top: -7px; }
-
   .proceduresMenu .copyWrapper .proPara {
     margin: 0 0 25px 0; }
-
   .proceduresMenu .copyWrapper .proTitle2 {
     font-size: 2.5vw; }
-
   .proceduresMenu .copyWrapper .proTitle {
     font-size: 1.5vw; }
-
   .proceduresMenu .copyWrapper .proPara {
     font-size: 1.5vw; }
-
   .proceduresMenu .copyWrapper .roundButton .readmore {
     font-size: 1vw; }
-
   .testimonialsPage #about-testimonials .top {
     padding: 0 8%; }
     .testimonialsPage #about-testimonials .top .smallTitle {
@@ -2663,42 +2685,33 @@ input:focus {
     .testimonialsPage #about-testimonials .top .copy {
       line-height: normal;
       max-width: 100%; }
-
   .sidebar .search-input {
     padding: 5px 0 0 5%;
     width: 95%; }
-
   .sidebar ul li {
     display: inline-block;
     text-align: center;
     margin-right: 7%; }
     .sidebar ul li:nth-child(4n+1) {
       margin-right: 0; }
-
   .single .bodyWrapper,
   .home .bodyWrapper {
     padding: 50px 8%; }
-
   .sidebar {
     float: none;
     width: 100%;
     margin-bottom: 50px; }
-
   .sidebar #archives-2 {
     border-bottom: 1px solid #000; }
-
   .sidebar #categories-2, .sidebar #archives-2 {
     border-top: 1px solid #000;
     padding: 25px 0; }
-
   .blog-right {
     float: none;
     width: 100%;
     margin-left: 0; }
-
   .sidebar #searchform {
     border-top: none; }
-
   .single .wrapper main .hero-blog .blog-hero-copy-1,
   .home .wrapper main .hero-blog .blog-hero-copy-1 {
     top: 40% !important; }
@@ -2706,94 +2719,72 @@ input:focus {
     .home .wrapper main .hero-blog .blog-hero-copy-1 h2 {
       padding-right: 0 !important;
       width: 100% !important; }
-
   .contactPage #contactPage-form .left p {
     line-height: normal; }
-
   .outpaientPage .spineSelectWrapper,
   .outpaientPage .spineSelectOuter {
     width: 100% !important;
     max-width: 100%; }
-
   .outpaientPage .outpatient-hero-copy-1 {
     top: 29% !important;
     left: auto !important;
     right: 10% !important;
     width: 55% !important; }
-
   .outpaientPage .hero-outpatient {
     padding-bottom: 0 !important; }
-
   #outpatient-invasiveTreatments {
     padding: 0px 8% 100px 8%; }
-
   .outpaientPage #outpatient-invasiveTreatments .right {
     margin-top: 0; }
     .outpaientPage #outpatient-invasiveTreatments .right p {
       line-height: normal; }
-
   .hero-procedures {
     padding-bottom: 25% !important; }
-
   .hero-conditions #home-hero-copy-1 {
     top: 29% !important;
     left: auto;
     right: 10%; }
-
   .hero-procedures #home-hero-copy-1 {
     left: auto;
     right: 10% !important; }
-
   .about .hero-about #home-hero-copy-1 {
     top: 13% !important; }
-
   #hero-about {
     padding-bottom: 35%; }
-
   .theproceduresPage .hero-procedures #home-hero-copy-2 {
     top: 60%; }
   .theproceduresPage .hero-procedures #home-hero-copy-1 {
     top: 25%; }
-
   #procedures-selectSpine .left {
     display: none; }
-
   #procedures-selectSpine .right {
     float: none;
     width: 100%;
     margin-left: 0%; }
-
   .proceduresMenu .columnOpen .columnOpenTitle {
     font-size: 2vw; }
-
   .proceduresMenu .columnOpen .columnOpenPara {
     font-size: 1.5vw; }
-
   .header-nav ul {
     padding-right: 2%; }
-
   .header-nav ul li {
     font-size: .5em;
     margin-right: 10px; }
-
   .largeTitle {
     font-size: 3.5vw; }
-
   #home-testimonials .left {
     width: 30%; }
   #home-testimonials .right {
     width: 65%; }
-
   .patient-resources {
     padding-bottom: 0 !important; } }
+
 @media screen and (max-width: 1024px) {
   .patient-resources {
     display: none; }
-
   #resources-providers .right p,
   .resourcesPage #resources-forms .left p {
     line-height: normal !important; }
-
   .resourcesPage #resources-forms {
     padding: 200px 8% 50px 8% !important; }
     .resourcesPage #resources-forms .left {
@@ -2807,39 +2798,32 @@ input:focus {
     .resourcesPage #resources-forms .documents-wrapper {
       display: none;
       margin-top: 40px; } }
+
 @media screen and (max-width: 940px) {
   .footerBottom .center {
     float: left;
     width: 35.33%; }
-
   .footerBottom .right {
     float: left;
     width: 30.33%; }
-
   .header-nav ul li {
-    font-size: 2vw; }
-
+    font-size: 2vw;
+    margin-bottom: 30px; }
   .testimonialsPage .bookingWrapper {
     box-shadow: inset 0px 0px 0px 1px #000;
     box-sizing: border-box; }
-
   .spineItem .title {
     font-size: 3.5vw; }
-
   .header-nav-static {
     display: none; }
-
   .header-nav {
     transition: 0.4s right cubic-bezier(0.3, 0.73, 0.3, 0.74);
     right: -100%;
     left: auto; }
-
   .mobile {
     display: block; }
-
   .desktop {
     display: none; }
-
   .header-nav {
     top: 0;
     height: 100%; }
@@ -2858,56 +2842,43 @@ input:focus {
     .header-nav .navBackground {
       opacity: 0.9;
       filter: alpha(opacity=90); } }
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .proceduresMenu .column img {
     max-width: 1024px; }
-
   #hero-about {
     padding-bottom: 45%; }
-
   .copy {
     line-height: normal; }
-
   #about-team {
     padding: 100px 0 0 0; }
-
   .heroLargeText {
     font-size: 6vw !important; }
-
   #hero-about #home-hero-copy-2 .right,
   #hero-home #home-hero-copy-2 .right {
     margin-top: 0; }
-
   #hero-about #home-hero-copy-2 .right p,
   #hero-home #home-hero-copy-2 .right p {
     font-size: 1.75vw;
     line-height: normal; }
-
   #hero-home #home-hero-copy-2 .left p,
   #hero-home #home-hero-copy-2 .left p {
     font-size: 1.5vw; }
-
   #hero-home #home-hero-copy-1 {
     top: 20%; }
-
   .hero-about #home-hero-copy-1 {
     top: 13%; }
-
   .theproceduresPage .hero-procedures #home-hero-copy-1 {
     top: 24%; }
-
   #hero-about #home-hero-copy-1 h1,
   #hero-home #home-hero-copy-1 h1 {
     margin-bottom: 10px; }
-
   #hero-about #home-hero-copy-1 h1 span,
   #hero-home #home-hero-copy-1 h1 span {
     padding-left: 0; }
-
   .hero #home-hero-copy-1 {
     right: 0;
     width: 58%; }
-
   #hero-about #home-hero-copy-1 h2,
   #hero-home #home-hero-copy-1 h2 {
     font-size: 1.5vw;
@@ -2915,34 +2886,28 @@ input:focus {
     line-height: normal;
     padding-left: 0%;
     width: 80%; }
-
   .footer-inner .logo {
     display: none; } }
+
 @media screen and (max-width: 768px) {
   .teamMenu {
     display: none; }
-
   .about #about-testimonials {
     background-color: #ededed; }
     .about #about-testimonials .linkArrowBlack {
       display: none; }
-
   .theConditionsPage #about-testimonials .linkArrowBlack {
     display: none; }
-
   .hompage #home-outpatient img,
   .about #about-dedicated .right img {
     opacity: 0.2;
     filter: alpha(opacity=20); }
-
   .hompage .readmore {
     display: block !important;
     font-size: 3vw !important;
     left: 0 !important; }
-
   .hompage .proceduresMenu .copyWrapper .roundButton .bg {
     display: none !important; }
-
   .hompage .proceduresMenu .copyWrapper .roundButton {
     width: 100px !important;
     text-align: left;
@@ -2952,59 +2917,49 @@ input:focus {
     padding: 0;
     top: 0;
     position: relative; }
-
   .hompage .roundButton .cross {
     display: none; }
-
   .proceduresMenu .copyWrapper .proPara {
     font-size: 4vw; }
-
   .textCTA {
     border: 2px solid #000;
     padding: 10px;
     font-size: 3vw;
     margin-top: 0px;
     display: inline-block; }
-
   #home-procedures .textCTA {
     border: none;
     line-height: normal; }
-
   #hero-home .textCTA,
   #home-Surgeon .textCTA {
     border: 2px solid #fff !important; }
-
   .downArrowBlack,
   .linkArrowWhite {
     display: none; }
-
   .single .sidebar {
     display: none; }
-
   .aligncenter, div.aligncenter {
     display: block;
     margin: 0 auto;
     width: 100%;
     height: auto; }
-
   .single .alm-reveal article {
     border-top: 0 !important;
     border-bottom: 0; }
-
   article {
     width: 100%;
     padding-top: 0;
     border-top: 0 solid #000;
     padding-left: 0;
     /*
-    		&:nth-child(odd){
-    			margin-right: 2%;
-    		}
-    		
-    		&:nth-child(even){
-    			margin-left: 2%;
-    		}
-    */ }
+		&:nth-child(odd){
+			margin-right: 2%;
+		}
+		
+		&:nth-child(even){
+			margin-left: 2%;
+		}
+*/ }
     article .postLeft {
       width: 100%;
       float: none;
@@ -3013,15 +2968,12 @@ input:focus {
       width: 100%;
       float: none;
       margin-left: 0; }
-
   .single .wrapper main .hero-blog .blog-hero-copy-1,
   .home .wrapper main .hero-blog .blog-hero-copy-1 {
     width: 50% !important; }
-
   .contactPage .hero-contact {
     position: absolute !important;
     z-index: 1; }
-
   #contactPage-form {
     position: relative;
     z-index: 2;
@@ -3035,7 +2987,6 @@ input:focus {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
     /* IE6-9 */ }
-
   .contactPage #contactPage-form .right {
     float: none;
     margin: 0;
@@ -3050,14 +3001,11 @@ input:focus {
       text-align: right; }
     .contactPage #contactPage-form .left p {
       text-align: right; }
-
   .contactPage #contactPage-map {
     padding: 50px 8%; }
-
   .outpaientPage #outpatient-invasiveTreatments .right {
     margin-left: 0;
     margin-top: 20px; }
-
   #outpaient-leadership,
   #outpaient-inovation,
   #outpaient-technology {
@@ -3071,28 +3019,20 @@ input:focus {
     #outpaient-inovation .largeTitle,
     #outpaient-technology .largeTitle {
       font-size: 5vw; }
-
   .outpaientPage .outpatient-hero-copy-1 {
     right: 0 !important; }
-
   .spineItem .title {
     font-size: 2.75vw; }
-
   .about .hero-about #home-hero-copy-1 {
     top: 15% !important; }
-
   .hero-procedures #home-hero-copy-1 {
     right: 0% !important; }
-
   .theproceduresPage #hero-about #home-hero-copy-1 {
     top: 21%; }
-
   #conditions-video {
     padding: 50px 8%; }
-
   .conditions-section-2 {
     padding-top: 50px !important; }
-
   .video-player-section {
     text-align: center; }
     .video-player-section .smallTitle {
@@ -3101,13 +3041,10 @@ input:focus {
       font-size: 8vw; }
     .video-player-section .copy {
       font-size: 1.125em; }
-
   .copy {
     font-size: 3vw; }
-
   .condition-video-wrapper .dropbtn {
     font-size: 3vw; }
-
   .outpatient-section-2 {
     padding-top: 0 !important;
     background-color: #000;
@@ -3121,34 +3058,26 @@ input:focus {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
     /* IE6-9 */ }
-
   .hero-outpatient {
     padding-bottom: 37% !important; }
-
   .outpaientPage .outpatient-hero-copy-1 {
     left: auto !important; }
-
   #procedures-selectSpine {
     padding: 5px 8% 100px 8%;
     margin-top: -1px; }
-
   .hero-procedures {
     padding-bottom: 0 !important; }
-
   .procedures-section-2 .left {
     display: none; }
-
   #procedures-selectSpine .right {
     float: none;
     width: 100%;
     margin-left: 0%; }
-
   .hero-procedures .procedures-hero-copy-1 {
     right: 0 !important; }
   .hero-procedures #home-hero-copy-2 {
     top: 21% !important;
     position: absolute; }
-
   .condition-video-wrapper .video-player-section {
     margin-top: 60px; }
     .condition-video-wrapper .video-player-section .left {
@@ -3157,75 +3086,58 @@ input:focus {
     .condition-video-wrapper .video-player-section .right {
       float: none;
       width: 100%; }
-
   .video-buttons-wrapper {
     display: none; }
-
   .theConditionsPage .hero-conditions {
     padding-bottom: 110px !important; }
-
   .hero-conditions #home-hero-copy-1 {
     top: 20% !important; }
-
   .aboutHeroParallax {
     margin-bottom: 0; }
-
   #hero-about {
     padding-bottom: 0; }
-
   .header-nav ul li {
     font-size: 1em; }
-
   #hero-home {
     background-color: #000; }
-
   #outpatient-invasiveTreatments .left,
   #hero-about #home-hero-copy-2 .left,
   #hero-home #home-hero-copy-2 .left {
     width: 100% !important;
     float: none !important; }
-
   #outpatient-invasiveTreatments .right,
   #hero-about #home-hero-copy-2 .right,
   #hero-home #home-hero-copy-2 .right {
     width: 100% !important;
     float: none !important; }
-
   #hero-home #home-hero-copy-2 {
     position: relative;
     margin-top: -50%;
     padding-bottom: 12%; }
-
   #hero-about #home-hero-copy-2 {
     position: relative;
     margin-top: -50%;
     padding-bottom: 12%; }
-
   #hero-home #home-hero-copy-1 {
     top: 20%;
     padding-right: 8%; }
-
   #hero-about #home-hero-copy-1 {
     top: 14%;
     padding-right: 8%;
     left: auto; }
-
   #hero-about #home-hero-copy-1 h1,
   #hero-home #home-hero-copy-1 h1 {
     margin-bottom: 10px;
     text-align: right;
     font-size: 9vw;
     line-height: normal; }
-
   #hero-about #home-hero-copy-1 h1 .block,
   #hero-home #home-hero-copy-1 h1 .block {
     padding-left: 0; }
-
   #hero-about #home-hero-copy-1,
   #hero-home #home-hero-copy-1 {
     right: 0;
     width: 58%; }
-
   #hero-about #home-hero-copy-1 h2,
   #hero-home #home-hero-copy-1 h2 {
     font-size: 2.5vw;
@@ -3235,105 +3147,80 @@ input:focus {
     width: 100%;
     text-align: right;
     margin-right: 0; }
-
   #hero-about #home-hero-copy-2 .left p,
   .left p, #hero-home #home-hero-copy-2 .left p {
     font-size: 3vw; }
-
   #hero-about #home-hero-copy-2 .left .heroLargeText,
   #hero-home #home-hero-copy-2 .left .heroLargeText {
     font-size: 9vw; }
-
   #hero-about #home-hero-copy-2 .right p,
   #hero-home #home-hero-copy-2 .right p {
     font-size: 3vw;
     line-height: normal; }
-
   #hero-about #home-hero-copy-2 .right,
   #hero-home #home-hero-copy-2 .right {
     margin-top: 5px; }
-
   .stack {
     display: block; }
-
   .copy {
     line-height: normal;
     max-width: 100%; }
-
   #about-testimonials .top,
   #about-team .top {
     padding: 0 8%; }
-
   #home-procedures .top {
     padding: 50px 8% 75px 8%; }
-
   .proceduresMenu {
     margin-top: 0; }
-
   #about-testimonials .left {
     display: none; }
-
   #about-testimonials .right {
     float: none;
     width: 100%; }
-
   #home-procedures {
     padding: 0; }
-
   .largeTitle {
     font-size: 8vw; }
-
   .smallTitle {
     font-size: 4vw; }
-
   .proceduresMenu .expandColumn {
     width: 100%;
     float: none;
     padding-bottom: 0; }
-
   .proceduresMenu .expandColumn img {
     position: relative; }
-
   .proceduresMenu .copyWrapper {
     left: 8%;
     right: auto; }
-
   .proceduresMenu .copyWrapper .roundButton {
     margin: 0 auto;
     right: auto;
     width: 60px;
     height: 60px;
     border-radius: 30px; }
-
   .proceduresMenu .copyWrapper .roundButton .cross {
     position: absolute;
     left: 28px;
     top: 25px; }
-
   .proceduresMenu .copyWrapper .roundButton .cross .a {
     width: 24px;
     height: 4px;
     left: -11px;
     top: 3px; }
-
   .proceduresMenu .copyWrapper .roundButton .cross .b {
     width: 4px;
     height: 24px; }
-
   .proceduresMenu .copyWrapper .proTitle {
     font-size: 4vw;
     margin-bottom: 10px; }
-
   .proceduresMenu .copyWrapper .proTitle2 {
     font-size: 12vw; }
-
   .proceduresMenu .copyWrapper .roundButton .bgOver {
     left: -1px;
     top: -1px;
     width: 62px;
     height: 62px;
     border-radius: 30px; }
-
   #about-meet,
   #home-Surgeon {
     padding: 0 0 10% 0;
@@ -3367,18 +3254,14 @@ input:focus {
       #home-Surgeon .right .copy {
         font-size: 4vw;
         margin: 0 auto 10px auto; }
-
   .outpaientPage #outpatient-invasiveTreatments .right p {
     font-size: 3vw;
     line-height: normal; }
-
   #about-dedicated .left {
     bottom: auto !important;
     top: 2%; }
-
   #about-dedicated .awardLogo {
     width: 50%; }
-
   #about-dedicated,
   #home-outpatient {
     padding: 0;
@@ -3426,28 +3309,22 @@ input:focus {
     #home-outpatient .largeTitle {
       margin-bottom: 5px;
       font-size: 8vw; }
-
   #about-dedicated .top {
     padding: 0 8% 0 8%;
     margin: 0;
     display: block; }
     #about-dedicated .top .smallTitle {
       margin-top: 50px; }
-
   #about-testimonials,
   #about-team {
     padding-top: 50px; }
-
   #about-team {
     padding-bottom: 0; }
-
   .about-testimonials-top {
     margin-bottom: 50px; }
-
   .testimonialHoverText {
     font-size: 3vw;
     line-height: normal; }
-
   #home-testimonials {
     padding: 0; }
     #home-testimonials .left {
@@ -3468,7 +3345,6 @@ input:focus {
       font-size: 8vw; }
     #home-testimonials .linkArrow {
       display: none; }
-
   #home-blog {
     padding: 0; }
     #home-blog .left {
@@ -3491,35 +3367,28 @@ input:focus {
         display: block; }
     #home-blog .linkArrow {
       display: none; }
-
   #home-social {
     display: none; }
-
   .footerBottom .center,
   .newsletter-wrapper,
   footer .form-wrapper,
   #footerTitle {
     display: none; }
-
   footer .footer-nav ul li {
     display: block;
     margin-right: 0;
     text-align: left; }
-
   .footerBottom .right,
   .footerBottom .left {
     float: none;
     width: 100%;
     margin: 0 auto; }
-
   .footerBottom .right .socialWrapper {
     float: none;
     width: 228px;
     margin: 0 auto; }
-
   .footerBottom .center p {
     width: 100%; }
-
   .termsConditinsMobile {
     text-align: center;
     font-family: BrandonGrotesque-Bold;
@@ -3531,7 +3400,6 @@ input:focus {
     .termsConditinsMobile a {
       color: #fff;
       text-decoration: none; }
-
   .footerBottom .left {
     width: 100%;
     max-width: 324px;
@@ -3546,39 +3414,31 @@ input:focus {
       .footerBottom .left .logoWrapper img {
         display: block;
         margin: 0 auto; }
-
   .footerBottom .left #absLogo {
     max-width: 50px; }
-
   .footerBottom .left #hipaaLogo {
     max-width: 90px;
     margin-top: 0px; }
-
   .footerBottom .left #abnsLogo {
     max-width: 50px;
     margin-top: 0; }
-
   .footerBottom .right .youtube:nth-child(4) {
     margin-right: 0; }
-
   .footerBottom .right .socialWrapper {
     width: 208px; }
-
   .footer-inner .logo {
     display: block;
     margin: 0 auto;
     max-width: 100px; } }
+
 @media screen and (max-width: 768px) {
   .resourcesPage #resources-forms .left .heroLargeText {
     font-size: 8vw; }
-
   #resources-providers .providersWrapper {
     margin-top: 50px;
     padding-top: 0px; }
-
   #resources-providers .providersWrapper .awardLogo {
     width: 50%; }
-
   #resources-providers {
     padding: 50px 8%  !important;
     text-align: center; }
@@ -3596,51 +3456,39 @@ input:focus {
       #resources-providers .right p {
         font-size: 3vw;
         line-height: normal; }
-
   #outpaient-leadership .left, #outpaient-leadership .right,
   #outpaient-inovation .left, #outpaient-inovation .right,
   #outpaient-technology .left, #outpaient-technology .right {
     float: none;
     width: 100%;
     margin-left: 0; }
-
   #outpaient-leadership .right,
   #outpaient-inovation .right,
   #outpaient-technology .right {
     margin-top: 50px; }
-
   .outpaientPage .boxTextLeft,
   .outpaientPage .marginBottom,
   .outpaientPage .boxText {
     margin: 0 0 50px 0 !important; }
-
   .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText {
     font-size: 8vw; }
-
   .outpaientPage .spineItem {
     padding: 30px; }
-
   .outpaientPage .outpatient-section .copy {
     font-size: 4vw; }
-
   .outpaientPage .outpatient-section .largeTitle {
     font-size: 8vw; }
-
   .outpaientPage .parallaxwrapper .paraImage2 {
     display: none; }
   .outpaientPage .parallaxwrapper .paraImage1 {
     width: 100%;
     margin: 0; }
-
   .innovationParallax {
     margin-bottom: 0; }
-
   .outpaientPage .photoText {
     margin: 50px 0 0 0 !important; }
-
   .leadershipParallax {
     margin: 0 0 50px 0; }
-
   #contactPage-form {
     background: -moz-linear-gradient(top, transparent 0%, transparent 1%, black 50%);
     /* FF3.6-15 */
@@ -3650,6 +3498,7 @@ input:focus {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
     /* IE6-9 */ } }
+
 @media screen and (max-width: 650px) {
   article p .alignleft {
     float: none;
@@ -3658,31 +3507,27 @@ input:focus {
     width: 100%;
     padding-bottom: 0 !important;
     height: auto; }
-
   .theproceduresPage .spineItem {
     padding: 30px 30px 30px 20px; }
     .theproceduresPage .spineItem .roundButton {
       top: 16px;
       right: 20px; }
-
   .outpaientPage .roundButton {
     right: 20px; }
-
   .outpaientPage .spineItem {
     padding: 30px 25% 30px 20px; } }
+
 @media screen and (max-width: 414px) {
   .bookingPopUp .bookingPopUpInner .PreferredWrapper {
     width: 100%;
     float: none; }
-
   .bookingPopUp .bookingPopUpInner .dateFormField {
     width: 100% !important;
     float: none; }
-
-  #hero-about #home-hero-copy-2 .right p, #hero-home #home-hero-copy-2 .right p {
+  #hero-about #home-hero-copy-2 .right p,
+  #hero-home #home-hero-copy-2 .right p {
     font-size: 1em;
     line-height: normal; }
-
   #contactPage-form {
     background: -moz-linear-gradient(top, transparent 0%, transparent 1%, black 40%);
     /* FF3.6-15 */
@@ -3692,13 +3537,16 @@ input:focus {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
     /* IE6-9 */ } }
+
 @media screen and (max-width: 375px) {
   .spineItem .roundButton {
     border: none;
     right: 10px; } }
+
 @media screen and (max-width: 350px) {
   .termsConditinsMobile {
     font-size: 0.5em; } }
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

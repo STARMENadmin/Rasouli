@@ -1,6 +1,11 @@
 <div class="left">									
 					<p class="heroLargeText">Get in Touch <span class="block">With US</span></p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui. In sollicitudin orci purus, in sollicitudin quam finibus tincidunt. Vivamus dapibus lectus sit amet lectus accumsan, at posuere risus gravida. </p>   
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui. In sollicitudin orci purus, in sollicitudin quam finibus tincidunt. Vivamus dapibus lectus sit amet lectus accumsan, at posuere risus gravida. </p> 
+				
+				<p class="formAddress">444 South San Vicente Blvd.<br/> Suite 901<br/> Los Angeles, CA 90048</p>	
+				<p>OFFICE: 310.248.7330</p>	
+				<p>FAX: 310.248.7395</p>	
+					  
 </div><!-- left-->
 			
 <div class="right">

@@ -1752,7 +1752,7 @@ div.left div.player-copy:nth-child(2){
 .spineItem{
         position: relative;
         border-bottom: 1px solid #808080;
-        padding: 50px;
+        padding: 40px;
         
         &:last-child{
             border-bottom: none;
@@ -2126,6 +2126,10 @@ display: inline-block;
 	    line-height: 1.85vw;
 	    margin: 0 0 0 0;
 	    letter-spacing: 2px;
+	}
+	
+	.formAddress{
+		margin: 50px 0 30px 0;
 	}
 
 }

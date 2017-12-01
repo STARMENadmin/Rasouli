@@ -17755,16 +17755,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/Site\/dist\/img\/contact-hero.jpg": {
-		"ft": 16384,
-		"iS": 470746,
-		"oA": 0,
-		"oAP": "\/Site\/dist\/img\/contact-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/Site\/dist\/img\/downArrow.png": {
 		"ft": 32768,
 		"iS": 1063,
@@ -19111,7 +19101,7 @@
 		"oAP": "\/Site\/dist\/partials\/homepage-Outpatiant.php",
 		"oF": 0
 		},
-	"\/Site\/dist\/partials\/homepage-procedures.php": {
+	"\/Site\/dist\/partials\/Homepage-procedures.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Site\/dist\/partials\/homepage-procedures.php",

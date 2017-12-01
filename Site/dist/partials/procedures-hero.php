@@ -5,7 +5,7 @@
                   <img alt="procedures Hero" class="hero-background" src="img/proceduresHero.jpg"> 
             </picture> 
             
-<div id="home-hero-copy-1" class="procedures-hero-copy-1">
+<div id="home-hero-copy-1" class="procedures-hero-copy-1 parallax" data-parallax='{"y" : 50, "smoothness": 10}'>
 		      <h1><span class="block">When Surgery</span>is an Artform</h1>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 			</div>

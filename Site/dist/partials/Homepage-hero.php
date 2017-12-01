@@ -3,7 +3,7 @@
                 <source media="(max-width: 768px)" srcset="img/home-hero-mobile.jpg">
                <img class="hero-background" src="img/home-hero.jpg" alt="homepage hero">
             </picture> 	    	
-            <div id="home-hero-copy-1">
+            <div id="home-hero-copy-1" class="parallax" data-parallax='{"y" : 50, "smoothness": 10}'>
                 <h1>
                     <span class="stack">The</span>
                     <span class="stack">New Era</span>

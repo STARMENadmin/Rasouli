@@ -7,7 +7,8 @@ $(document).ready(function(){
 	
 	
 	// page link highlight	
- $('nav a[href$="/' + location.pathname.split("/")[1] + '"]').parent('li').addClass('active');
+ //$('nav a[href$="/' + location.pathname.split("/")[1] + '"]').parent('li').addClass('active');
+  $('nav a[href$="/' + location.pathname.split("/")[1] + '"]').addClass('active');
   
   
 
