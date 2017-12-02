@@ -20,7 +20,7 @@ return [
         ]
     ],
     'fields' => [
-        'name'     => 'Name',
+        'name'     => 'Full Name',
         'email'    => 'Email',
         'subject'  => 'Phone',
         'message'  => 'Message',

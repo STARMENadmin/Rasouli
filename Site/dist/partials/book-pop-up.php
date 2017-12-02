@@ -8,8 +8,8 @@
 			
 			
 			<form enctype="application/x-www-form-urlencoded;" id="contact-form-mobile" class="contact-form form-horizontal" role="form" method="post">
-			<p class="fieldTitle">Name</p>
-			  <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php// echo $config->get('fields.name'); ?>Name" required>
+			<p class="fieldTitle">Full Name</p>
+			  <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php echo $config->get('fields.name'); ?>" required>
 			   <input type="text" class="form-control autoFillColor hide" name="form-nameLast" placeholder="<?php echo $config->get('fields.nameLast'); ?>" >
 			<p class="fieldTitle">Email</p>
 			 <input type="email" class="form-control autoFillColor"  name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>

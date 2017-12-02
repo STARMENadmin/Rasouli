@@ -189,7 +189,7 @@
 
 				//this.empty(this.form);
                 $('.formSubmitButton').text('Submited');
-                //$('input, textarea').val('');
+                // $('input, textarea').val('');
                 $('.autoFillColor').removeClass('autoFillColor');
                 //this.empty(this.form);
                 this.form.insertAdjacentHTML('beforeend', success);

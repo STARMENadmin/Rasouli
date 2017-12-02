@@ -102,7 +102,7 @@
                 </div>
             </div>
             <img class="logo mobile" src="img/global/rasouli-spine-logo.jpg" alt="Rasouli mobile footer logo">
-             <p class="termsConditinsMobile mobile">All Rights Reserved &copy; 2017 |  Rasouli Spine | <a href="http://starmenusa.com/">Making Brands Work</a>&trade;</p>
+             <p class="termsConditinsMobile mobile">All Rights Reserved &copy; 2017 |  Rasouli Spine | <a href="http://starmenusa.com/" target="_blank">Making Brands Work</a>&trade;</p>
             <div class="clear"></div>
         </div><!-- footerBottom -->
         

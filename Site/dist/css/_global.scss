@@ -2431,6 +2431,11 @@ display: inline-block;
    blog  page
    ========================================================================== */
    
+   .slickWrapper:focus {
+	    outline: none;
+   }
+   
+   
    .hero-blog{
 	   padding-bottom: 0 !important;
    }
