@@ -70,7 +70,7 @@
                
                     
                     <div class="spineItem" id="spineItem-4">
-                            <p class="title">Peripheral Nerve Comditions</p>
+                            <p class="title">Peripheral Nerve Conditions</p>
                                 <div class="roundButton">
 	                                <div class="cross">
 	                                    <div class="a"></div>

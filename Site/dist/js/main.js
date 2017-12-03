@@ -150,7 +150,8 @@ $(window).scroll(function(){
         
          if ($(window).width() > 768) { 
         
-            $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
+            $(this).children('.copyWrapper').children('.showWrapper').stop().slideToggle();
+             
             $(this).children('.copyWrapper').children('.roundButton').children('.bg').addClass('bgOver');
             $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').addClass('blackBG');
             $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').addClass('blackBG');
@@ -167,7 +168,7 @@ $(window).scroll(function(){
          
           if ($(window).width() > 768) { 
          
-             $(this).children('.copyWrapper').children('.proPara').stop().slideToggle();
+             $(this).children('.copyWrapper').children('.showWrapper').stop().slideToggle();
              $(this).children('.copyWrapper').children('.roundButton').children('.bg').removeClass('bgOver');
              $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.a').removeClass('blackBG');
              $(this).children('.copyWrapper').children('.roundButton').children('.cross').children('.b').removeClass('blackBG');
@@ -524,8 +525,8 @@ $(window).scroll(function(){
 			  if ($form.length > 0) {
 			    $('#mc-embedded-subscribe').bind('click', function (event) {
 			      if (event) event.preventDefault()
-			      register($form)
-			    })
+			      register($form);
+			    });
 			  }
 		
 			
@@ -538,25 +539,25 @@ $(window).scroll(function(){
 			    cache: false,
 			    dataType: 'json',
 			    contentType: 'application/json; charset=utf-8',
-			    error: function (err) { alert('Could not connect to the registration server. Please try again later.') },
+			    error: function (err) { alert('Could not connect to the registration server. Please try again later.'); },
 			    success: function (data) {
-			      $('#mc-embedded-subscribe').val('subscribe')
+			      $('#mc-embedded-subscribe').val('subscribe');
 			      if (data.result === 'success') {
 			        // Yeahhhh Success
-			        console.log(data.msg)
-			        $('#mce-EMAIL').css('borderColor', '#ffffff')
-			        $('#subscribe-result').css('color', 'rgb(53, 114, 210)')
-			        $('#subscribe-result').html('<p class="mailchimpResponse">Thank you for subscribing.</p>')
+			        console.log(data.msg);
+			        $('#mce-EMAIL').css('borderColor', '#ffffff');
+			        $('#subscribe-result').css('color', 'rgb(53, 114, 210)');
+			        $('#subscribe-result').html('<p class="mailchimpResponse">Thank you for subscribing.</p>');
 			        $('#mce-EMAIL').val('')
 			      } else {
 			        // Something went wrong, do something to notify the user.
-			        console.log(data.msg)
-			        $('#mce-EMAIL').css('borderColor', '#ff8282')
-			        $('#subscribe-result').css('color', '#ff8282')
-			        $('#subscribe-result').html('<p>' + data.msg.substring(0) + '</p>')
+			        console.log(data.msg);
+			        $('#mce-EMAIL').css('borderColor', '#ff8282');
+			        $('#subscribe-result').css('color', '#ff8282');
+			        $('#subscribe-result').html('<p>' + data.msg.substring(0) + '</p>');
 			      }
 			    }
-			  })
+			  });
 			}
 					
         

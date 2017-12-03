@@ -18,7 +18,6 @@
 	                    </div><!-- cross -->
 	                   
 	                </div><!-- roundButton -->
-	                
                     <div class="columnWrapper">
 	                    <div class="column column-1 expandColumn">
 		                    <p class="verticalText">Neck Procedures</p>
@@ -26,7 +25,9 @@
 	                        <div class="copyWrapper">
 	                            <p class="proTitle">Neck Procedures</p>
 	                            <p class="proTitle2" >Cervical<br/>Conditions</p>
+                                <div class="showWrapper">
 	                            <p class="proPara" >Lorem ipsum detour adip elit, sed diam nonummy nibh. Loren</p>
+                                </div>
 	                            <div class="roundButton">
 	                                <div class="bg"></div>
 	                                <div class="cross">
@@ -51,7 +52,9 @@
 		                    <div class="copyWrapper">			                    
 	                            <p class="proTitle">Middle Back Procedures</p>
 	                            <p class="proTitle2" >Thoratic<br/>Conditions</p>
-	                            <p class="proPara" >Lorem ipsum detour adip elit, sed diam nonummy nibh. Loren</p>
+                                 <div class="showWrapper">
+	                               <p class="proPara" >Lorem ipsum detour adip elit, sed diam nonummy nibh. Loren</p>
+                                </div>
 	                            <div class="roundButton">
 	                                <div class="bg"></div>
 	                                <div class="cross">

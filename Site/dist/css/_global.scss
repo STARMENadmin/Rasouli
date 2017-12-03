@@ -779,7 +779,7 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
     .copyWrapper{
         bottom: 15%;
         text-align: left;
-        @extend %ach;
+       @extend %ach;
         width: min-content;
         z-index: 10;
         
@@ -802,13 +802,18 @@ h1, h2, h3, span, p, div, section, buttonm form, input, a, header, footer{
             
         }
         
+        .showWrapper{
+          display: none;
+            overflow: hidden
+        }
+        
         .proPara{
             font-family: $brandonReg;
             font-size: em(16);
             color: #fff;
             letter-spacing: 1px;
             margin: 0 0 100px 0;
-            display: none;
+            //display: none;
             line-height: normal;
             
         }
@@ -1785,6 +1790,7 @@ div.left div.player-copy:nth-child(2){
             text-transform: uppercase;
             letter-spacing: 2px;
             text-align: left;
+            width:80%;
         }
 
         .title2{
