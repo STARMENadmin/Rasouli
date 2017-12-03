@@ -16292,7 +16292,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 470746,
+		"initialSize": 517344,
 		"inputAbbreviatedPath": "\/img\/contact-hero.jpg",
 		"outputAbbreviatedPath": "\/img\/contact-hero.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -17029,7 +17029,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 46373,
+		"initialSize": 43835,
 		"inputAbbreviatedPath": "\/img\/selectSpine.jpg",
 		"outputAbbreviatedPath": "\/img\/selectSpine.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -17043,6 +17043,17 @@
 		"initialSize": 4251,
 		"inputAbbreviatedPath": "\/img\/socialSprite.png",
 		"outputAbbreviatedPath": "\/img\/socialSprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/staffPhoto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.0654e+06,
+		"inputAbbreviatedPath": "\/img\/staffPhoto.png",
+		"outputAbbreviatedPath": "\/img\/staffPhoto.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -17593,6 +17604,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/about-meetDoctor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/about-staff.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/about-staff.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
