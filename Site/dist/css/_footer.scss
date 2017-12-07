@@ -230,11 +230,12 @@ footer{
         
         p{
             text-align: center;
-            font-family: $brandonBold;
-            font-size: em(13);
-            color: #fff;
+            font-family: $brandonReg;
+            font-size: em(12);
+            color: #808080;
             letter-spacing: 1px;
             margin-top: 40px;
+            text-transform: uppercase;
         }
         
         #subscribe-result{
@@ -393,6 +394,6 @@ input:focus {
 }
 
 .termsConditins a {
-	color: #fff;
+	color: #808080;
 	text-decoration: none;
 }

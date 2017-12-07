@@ -2199,11 +2199,12 @@ footer {
     width: 33.33%; }
     .footerBottom .center p {
       text-align: center;
-      font-family: BrandonGrotesque-Bold;
-      font-size: 0.8125em;
-      color: #fff;
+      font-family: BrandonGrotesque-Regular;
+      font-size: 0.75em;
+      color: #808080;
       letter-spacing: 1px;
-      margin-top: 40px; }
+      margin-top: 40px;
+      text-transform: uppercase; }
     .footerBottom .center #subscribe-result {
       width: 80%;
       margin: 0 auto; }
@@ -2291,7 +2292,7 @@ input:focus {
   outline: none; }
 
 .termsConditins a {
-  color: #fff;
+  color: #808080;
   text-decoration: none; }
 
 /** Austin **/
