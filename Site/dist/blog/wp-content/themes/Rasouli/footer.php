@@ -1,3 +1,15 @@
+<?php
+//require_once 'vendor/autoload.php';
+//
+//$helperLoader = new SplClassLoader('Helpers', 'vendor');
+//$helperLoader->register();
+//
+//use Helpers\Config;
+//
+//$config = new Config;
+//$config->load('config/config.php');
+
+?>
 
 <footer>
 	<div class="footer-inner">
@@ -5,7 +17,7 @@
 		
 		<div class="form-wrapper">
 			  <form enctype="application/x-www-form-urlencoded;" id="contact-form-footer" class="contact-form form-horizontal" role="form" method="post">
-			<input type="text" name="name" placeholder="<?php  ?>">
+			 <input type="text" class="form-control autoFillColor" name="form-name" placeholder="<?php // echo $config->get('fields.name'); ?>" required>
 			 <input type="text" name="email" placeholder="Email">
 			 <input type="text" name="phone" placeholder="Phone">
 			<input type="text" name="date" placeholder="Appointment Date" id="datepicker">
@@ -89,7 +101,7 @@
 		<!-- /wrapper -->
 		<script src="../../js/jquery-ui.min.js"></script>
 		<script src="../../js/main.js"></script>
-		<script src="../../public/js/contact-form.js"></script>
+		<script src="public/js/contact-form.js"></script>
    	
    	
 		<?php wp_footer(); ?>

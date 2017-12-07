@@ -1,0 +1,252 @@
+[05-Dec-2017 04:35:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_post_type_html5' not found or invalid function name in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php on line 298
+[05-Dec-2017 04:35:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php:298) in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/option.php on line 837
+[05-Dec-2017 04:35:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php:298) in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/option.php on line 838
+[05-Dec-2017 04:36:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_post_type_html5' not found or invalid function name in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php on line 298
+[05-Dec-2017 04:36:24 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:36:24 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 21
+[05-Dec-2017 04:36:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_post_type_html5' not found or invalid function name in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php on line 298
+[05-Dec-2017 04:36:25 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:36:25 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 21
+[05-Dec-2017 04:36:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_post_type_html5' not found or invalid function name in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php on line 298
+[05-Dec-2017 04:37:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_post_type_html5' not found or invalid function name in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php on line 298
+[05-Dec-2017 04:37:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_post_type_html5' not found or invalid function name in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php on line 298
+[05-Dec-2017 04:37:17 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:37:17 UTC] PHP Notice:  Undefined variable: config in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 21
+[05-Dec-2017 04:37:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:21
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 21
+[05-Dec-2017 04:37:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php:298) in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/option.php on line 837
+[05-Dec-2017 04:37:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/class-wp-hook.php:298) in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/option.php on line 838
+[05-Dec-2017 04:38:00 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:38:00 UTC] PHP Notice:  Undefined variable: config in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 21
+[05-Dec-2017 04:38:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:21
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 21
+[05-Dec-2017 04:39:40 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:39:40 UTC] PHP Warning:  require_once(./vendor/autoload.php): failed to open stream: No such file or directory in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:39:40 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:41:01 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:41:01 UTC] PHP Warning:  require_once(../../vendor/autoload.php): failed to open stream: No such file or directory in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:41:01 UTC] PHP Fatal error:  require_once(): Failed opening required '../../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:41:10 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:41:10 UTC] PHP Warning:  require_once(../../vendor/autoload.php): failed to open stream: No such file or directory in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:41:10 UTC] PHP Fatal error:  require_once(): Failed opening required '../../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:42:08 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:42:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:43:00 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:43:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:47:18 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:47:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:48:08 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:48:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:48:43 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:48:43 UTC] PHP Warning:  require_once(./vendor/autoload.php): failed to open stream: No such file or directory in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:48:43 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:49:39 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:49:39 UTC] PHP Warning:  require_once(/vendor/autoload.php): failed to open stream: No such file or directory in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:49:39 UTC] PHP Fatal error:  require_once(): Failed opening required '/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:50:02 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:50:02 UTC] PHP Warning:  require_once(/vendor/autoload.php): failed to open stream: No such file or directory in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:50:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 04:50:16 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:50:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:50:43 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:50:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:52:04 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:52:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:53:08 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:53:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:54:22 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:54:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:54:52 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:54:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:56:56 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:56:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:57:06 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:57:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:57:23 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:57:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 04:58:42 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 04:58:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:10
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17 in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 10
+[05-Dec-2017 05:02:25 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:02:25 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 6
+[05-Dec-2017 05:03:43 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:03:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\SplClassLoader' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:58
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/inde in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 58
+[05-Dec-2017 05:04:21 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:04:21 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 7
+[05-Dec-2017 05:05:10 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:05:10 UTC] PHP Parse error:  syntax error, unexpected ''vendor/autoload.php'' (T_CONSTANT_ENCAPSED_STRING) in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 05:05:33 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:05:33 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 5
+[05-Dec-2017 05:06:13 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:06:13 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 4
+[05-Dec-2017 05:06:32 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:06:32 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 3
+[05-Dec-2017 05:07:21 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:07:21 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 2
+[05-Dec-2017 05:07:55 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:07:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\SplClassLoader' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:39
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/inde in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 39
+[05-Dec-2017 05:11:58 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 05:11:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:9
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17) in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 9
+[05-Dec-2017 18:02:54 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 18:02:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Helpers\Config' not found in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php:9
+Stack trace:
+#0 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(688): require_once()
+#1 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template.php(647): load_template('/Users/kazalvis...', true)
+#2 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/general-template.php(84): locate_template(Array, true)
+#3 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/index.php(34): get_footer()
+#4 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-includes/template-loader.php(74): include('/Users/kazalvis...')
+#5 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-blog-header.php(19): require_once('/Users/kazalvis...')
+#6 /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/index.php(17) in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/footer.php on line 9
+[05-Dec-2017 18:03:37 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 18:03:38 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 18:03:39 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4
+[05-Dec-2017 18:03:40 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /Users/kazalvis/Documents/Clients/starmen/Rasouli/Site/dist/blog/wp-content/themes/Rasouli/sidebar.php on line 4

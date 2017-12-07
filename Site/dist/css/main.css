@@ -1413,7 +1413,8 @@ div.left div.player-copy:nth-child(2) {
   #procedures-selectSpine .right {
     float: right;
     width: 48%;
-    margin-left: 2%; }
+    margin-left: 2%;
+    margin-top: 125px; }
 
 /* ==========================================================================
   outpatient page
@@ -2126,8 +2127,8 @@ footer {
         /* Firefox 18- */
         color: #808080; }
       footer .form-wrapper form .messageInput {
-        height: 32px;
-        padding-top: 21px;
+        height: 36px;
+        padding-top: 17px;
         color: #808080;
         line-height: normal; }
         footer .form-wrapper form .messageInput:focus {
@@ -2620,6 +2621,9 @@ input:focus {
   .parallax {
     transform: none !important; } }
 @media screen and (max-width: 1300px) {
+  #procedures-selectSpine .right {
+    margin-top: 0; }
+
   .hero-about #home-hero-copy-1 {
     top: 32%; }
 

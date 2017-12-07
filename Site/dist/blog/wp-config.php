@@ -63,6 +63,11 @@ define('NONCE_SALT',       'E4=06/2Bs3;k>HvmIUw /x9}JF8z9-CLWNsyu/)O[@OEd)O[2%Y[
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', true);
+define('SCRIPT_DEBUG', true);
+define('SAVEQUERIES', true);
 $table_prefix  = 'wp_';
 
 /**
@@ -77,7 +82,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -87,3 +92,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+// log php errors
