@@ -20,12 +20,6 @@
 		<section id="procedures-selectSpine" class="procedures-section-2 group blackBG fade-in">
 			<?php include("partials/procedures-spineArea.php"); ?>
 		</section>
-      
-      <!-- video Section -->
-		<section id="conditions-video" class="procedures-section-3 group fade-in">
-			<?php include("partials/procedures-video.php"); ?>
-		</section>
-		
 		
 		<!-- tesimonial Section -->
 		<section id="about-testimonials" class="procedures-section-5 group twoColumn greyBG fade-in">
