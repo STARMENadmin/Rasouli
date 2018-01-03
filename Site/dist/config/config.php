@@ -5,9 +5,9 @@ return [
         'prefix' => '[Contact Form]'
     ],
     'emails' => [
-        'to'   => 'dev@starmenusa.com',
-        'bcc  '   => 'admin@starmenusa.com',
-        'from' => 'dev@starmenusa.com'
+        'to'   => 'jay@starmenusa.com',
+        'bcc  '   => 'michael@starmenusa.com',
+        'from' => 'no-reply@starmenusa.com'
     ],
     'messages' => [
         'error'   => 'There was an error sending, please try again later.',
