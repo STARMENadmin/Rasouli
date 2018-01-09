@@ -9,7 +9,7 @@
 			<div class="right parallax" data-parallax='{"y" : 10, "smoothness": 10}'>
 				<p class="smallTitle">The Surgeon</p>
 				<p class="largeTitle">Dr. Alexandre <span class="block">Rasouli</span></p>
-				<p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+				<p class="copy ">Alexandre Rasouli, MD is a nationally-recognized, board-certified spine surgeon who specializes in the surgical and nonsurgical management of cervical, thoracic and lumbar disorders of the spine, degenerative disorders, spinal trauma, adult and pediatric deformity, spinal oncology and minimally invasive surgery.</p>
 				
 				<a class="textCTA black" href="/thepractice.php">Learn More<span class="linkArrow linkArrowBlack"></span></a>
 				
