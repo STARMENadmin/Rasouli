@@ -5,8 +5,8 @@
             </picture>
                 
 			<div id="home-hero-copy-1" class="parallax" data-parallax='{"y" : 50, "smoothness": 10}'>
-		      <h1>A Team Providing <span class="block">world-Class Care</span></h1>
-                <h2> <span class="stack">Get back to the</span>
+		      <h1>A Team Providing <span class="block">World-Class Care</span></h1>
+                <h2> <span class="stack">Get back Your</span>
                     <span class="stack"> quality of life</span>
                     <span class="stack"></span>with <span class="bold">Rasouli Spine</span></h2>
 			</div>

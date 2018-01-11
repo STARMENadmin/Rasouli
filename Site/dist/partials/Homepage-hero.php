@@ -10,20 +10,20 @@
                     <span class="block"><span class="stack">of Spine</span> Surgery</span>
                 </h1>
                 <h2>
-                    <span class="stack">Get back to the</span>
-                    <span class="stack"> quality of life</span>
+                    <span class="stack">Get Back Your</span>
+                    <span class="stack"> Quality Of Life</span>
                     <span class="stack"></span>with <span class="bold">Rasouli Spine</span>
                 </h2>
 			</div>
 		  
 			<div id="home-hero-copy-2">
 				<div class="left">
-					<p class="smallTitle">About our practice</p>
-					<p class="heroLargeText">Tomorrow <span>is here</span></p>
+					<p class="smallTitle">About our Practice</p>
+					<p class="heroLargeText">Tomorrow <span>is Here</span></p>
 				</div>
 				<div class="right">
 					
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui. In sollicitudin orci purus, in sollicitudin quam finibus tincidunt. Vivamus dapibus lectus sit amet lectus accumsan, at posuere risus gravida. </p>
+					<p>The treatment of spinal disorders has entered a new era. Techniques are more refined. Incisions are smaller. Procedures that would take hours now take minutes. Recovery that would take months now takes a couple of weeks or even days. And many procedures are being done in the outpatient setting where patients go home the same day. But despite all of our advancements, one thing remains the same: a successful outcome depends on a close relationship between patient and surgeon.</p>
 					
 					<a class="textCTA white " href="/thepractice.php">Learn More<span class="linkArrow linkArrowWhite"></span></a>
 					
