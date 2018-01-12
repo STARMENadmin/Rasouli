@@ -1,7 +1,7 @@
 			<div class="left parallax" data-parallax='{"y" : -50, "smoothness": 10}'>
 				                <picture>
-                <source media="(max-width: 768px)" srcset="img/staffPhoto.png">
-                <img alt="about doctor image" src="img/staffPhoto.png" >
+                <source media="(max-width: 768px)" srcset="img/team-4.jpg">
+                <img alt="about doctor image" src="img/team-4.jpg" >
                 </picture>
               
 			</div>

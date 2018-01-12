@@ -134,31 +134,31 @@
                                 <div class="videoWrapper">
                                     
                                     <div class="video-player" id="player-1">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/NpEaa2P7qZI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/foraminalStenosis.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-1 -->
                                     
                                     <div class="video-player" id="player-2">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/y2Ky3Wo37AY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/cervicalOsteoarthritis.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-2 -->
                                     
                                     <div class="video-player" id="player-3">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/RH3i7qONrT4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/cervicalOsteoarthritis.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-3 -->
                                     
                                     <div class="video-player" id="player-4">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/oznr-1-poSU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/degenerativeDiscDisease.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-4 -->
                                     
                                         <div class="video-player" id="player-5">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/XQu8TTBmGhA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/spondylolisthesis.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-5 -->
                                     
                                     <div class="video-player" id="player-6">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/XQu8TTBmGhA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/lumbarBulge.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-6 -->
                                     
                                     <div class="video-player" id="player-7">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/XQu8TTBmGhA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/scoliosis.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-7 -->
                                     
                                     <div class="video-player" id="player-8">
@@ -166,7 +166,7 @@
                                     </div><!-- player-8 -->
                                     
                                     <div class="video-player" id="player-9">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/XQu8TTBmGhA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/compressionFracture.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-9 -->
                                     
                                   
