@@ -1,3 +1,4 @@
+
 			<div class="left parallax" data-parallax='{"y" : -50, "smoothness": 10 }'>
                 
                 <picture>

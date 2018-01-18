@@ -384,7 +384,7 @@ textarea {
     #hero-about #home-hero-copy-1 h1,
     #hero-home #home-hero-copy-1 h1 {
       color: #fff;
-      font-family: Conv_Austin-Roman;
+      font-family: ChronicleDisp-Roman;
       margin: 0;
       font-size: 5vw;
       font-weight: normal;
@@ -428,7 +428,7 @@ textarea {
         letter-spacing: 3px; }
       #hero-about #home-hero-copy-2 .left .heroLargeText,
       #hero-home #home-hero-copy-2 .left .heroLargeText {
-        font-family: Conv_Austin-Roman;
+        font-family: Chronicle;
         text-transform: none;
         font-size: 4.375em;
         letter-spacing: 3px;
@@ -515,7 +515,7 @@ textarea {
   letter-spacing: 3px; }
 
 .largeTitle {
-  font-family: Conv_Austin-Roman;
+  font-family: Chronicle;
   text-transform: none;
   font-size: 4.375em;
   letter-spacing: 3px;
@@ -1449,7 +1449,7 @@ div.left div.player-copy:nth-child(2) {
   .outpaientPage #outpatient-invasiveTreatments .left .smallTitle {
     color: #fff; }
   .outpaientPage #outpatient-invasiveTreatments .left .heroLargeText {
-    font-family: Conv_Austin-Roman;
+    font-family: Chronicle;
     text-transform: none;
     font-size: 4.375em;
     letter-spacing: 3px;
@@ -1571,7 +1571,7 @@ div.left div.player-copy:nth-child(2) {
   float: left; }
   .resourcesPage #resources-forms .left .heroLargeText,
   .contactPage #contactPage-form .left .heroLargeText {
-    font-family: Conv_Austin-Roman;
+    font-family: Chronicle;
     text-transform: none;
     font-size: 4.375em;
     letter-spacing: 3px;
@@ -1786,7 +1786,7 @@ patient resources page
       bottom: 0; }
 
 .heroLargeText {
-  font-family: Conv_Austin-Roman;
+  font-family: Chronicle;
   text-transform: none;
   font-size: 4.375em;
   letter-spacing: 3px;
@@ -1871,7 +1871,7 @@ article {
   margin-left: 5%; }
 
 .blogTitle {
-  font-family: Conv_Austin-Roman;
+  font-family: Chronicle;
   text-transform: none;
   font-size: 2.5em;
   letter-spacing: 3px;
@@ -2303,6 +2303,14 @@ input:focus {
   font-weight: 400 !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
+/** Chronicle **/
+@font-face {
+	font-family: 'Chronicle';
+	src: url('../fonts/austin/Austin-Roman/Austin-Roman.eot?#iefix');
+	src:  url('../fonts/chronicle/Chronicle.otf')  format('opentype')
+	font-weight: 400 !important;
+	font-style: normal;
+    -webkit-font-smoothing: antialiased;
 /** Brandon text light **/
 @font-face {
   font-family: 'BrandonText-Light';
@@ -2500,7 +2508,7 @@ input:focus {
       margin-top: 10px; }
     .bookingPopUp .bookingPopUpInner .popUpTitle {
       color: #fff;
-      font-family: Conv_Austin-Roman;
+      font-family: Chronicle;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       font-size: 8vw;

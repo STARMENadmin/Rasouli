@@ -1,9 +1,9 @@
 			<div class="top">
 				<p class="smallTitle centerText">Spinal Conditions</p>
 				
-                <p class="largeTitle centerText">Dont Let a Condition<span class="block">Hold you Back</span></p>
+                <p class="largeTitle centerText">Successful Treatment Depends on<span class="block">Successful Diagnosis</span></p>
 				
-				<p class="copy centered centerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+				<p class="copy centered centerText">The spine is one of the most complex structures in the human body.  It serves as both the architectural and neurological core.  The conditions that can arise when things go wrong are numerous.  We are here to help you understand your diagnosis as thoroughly as you would like.  The deeper the understanding, the more successful the treatment.</p>
 				
 				
 			</div>
@@ -13,11 +13,15 @@
                     <div class="video-dropdown">
                         <button class="dropbtn">Select Spinal Condition</button>
                           <div id="dropdown" class="dropdown-content">
-                            <p id="dropDownLink-1" class="buttonLink">Video Link 1</p>
-                            <p id="dropDownLink-2" class="buttonLink">Video Link 2</p>
-                            <p id="dropDownLink-3" class="buttonLink">Video Link 3</p>
-                            <p id="dropDownLink-4" class="buttonLink">Video Link 4</p>
-                            <p id="dropDownLink-5"  class="buttonLink">Video Link 5</p>
+                            <p id="dropDownLink-1" class="buttonLink">Cervical disk herniation</p>
+                            <p id="dropDownLink-2" class="buttonLink">Cervical stenosis</p>
+                            <p id="dropDownLink-3" class="buttonLink">Cervical myelopathy</p>
+                            <p id="dropDownLink-4" class="buttonLink">Thoracic stenosis</p>
+                            <p id="dropDownLink-5"  class="buttonLink">Lumbar stenosis</p>
+                            <p id="dropDownLink-6"  class="buttonLink">Lumbar disk herniation</p>
+                            <p id="dropDownLink-7"  class="buttonLink">Scoliosis and spinal deformity</p>
+                            <p id="dropDownLink-8"  class="buttonLink">Spinal Tumors</p>
+                            <p id="dropDownLink-9"  class="buttonLink">Spinal Trauma</p>
 
                           </div><!-- dropdown -->
                     </div><!-- video-dropdown -->
@@ -79,29 +83,50 @@
                                 <p class="smallTitle">About Your Condition</p>
                                 
                                 <div class="player-copy" id="player-copy-1">
-                                    <p class="largeTitle">Scoliosis 1</p>
-                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                    <p class="largeTitle">Cervical Disk Herniation</p>
+                                    <p class="copy ">A condition where a nerve or the spinal cord becomes compressed by a fragment of the intervertebral disc; patients report pain, numbness, tingling, or weakness</p>
                                 </div><!-- #player-copy-1 -->
                                 
                                 <div class="player-copy" id="player-copy-2">
-                                    <p class="largeTitle">Scoliosis 2</p>
-                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                    <p class="largeTitle">Cervical Stenosis</p>
+                                    <p class="copy ">A condition where the passageways for nerves in the neck become narrow over time; patients develop pain, stiffness, numbness, tingling, and loss of function.</p>
                                 </div><!-- #player-copy-2 -->
                                 
                                 <div class="player-copy" id="player-copy-3">
-                                    <p class="largeTitle">Scoliosis 3</p>
-                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                    <p class="largeTitle">Cervical Myelopathy</p>
+                                    <p class="copy ">A serious condition wherein the spinal cord becomes compressed and leads to several problems, including difficulty with walking, weakness, and loss of function.</p>
                                 </div><!-- #player-copy-3 -->
                                 
                                 <div class="player-copy" id="player-copy-4">
-                                    <p class="largeTitle">Scoliosis 4</p>
-                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                    <p class="largeTitle">Thoracic Stenosis</p>
+                                    <p class="copy ">A condition where the passageways for nerves in the lower back become narrow over time; patients develop pain, stiffness, numbness and tingling in the legs, difficulty walking, and loss of function.</p>
                                 </div><!-- #player-copy-4 -->
                                 
                                 <div class="player-copy" id="player-copy-5">
-                                    <p class="largeTitle">Scoliosis 5</p>
-                                    <p class="copy ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus a nisl et accumsan. Maecenas rhoncus quam non ipsum dapibus dignissim. Pellentesque tortor nunc, molestie sit amet ipsum eu, commodo lacinia dui.</p>
+                                    <p class="largeTitle">Lumbar Stenosis</p>
+                                    <p class="copy ">A condition where the passageways for nerves in the lower back become narrow over time; patients develop pain, stiffness, numbness and tingling in the legs, difficulty walking, and loss of function.</p>
                                 </div><!-- #player-copy-5 -->
+                                
+                                <div class="player-copy" id="player-copy-6">
+                                    <p class="largeTitle">Lumbar Disk Herniation</p>
+                                    <p class="copy ">A condition where a nerve or a bundle of nerves becomes compressed by a fragment of the intervertebral disc; patients report pain, numbness, tingling, or weakness in the legs.</p>
+                                </div><!-- #player-copy-6 -->
+                                
+                                <div class="player-copy" id="player-copy-7">
+                                    <p class="largeTitle">Scoliosis and Spinal Deformity</p>
+                                    <p class="copy ">a group of conditions that lead to abnormal curvature or bending of the spinal column; significant pain and functional limitations can result; these conditions can develop over time, can result from trauma or spinal neoplasm, or can be inherited.</p>
+                                </div><!-- #player-copy-7 -->
+                                
+                                <div class="player-copy" id="player-copy-8">
+                                    <p class="largeTitle">Spinal Tumors</p>
+                                    <p class="copy ">A group of conditions that involve the abnormal growth of cells in or around the spinal column or spinal nerves which can lead to structural instability of the spine, spinal deformity, weakness, and loss of function.</p>
+                                </div><!-- #player-copy-8 -->
+                                
+                                <div class="player-copy" id="player-copy-9">
+                                    <p class="largeTitle">Spinal Trauma</p>
+                                    <p class="copy ">injury to the spinal column or spinal nerves that affect spinal stability or neurological function.</p>
+                                </div><!-- #player-copy-9 -->
+                                
 
                             </div><!-- left -->
 
@@ -109,26 +134,43 @@
                                 <div class="videoWrapper">
                                     
                                     <div class="video-player" id="player-1">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/NpEaa2P7qZI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/foraminalStenosis.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-1 -->
                                     
                                     <div class="video-player" id="player-2">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/y2Ky3Wo37AY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/cervicalOsteoarthritis.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-2 -->
                                     
                                     <div class="video-player" id="player-3">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/RH3i7qONrT4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/cervicalOsteoarthritis.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-3 -->
                                     
                                     <div class="video-player" id="player-4">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/oznr-1-poSU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/degenerativeDiscDisease.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-4 -->
                                     
                                         <div class="video-player" id="player-5">
-                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/XQu8TTBmGhA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/spondylolisthesis.mp4" frameborder="0" allowfullscreen></iframe>
                                     </div><!-- player-5 -->
                                     
+                                    <div class="video-player" id="player-6">
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/lumbarBulge.mp4" frameborder="0" allowfullscreen></iframe>
+                                    </div><!-- player-6 -->
                                     
+                                    <div class="video-player" id="player-7">
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/scoliosis.mp4" frameborder="0" allowfullscreen></iframe>
+                                    </div><!-- player-7 -->
+                                    
+                                    <div class="video-player" id="player-8">
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://www.youtube.com/embed/XQu8TTBmGhA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                    </div><!-- player-8 -->
+                                    
+                                    <div class="video-player" id="player-9">
+                                        <iframe width="560" height="315" showinfo="0" modestbranding="1" autohide="1" controls="0"  src="https://rasouli.starmendev.com/img/ORCA/compressionFracture.mp4" frameborder="0" allowfullscreen></iframe>
+                                    </div><!-- player-9 -->
+                                    
+                                  
+                                      
                                 </div><!-- videoWrapper -->
                             </div><!-- right -->
                             <div class="clear"></div>

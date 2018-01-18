@@ -1,7 +1,7 @@
 			<div class="top">
 				<p class="smallTitle">Procedures and Conditions</p>
 				
-				<p class="largeTitle">We've Got Your Back</p>
+				<p class="largeTitle">A Deeper Understanding of Your Spine</p>
 				
 				<p class="copy centered">The spine is incredibly complex. But so is our understanding of what can go wrong and how to treat it.</p>
 				
@@ -23,7 +23,7 @@
 		                    <p class="verticalText">Neck Procedures</p>
 		                    <div class="columnOverlay"></div>
 	                        <div class="copyWrapper">
-	                            <p class="proTitle">Neck Procedures</p>
+	                            <p class="proTitle">The Neck</p>
 	                            <p class="proTitle2" >Cervical<br/>Conditions</p>
                                 <div class="showWrapper">
 	                            <p class="proPara" >The cervical spine— or neck— is responsible for some pretty important functions. It allows movement of the head and acts as a passageway for important nerves that control arm and leg...</p>
@@ -50,7 +50,7 @@
 		                    <p class="verticalText">Middle Back Procedures</p>
 		                    <div class="columnOverlay"></div>
 		                    <div class="copyWrapper">			                    
-	                            <p class="proTitle">Middle Back Procedures</p>
+	                            <p class="proTitle">The Middle Back</p>
 	                            <p class="proTitle2" >Thoracic<br/>Conditions</p>
                                  <div class="showWrapper">
 	                               <p class="proPara" >The thoracic spine- or middle back- is responsible for movement of the torso. It is also a passageway for some important nerves that affect balance and leg function...</p>
@@ -76,7 +76,7 @@
 		                    <p class="verticalText">Lower Back Procedures</p>
 		                    <div class="columnOverlay"></div>
 		                    <div class="copyWrapper">
-	                            <p class="proTitle">Lower Back Procedures</p>
+	                            <p class="proTitle">The Low Back</p>
 	                            <p class="proTitle2" >Lumbar<br/>Conditions</p>
 	                            <p class="proPara" >The lumbar spine— or low back— is one of the most important regions of the spine. All of the body’s motion and forces are transmitted through this part of the spine...</p>
 	                            <div class="roundButton">
@@ -98,10 +98,10 @@
 	                    </div><!-- column-3 -->
 	                    
 	                    <div class="column column-4 expandColumn">
-		                    <p class="verticalText">Spinal Deformities</p>
+		                    <p class="verticalText">Global Alignment</p>
 		                    <div class="columnOverlay"></div>
 		                    <div class="copyWrapper">
-	                            <p class="proTitle">Spinal Deformities</p>
+	                            <p class="proTitle">Global Alignment</p>
 	                            <p class="proTitle2" >Spinal<br/>  Deformities</p>
 	                            <p class="proPara" >The spine can only function properly when all of its regions— cervical, thoracic, lumbar— are in perfect harmony and alignment...</p>
 	                            <div class="roundButton">
